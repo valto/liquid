@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "actions/checkout",
+    "tag": "v7.0.1",
+    "sha": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+    "published_at": "2026-07-20T15:10:05Z"
+  },
+  {
+    "repository": "actions/setup-python",
+    "tag": "v7.1.0",
+    "sha": "6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+    "published_at": "2026-10-22T02:56:04Z"
+  },
+  {
+    "repository": "actions/configure-pages",
+    "tag": "v6.0.0",
+    "sha": "45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+    "published_at": "2026-03-25T17:00:49Z"
+  },
+  {
+    "repository": "actions/upload-pages-artifact",
+    "tag": "v5.0.0",
+    "sha": "fc324d3547104276b827a68afc52ff2a11cc49c9",
+    "published_at": "2026-04-10T18:22:59Z"
+  },
+  {
+    "repository": "actions/deploy-pages",
+    "tag": "v5.0.1",
+    "sha": "368f82528645a54fb793d4d04e342629a3f51346",
+    "published_at": "2026-09-01T21:31:19Z"
+  }
+]

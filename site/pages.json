@@ -1,0 +1,951 @@
+{
+  "site": {
+    "name": "Liquid Software",
+    "author": "Valto Loikkanen",
+    "url": "https://valto.github.io/liquid/",
+    "base_path": "/liquid/",
+    "repository": "https://github.com/valto/liquid",
+    "status": "published",
+    "version": "0.1.0",
+    "publication_date": "2026-11-26",
+    "content_license": "https://creativecommons.org/licenses/by/4.0/",
+    "code_license": "MIT"
+  },
+  "pages": [
+    {
+      "id": "README",
+      "path": "",
+      "title": "Liquid Software",
+      "description": "Information provides continuity. Human decisions define the boundaries. Intelligence fulfills needs, with software adapting to actual usage.",
+      "source": "README.md",
+      "markdown": "content/README.md",
+      "kind": "guide",
+      "status": "published",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26"
+    },
+    {
+      "id": "CONCEPTS",
+      "path": "concepts/",
+      "title": "Core concepts",
+      "description": "Eight independently useful concepts connect information continuity, adaptive interaction, evolving execution and human decision freedom.",
+      "source": "CONCEPTS.md",
+      "markdown": "content/CONCEPTS.md",
+      "kind": "guide",
+      "status": "published",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "collection": "concept"
+    },
+    {
+      "id": "liquid-software",
+      "path": "concepts/liquid-software/",
+      "title": "Liquid Software",
+      "description": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
+      "source": "concepts/liquid-software.md",
+      "markdown": "content/concepts/liquid-software.md",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
+      "thesis": "Separate useful capabilities from the lifetime of any particular implementation.",
+      "principles": [
+        "Express capabilities through shared meaning",
+        "Choose realizations around observed needs",
+        "Retain evidence when implementations retire"
+      ],
+      "scope": "The emergence, stabilization, adaptation and retirement of implementations; not a requirement to regenerate every program.",
+      "related_concepts": [
+        "intelligence-first",
+        "adaptive-interface",
+        "self-optimizing-system"
+      ],
+      "related_papers": [
+        "04"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S03",
+          "title": "A Vision of Liquid Software; associated book Liquid Software: How to Achieve Trusted Continuous Updates in the DevOps World",
+          "url": "https://jfrog.com/whitepaper/a-vision-of-liquid-software/"
+        },
+        {
+          "source_id": "S04",
+          "title": "Malleable Software: Restoring User Agency in a World of Locked-Down Apps",
+          "url": "https://www.inkandswitch.com/essay/malleable-software/"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "04",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/04-liquid-software/"
+        }
+      ]
+    },
+    {
+      "id": "adaptive-interface",
+      "path": "concepts/adaptive-interface/",
+      "title": "The Adaptive Interface",
+      "description": "Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result.",
+      "source": "concepts/adaptive-interface.md",
+      "markdown": "content/concepts/adaptive-interface.md",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result.",
+      "thesis": "Derive the form of interaction from the task and participant while preserving recognizable meaning and control.",
+      "principles": [
+        "Let context shape presentation",
+        "Preserve continuity across interface changes",
+        "Keep authority distinct from visual availability"
+      ],
+      "scope": "Human and agent interaction, presentation and accessibility; does not imply permission to change data or policy.",
+      "related_concepts": [
+        "liquid-software",
+        "documentation-as-foundations"
+      ],
+      "related_papers": [
+        "05"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S04",
+          "title": "Malleable Software: Restoring User Agency in a World of Locked-Down Apps",
+          "url": "https://www.inkandswitch.com/essay/malleable-software/"
+        },
+        {
+          "source_id": "S06",
+          "title": "Dynamicland FAQ",
+          "url": "https://dynamicland.org/2024/FAQ/"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "05",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/05-the-adaptive-interface/"
+        }
+      ]
+    },
+    {
+      "id": "capture-for-unknown-future-value",
+      "path": "concepts/capture-for-unknown-future-value/",
+      "title": "Capture for Unknown Future Value",
+      "description": "Preserve appropriate source richness before anticipated questions determine the full extent of what remains.",
+      "source": "concepts/capture-for-unknown-future-value.md",
+      "markdown": "content/concepts/capture-for-unknown-future-value.md",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Preserve appropriate source richness before anticipated questions determine the full extent of what remains.",
+      "thesis": "Future questions can benefit from appropriate source richness that present task models would discard.",
+      "principles": [
+        "Preserve attributable originals where justified",
+        "Keep interpretations separate from evidence",
+        "Balance future usefulness with retention purpose"
+      ],
+      "scope": "Purpose-bound capture and preservation; not indiscriminate collection or permanent retention of everything.",
+      "related_concepts": [
+        "adaptive-information-retrieval",
+        "documentation-as-foundations"
+      ],
+      "related_papers": [
+        "06"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S05",
+          "title": "Local-first software: You own your data, in spite of the cloud",
+          "url": "https://www.inkandswitch.com/essay/local-first/"
+        },
+        {
+          "source_id": "S27",
+          "title": "MyLifeBits — project overview and publication list",
+          "url": "https://www.microsoft.com/en-us/research/project/mylifebits/"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "06",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/06-capture-for-unknown-future-value/"
+        }
+      ]
+    },
+    {
+      "id": "adaptive-information-retrieval",
+      "path": "concepts/adaptive-information-retrieval/",
+      "title": "Adaptive Information Retrieval",
+      "description": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
+      "source": "concepts/adaptive-information-retrieval.md",
+      "markdown": "content/concepts/adaptive-information-retrieval.md",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
+      "thesis": "Retrieval structures can change with emerging questions without turning their answers into authoritative source information.",
+      "principles": [
+        "Preserve traceable answer support",
+        "Evaluate against actual information needs",
+        "Treat indexes and interpretations as revisable"
+      ],
+      "scope": "Question interpretation, retrieval and derived structures; not guaranteed truth or unrestricted access.",
+      "related_concepts": [
+        "capture-for-unknown-future-value",
+        "self-optimizing-system"
+      ],
+      "related_papers": [
+        "07"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S17",
+          "title": "PROV-DM: The PROV Data Model",
+          "url": "https://www.w3.org/TR/prov-dm/"
+        },
+        {
+          "source_id": "S18",
+          "title": "A Relational Model of Data for Large Shared Data Banks",
+          "url": "https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "07",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/07-adaptive-information-retrieval/"
+        }
+      ]
+    },
+    {
+      "id": "intelligence-first",
+      "path": "concepts/intelligence-first/",
+      "title": "Intelligence First, Software Second",
+      "description": "Establish the ability to understand and fulfill a need before choosing where dedicated software provides a useful optimization.",
+      "source": "concepts/intelligence-first.md",
+      "markdown": "content/concepts/intelligence-first.md",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Establish the ability to understand and fulfill a need before choosing where dedicated software provides a useful optimization.",
+      "thesis": "Establish a bounded ability to fulfill a need before deciding which repeated paths deserve dedicated software.",
+      "principles": [
+        "Start from needs and shared semantics",
+        "Compare correctness, cost and uncertainty",
+        "Materialize software when evidence supports it"
+      ],
+      "scope": "Capability fulfillment and implementation selection; intelligence still requires an operating substrate.",
+      "related_concepts": [
+        "liquid-software",
+        "adaptive-information-retrieval"
+      ],
+      "related_papers": [
+        "02"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S19",
+          "title": "No Silver Bullet: Essence and Accidents of Software Engineering",
+          "url": "https://www.cs.unc.edu/techreports/86-020.pdf"
+        },
+        {
+          "source_id": "S20",
+          "title": "End-to-End Arguments in System Design",
+          "url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "02",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/02-intelligence-first-software-second/"
+        }
+      ]
+    },
+    {
+      "id": "degrees-of-decision-freedom",
+      "path": "concepts/degrees-of-decision-freedom/",
+      "title": "Degrees of Decision Freedom",
+      "description": "Higher-level decisions define the contextual space in which humans and delegated actors can make further choices.",
+      "source": "concepts/degrees-of-decision-freedom.md",
+      "markdown": "content/concepts/degrees-of-decision-freedom.md",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Higher-level decisions define the contextual space in which humans and delegated actors can make further choices.",
+      "thesis": "Higher-level decisions define the space within which subsequent choices may remain open to humans or delegated actors.",
+      "principles": [
+        "Distinguish principal and actor",
+        "Keep delegated choices within applicable decisions",
+        "Make material decisions explainable and revisable"
+      ],
+      "scope": "Contextual decision authority and delegation; not a universal scalar metric of personal freedom.",
+      "related_concepts": [
+        "documentation-as-foundations",
+        "self-optimizing-system"
+      ],
+      "related_papers": [
+        "03"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S07",
+          "title": "PIOS 2.0 master and public README",
+          "url": "https://www.peecos.org/pios/master"
+        },
+        {
+          "source_id": "S08",
+          "title": "EIOS 1.0, Keel, and Weave",
+          "url": "https://github.com/entity-core/eios/blob/main/spec/eios-1.0-master-documentation.md"
+        },
+        {
+          "source_id": "S25",
+          "title": "OAuth 2.0 Rich Authorization Requests",
+          "url": "https://www.rfc-editor.org/rfc/rfc9396.html"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "03",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/03-degrees-of-decision-freedom/"
+        }
+      ]
+    },
+    {
+      "id": "self-optimizing-system",
+      "path": "concepts/self-optimizing-system/",
+      "title": "The Self-Optimizing Information System",
+      "description": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
+      "source": "concepts/self-optimizing-system.md",
+      "markdown": "content/concepts/self-optimizing-system.md",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
+      "thesis": "Use observations of real fulfillment to propose improvements while separating optimization authority from ownership.",
+      "principles": [
+        "Measure outcomes before changing realization",
+        "Keep changes reviewable and recoverable",
+        "Require authority for material policy changes"
+      ],
+      "scope": "Evidence-driven adaptation of retrieval and implementation; not an unrestricted autonomous policy maker.",
+      "related_concepts": [
+        "liquid-software",
+        "adaptive-information-retrieval",
+        "degrees-of-decision-freedom"
+      ],
+      "related_papers": [
+        "08"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S19",
+          "title": "No Silver Bullet: Essence and Accidents of Software Engineering",
+          "url": "https://www.cs.unc.edu/techreports/86-020.pdf"
+        },
+        {
+          "source_id": "S20",
+          "title": "End-to-End Arguments in System Design",
+          "url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf"
+        },
+        {
+          "source_id": "S21",
+          "title": "Malleable software in the age of LLMs",
+          "url": "https://www.geoffreylitt.com/2023/03/25/llm-end-user-programming"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "08",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/"
+        }
+      ]
+    },
+    {
+      "id": "documentation-as-foundations",
+      "path": "concepts/documentation-as-foundations/",
+      "title": "Documentation as Executable Foundations",
+      "description": "Shared terminology, capability requirements and guidance preserve meaning while implementations and operational choices evolve.",
+      "source": "concepts/documentation-as-foundations.md",
+      "markdown": "content/concepts/documentation-as-foundations.md",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Shared terminology, capability requirements and guidance preserve meaning while implementations and operational choices evolve.",
+      "thesis": "Shared documentation can preserve stable meaning while interfaces, contracts and implementations are generated for a particular need.",
+      "principles": [
+        "Keep descriptive meaning distinct from authorization",
+        "Version terminology and behavioral expectations",
+        "Treat generated artifacts as derived realizations"
+      ],
+      "scope": "Documentation as an interpretable foundation; not an assertion that prose alone executes or proves conformance.",
+      "related_concepts": [
+        "liquid-software",
+        "adaptive-interface",
+        "degrees-of-decision-freedom"
+      ],
+      "related_papers": [
+        "10"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S09",
+          "title": "Capability Documentation / Capability Requirements Document framework",
+          "url": "https://valto.github.io/crd/specification.html"
+        },
+        {
+          "source_id": "S10",
+          "title": "Human & Agent Interoperability",
+          "url": "https://github.com/privateaiexchange/paix-spec/blob/main/docs/Human_Agent_Interoperability.md"
+        },
+        {
+          "source_id": "S11",
+          "title": "GraphQL Specification",
+          "url": "https://spec.graphql.org/September2025/"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "10",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/10-documentation-as-executable-foundations/"
+        }
+      ]
+    },
+    {
+      "id": "architecture-overview",
+      "path": "architecture/",
+      "title": "An Intelligence-Native Reference Architecture",
+      "description": "Compose enduring information and authority with adaptive interaction, fulfillment and governed optimization.",
+      "source": "architecture/overview.md",
+      "markdown": "content/architecture/overview.md",
+      "kind": "guide",
+      "status": "published",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26"
+    },
+    {
+      "id": "PRINCIPLES",
+      "path": "principles/",
+      "title": "Principles",
+      "description": "Durable meaning and human authority allow implementations and representations to change coherently.",
+      "source": "PRINCIPLES.md",
+      "markdown": "content/PRINCIPLES.md",
+      "kind": "guide",
+      "status": "published",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26"
+    },
+    {
+      "id": "GLOSSARY",
+      "path": "glossary/",
+      "title": "Glossary",
+      "description": "Shared definitions distinguish information, meaning, authority, capabilities and their changing realizations.",
+      "source": "GLOSSARY.md",
+      "markdown": "content/GLOSSARY.md",
+      "kind": "guide",
+      "status": "published",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26"
+    },
+    {
+      "id": "research-related-work",
+      "path": "research/",
+      "title": "Research and Related Work",
+      "description": "Original research, earlier uses of terminology and testable questions contextualize the conceptual synthesis.",
+      "source": "research/related-work.md",
+      "markdown": "content/research/related-work.md",
+      "kind": "guide",
+      "status": "published",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26"
+    },
+    {
+      "id": "about",
+      "path": "about/",
+      "title": "About, Attribution and Citation",
+      "description": "Conceptual source, AI assistance, citation, contribution and versioning for Liquid Software.",
+      "source": "about.md",
+      "markdown": "content/about.md",
+      "kind": "guide",
+      "status": "published",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26"
+    },
+    {
+      "id": "original-paper-00",
+      "path": "whitepapers/00-beyond-the-constraints-of-software/",
+      "title": "Beyond the Constraints of Software",
+      "description": "The supplied twelve-page umbrella synthesis: information continuity, human decisions, intelligence and adaptable software.",
+      "source": "whitepapers/00-beyond-the-constraints-of-software/overview.md",
+      "markdown": "content/whitepapers/00-beyond-the-constraints-of-software/overview.md",
+      "kind": "paper",
+      "status": "published",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/00-beyond-the-constraints-of-software/v1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Beyond the Constraints of Software. Conceptual White Paper 00, version 1.0, 26 November 2026. AI-assisted synthesis."
+    },
+    {
+      "id": "original-paper-00-transcript",
+      "path": "whitepapers/00-beyond-the-constraints-of-software/text/",
+      "title": "Original Paper 00 — Complete Text Transcription",
+      "description": "Page-separated text of the supplied twelve-page conceptual paper, preserving its wording and source statement.",
+      "source": "whitepapers/00-beyond-the-constraints-of-software/original-transcript.txt",
+      "markdown": "content/whitepapers/00-beyond-the-constraints-of-software/original-transcript.txt",
+      "kind": "transcript",
+      "mode": "transcript",
+      "status": "source-transcription",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/00-beyond-the-constraints-of-software/v1.0.pdf"
+    },
+    {
+      "id": "whitepapers-index",
+      "path": "whitepapers/",
+      "title": "Whitepaper Library",
+      "description": "The original umbrella synthesis and sixteen independently useful complete research drafts, with source text and PDFs.",
+      "source": "whitepapers/index.md",
+      "markdown": "content/whitepapers/index.md",
+      "kind": "guide",
+      "status": "published",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "collection": "draft"
+    },
+    {
+      "id": "draft-00",
+      "path": "whitepapers/drafts/00-beyond-the-constraints-of-software/",
+      "title": "Beyond the Constraints of Software — Research Draft 00",
+      "description": "Research draft 00: Software has enabled extraordinary progress while imposing a less visible constraint: people often must express their information, activities and.",
+      "source": "whitepapers/drafts/00-beyond-the-constraints-of-software/paper.md",
+      "markdown": "content/whitepapers/drafts/00-beyond-the-constraints-of-software/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/00-beyond-the-constraints-of-software/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Beyond the Constraints of Software — Research Draft 00. Companion research draft 00, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-01",
+      "path": "whitepapers/drafts/01-the-software-bottleneck/",
+      "title": "The Software Bottleneck — Research Draft 01",
+      "description": "Research draft 01: Software can constrain activity when adapting it costs more than the value of a particular need. Valto Loikkanen identifies this rigidity as a structural.",
+      "source": "whitepapers/drafts/01-the-software-bottleneck/paper.md",
+      "markdown": "content/whitepapers/drafts/01-the-software-bottleneck/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/01-the-software-bottleneck/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). The Software Bottleneck — Research Draft 01. Companion research draft 01, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-02",
+      "path": "whitepapers/drafts/02-intelligence-first-software-second/",
+      "title": "Intelligence First, Software Second — Research Draft 02",
+      "description": "Research draft 02: Valto Loikkanen proposes that intelligence can fulfill emerging needs before a dedicated implementation exists, with software specialization following.",
+      "source": "whitepapers/drafts/02-intelligence-first-software-second/paper.md",
+      "markdown": "content/whitepapers/drafts/02-intelligence-first-software-second/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/02-intelligence-first-software-second/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Intelligence First, Software Second — Research Draft 02. Companion research draft 02, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-03",
+      "path": "whitepapers/drafts/03-degrees-of-decision-freedom/",
+      "title": "Degrees of Decision Freedom — Research Draft 03",
+      "description": "Research draft 03: Human control can be preserved through decisions that establish the freedom available to later actors. Valto Loikkanen emphasizes that decisions occur.",
+      "source": "whitepapers/drafts/03-degrees-of-decision-freedom/paper.md",
+      "markdown": "content/whitepapers/drafts/03-degrees-of-decision-freedom/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/03-degrees-of-decision-freedom/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Degrees of Decision Freedom — Research Draft 03. Companion research draft 03, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-04",
+      "path": "whitepapers/drafts/04-liquid-software/",
+      "title": "Liquid Software — Research Draft 04",
+      "description": "Research draft 04: Liquid Software, in Valto Loikkanen's proposed sense, describes implementations that emerge, adapt, specialize and retire according to actual needs while.",
+      "source": "whitepapers/drafts/04-liquid-software/paper.md",
+      "markdown": "content/whitepapers/drafts/04-liquid-software/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/04-liquid-software/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Liquid Software — Research Draft 04. Companion research draft 04, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-05",
+      "path": "whitepapers/drafts/05-the-adaptive-interface/",
+      "title": "The Adaptive Interface — Research Draft 05",
+      "description": "Research draft 05: The Adaptive Interface is Valto Loikkanen's proposal for treating human and machine interaction as contextual exchanges of information, intent and.",
+      "source": "whitepapers/drafts/05-the-adaptive-interface/paper.md",
+      "markdown": "content/whitepapers/drafts/05-the-adaptive-interface/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/05-the-adaptive-interface/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). The Adaptive Interface — Research Draft 05. Companion research draft 05, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-06",
+      "path": "whitepapers/drafts/06-capture-for-unknown-future-value/",
+      "title": "Capture for Unknown Future Value — Research Draft 06",
+      "description": "Research draft 06: Valto Loikkanen argues that information should retain authorized richness beyond the retrieval needs anticipated at capture. A record reduced to.",
+      "source": "whitepapers/drafts/06-capture-for-unknown-future-value/paper.md",
+      "markdown": "content/whitepapers/drafts/06-capture-for-unknown-future-value/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/06-capture-for-unknown-future-value/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Capture for Unknown Future Value — Research Draft 06. Companion research draft 06, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-07",
+      "path": "whitepapers/drafts/07-adaptive-information-retrieval/",
+      "title": "Adaptive Information Retrieval — Research Draft 07",
+      "description": "Research draft 07: Adaptive Information Retrieval separates durable information from the structures that make selected questions efficient to answer. Valto Loikkanen.",
+      "source": "whitepapers/drafts/07-adaptive-information-retrieval/paper.md",
+      "markdown": "content/whitepapers/drafts/07-adaptive-information-retrieval/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/07-adaptive-information-retrieval/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Adaptive Information Retrieval — Research Draft 07. Companion research draft 07, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-08",
+      "path": "whitepapers/drafts/08-the-self-optimizing-information-system/",
+      "title": "The Self-Optimizing Information System — Research Draft 08",
+      "description": "Research draft 08: Valto Loikkanen proposes a monitoring and optimization loop that observes information requests, identifies repeated needs, and creates, revises or retires.",
+      "source": "whitepapers/drafts/08-the-self-optimizing-information-system/paper.md",
+      "markdown": "content/whitepapers/drafts/08-the-self-optimizing-information-system/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/08-the-self-optimizing-information-system/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). The Self-Optimizing Information System — Research Draft 08. Companion research draft 08, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-09",
+      "path": "whitepapers/drafts/09-beyond-predefined-apis/",
+      "title": "Beyond Predefined APIs — Research Draft 09",
+      "description": "Research draft 09: Valto Loikkanen proposes that a requester should express its information need in a suitable language or format while an intelligent receiver resolves the.",
+      "source": "whitepapers/drafts/09-beyond-predefined-apis/paper.md",
+      "markdown": "content/whitepapers/drafts/09-beyond-predefined-apis/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/09-beyond-predefined-apis/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Beyond Predefined APIs — Research Draft 09. Companion research draft 09, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-10",
+      "path": "whitepapers/drafts/10-documentation-as-executable-foundations/",
+      "title": "Documentation as Executable Foundations — Research Draft 10",
+      "description": "Research draft 10: Valto Loikkanen places documentation, terminology, capability requirements and governing decisions among the relatively durable foundations of adaptive.",
+      "source": "whitepapers/drafts/10-documentation-as-executable-foundations/paper.md",
+      "markdown": "content/whitepapers/drafts/10-documentation-as-executable-foundations/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/10-documentation-as-executable-foundations/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Documentation as Executable Foundations — Research Draft 10. Companion research draft 10, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-11",
+      "path": "whitepapers/drafts/11-individuals-and-entities-as-information-endpoints/",
+      "title": "Individuals and Entities as Information Endpoints — Research Draft 11",
+      "description": "Research draft 11: Valto Loikkanen proposes individuals and entities as the persistent principals of an information architecture. Humans, agents and applications act.",
+      "source": "whitepapers/drafts/11-individuals-and-entities-as-information-endpoints/paper.md",
+      "markdown": "content/whitepapers/drafts/11-individuals-and-entities-as-information-endpoints/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/11-individuals-and-entities-as-information-endpoints/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Individuals and Entities as Information Endpoints — Research Draft 11. Companion research draft 11, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-12",
+      "path": "whitepapers/drafts/12-the-lifecycle-of-liquid-software/",
+      "title": "The Lifecycle of Liquid Software — Research Draft 12",
+      "description": "Research draft 12: Liquid Software requires an operational lifecycle, not merely the ability to generate code. Valto Loikkanen proposes reversible movement among agentic,.",
+      "source": "whitepapers/drafts/12-the-lifecycle-of-liquid-software/paper.md",
+      "markdown": "content/whitepapers/drafts/12-the-lifecycle-of-liquid-software/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/12-the-lifecycle-of-liquid-software/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). The Lifecycle of Liquid Software — Research Draft 12. Companion research draft 12, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-13",
+      "path": "whitepapers/drafts/13-the-internet-beyond-applications/",
+      "title": "The Internet Beyond Applications — Research Draft 13",
+      "description": "Research draft 13: Valto Loikkanen's Internet on One Page model describes activities, actors, information flows and revenue arrangements without making a particular.",
+      "source": "whitepapers/drafts/13-the-internet-beyond-applications/paper.md",
+      "markdown": "content/whitepapers/drafts/13-the-internet-beyond-applications/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/13-the-internet-beyond-applications/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). The Internet Beyond Applications — Research Draft 13. Companion research draft 13, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-14",
+      "path": "whitepapers/drafts/14-from-software-centric-to-information-centric-computing/",
+      "title": "From Software-Centric to Information-Centric Computing — Research Draft 14",
+      "description": "Research draft 14: Information-centric computing makes information identity, provenance, capability meaning and human authority more durable than a particular application..",
+      "source": "whitepapers/drafts/14-from-software-centric-to-information-centric-computing/paper.md",
+      "markdown": "content/whitepapers/drafts/14-from-software-centric-to-information-centric-computing/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/14-from-software-centric-to-information-centric-computing/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). From Software-Centric to Information-Centric Computing — Research Draft 14. Companion research draft 14, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "draft-15",
+      "path": "whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/",
+      "title": "The Architecture of an Intelligence-Native World — Research Draft 15",
+      "description": "Research draft 15: This paper synthesizes Valto Loikkanen's complementary concepts into a reference architecture. Individuals and entities provide persistent principals;.",
+      "source": "whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/paper.md",
+      "markdown": "content/whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/paper.md",
+      "kind": "draft",
+      "status": "research-draft",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "pdf": "whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/research-draft-1.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). The Architecture of an Intelligence-Native World — Research Draft 15. Companion research draft 15, version 1.0, 26 November 2026. AI-assisted synthesis and research."
+    },
+    {
+      "id": "site-404",
+      "path": "404.html",
+      "title": "Page Not Found",
+      "description": "Return to the Liquid Software concepts and whitepaper library.",
+      "source": "site/404.md",
+      "markdown": "content/site/404.md",
+      "kind": "guide",
+      "status": "published",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26"
+    }
+  ],
+  "files": [
+    {
+      "source": "whitepapers/00-beyond-the-constraints-of-software/v1.0.pdf",
+      "destination": "whitepapers/00-beyond-the-constraints-of-software/v1.0.pdf",
+      "sha256": "4e51647e5e3cbbff8f2487f206e8df204980fbcce486add2485cff33848ac984"
+    },
+    {
+      "source": "whitepapers/drafts/00-beyond-the-constraints-of-software/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/00-beyond-the-constraints-of-software/research-draft-1.0.pdf",
+      "sha256": "6e95f3820fb5a92c1fc97b940d4ce60a591947efe74da998b7d21013abf692d3"
+    },
+    {
+      "source": "whitepapers/drafts/01-the-software-bottleneck/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/01-the-software-bottleneck/research-draft-1.0.pdf",
+      "sha256": "4edcfc0db0ba4025f27a2a0d8824d05cb027873aa9a37ec3973e9cc35ab71498"
+    },
+    {
+      "source": "whitepapers/drafts/02-intelligence-first-software-second/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/02-intelligence-first-software-second/research-draft-1.0.pdf",
+      "sha256": "b74d699139e4fdb48389b5a3ef47f3a7d41ca02f25a148d86acc315c58781610"
+    },
+    {
+      "source": "whitepapers/drafts/03-degrees-of-decision-freedom/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/03-degrees-of-decision-freedom/research-draft-1.0.pdf",
+      "sha256": "3cf005c216f057caf092fe1c83df00dacf4e9043f386e1249004ac52fa12c968"
+    },
+    {
+      "source": "whitepapers/drafts/04-liquid-software/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/04-liquid-software/research-draft-1.0.pdf",
+      "sha256": "9f922b843099d6520e8f37c0a89d0f47be998474e0ee78a55dac8463dc779e61"
+    },
+    {
+      "source": "whitepapers/drafts/05-the-adaptive-interface/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/05-the-adaptive-interface/research-draft-1.0.pdf",
+      "sha256": "e802072b57f118f4b6c4539ee95d4cef67530e9ce4b4f94d4b22beae83824f05"
+    },
+    {
+      "source": "whitepapers/drafts/06-capture-for-unknown-future-value/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/06-capture-for-unknown-future-value/research-draft-1.0.pdf",
+      "sha256": "0fd9b65a6b1e10f02212640d53424847d147bf1c4b1bbf493c8884ac05edb5aa"
+    },
+    {
+      "source": "whitepapers/drafts/07-adaptive-information-retrieval/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/07-adaptive-information-retrieval/research-draft-1.0.pdf",
+      "sha256": "5b0d4ecf02fbbeba26bdfd3d6e2bcbc7555eb4fbcd1f54944d4b52abd11ea8e9"
+    },
+    {
+      "source": "whitepapers/drafts/08-the-self-optimizing-information-system/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/08-the-self-optimizing-information-system/research-draft-1.0.pdf",
+      "sha256": "40c41557a5eccd8a2c582f563cd0a6015c5e4cbfd14912fd1eb59b5657cee001"
+    },
+    {
+      "source": "whitepapers/drafts/09-beyond-predefined-apis/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/09-beyond-predefined-apis/research-draft-1.0.pdf",
+      "sha256": "5a9dd130d59279b4ea7cdb325c88807c4046004c1ae73159d0efc79f451f5b43"
+    },
+    {
+      "source": "whitepapers/drafts/10-documentation-as-executable-foundations/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/10-documentation-as-executable-foundations/research-draft-1.0.pdf",
+      "sha256": "4ac47a96775d21fd5b26cd4bcd9b85f3b9094896e42559f7c0c4d6623a644fe7"
+    },
+    {
+      "source": "whitepapers/drafts/11-individuals-and-entities-as-information-endpoints/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/11-individuals-and-entities-as-information-endpoints/research-draft-1.0.pdf",
+      "sha256": "c9de9fee3b8957bb5018ee2eaf9d8e8853d2e4715d8427dc13e55e610a67e249"
+    },
+    {
+      "source": "whitepapers/drafts/12-the-lifecycle-of-liquid-software/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/12-the-lifecycle-of-liquid-software/research-draft-1.0.pdf",
+      "sha256": "a0702c6a54f935abcb6d868277a0c33925d2fe115038ad49c04240e943673a20"
+    },
+    {
+      "source": "whitepapers/drafts/13-the-internet-beyond-applications/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/13-the-internet-beyond-applications/research-draft-1.0.pdf",
+      "sha256": "9c4a12ec4a299ec6e4ce8bb0a62c6744f628c1cef93433ed7f85b24c95bd0185"
+    },
+    {
+      "source": "whitepapers/drafts/14-from-software-centric-to-information-centric-computing/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/14-from-software-centric-to-information-centric-computing/research-draft-1.0.pdf",
+      "sha256": "0c6b12c9b73c5cf3a534d6bce87250a6590519620e7008760ad9c34cb74f28a0"
+    },
+    {
+      "source": "whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/research-draft-1.0.pdf",
+      "destination": "whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/research-draft-1.0.pdf",
+      "sha256": "4f0e23aca30e7b52b7fcd0c5c7cc24fed7b09206782842d55e1b376e7fabe87b"
+    },
+    {
+      "source": "site/assets/internet-on-one-page.jpg",
+      "destination": "assets/internet-on-one-page.jpg",
+      "sha256": "532d37c559b002bc2038fa03b42b8ae077a184fd3591900bee87fb6ea4a007b7"
+    },
+    {
+      "source": "site/assets/style.css",
+      "destination": "assets/style.css",
+      "sha256": "9e4c9c797589d077c894fb95fd4c79eb665959e10b4cb07533e1e9e3a9ba477d"
+    },
+    {
+      "source": "site/assets/og.svg",
+      "destination": "assets/og.svg",
+      "sha256": "5e27e08c04d13e4500939bd256613d31235da6f90d65327438f5af8c8d21d6e3"
+    },
+    {
+      "source": "site/assets/og.png",
+      "destination": "assets/og.png",
+      "sha256": "5dc0200d45817a4f3c41b2b378bc2f2a9052ce13d082e0560dae9133d7756b4a"
+    },
+    {
+      "source": "LICENSE-content.txt",
+      "destination": "license/content.txt",
+      "sha256": "e7697fd9b343028e341f3815c2875de1282e7c8863019ddf22ff0a780d267f78"
+    },
+    {
+      "source": "LICENSE-code.txt",
+      "destination": "license/code.txt",
+      "sha256": "1a1905f7be0d86b51cc4b2d4fb0ac62547149fdd35c502da1f9026b3f697b127"
+    }
+  ]
+}

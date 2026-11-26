@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite the selected paper and version; the site release is separate from paper editions."
+title: "Liquid Software: Beyond the Constraints of Software"
+type: software
+authors:
+  - family-names: Loikkanen
+    given-names: Valto
+version: 0.1.0
+date-released: 2026-11-26
+license: MIT
+url: https://valto.github.io/liquid/
+repository-code: https://github.com/valto/liquid
+abstract: "Conceptual source: Valto Loikkanen. AI-assisted research on information continuity, adaptive interaction, evolving software and human decision freedom."

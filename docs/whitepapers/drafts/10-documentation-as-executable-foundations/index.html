@@ -1,0 +1,95 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Documentation as Executable Foundations — Research Draft 10 | Liquid Software</title><meta name="description" content="Research draft 10: Valto Loikkanen places documentation, terminology, capability requirements and governing decisions among the relatively durable foundations of adaptive."><link rel="canonical" href="https://valto.github.io/liquid/whitepapers/drafts/10-documentation-as-executable-foundations/"><link rel="alternate" type="text/markdown" href="/liquid/content/whitepapers/drafts/10-documentation-as-executable-foundations/paper.md"><meta property="og:title" content="Documentation as Executable Foundations — Research Draft 10 | Liquid Software"><meta property="og:description" content="Research draft 10: Valto Loikkanen places documentation, terminology, capability requirements and governing decisions among the relatively durable foundations of adaptive."><meta property="og:type" content="article"><meta property="og:url" content="https://valto.github.io/liquid/whitepapers/drafts/10-documentation-as-executable-foundations/"><meta property="og:image" content="https://valto.github.io/liquid/assets/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://valto.github.io/liquid/assets/og.png"><link rel="stylesheet" href="/liquid/assets/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Documentation as Executable Foundations — Research Draft 10", "description": "Research draft 10: Valto Loikkanen places documentation, terminology, capability requirements and governing decisions among the relatively durable foundations of adaptive.", "url": "https://valto.github.io/liquid/whitepapers/drafts/10-documentation-as-executable-foundations/", "inLanguage": "en", "dateModified": "2026-11-26", "creator": {"@type": "Person", "name": "Valto Loikkanen"}, "version": "1.0", "creativeWorkStatus": "research-draft", "datePublished": "2026-11-26", "license": "https://creativecommons.org/licenses/by/4.0/"}</script></head><body><a class="skip" href="#main">Skip to content</a><div class="topbar"><a class="brand" href="/liquid/"><span class="brand-mark" aria-hidden="true">L</span>Liquid Software</a><nav aria-label="Primary"><a href="/liquid/concepts/">Concepts</a><a href="/liquid/architecture/">Architecture</a><a href="/liquid/whitepapers/">Whitepapers</a><a href="/liquid/principles/">Principles</a><a href="/liquid/glossary/">Glossary</a><a href="/liquid/research/">Research</a><a href="/liquid/about/">About</a></nav></div><main id="main" class="shell"><header class="article-header"><p class="kicker">research draft · VERSION 1.0</p><h1>Documentation as Executable Foundations — Research Draft 10</h1><p class="dek">Research draft 10: Valto Loikkanen places documentation, terminology, capability requirements and governing decisions among the relatively durable foundations of adaptive.</p><p class="byline">Conceptual source: Valto Loikkanen · AI-assisted synthesis and research · Research draft; not independently peer reviewed</p><div class="hero-actions"><a class="button" href="/liquid/whitepapers/drafts/10-documentation-as-executable-foundations/research-draft-1.0.pdf">Download PDF</a><a class="text-link" href="/liquid/content/whitepapers/drafts/10-documentation-as-executable-foundations/paper.md">Read source text ↗</a></div></header><article class="prose"><p><em>Durable meaning from which implementations and behavior can be derived</em></p>
+<p><strong>Conceptual source and direction: Valto Loikkanen.</strong> Research and drafting: Codex (OpenAI), at his request. Research draft 1.0 · 26 November 2026.</p>
+<h2 id="abstract">Abstract</h2>
+<p>Valto Loikkanen places documentation, terminology, capability requirements and governing decisions among the relatively durable foundations of adaptive software. This paper explains how documentation can shape execution without being mistaken for executable code or a grant of authority. It develops a source-to-realization model, identifies semantic categories that prevent accidental policy changes, and describes how shared guidance can bound intelligent interpretation when a case is not predefined. The contribution is operational reliance on attributable meaning rather than on a particular implementation. [S01]</p>
+<h2 id="1-documentation-can-precede-the-implementation">1. Documentation can precede the implementation</h2>
+<p>Documentation often describes a system after it has been built. In an adaptive architecture, it also defines what should remain true when the system is generated or changed.</p>
+<p>A capability's purpose, information semantics, acceptable result and boundaries can persist through a UI redesign, a backend rewrite or a shift between agentic and deterministic execution. These documents give different actors a common basis for understanding and realization.</p>
+<p>The phrase executable foundations refers to this operational role. It does not imply that ordinary prose is automatically executable or that every instruction-like sentence should be obeyed by an agent.</p>
+<h2 id="2-identify-what-kind-of-statement-is-being-read">2. Identify what kind of statement is being read</h2>
+<table>
+<thead>
+<tr>
+<th>Statement class</th>
+<th>Function</th>
+<th>Consequence of confusion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fact</td>
+<td>Reports something established by a source</td>
+<td>May be mistaken for a requirement</td>
+</tr>
+<tr>
+<td>Purpose</td>
+<td>Explains the capability's meaningful outcome</td>
+<td>May be replaced by an implementation detail</td>
+</tr>
+<tr>
+<td>Rule</td>
+<td>States a binding invariant within its authority</td>
+<td>May be weakened into a preference</td>
+</tr>
+<tr>
+<td>Default</td>
+<td>Supplies normal behavior when no choice overrides it</td>
+<td>May become an unnecessary veto</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>Illustrates a case</td>
+<td>May become a universal requirement</td>
+</tr>
+<tr>
+<td>Inference</td>
+<td>Proposes an interpretation</td>
+<td>May be promoted into accepted truth</td>
+</tr>
+<tr>
+<td>Unknown</td>
+<td>Preserves unresolved meaning</td>
+<td>May be silently filled with invention</td>
+</tr>
+</tbody>
+</table>
+<p>CRD's public documentation explicitly distinguishes such categories and separates a capability from its realizations. That separation supports consistent intelligent use of documents while retaining uncertainty. [S09]</p>
+<h2 id="3-capability-meaning-and-operational-realization">3. Capability meaning and operational realization</h2>
+<p>For a commitment-history capability, the durable description might define what qualifies as an accepted commitment, what constitutes a meaningful result and how disputed evidence is handled. A realization might use a graph, a query or an agent that reads source records.</p>
+<p>A capability document should not be enlarged to include every internal helper. It should identify a complete, meaningful ability. Operational documentation then records the selected implementation, dependencies, exposure and acceptance evidence.</p>
+<p>This preserves a common semantic middle between product rationale, user interaction, API descriptions, tools and code. Domain-specific documents remain useful. The capability reference connects them rather than replacing them.</p>
+<h2 id="4-a-derivation-chain">4. A derivation chain</h2>
+<p><code>attributable sources → controlled terminology → capability meaning → interaction → realization → acceptance evidence</code></p>
+<p>Each transition needs traceability appropriate to its consequence. A realization should identify the source revision it implements. An acceptance case should test a meaningful requirement, rather than merely mirror the generated code.</p>
+<p>The chain is not one-way. Actual use can reveal a missing definition or a conflict. The system can propose a revision, but the revision should pass through the relevant source authority rather than quietly become a rule because one implementation used it.</p>
+<p>PROV-DM provides a vocabulary for relating source entities, transformation activities and responsible agents. It supports traceability; it does not replace the authority process that accepts a change. [S17]</p>
+<h2 id="5-shared-principles-can-govern-unspecified-cases">5. Shared principles can govern unspecified cases</h2>
+<p>No useful documentation predicts every situation. Loikkanen proposes that strong foundations can also define where to look for relevant guidance and how to apply it when a case is not predefined. [S01]</p>
+<p>A bounded agent can use an accepted glossary, documented defaults, domain references and capability boundaries to resolve ordinary gaps. This can keep custom behavior limited even when interactions emerge dynamically.</p>
+<p>The scope of inference matters. An agent may choose a readable layout under design guidance or select an existing retrieval method. It should not invent an accepted business definition, erase an explicit unknown or infer a new permission from an example.</p>
+<p>The foundation is therefore both information and a disciplined method of interpretation. An unset detail need not stop every action, but a material unresolved question must remain visible.</p>
+<h2 id="6-schemas-as-projections-of-meaning">6. Schemas as projections of meaning</h2>
+<p>A schema can be generated from shared capability and information semantics. It can represent the fields, types and operations needed for a particular interaction without becoming the ultimate authority over their meaning.</p>
+<p>The same capability may have a natural-language description, a GraphQL view, an HTTP exposure or an event representation. Their technical contracts must be appropriate to their consumers. The durable documentation records which meanings and rules these views must preserve. [S11, S13, S16]</p>
+<p>This supports the language-and-format framing: documentation supplies the context that lets participants interpret different expressions coherently. It reduces the need to create a custom semantic world for every format.</p>
+<h2 id="7-authority-and-source-order">7. Authority and source order</h2>
+<p>Accessible documentation is not necessarily governing documentation. A retrieved webpage can describe a technique without authorizing its use. A copied policy may be outdated. A worker's note may be a proposal rather than an accepted owner decision.</p>
+<p>The system needs to identify the declared source, applicable version and authority of material statements. It should distinguish permission to edit a document from permission to activate its proposed policy.</p>
+<p>PIOS's public account separates source authority, information-system membership and implementation placement. EIOS similarly records entity governance and decision roles. These supply relevant context for deriving behavior from documents without confusing a local copy with canonical authority. [S07, S08]</p>
+<h2 id="8-failure-modes-and-evaluation">8. Failure modes and evaluation</h2>
+<p>Documentation can be incomplete, contradictory, hard to retrieve or too costly to maintain. Agents can confidently reconcile conflicts incorrectly. Generated implementations can pass superficial tests while implementing the wrong category of statement.</p>
+<p>Evaluate whether independent realizations preserve the same capability meaning. Give them normal cases, exceptions, explicit unknowns and conflicting defaults. Ask whether each conclusion is traceable to a source and whether a material new decision is clearly identified.</p>
+<p>A useful change test revises one governing rule, then checks which realizations and interactions must change. This examines actual dependency management rather than merely counting document coverage.</p>
+<h2 id="9-contribution-and-practical-adoption">9. Contribution and practical adoption</h2>
+<p>Start with a capability whose meaning is repeatedly lost between documents, interfaces and code. Preserve its existing source context, identify material semantic categories and derive one additional realization. Keep the document small enough to use and explicit enough to prevent known ambiguity.</p>
+<p>The contribution is durable, attributable meaning that can guide several implementations. Documentation becomes an operational asset when actors can find it, interpret it correctly and demonstrate that the resulting behavior preserves its intended boundaries.</p>
+<h2 id="sources-and-attribution">Sources and attribution</h2>
+<p><strong>[S01]</strong> Valto Loikkanen and ChatGPT. <em>Define liquid software — shared conversation</em>. Retrieved 26 November 2026. <a href="https://chatgpt.com/share/6b077626-c894-83ed-aabf-d21a363c4313">Original source</a>.</p>
+<p><strong>[S07]</strong> peecos / Valto Loikkanen. <em>PIOS 2.0 master and public README</em>. PIOS 2.0; retrieved 26 November 2026. <a href="https://www.peecos.org/pios/master">Original source</a>.</p>
+<p><strong>[S08]</strong> Entity Core / Valto Loikkanen. <em>EIOS 1.0, Keel, and Weave</em>. Working master v1.4, 21 November 2026. <a href="https://github.com/entity-core/eios/blob/main/spec/eios-1.0-master-documentation.md">Original source</a>.</p>
+<p><strong>[S09]</strong> Valto Loikkanen. <em>Capability Documentation / Capability Requirements Document framework</em>. Draft 0.4; package 0.8.0. <a href="https://valto.github.io/crd/specification.html">Original source</a>.</p>
+<p><strong>[S11]</strong> GraphQL Foundation / specification contributors. <em>GraphQL Specification</em>. September 2025 edition, selected explicitly. <a href="https://spec.graphql.org/September2025/">Original source</a>.</p>
+<p><strong>[S13]</strong> OpenAPI Initiative. <em>OpenAPI Specification</em>. Version 3.1.1, 24 October 2024; selected explicitly. <a href="https://spec.openapis.org/oas/v3.1.1.html">Original source</a>.</p>
+<p><strong>[S16]</strong> AsyncAPI Initiative. <em>AsyncAPI Specification</em>. Version 3.0.0, selected explicitly. <a href="https://www.asyncapi.com/docs/reference/specification/v3.0.0">Original source</a>.</p>
+<p><strong>[S17]</strong> W3C Provenance Working Group. <em>PROV-DM: The PROV Data Model</em>. W3C Recommendation, 30 April 2013. <a href="https://www.w3.org/TR/prov-dm/">Original source</a>.</p>
+<p>Valto Loikkanen supplies the conceptual synthesis and directs this collection. Codex prepared the research and prose. Definitions and reference models are editorial developments of the cited discussion, not claimed verbatim statements or universal first inventions. See the companion source register for exact read scope, versions and remaining gaps. This draft has not undergone independent peer review.</p><h2 id="suggested-citation">Suggested citation</h2><p>Loikkanen, Valto (conceptual source). (2026). Documentation as Executable Foundations — Research Draft 10. Companion research draft 10, version 1.0, 26 November 2026. AI-assisted synthesis and research.</p><p>Edition date; website publication date is recorded separately.</p></article></main><footer class="shell"><div><strong>Liquid Software</strong><p>Information provides continuity.<br>Human decisions define the boundaries.</p></div><div><a href="/liquid/about/">Attribution & citation</a><a href="/liquid/concepts.json">Concept registry</a><a href="/liquid/llms.txt">Machine reading guide</a><a href="https://github.com/valto/liquid">GitHub source</a><p>© 2026 Valto Loikkanen · published</p></div></footer></body></html>

@@ -1,0 +1,407 @@
+{
+  "schema_version": "1.0",
+  "concepts": [
+    {
+      "id": "liquid-software",
+      "path": "concepts/liquid-software/",
+      "title": "Liquid Software",
+      "description": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
+      "thesis": "Separate useful capabilities from the lifetime of any particular implementation.",
+      "principles": [
+        "Express capabilities through shared meaning",
+        "Choose realizations around observed needs",
+        "Retain evidence when implementations retire"
+      ],
+      "scope": "The emergence, stabilization, adaptation and retirement of implementations; not a requirement to regenerate every program.",
+      "related_concepts": [
+        "intelligence-first",
+        "adaptive-interface",
+        "self-optimizing-system"
+      ],
+      "related_papers": [
+        "04"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S03",
+          "title": "A Vision of Liquid Software; associated book Liquid Software: How to Achieve Trusted Continuous Updates in the DevOps World",
+          "url": "https://jfrog.com/whitepaper/a-vision-of-liquid-software/"
+        },
+        {
+          "source_id": "S04",
+          "title": "Malleable Software: Restoring User Agency in a World of Locked-Down Apps",
+          "url": "https://www.inkandswitch.com/essay/malleable-software/"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "04",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/04-liquid-software/"
+        }
+      ],
+      "url": "https://valto.github.io/liquid/concepts/liquid-software/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "adaptive-interface",
+      "path": "concepts/adaptive-interface/",
+      "title": "The Adaptive Interface",
+      "description": "Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result.",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result.",
+      "thesis": "Derive the form of interaction from the task and participant while preserving recognizable meaning and control.",
+      "principles": [
+        "Let context shape presentation",
+        "Preserve continuity across interface changes",
+        "Keep authority distinct from visual availability"
+      ],
+      "scope": "Human and agent interaction, presentation and accessibility; does not imply permission to change data or policy.",
+      "related_concepts": [
+        "liquid-software",
+        "documentation-as-foundations"
+      ],
+      "related_papers": [
+        "05"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S04",
+          "title": "Malleable Software: Restoring User Agency in a World of Locked-Down Apps",
+          "url": "https://www.inkandswitch.com/essay/malleable-software/"
+        },
+        {
+          "source_id": "S06",
+          "title": "Dynamicland FAQ",
+          "url": "https://dynamicland.org/2024/FAQ/"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "05",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/05-the-adaptive-interface/"
+        }
+      ],
+      "url": "https://valto.github.io/liquid/concepts/adaptive-interface/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "capture-for-unknown-future-value",
+      "path": "concepts/capture-for-unknown-future-value/",
+      "title": "Capture for Unknown Future Value",
+      "description": "Preserve appropriate source richness before anticipated questions determine the full extent of what remains.",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Preserve appropriate source richness before anticipated questions determine the full extent of what remains.",
+      "thesis": "Future questions can benefit from appropriate source richness that present task models would discard.",
+      "principles": [
+        "Preserve attributable originals where justified",
+        "Keep interpretations separate from evidence",
+        "Balance future usefulness with retention purpose"
+      ],
+      "scope": "Purpose-bound capture and preservation; not indiscriminate collection or permanent retention of everything.",
+      "related_concepts": [
+        "adaptive-information-retrieval",
+        "documentation-as-foundations"
+      ],
+      "related_papers": [
+        "06"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S05",
+          "title": "Local-first software: You own your data, in spite of the cloud",
+          "url": "https://www.inkandswitch.com/essay/local-first/"
+        },
+        {
+          "source_id": "S27",
+          "title": "MyLifeBits — project overview and publication list",
+          "url": "https://www.microsoft.com/en-us/research/project/mylifebits/"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "06",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/06-capture-for-unknown-future-value/"
+        }
+      ],
+      "url": "https://valto.github.io/liquid/concepts/capture-for-unknown-future-value/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "adaptive-information-retrieval",
+      "path": "concepts/adaptive-information-retrieval/",
+      "title": "Adaptive Information Retrieval",
+      "description": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
+      "thesis": "Retrieval structures can change with emerging questions without turning their answers into authoritative source information.",
+      "principles": [
+        "Preserve traceable answer support",
+        "Evaluate against actual information needs",
+        "Treat indexes and interpretations as revisable"
+      ],
+      "scope": "Question interpretation, retrieval and derived structures; not guaranteed truth or unrestricted access.",
+      "related_concepts": [
+        "capture-for-unknown-future-value",
+        "self-optimizing-system"
+      ],
+      "related_papers": [
+        "07"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S17",
+          "title": "PROV-DM: The PROV Data Model",
+          "url": "https://www.w3.org/TR/prov-dm/"
+        },
+        {
+          "source_id": "S18",
+          "title": "A Relational Model of Data for Large Shared Data Banks",
+          "url": "https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "07",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/07-adaptive-information-retrieval/"
+        }
+      ],
+      "url": "https://valto.github.io/liquid/concepts/adaptive-information-retrieval/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "intelligence-first",
+      "path": "concepts/intelligence-first/",
+      "title": "Intelligence First, Software Second",
+      "description": "Establish the ability to understand and fulfill a need before choosing where dedicated software provides a useful optimization.",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Establish the ability to understand and fulfill a need before choosing where dedicated software provides a useful optimization.",
+      "thesis": "Establish a bounded ability to fulfill a need before deciding which repeated paths deserve dedicated software.",
+      "principles": [
+        "Start from needs and shared semantics",
+        "Compare correctness, cost and uncertainty",
+        "Materialize software when evidence supports it"
+      ],
+      "scope": "Capability fulfillment and implementation selection; intelligence still requires an operating substrate.",
+      "related_concepts": [
+        "liquid-software",
+        "adaptive-information-retrieval"
+      ],
+      "related_papers": [
+        "02"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S19",
+          "title": "No Silver Bullet: Essence and Accidents of Software Engineering",
+          "url": "https://www.cs.unc.edu/techreports/86-020.pdf"
+        },
+        {
+          "source_id": "S20",
+          "title": "End-to-End Arguments in System Design",
+          "url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "02",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/02-intelligence-first-software-second/"
+        }
+      ],
+      "url": "https://valto.github.io/liquid/concepts/intelligence-first/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "degrees-of-decision-freedom",
+      "path": "concepts/degrees-of-decision-freedom/",
+      "title": "Degrees of Decision Freedom",
+      "description": "Higher-level decisions define the contextual space in which humans and delegated actors can make further choices.",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Higher-level decisions define the contextual space in which humans and delegated actors can make further choices.",
+      "thesis": "Higher-level decisions define the space within which subsequent choices may remain open to humans or delegated actors.",
+      "principles": [
+        "Distinguish principal and actor",
+        "Keep delegated choices within applicable decisions",
+        "Make material decisions explainable and revisable"
+      ],
+      "scope": "Contextual decision authority and delegation; not a universal scalar metric of personal freedom.",
+      "related_concepts": [
+        "documentation-as-foundations",
+        "self-optimizing-system"
+      ],
+      "related_papers": [
+        "03"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S07",
+          "title": "PIOS 2.0 master and public README",
+          "url": "https://www.peecos.org/pios/master"
+        },
+        {
+          "source_id": "S08",
+          "title": "EIOS 1.0, Keel, and Weave",
+          "url": "https://github.com/entity-core/eios/blob/main/spec/eios-1.0-master-documentation.md"
+        },
+        {
+          "source_id": "S25",
+          "title": "OAuth 2.0 Rich Authorization Requests",
+          "url": "https://www.rfc-editor.org/rfc/rfc9396.html"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "03",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/03-degrees-of-decision-freedom/"
+        }
+      ],
+      "url": "https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "self-optimizing-system",
+      "path": "concepts/self-optimizing-system/",
+      "title": "The Self-Optimizing Information System",
+      "description": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
+      "thesis": "Use observations of real fulfillment to propose improvements while separating optimization authority from ownership.",
+      "principles": [
+        "Measure outcomes before changing realization",
+        "Keep changes reviewable and recoverable",
+        "Require authority for material policy changes"
+      ],
+      "scope": "Evidence-driven adaptation of retrieval and implementation; not an unrestricted autonomous policy maker.",
+      "related_concepts": [
+        "liquid-software",
+        "adaptive-information-retrieval",
+        "degrees-of-decision-freedom"
+      ],
+      "related_papers": [
+        "08"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S19",
+          "title": "No Silver Bullet: Essence and Accidents of Software Engineering",
+          "url": "https://www.cs.unc.edu/techreports/86-020.pdf"
+        },
+        {
+          "source_id": "S20",
+          "title": "End-to-End Arguments in System Design",
+          "url": "https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf"
+        },
+        {
+          "source_id": "S21",
+          "title": "Malleable software in the age of LLMs",
+          "url": "https://www.geoffreylitt.com/2023/03/25/llm-end-user-programming"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "08",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/"
+        }
+      ],
+      "url": "https://valto.github.io/liquid/concepts/self-optimizing-system/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "documentation-as-foundations",
+      "path": "concepts/documentation-as-foundations/",
+      "title": "Documentation as Executable Foundations",
+      "description": "Shared terminology, capability requirements and guidance preserve meaning while implementations and operational choices evolve.",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": "2026-11-26",
+      "modified": "2026-11-26",
+      "definition": "Shared terminology, capability requirements and guidance preserve meaning while implementations and operational choices evolve.",
+      "thesis": "Shared documentation can preserve stable meaning while interfaces, contracts and implementations are generated for a particular need.",
+      "principles": [
+        "Keep descriptive meaning distinct from authorization",
+        "Version terminology and behavioral expectations",
+        "Treat generated artifacts as derived realizations"
+      ],
+      "scope": "Documentation as an interpretable foundation; not an assertion that prose alone executes or proves conformance.",
+      "related_concepts": [
+        "liquid-software",
+        "adaptive-interface",
+        "degrees-of-decision-freedom"
+      ],
+      "related_papers": [
+        "10"
+      ],
+      "related_external_work": [
+        {
+          "source_id": "S09",
+          "title": "Capability Documentation / Capability Requirements Document framework",
+          "url": "https://valto.github.io/crd/specification.html"
+        },
+        {
+          "source_id": "S10",
+          "title": "Human & Agent Interoperability",
+          "url": "https://github.com/privateaiexchange/paix-spec/blob/main/docs/Human_Agent_Interoperability.md"
+        },
+        {
+          "source_id": "S11",
+          "title": "GraphQL Specification",
+          "url": "https://spec.graphql.org/September2025/"
+        }
+      ],
+      "publications": [
+        {
+          "paper_number": "10",
+          "status": "research-draft",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/10-documentation-as-executable-foundations/"
+        }
+      ],
+      "url": "https://valto.github.io/liquid/concepts/documentation-as-foundations/",
+      "conceptual_source": "Valto Loikkanen"
+    }
+  ]
+}

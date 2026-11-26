@@ -1,0 +1,92 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Self-Optimizing Information System — Research Draft 08 | Liquid Software</title><meta name="description" content="Research draft 08: Valto Loikkanen proposes a monitoring and optimization loop that observes information requests, identifies repeated needs, and creates, revises or retires."><link rel="canonical" href="https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/"><link rel="alternate" type="text/markdown" href="/liquid/content/whitepapers/drafts/08-the-self-optimizing-information-system/paper.md"><meta property="og:title" content="The Self-Optimizing Information System — Research Draft 08 | Liquid Software"><meta property="og:description" content="Research draft 08: Valto Loikkanen proposes a monitoring and optimization loop that observes information requests, identifies repeated needs, and creates, revises or retires."><meta property="og:type" content="article"><meta property="og:url" content="https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/"><meta property="og:image" content="https://valto.github.io/liquid/assets/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://valto.github.io/liquid/assets/og.png"><link rel="stylesheet" href="/liquid/assets/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "The Self-Optimizing Information System — Research Draft 08", "description": "Research draft 08: Valto Loikkanen proposes a monitoring and optimization loop that observes information requests, identifies repeated needs, and creates, revises or retires.", "url": "https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/", "inLanguage": "en", "dateModified": "2026-11-26", "creator": {"@type": "Person", "name": "Valto Loikkanen"}, "version": "1.0", "creativeWorkStatus": "research-draft", "datePublished": "2026-11-26", "license": "https://creativecommons.org/licenses/by/4.0/"}</script></head><body><a class="skip" href="#main">Skip to content</a><div class="topbar"><a class="brand" href="/liquid/"><span class="brand-mark" aria-hidden="true">L</span>Liquid Software</a><nav aria-label="Primary"><a href="/liquid/concepts/">Concepts</a><a href="/liquid/architecture/">Architecture</a><a href="/liquid/whitepapers/">Whitepapers</a><a href="/liquid/principles/">Principles</a><a href="/liquid/glossary/">Glossary</a><a href="/liquid/research/">Research</a><a href="/liquid/about/">About</a></nav></div><main id="main" class="shell"><header class="article-header"><p class="kicker">research draft · VERSION 1.0</p><h1>The Self-Optimizing Information System — Research Draft 08</h1><p class="dek">Research draft 08: Valto Loikkanen proposes a monitoring and optimization loop that observes information requests, identifies repeated needs, and creates, revises or retires.</p><p class="byline">Conceptual source: Valto Loikkanen · AI-assisted synthesis and research · Research draft; not independently peer reviewed</p><div class="hero-actions"><a class="button" href="/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/research-draft-1.0.pdf">Download PDF</a><a class="text-link" href="/liquid/content/whitepapers/drafts/08-the-self-optimizing-information-system/paper.md">Read source text ↗</a></div></header><article class="prose"><p><em>Learning from demand to improve how a durable capability is served</em></p>
+<p><strong>Conceptual source and direction: Valto Loikkanen.</strong> Research and drafting: Codex (OpenAI), at his request. Research draft 1.0 · 26 November 2026.</p>
+<h2 id="abstract">Abstract</h2>
+<p>Valto Loikkanen proposes a monitoring and optimization loop that observes information requests, identifies repeated needs, and creates, revises or retires specialized implementations. A general intelligent route supplies flexibility; deterministic and hybrid routes supply efficiency where justified. This paper develops the loop as a reference design, including candidate selection, semantic checks, staged acceptance and recovery. A nightly run is one possible cadence, not a requirement. The proposed optimizer changes how a capability is fulfilled while preserving its meaning, source authority and human-defined boundaries. [S01]</p>
+<h2 id="1-observe-use-before-committing-to-specialization">1. Observe use before committing to specialization</h2>
+<p>A capable information system can serve a novel request by interpreting it and retrieving relevant evidence. Some requests remain occasional. Others recur with a consistent meaning and costly execution. Those recurring patterns are candidates for specialization.</p>
+<p>The optimization loop turns these observations into improvements. It can create an index, a structured projection, a direct query, a reusable workflow or a presentation component. It can also consolidate overlapping implementations or retire ones whose value no longer justifies their cost.</p>
+<p>The loop is a proposed architecture. This paper does not report a deployed implementation or measured savings from the complete system.</p>
+<h2 id="2-define-the-objective-before-optimizing">2. Define the objective before optimizing</h2>
+<p>Optimizing raw request count or latency alone can produce worse outcomes. The system should optimize useful fulfillment subject to quality, evidence, authority, freshness and recovery requirements.</p>
+<p>For a candidate implementation, estimate its expected benefit over a declared horizon and subtract construction, validation, operation, maintenance and retirement costs. Include user effort and failures. Compare it with maintaining the current route.</p>
+<p>An illustrative arithmetic case: if a specialized route saves nine abstract cost units per request and requires nine hundred units to build and maintain over the period, it needs more than one hundred equivalent requests to create positive net savings. This is a hypothetical accounting example; real quality and authority requirements remain independent constraints.</p>
+<p>Frequency is evidence of demand, not a complete decision rule. A rare critical capability can warrant specialization; a frequent ambiguous question can remain a poor candidate.</p>
+<h2 id="3-observe-patterns-without-collecting-everything">3. Observe patterns without collecting everything</h2>
+<p>The monitor needs enough information to distinguish capability, request meaning, execution route, cost, latency, result quality and relevant dependency revisions. It need not retain every private prompt or response indefinitely.</p>
+<table>
+<thead>
+<tr>
+<th>Observation</th>
+<th>Use in optimization</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Capability and semantic pattern</td>
+<td>Groups requests that actually mean the same thing</td>
+</tr>
+<tr>
+<td>Source and policy revisions</td>
+<td>Identifies dependency and permission changes</td>
+</tr>
+<tr>
+<td>Execution cost and latency</td>
+<td>Estimates possible specialization benefit</td>
+</tr>
+<tr>
+<td>Failures and human corrections</td>
+<td>Exposes weaknesses hidden by successful responses</td>
+</tr>
+<tr>
+<td>Unserved or abandoned requests</td>
+<td>Reveals demand the current system cannot fulfill</td>
+</tr>
+<tr>
+<td>Seasonal and declining use</td>
+<td>Informs retention and retirement</td>
+</tr>
+</tbody>
+</table>
+<p>An optimizer that sees only successful requests may reinforce existing limitations. It should account for requests declined because of unsupported language, missing capabilities or poor evidence, while preserving appropriate privacy.</p>
+<h2 id="4-a-bounded-optimization-loop">4. A bounded optimization loop</h2>
+<ol>
+<li><strong>Observe:</strong> record selected operational evidence from actual fulfillment.</li>
+<li><strong>Interpret:</strong> group requests using accepted terminology and capability meaning.</li>
+<li><strong>Propose:</strong> identify a candidate realization and its expected benefit.</li>
+<li><strong>Construct:</strong> create or revise the smallest useful implementation in isolation.</li>
+<li><strong>Validate:</strong> test semantic behavior, authority, freshness, effects and recovery.</li>
+<li><strong>Accept:</strong> activate within the current delegation and any genuine reserved decision.</li>
+<li><strong>Measure:</strong> compare useful outcomes and costs with the previous route.</li>
+<li><strong>Revise or retire:</strong> respond to drift, failure and changing demand.</li>
+</ol>
+<p>The loop can run nightly, periodically or when a material signal appears. Timing should follow workload and dependency conditions. An off-peak schedule does not itself establish safe capacity or authority.</p>
+<h2 id="5-semantic-equivalence-is-stronger-than-output-similarity">5. Semantic equivalence is stronger than output similarity</h2>
+<p>Two results can look alike while answering different questions. A generated commitment query might treat an inferred intention as an accepted commitment. A cached result might include records whose access has since changed.</p>
+<p>A candidate should therefore be tested against explicit meaningful outcomes and source-backed cases. CRDs offer a way to preserve capability purpose, interaction contracts, rules and unknowns independently of realization. Provenance helps connect derived results to their sources. [S09, S17]</p>
+<p>An agent trace can supply examples, but it is not automatically a specification. Repeated assumptions should be identified and checked before being frozen into a specialized route.</p>
+<h2 id="6-staged-acceptance-and-runtime-selection">6. Staged acceptance and runtime selection</h2>
+<p>A candidate can first be evaluated on retained cases, then run in shadow alongside the existing route, and then become active for a bounded request class. The old route remains available where its behavior and cost are acceptable.</p>
+<p>The dispatcher should know which capability versions, source types and conditions a realization supports. A language or representation chosen by the requester does not determine the serving method. An agent request may take the direct route; an application request may require interpretation.</p>
+<p>Fallback is conditional. A slower agent route is useful only if it still meets the capability's acceptable behavior. It should not be used to hide a deterministic failure when the fallback cannot preserve the required result.</p>
+<h2 id="7-dependencies-and-drift">7. Dependencies and drift</h2>
+<p>Candidate validity depends on more than code. Terminology, source revisions, permissions, model versions and capability definitions may all matter. A change can make a previously accepted route unsuitable.</p>
+<p>The system should identify these dependencies at an appropriate level and invalidate or reevaluate affected routes. Avoid treating every unrelated change as a reason to rebuild the whole system. Scope the work to the assumption that actually changed.</p>
+<p>Drift may also be gradual. A request pattern once consistent can split into several meanings. The optimizer should be able to distinguish new variants rather than forcing them through the old implementation.</p>
+<h2 id="8-recovery-and-retirement">8. Recovery and retirement</h2>
+<p>Withdrawal should preserve accepted information, originals, pending work and relevant evidence. Retiring a specialized route is different from deleting the records that made it useful.</p>
+<p>A registry can retain the capability identity, realization version, acceptance evidence and reason for withdrawal. Actual executable artifacts may have their own retention policy. Reinstating a seasonal implementation should verify current dependencies rather than assume historical acceptance remains sufficient.</p>
+<p>End-to-end acceptance matters: successful deployment of a query does not prove the user's result survives a failed response, stale projection or lost state transition. [S20]</p>
+<h2 id="9-related-work-and-limits">9. Related work and limits</h2>
+<p>Learned-index research revisits data-access structures through models, while FrugalGPT studies adaptive selection of language-model combinations. Both support investigating specialized execution choices; neither validates the complete governed optimization loop proposed here. [S23, S22]</p>
+<p>The distinctive synthesis is to place optimization around a persistent capability, information foundation and human decision space. The optimizer is an operational actor with delegated freedom, not an independent authority over its owner's data or goals.</p>
+<h2 id="10-evaluation-and-open-questions">10. Evaluation and open questions</h2>
+<p>Compare the adaptive system with a fixed baseline over a changing workload. Measure useful quality, total cost, latency, maintenance effort, failed transitions, boundary violations and recoverability. Include unfamiliar requests, declining demand and a source or policy change.</p>
+<p>The research questions are concrete: can semantic grouping remain reliable; can validation costs amortize; can drift be detected before it harms users; and can retirement preserve capability continuity? Answering them would establish the conditions under which self-optimization creates useful liquid behavior.</p>
+<h2 id="sources-and-attribution">Sources and attribution</h2>
+<p><strong>[S01]</strong> Valto Loikkanen and ChatGPT. <em>Define liquid software — shared conversation</em>. Retrieved 26 November 2026. <a href="https://chatgpt.com/share/6b077626-c894-83ed-aabf-d21a363c4313">Original source</a>.</p>
+<p><strong>[S09]</strong> Valto Loikkanen. <em>Capability Documentation / Capability Requirements Document framework</em>. Draft 0.4; package 0.8.0. <a href="https://valto.github.io/crd/specification.html">Original source</a>.</p>
+<p><strong>[S17]</strong> W3C Provenance Working Group. <em>PROV-DM: The PROV Data Model</em>. W3C Recommendation, 30 April 2013. <a href="https://www.w3.org/TR/prov-dm/">Original source</a>.</p>
+<p><strong>[S20]</strong> J. H. Saltzer, D. P. Reed and D. D. Clark. <em>End-to-End Arguments in System Design</em>. ACM Transactions on Computer Systems 2(4), November 1984, pp. 277–288. <a href="https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf">Original source</a>.</p>
+<p><strong>[S22]</strong> Lingjiao Chen, Matei Zaharia and James Zou. <em>FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance</em>. arXiv:2305.05176, 9 May 2023. <a href="https://arxiv.org/abs/2305.05176">Original source</a>.</p>
+<p><strong>[S23]</strong> Tim Kraska, Alex Beutel, Ed H. Chi, Jeffrey Dean and Neoklis Polyzotis. <em>The Case for Learned Index Structures</em>. arXiv:1712.01208v3, 30 April 2018. <a href="https://arxiv.org/html/1712.01208v3">Original source</a>.</p>
+<p>Valto Loikkanen supplies the conceptual synthesis and directs this collection. Codex prepared the research and prose. Definitions and reference models are editorial developments of the cited discussion, not claimed verbatim statements or universal first inventions. See the companion source register for exact read scope, versions and remaining gaps. This draft has not undergone independent peer review.</p><h2 id="suggested-citation">Suggested citation</h2><p>Loikkanen, Valto (conceptual source). (2026). The Self-Optimizing Information System — Research Draft 08. Companion research draft 08, version 1.0, 26 November 2026. AI-assisted synthesis and research.</p><p>Edition date; website publication date is recorded separately.</p></article></main><footer class="shell"><div><strong>Liquid Software</strong><p>Information provides continuity.<br>Human decisions define the boundaries.</p></div><div><a href="/liquid/about/">Attribution & citation</a><a href="/liquid/concepts.json">Concept registry</a><a href="/liquid/llms.txt">Machine reading guide</a><a href="https://github.com/valto/liquid">GitHub source</a><p>© 2026 Valto Loikkanen · published</p></div></footer></body></html>

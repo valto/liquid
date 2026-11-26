@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /liquid/
+Sitemap: https://valto.github.io/liquid/sitemap.xml

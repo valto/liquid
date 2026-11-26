@@ -1,0 +1,5 @@
+*.pdf binary
+*.jpg binary
+*.png binary
+whitepapers/00-beyond-the-constraints-of-software/original-transcript.txt -whitespace
+docs/content/whitepapers/00-beyond-the-constraints-of-software/original-transcript.txt -whitespace

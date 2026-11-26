@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Adaptive Interface — Research Draft 05 | Liquid Software</title><meta name="description" content="Research draft 05: The Adaptive Interface is Valto Loikkanen&#x27;s proposal for treating human and machine interaction as contextual exchanges of information, intent and."><link rel="canonical" href="https://valto.github.io/liquid/whitepapers/drafts/05-the-adaptive-interface/"><link rel="alternate" type="text/markdown" href="/liquid/content/whitepapers/drafts/05-the-adaptive-interface/paper.md"><meta property="og:title" content="The Adaptive Interface — Research Draft 05 | Liquid Software"><meta property="og:description" content="Research draft 05: The Adaptive Interface is Valto Loikkanen&#x27;s proposal for treating human and machine interaction as contextual exchanges of information, intent and."><meta property="og:type" content="article"><meta property="og:url" content="https://valto.github.io/liquid/whitepapers/drafts/05-the-adaptive-interface/"><meta property="og:image" content="https://valto.github.io/liquid/assets/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://valto.github.io/liquid/assets/og.png"><link rel="stylesheet" href="/liquid/assets/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "The Adaptive Interface — Research Draft 05", "description": "Research draft 05: The Adaptive Interface is Valto Loikkanen's proposal for treating human and machine interaction as contextual exchanges of information, intent and.", "url": "https://valto.github.io/liquid/whitepapers/drafts/05-the-adaptive-interface/", "inLanguage": "en", "dateModified": "2026-11-26", "creator": {"@type": "Person", "name": "Valto Loikkanen"}, "version": "1.0", "creativeWorkStatus": "research-draft", "datePublished": "2026-11-26", "license": "https://creativecommons.org/licenses/by/4.0/"}</script></head><body><a class="skip" href="#main">Skip to content</a><div class="topbar"><a class="brand" href="/liquid/"><span class="brand-mark" aria-hidden="true">L</span>Liquid Software</a><nav aria-label="Primary"><a href="/liquid/concepts/">Concepts</a><a href="/liquid/architecture/">Architecture</a><a href="/liquid/whitepapers/">Whitepapers</a><a href="/liquid/principles/">Principles</a><a href="/liquid/glossary/">Glossary</a><a href="/liquid/research/">Research</a><a href="/liquid/about/">About</a></nav></div><main id="main" class="shell"><header class="article-header"><p class="kicker">research draft · VERSION 1.0</p><h1>The Adaptive Interface — Research Draft 05</h1><p class="dek">Research draft 05: The Adaptive Interface is Valto Loikkanen&#x27;s proposal for treating human and machine interaction as contextual exchanges of information, intent and.</p><p class="byline">Conceptual source: Valto Loikkanen · AI-assisted synthesis and research · Research draft; not independently peer reviewed</p><div class="hero-actions"><a class="button" href="/liquid/whitepapers/drafts/05-the-adaptive-interface/research-draft-1.0.pdf">Download PDF</a><a class="text-link" href="/liquid/content/whitepapers/drafts/05-the-adaptive-interface/paper.md">Read source text ↗</a></div></header><article class="prose"><p><em>Languages and formats serving contextual needs</em></p>
+<p><strong>Conceptual source and direction: Valto Loikkanen.</strong> Research and drafting: Codex (OpenAI), at his request. Research draft 1.0 · 26 November 2026.</p>
+<h2 id="abstract">Abstract</h2>
+<p>The Adaptive Interface is Valto Loikkanen's proposal for treating human and machine interaction as contextual exchanges of information, intent and capabilities. Who needs the information, where they need it, why they need it and what it contains should guide how it is presented or requested. The concept applies to documents, slides, diagrams, voice, applications and machine messages. This paper makes languages and formats the starting frame and explains how precise interaction contracts can emerge through shared meaning, defaults and bounded interpretation. [S01, S26]</p>
+<h2 id="1-information-before-its-presentation">1. Information before its presentation</h2>
+<p>The same evidence may support a detailed document, a spoken briefing, a comparison table or an interactive exploration. Traditionally, these are prepared as separate artifacts. They can diverge from one another and from their sources.</p>
+<p>An adaptive interface treats them as contextual presentations of attributable information. A person's needs and environment guide the form; the chosen form does not silently become the entire information model.</p>
+<p>For example, a project leader walking to a meeting may need a short spoken account of changed commitments. At a desk, the same person may need a timeline with exact source links. An application may request structured changes for a notification. The information identity can persist across all three.</p>
+<h2 id="2-four-dimensions-guide-the-interaction">2. Four dimensions guide the interaction</h2>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Human context</th>
+<th>Machine context</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Who</td>
+<td>Recipient, role, familiarity and accessibility</td>
+<td>Requester, represented principal and intended recipient</td>
+</tr>
+<tr>
+<td>Where</td>
+<td>Device, attention, environment and social situation</td>
+<td>Runtime, trust boundary and consuming environment</td>
+</tr>
+<tr>
+<td>Why</td>
+<td>Understanding, learning, decision or action</td>
+<td>Retrieval, transformation, execution or delegation</td>
+</tr>
+<tr>
+<td>What</td>
+<td>Information, relationships, complexity and uncertainty</td>
+<td>Requested concepts, values, events or capabilities</td>
+</tr>
+</tbody>
+</table>
+<p>These dimensions guide <strong>how</strong>: language, format, level of detail and available interactions. They need not determine a single optimal format. A user should be able to prefer, change or stabilize a presentation, and a machine recipient may impose explicit consumption requirements.</p>
+<p>Context affects presentation without changing permission. A relevant answer may still contain information the requester is not entitled to receive.</p>
+<h2 id="3-languages-and-formats-as-the-conceptual-starting-point">3. Languages and formats as the conceptual starting point</h2>
+<p>Natural language communicates intent flexibly. A structured query communicates selected concepts and relationships precisely. A table emphasizes comparison; a diagram emphasizes structure; a message format supports machine consumption.</p>
+<p>At this level, familiar mechanisms are ways to express and carry interactions. Their technical categories remain distinct: GraphQL is a query language with a type system; REST is an architectural style; MCP and A2A define protocol behavior. These distinctions matter when implementing compatibility, but they need not fragment the conceptual account of the interaction. [S11, S12, S14, S15]</p>
+<p>The useful initial question is whether the participants understand the need, representation and constraints. A known language may communicate much of this without a new bespoke interface. Open documentation and terminology can supply the remaining context.</p>
+<h2 id="4-meaning-can-precede-an-explicit-schema">4. Meaning can precede an explicit schema</h2>
+<p>The requester can describe a desired result using familiar terms, a structured selection, an example or a reference to a shared capability. The receiver can resolve that request against its information, governing documentation and supported behavior.</p>
+<p>Some interactions require no separately designed schema beyond existing conventions. Others benefit from a generated or negotiated type description. The appropriate precision depends on consequences and ambiguity. Selecting a display layout may rely on a default; agreeing which amount is being reported may require explicit units and scope.</p>
+<p>A schema is one way to express a resolved structure. Its creation can be a runtime activity, and its persistence can be limited to the interaction. The more durable elements may be the meaning of the information and the decisions governing its use.</p>
+<h2 id="5-human-and-machine-interfaces-share-a-foundation">5. Human and machine interfaces share a foundation</h2>
+<p>Both kinds of participant express needs, consume information and invoke capabilities. Both require identity and authority appropriate to their role. Both can receive agentic, deterministic or hybrid fulfillment.</p>
+<p>Their experiences still differ. A human may need explanation, direct manipulation and an opportunity to reconsider. A machine may need exact types, correlation identifiers, structured failure and progress. A common semantic foundation can produce distinct presentations suitable to each recipient.</p>
+<p>Dynamicland's work on humane dynamic media offers a related perspective on computational representation and shared understanding. Litt's work highlights why a conversational interface is not adequate for every task. The proposed adaptive interface therefore includes graphical and exploratory forms rather than treating conversation as the universal destination. [S06, S21]</p>
+<h2 id="6-preserve-provenance-through-transformation">6. Preserve provenance through transformation</h2>
+<p>A presentation should distinguish source information from an interpretation. If a diagram summarizes a dispute, it should retain access to the competing accounts. If a briefing omits detail for brevity, the omission should not become a canonical deletion.</p>
+<p>Originals, accepted revisions and derived presentations should retain their identities and relationships. Provenance standards provide ways of describing entities, activities and agents involved in such transformations. They do not independently establish the truth of the resulting interpretation. [S17]</p>
+<p>Documents can themselves be originals: a signed agreement or an authored essay has meaning in its particular form. An adaptive presentation should not erase that form or assume every narrative is merely a disposable rendering of a database.</p>
+<h2 id="7-interaction-includes-action">7. Interaction includes action</h2>
+<p>An interface may help a person understand information or change state. The distinction must be clear. Exploring an option is not the same as committing to it; preparing an edit is not the same as accepting it.</p>
+<p>Generated interfaces should therefore preserve the capability's action boundaries. The user should understand the consequence of a control even if its visual form is new. A machine request should distinguish retrieval from mutation and identify the expected effects.</p>
+<p>A pleasant adaptive experience cannot compensate for a hidden consequential action. Meaningful control requires the interaction to make the decision legible at the point where it matters.</p>
+<h2 id="8-failure-modes-and-evaluation">8. Failure modes and evaluation</h2>
+<p>Adaptation can create instability, inaccessible formats, inconsistent terminology or excessive simplification. A system may incorrectly infer what someone knows or prefers. Machine consumers may fail when a representation changes unexpectedly.</p>
+<p>Evaluate whether recipients correctly understand and use the information, how much effort they expend, and whether material uncertainty and provenance survive transformation. Compare different presentations of the same source and ask recipients to explain the same central relationship.</p>
+<p>For machine interactions, test equivalent requests in different supported languages or formats. Examine whether meaning, permission and result agree. A formatting match alone is insufficient if the content differs semantically.</p>
+<h2 id="9-an-independent-architectural-contribution">9. An independent architectural contribution</h2>
+<p>Adaptive interfaces are useful even when the backend remains entirely conventional. They can improve publishing, reporting, education and information access without requiring a full liquid architecture.</p>
+<p>Their distinctive contribution is to place the interaction's contextual purpose ahead of its format. Shared meaning provides coherence; languages and formats make that meaning usable; intelligence helps choose and interpret them; and human-defined boundaries govern the exchange.</p>
+<h2 id="sources-and-attribution">Sources and attribution</h2>
+<p><strong>[S01]</strong> Valto Loikkanen and ChatGPT. <em>Define liquid software — shared conversation</em>. Retrieved 26 November 2026. <a href="https://chatgpt.com/share/6b077626-c894-83ed-aabf-d21a363c4313">Original source</a>.</p>
+<p><strong>[S06]</strong> Dynamicland Foundation. <em>Dynamicland FAQ</em>. Living page in /2024/; accessed 26 November 2026. <a href="https://dynamicland.org/2024/FAQ/">Original source</a>.</p>
+<p><strong>[S11]</strong> GraphQL Foundation / specification contributors. <em>GraphQL Specification</em>. September 2025 edition, selected explicitly. <a href="https://spec.graphql.org/September2025/">Original source</a>.</p>
+<p><strong>[S12]</strong> Roy Thomas Fielding. <em>Architectural Styles and the Design of Network-based Software Architectures, Chapter 5: Representational State Transfer</em>. Doctoral dissertation, 2000. <a href="https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm">Original source</a>.</p>
+<p><strong>[S14]</strong> Model Context Protocol contributors. <em>Architecture — Model Context Protocol</em>. Retrieved latest alias resolved to 2026-07-28. <a href="https://modelcontextprotocol.io/specification/2026-07-28/architecture">Original source</a>.</p>
+<p><strong>[S15]</strong> A2A Project. <em>Agent2Agent Protocol Specification</em>. Retrieved latest page identifies released version 1.0.0. <a href="https://a2a-protocol.org/latest/specification/">Original source</a>.</p>
+<p><strong>[S17]</strong> W3C Provenance Working Group. <em>PROV-DM: The PROV Data Model</em>. W3C Recommendation, 30 April 2013. <a href="https://www.w3.org/TR/prov-dm/">Original source</a>.</p>
+<p><strong>[S21]</strong> Geoffrey Litt. <em>Malleable software in the age of LLMs</em>. March 2023. <a href="https://www.geoffreylitt.com/2023/03/25/llm-end-user-programming">Original source</a>.</p>
+<p><strong>[S26]</strong> Valto Loikkanen. <em>Commission clarifications on schemas, languages and formats</em>. 26 November 2026.</p>
+<p>Valto Loikkanen supplies the conceptual synthesis and directs this collection. Codex prepared the research and prose. Definitions and reference models are editorial developments of the cited discussion, not claimed verbatim statements or universal first inventions. See the companion source register for exact read scope, versions and remaining gaps. This draft has not undergone independent peer review.</p><h2 id="suggested-citation">Suggested citation</h2><p>Loikkanen, Valto (conceptual source). (2026). The Adaptive Interface — Research Draft 05. Companion research draft 05, version 1.0, 26 November 2026. AI-assisted synthesis and research.</p><p>Edition date; website publication date is recorded separately.</p></article></main><footer class="shell"><div><strong>Liquid Software</strong><p>Information provides continuity.<br>Human decisions define the boundaries.</p></div><div><a href="/liquid/about/">Attribution & citation</a><a href="/liquid/concepts.json">Concept registry</a><a href="/liquid/llms.txt">Machine reading guide</a><a href="https://github.com/valto/liquid">GitHub source</a><p>© 2026 Valto Loikkanen · published</p></div></footer></body></html>
