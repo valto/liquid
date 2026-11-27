@@ -25,4 +25,4 @@ Compare correctness, total cost, latency and recovery across existing, intellige
 
 [Research draft 07](https://valto.github.io/liquid/whitepapers/drafts/07-adaptive-information-retrieval/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and page 7 of the [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop demand-driven processing investment. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and page 7 of the [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop demand-driven processing investment.

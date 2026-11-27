@@ -32,4 +32,4 @@ Choose feasible realizations by accepted outcomes and cumulative net value, incl
 
 Preserve appropriate sources and choose processing, caching and preprocessing around demand, freshness and commitments. Include necessary discovery and security work. Retiring a derived structure does not change source authority or authorize source deletion.
 
-These two additions are review candidates developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).
+These economic and processing principles are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).

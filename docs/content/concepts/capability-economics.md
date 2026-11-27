@@ -99,4 +99,4 @@ A useful experiment can fail: no feasible direct path may exist, demand may not 
 
 Read the [complete economics paper and reference audit](https://valto.github.io/liquid/whitepapers/economics-of-execution/). Related research drafts develop [intelligence-first sequencing](https://valto.github.io/liquid/whitepapers/drafts/02-intelligence-first-software-second/), [Liquid Software](https://valto.github.io/liquid/whitepapers/drafts/04-liquid-software/), [self-optimization](https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/) and [implementation lifecycles](https://valto.github.io/liquid/whitepapers/drafts/12-the-lifecycle-of-liquid-software/).
 
-This concept version is an unpublished review candidate. The supplied economics v2 paper is its conceptual source; the earlier economics version and named AI-maturity companion were not read.
+The supplied economics v2 paper is this concept's conceptual source. The earlier economics version and named AI-maturity companion were not read.

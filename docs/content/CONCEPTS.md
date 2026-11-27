@@ -4,4 +4,4 @@ These concepts describe different parts of the transition. Liquid Software conce
 
 Each definition is a research draft with its own scope, version, relationships and associated papers. The concepts are proposals for examination and testing, rather than normative requirements for every system.
 
-The economics review candidate adds a ninth concept, Capability Economics, and proposes revisions to five related concepts. Their current candidate versions have not been published; the original public versions remain attributable to v0.1.0.
+Release v0.2.0 adds a ninth concept, Capability Economics, and revises five related concepts using the expanded economics source. Their earlier public versions remain attributable to v0.1.0.

@@ -46,4 +46,4 @@
 
 **Maturity bias:** in this conceptual framing, judging selection quality by an implementation's position on a presumed progression rather than by informed comparison of feasible alternatives.
 
-These five additions are review candidates developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).
+These economic terms are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).

@@ -23,4 +23,4 @@ Start with one capability and preserved evidence. Define accepted results and au
 
 [Research draft 02](https://valto.github.io/liquid/whitepapers/drafts/02-intelligence-first-software-second/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop the full decision model and its evidence limits. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop the full decision model and its evidence limits.

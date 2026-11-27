@@ -6,7 +6,7 @@
 
 ## The expanded economics paper
 
-[Liquid Software: The Economics of Execution](https://valto.github.io/liquid/whitepapers/economics-of-execution/), supplied version 2.0, dated 27 November 2026, adds a nine-page framework for time to value, lifecycle investment, reversible realizations, modularity and demand-driven information processing. Its original PDF and full transcription are prepared as an unpublished review candidate; the existing umbrella and draft PDF versions remain unchanged.
+[Liquid Software: The Economics of Execution](https://valto.github.io/liquid/whitepapers/economics-of-execution/), supplied version 2.0, dated 27 November 2026, adds a nine-page framework for time to value, lifecycle investment, reversible realizations, modularity and demand-driven information processing. Read the original PDF, complete transcription and related Capability Economics explanation. The existing umbrella and draft PDF versions remain unchanged.
 
 ## Sixteen companion research drafts
 

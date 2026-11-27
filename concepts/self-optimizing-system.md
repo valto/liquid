@@ -23,4 +23,4 @@ Compare plausible demand and failure scenarios with existing tools, direct agent
 
 [Research draft 08](https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) extend the comparison across time and realization granularity. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) extend the comparison across time and realization granularity.

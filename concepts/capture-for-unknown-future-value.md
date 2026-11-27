@@ -25,4 +25,4 @@ Ask new questions against retained evidence, record what can and cannot be concl
 
 [Research draft 06](https://valto.github.io/liquid/whitepapers/drafts/06-capture-for-unknown-future-value/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and page 7 of the [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) extend the distinction between source continuity and processing expense. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and page 7 of the [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) extend the distinction between source continuity and processing expense.

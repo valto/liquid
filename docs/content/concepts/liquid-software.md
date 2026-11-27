@@ -25,4 +25,4 @@ Use cumulative net value, including time to value and the full lifecycle, to com
 
 [Research draft 04](https://valto.github.io/liquid/whitepapers/drafts/04-liquid-software/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop this reversible decision process. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop this reversible decision process.

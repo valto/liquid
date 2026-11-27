@@ -20,6 +20,6 @@ Contributions can clarify definitions, improve examples, verify sources and repo
 
 Machine-readable [concept records](https://valto.github.io/liquid/concepts.json), [source text](https://valto.github.io/liquid/llms-full.txt) and a [reading guide](https://valto.github.io/liquid/llms.txt) support access across human and machine contexts.
 
-## Economics review candidate
+## Economics expanded edition
 
-The newly supplied *Liquid Software: The Economics of Execution*, version 2.0, bears an edition date of 27 November 2026 and credits Loikkanen as conceptual source. The original PDF does not identify a model or print a reuse license. Its overview and associated concept elaboration are AI-assisted. The economics source and proposed revisions are prepared for owner review; their publication date and source-content license remain unset. The existing v0.1.0 license grant and actual publication date remain part of that release's provenance.
+The supplied *Liquid Software: The Economics of Execution*, version 2.0, bears an edition date of 27 November 2026 and credits Loikkanen as conceptual source. The original PDF does not identify a model or print a reuse license. Its overview and associated concept elaboration are AI-assisted. Valto approved publication of the economics source and related conceptual revisions under CC BY 4.0 on 27 November 2026. This owner grant is recorded separately from the unaltered PDF. The existing v0.1.0 license grant and actual publication date remain part of that release's provenance.

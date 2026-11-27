@@ -7,10 +7,10 @@
       "title": "Liquid Software",
       "description": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
       "thesis": "Separate useful capabilities from the lifetime of any particular implementation.",
@@ -52,13 +52,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -121,10 +120,10 @@
       "title": "Capture for Unknown Future Value",
       "description": "Preserve appropriate source richness before anticipated questions determine the full extent of what remains.",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Preserve appropriate source richness before anticipated questions determine the full extent of what remains.",
       "thesis": "Future questions can benefit from appropriate source richness that present task models would discard.",
@@ -164,13 +163,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -185,10 +183,10 @@
       "title": "Adaptive Information Retrieval",
       "description": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
       "thesis": "Retrieval structures can change with emerging questions without turning their answers into authoritative source information.",
@@ -228,13 +226,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -249,10 +246,10 @@
       "title": "Intelligence First, Software Second",
       "description": "Establish the ability to understand and fulfill a need before choosing where dedicated software provides a useful optimization.",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Establish the ability to understand and fulfill a need before choosing where dedicated software provides a useful optimization.",
       "thesis": "Establish a bounded ability to fulfill a need before deciding which repeated paths deserve dedicated software.",
@@ -292,13 +289,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -366,10 +362,10 @@
       "title": "The Self-Optimizing Information System",
       "description": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
       "thesis": "Optimize risk-adjusted cumulative net value across feasible realizations while preserving accepted meaning and authority.",
@@ -414,13 +410,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -489,7 +484,7 @@
       "title": "Capability Economics",
       "description": "Compare feasible realizations by risk-adjusted cumulative net value over time, including full lifecycle costs and retained flexibility.",
       "kind": "concept",
-      "version": "0.1.0-rc1",
+      "version": "0.1.0",
       "definition": "Compare feasible ways of fulfilling a capability by the risk-adjusted cumulative net value they deliver over time, including their full lifecycle and the flexibility they retain or remove.",
       "thesis": "Choose realizations and their timing through informed comparison of full value rather than runtime price or a presumed maturity progression.",
       "principles": [
@@ -529,7 +524,7 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
@@ -539,10 +534,9 @@
         "edition_date": "2026-11-27"
       },
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
-      "content_license": null,
-      "status": "review-candidate",
+      "status": "research-draft",
       "url": "https://valto.github.io/liquid/concepts/capability-economics/",
       "conceptual_source": "Valto Loikkanen"
     }

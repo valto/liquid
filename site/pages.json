@@ -5,9 +5,9 @@
     "url": "https://valto.github.io/liquid/",
     "base_path": "/liquid/",
     "repository": "https://github.com/valto/liquid",
-    "status": "review-candidate",
-    "version": "0.2.0-rc1",
-    "publication_date": null,
+    "status": "published",
+    "version": "0.2.0",
+    "publication_date": "2026-11-27",
     "content_license": "https://creativecommons.org/licenses/by/4.0/",
     "code_license": "MIT",
     "first_publication_date": "2026-11-26"
@@ -21,14 +21,13 @@
       "source": "README.md",
       "markdown": "content/README.md",
       "kind": "guide",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "published",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
-      "content_license": null
+      "previous_publication_date": "2026-11-26"
     },
     {
       "id": "CONCEPTS",
@@ -38,15 +37,14 @@
       "source": "CONCEPTS.md",
       "markdown": "content/CONCEPTS.md",
       "kind": "guide",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "published",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "collection": "concept",
       "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
-      "content_license": null
+      "previous_publication_date": "2026-11-26"
     },
     {
       "id": "liquid-software",
@@ -56,10 +54,10 @@
       "source": "concepts/liquid-software.md",
       "markdown": "content/concepts/liquid-software.md",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
       "thesis": "Separate useful capabilities from the lifetime of any particular implementation.",
@@ -101,13 +99,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -170,10 +167,10 @@
       "source": "concepts/capture-for-unknown-future-value.md",
       "markdown": "content/concepts/capture-for-unknown-future-value.md",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Preserve appropriate source richness before anticipated questions determine the full extent of what remains.",
       "thesis": "Future questions can benefit from appropriate source richness that present task models would discard.",
@@ -213,13 +210,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -234,10 +230,10 @@
       "source": "concepts/adaptive-information-retrieval.md",
       "markdown": "content/concepts/adaptive-information-retrieval.md",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
       "thesis": "Retrieval structures can change with emerging questions without turning their answers into authoritative source information.",
@@ -277,13 +273,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -298,10 +293,10 @@
       "source": "concepts/intelligence-first.md",
       "markdown": "content/concepts/intelligence-first.md",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Establish the ability to understand and fulfill a need before choosing where dedicated software provides a useful optimization.",
       "thesis": "Establish a bounded ability to fulfill a need before deciding which repeated paths deserve dedicated software.",
@@ -341,13 +336,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -415,10 +409,10 @@
       "source": "concepts/self-optimizing-system.md",
       "markdown": "content/concepts/self-optimizing-system.md",
       "kind": "concept",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "research-draft",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "definition": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
       "thesis": "Optimize risk-adjusted cumulative net value across feasible realizations while preserving accepted meaning and authority.",
@@ -463,13 +457,12 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
       "revision_source": {
         "source_id": "S32",
         "edition": "2.0",
@@ -538,7 +531,7 @@
       "source": "concepts/capability-economics.md",
       "markdown": "content/concepts/capability-economics.md",
       "kind": "concept",
-      "version": "0.1.0-rc1",
+      "version": "0.1.0",
       "definition": "Compare feasible ways of fulfilling a capability by the risk-adjusted cumulative net value they deliver over time, including their full lifecycle and the flexibility they retain or remove.",
       "thesis": "Choose realizations and their timing through informed comparison of full value rather than runtime price or a presumed maturity progression.",
       "principles": [
@@ -578,7 +571,7 @@
         {
           "id": "economics-of-execution",
           "version": "2.0",
-          "status": "review-candidate",
+          "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
         }
       ],
@@ -588,10 +581,9 @@
         "edition_date": "2026-11-27"
       },
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
-      "content_license": null,
-      "status": "review-candidate"
+      "status": "research-draft"
     },
     {
       "id": "architecture-overview",
@@ -615,14 +607,13 @@
       "source": "PRINCIPLES.md",
       "markdown": "content/PRINCIPLES.md",
       "kind": "guide",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "published",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
-      "content_license": null
+      "previous_publication_date": "2026-11-26"
     },
     {
       "id": "GLOSSARY",
@@ -632,14 +623,13 @@
       "source": "GLOSSARY.md",
       "markdown": "content/GLOSSARY.md",
       "kind": "guide",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "published",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
-      "content_license": null
+      "previous_publication_date": "2026-11-26"
     },
     {
       "id": "research-related-work",
@@ -663,14 +653,13 @@
       "source": "about.md",
       "markdown": "content/about.md",
       "kind": "guide",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "published",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
-      "content_license": null
+      "previous_publication_date": "2026-11-26"
     },
     {
       "id": "original-paper-00",
@@ -718,10 +707,9 @@
       "citation": "Loikkanen, Valto (conceptual source). (2026). Liquid Software: The Economics of Execution. Conceptual whitepaper, expanded edition, version 2.0, 27 November 2026.",
       "attribution": "Conceptual source: Valto Loikkanen · AI-assisted overview and reference audit",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
-      "content_license": null,
-      "status": "review-candidate"
+      "status": "published"
     },
     {
       "id": "economics-of-execution-transcript",
@@ -737,10 +725,9 @@
       "pdf": "whitepapers/economics-of-execution/v2.0.pdf",
       "attribution": "Conceptual source: Valto Loikkanen · Text extracted from the supplied PDF",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
-      "content_license": null,
-      "status": "review-candidate"
+      "status": "source-transcription"
     },
     {
       "id": "whitepapers-index",
@@ -750,15 +737,14 @@
       "source": "whitepapers/index.md",
       "markdown": "content/whitepapers/index.md",
       "kind": "guide",
-      "status": "review-candidate",
-      "version": "0.2.0-rc1",
+      "status": "published",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "collection": "draft",
       "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
-      "content_license": null
+      "previous_publication_date": "2026-11-26"
     },
     {
       "id": "draft-00",

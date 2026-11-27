@@ -1,6 +1,6 @@
 # Liquid Software
 URL: https://valto.github.io/liquid/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Liquid Software
@@ -21,7 +21,7 @@ The conceptual framing is supplied by **Valto Loikkanen**. The writing and resea
 
 Start with [Beyond the Constraints of Software](https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/), the supplied umbrella paper. The [whitepaper library](https://valto.github.io/liquid/whitepapers/) also contains all sixteen complete research drafts, numbered 00–15.
 
-The [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) and [Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) are prepared additions for review. They examine cumulative net value, time to value, lifecycle costs and reversible implementation choices.
+The [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) and [Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) examine cumulative net value, time to value, lifecycle costs and reversible implementation choices.
 
 ## Explore and maintain
 
@@ -34,7 +34,7 @@ Maintainers can find build, validation and release instructions in the [maintena
 
 # Core concepts
 URL: https://valto.github.io/liquid/concepts/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Core concepts
@@ -43,14 +43,14 @@ These concepts describe different parts of the transition. Liquid Software conce
 
 Each definition is a research draft with its own scope, version, relationships and associated papers. The concepts are proposals for examination and testing, rather than normative requirements for every system.
 
-The economics review candidate adds a ninth concept, Capability Economics, and proposes revisions to five related concepts. Their current candidate versions have not been published; the original public versions remain attributable to v0.1.0.
+Release v0.2.0 adds a ninth concept, Capability Economics, and revises five related concepts using the expanded economics source. Their earlier public versions remain attributable to v0.1.0.
 
 
 ---
 
 # Liquid Software
 URL: https://valto.github.io/liquid/concepts/liquid-software/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # Liquid Software
@@ -80,7 +80,7 @@ Use cumulative net value, including time to value and the full lifecycle, to com
 
 [Research draft 04](https://valto.github.io/liquid/whitepapers/drafts/04-liquid-software/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop this reversible decision process. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop this reversible decision process.
 
 
 ---
@@ -116,7 +116,7 @@ Changing presentation does not confer new permission or alter the underlying com
 
 # Capture for Unknown Future Value
 URL: https://valto.github.io/liquid/concepts/capture-for-unknown-future-value/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # Capture for Unknown Future Value
@@ -146,14 +146,14 @@ Ask new questions against retained evidence, record what can and cannot be concl
 
 [Research draft 06](https://valto.github.io/liquid/whitepapers/drafts/06-capture-for-unknown-future-value/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and page 7 of the [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) extend the distinction between source continuity and processing expense. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and page 7 of the [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) extend the distinction between source continuity and processing expense.
 
 
 ---
 
 # Adaptive Information Retrieval
 URL: https://valto.github.io/liquid/concepts/adaptive-information-retrieval/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # Adaptive Information Retrieval
@@ -183,14 +183,14 @@ Compare correctness, total cost, latency and recovery across existing, intellige
 
 [Research draft 07](https://valto.github.io/liquid/whitepapers/drafts/07-adaptive-information-retrieval/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and page 7 of the [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop demand-driven processing investment. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and page 7 of the [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop demand-driven processing investment.
 
 
 ---
 
 # Intelligence First, Software Second
 URL: https://valto.github.io/liquid/concepts/intelligence-first/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # Intelligence First, Software Second
@@ -218,7 +218,7 @@ Start with one capability and preserved evidence. Define accepted results and au
 
 [Research draft 02](https://valto.github.io/liquid/whitepapers/drafts/02-intelligence-first-software-second/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop the full decision model and its evidence limits. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop the full decision model and its evidence limits.
 
 
 ---
@@ -254,7 +254,7 @@ Measure whether outcomes remain aligned with the principal, whether boundaries a
 
 # The Self-Optimizing Information System
 URL: https://valto.github.io/liquid/concepts/self-optimizing-system/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # The Self-Optimizing Information System
@@ -282,7 +282,7 @@ Compare plausible demand and failure scenarios with existing tools, direct agent
 
 [Research draft 08](https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/) develops this concept, examples, limits and research questions.
 
-[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) extend the comparison across time and realization granularity. This concept revision is an unpublished review candidate.
+[Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and the [expanded economics paper, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) extend the comparison across time and realization granularity.
 
 
 ---
@@ -318,7 +318,7 @@ Test whether different participants interpret a capability consistently, whether
 
 # Capability Economics
 URL: https://valto.github.io/liquid/concepts/capability-economics/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # Capability Economics
@@ -422,7 +422,7 @@ A useful experiment can fail: no feasible direct path may exist, demand may not 
 
 Read the [complete economics paper and reference audit](https://valto.github.io/liquid/whitepapers/economics-of-execution/). Related research drafts develop [intelligence-first sequencing](https://valto.github.io/liquid/whitepapers/drafts/02-intelligence-first-software-second/), [Liquid Software](https://valto.github.io/liquid/whitepapers/drafts/04-liquid-software/), [self-optimization](https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/) and [implementation lifecycles](https://valto.github.io/liquid/whitepapers/drafts/12-the-lifecycle-of-liquid-software/).
 
-This concept version is an unpublished review candidate. The supplied economics v2 paper is its conceptual source; the earlier economics version and named AI-maturity companion were not read.
+The supplied economics v2 paper is this concept's conceptual source. The earlier economics version and named AI-maturity companion were not read.
 
 
 ---
@@ -470,7 +470,7 @@ This is a reference architecture for testing. It is not a deployed system or a n
 
 # Principles
 URL: https://valto.github.io/liquid/principles/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Principles
@@ -507,14 +507,14 @@ Choose feasible realizations by accepted outcomes and cumulative net value, incl
 
 Preserve appropriate sources and choose processing, caching and preprocessing around demand, freshness and commitments. Include necessary discovery and security work. Retiring a derived structure does not change source authority or authorize source deletion.
 
-These two additions are review candidates developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).
+These economic and processing principles are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).
 
 
 ---
 
 # Glossary
 URL: https://valto.github.io/liquid/glossary/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Glossary
@@ -565,7 +565,7 @@ Conceptual source: Valto Loikkanen
 
 **Maturity bias:** in this conceptual framing, judging selection quality by an implementation's position on a presumed progression rather than by informed comparison of feasible alternatives.
 
-These five additions are review candidates developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).
+These economic terms are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).
 
 
 ---
@@ -624,7 +624,7 @@ The [Internet beyond applications](https://valto.github.io/liquid/whitepapers/dr
 
 # About, Attribution and Citation
 URL: https://valto.github.io/liquid/about/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # About, Attribution and Citation
@@ -649,9 +649,9 @@ Contributions can clarify definitions, improve examples, verify sources and repo
 
 Machine-readable [concept records](https://valto.github.io/liquid/concepts.json), [source text](https://valto.github.io/liquid/llms-full.txt) and a [reading guide](https://valto.github.io/liquid/llms.txt) support access across human and machine contexts.
 
-## Economics review candidate
+## Economics expanded edition
 
-The newly supplied *Liquid Software: The Economics of Execution*, version 2.0, bears an edition date of 27 November 2026 and credits Loikkanen as conceptual source. The original PDF does not identify a model or print a reuse license. Its overview and associated concept elaboration are AI-assisted. The economics source and proposed revisions are prepared for owner review; their publication date and source-content license remain unset. The existing v0.1.0 license grant and actual publication date remain part of that release's provenance.
+The supplied *Liquid Software: The Economics of Execution*, version 2.0, bears an edition date of 27 November 2026 and credits Loikkanen as conceptual source. The original PDF does not identify a model or print a reuse license. Its overview and associated concept elaboration are AI-assisted. Valto approved publication of the economics source and related conceptual revisions under CC BY 4.0 on 27 November 2026. This owner grant is recorded separately from the unaltered PDF. The existing v0.1.0 license grant and actual publication date remain part of that release's provenance.
 
 
 ---
@@ -1296,7 +1296,7 @@ BEYOND THE CONSTRAINTS OF SOFTWARE / CONCEPTUAL SOURCE: VALTO LOIKKANEN         
 
 # Liquid Software: The Economics of Execution
 URL: https://valto.github.io/liquid/whitepapers/economics-of-execution/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Liquid Software: The Economics of Execution
@@ -1359,16 +1359,16 @@ The full bibliography remains in the PDF and transcription. These links identify
 7. [CRD public overview](https://valto.github.io/crd/): complete main overview read; no performance benchmark inferred.
 8. [MDIL public overview](https://mdil.ai/): complete visible landing-page content read; vendor assertions, not independent validation.
 
-## Candidate status
+## Publication and reuse
 
-This addition is prepared for owner review. The existing v0.1.0 publication remains the approved public edition. Publication and the reuse license for this newly supplied source are pending; no license is inferred from the PDF's silence.
+Valto approved publication of this original source, transcription and related conceptual update under [CC BY 4.0](https://valto.github.io/liquid/license/content.txt) on 27 November 2026. The grant is recorded in the repository and attribution page, separately from the preserved PDF. Website publication dates are recorded separately from paper edition and conceptual origin dates.
 
 
 ---
 
 # Economics of Execution v2 — Complete Text Transcription
 URL: https://valto.github.io/liquid/whitepapers/economics-of-execution/text/
-Status: review-candidate
+Status: source-transcription
 Conceptual source: Valto Loikkanen
 
           LIQUID SOFTWARE / WHITEPAPER                                        EXPANDED EDITION | NOV 2026
@@ -1859,7 +1859,7 @@ Valto Loikkanen | Conceptual whitepaper | November 2026                         
 
 # Whitepaper Library
 URL: https://valto.github.io/liquid/whitepapers/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Whitepaper Library
@@ -1870,7 +1870,7 @@ Conceptual source: Valto Loikkanen
 
 ## The expanded economics paper
 
-[Liquid Software: The Economics of Execution](https://valto.github.io/liquid/whitepapers/economics-of-execution/), supplied version 2.0, dated 27 November 2026, adds a nine-page framework for time to value, lifecycle investment, reversible realizations, modularity and demand-driven information processing. Its original PDF and full transcription are prepared as an unpublished review candidate; the existing umbrella and draft PDF versions remain unchanged.
+[Liquid Software: The Economics of Execution](https://valto.github.io/liquid/whitepapers/economics-of-execution/), supplied version 2.0, dated 27 November 2026, adds a nine-page framework for time to value, lifecycle investment, reversible realizations, modularity and demand-driven information processing. Read the original PDF, complete transcription and related Capability Economics explanation. The existing umbrella and draft PDF versions remain unchanged.
 
 ## Sixteen companion research drafts
 

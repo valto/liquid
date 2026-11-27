@@ -58,6 +58,6 @@ The full bibliography remains in the PDF and transcription. These links identify
 7. [CRD public overview](https://valto.github.io/crd/): complete main overview read; no performance benchmark inferred.
 8. [MDIL public overview](https://mdil.ai/): complete visible landing-page content read; vendor assertions, not independent validation.
 
-## Candidate status
+## Publication and reuse
 
-This addition is prepared for owner review. The existing v0.1.0 publication remains the approved public edition. Publication and the reuse license for this newly supplied source are pending; no license is inferred from the PDF's silence.
+Valto approved publication of this original source, transcription and related conceptual update under [CC BY 4.0](https://valto.github.io/liquid/license/content.txt) on 27 November 2026. The grant is recorded in the repository and attribution page, separately from the preserved PDF. Website publication dates are recorded separately from paper edition and conceptual origin dates.
