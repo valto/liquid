@@ -44,6 +44,18 @@
 
 **Double transition cost:** the possible combined cost of adopting an unsuitable implementation and restoring or moving to another one; a scenario to assess, not a universal multiplier.
 
-**Maturity bias:** in this conceptual framing, judging selection quality by an implementation's position on a presumed progression rather than by informed comparison of feasible alternatives.
+**Maturity bias:** in Economics of Execution v3, limits to perceived alternatives arising from current understanding and experience. The earlier v2-derived explanation emphasized the related mistake of judging decision quality by an implementation's position on a presumed progression. This is a source-attributed conceptual revision, not a validated assessment.
 
-These economic terms are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).
+**Informed selection:** deliberately comparing recognized feasible alternatives and their limitations, supported where useful by practical experience. A conventional implementation can be the informed choice.
+
+**Understanding, experiential and implementation maturity:** respectively, the operating alternatives a decision-maker recognizes, has practical experience with, and chooses to implement. V3 distinguishes them; visible implementation does not establish the other two.
+
+**Evidence-driven materialization:** using demonstrated or credibly anticipated need to justify creating or stabilizing a specialized realization. Upfront requirements can justify investment before observed use.
+
+**Premature determinism:** fixing behavior before relevant variation, exceptions and future change are sufficiently understood. It is distinct from enforcing intentional safety or authority constraints.
+
+**Capability-level optimization:** comparing and revisiting realizations at meaningful units of purpose and contract, including reuse across activities and the cost of coordination.
+
+**Dissolution:** retiring or replacing a realization while preserving necessary evidence and accepted commitments, or explicitly revising those commitments through proper authority.
+
+These economic terms are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) and its proposed [version 3.0 expansion](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). V3's maturity spectrum is a conceptual classification; the separate named maturity companion was not supplied.

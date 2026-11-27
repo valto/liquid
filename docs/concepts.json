@@ -183,10 +183,10 @@
       "title": "Adaptive Information Retrieval",
       "description": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.2.0",
+      "status": "publication-candidate",
+      "version": "0.3.0-rc1",
       "origin_date": null,
-      "publication_date": "2026-11-27",
+      "publication_date": null,
       "modified": "2026-11-27",
       "definition": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
       "thesis": "Retrieval structures can change with emerging questions without turning their answers into authoritative source information.",
@@ -228,15 +228,22 @@
           "version": "2.0",
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
+        },
+        {
+          "id": "economics-of-execution-v3",
+          "version": "3.0",
+          "status": "publication-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
         }
       ],
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27",
       "revision_source": {
-        "source_id": "S32",
-        "edition": "2.0",
+        "source_id": "S41",
+        "edition": "3.0",
         "edition_date": "2026-11-27"
       },
+      "content_license": null,
       "url": "https://valto.github.io/liquid/concepts/adaptive-information-retrieval/",
       "conceptual_source": "Valto Loikkanen"
     },
@@ -484,7 +491,7 @@
       "title": "Capability Economics",
       "description": "Compare feasible realizations by risk-adjusted cumulative net value over time, including full lifecycle costs and retained flexibility.",
       "kind": "concept",
-      "version": "0.1.0",
+      "version": "0.2.0-rc1",
       "definition": "Compare feasible ways of fulfilling a capability by the risk-adjusted cumulative net value they deliver over time, including their full lifecycle and the flexibility they retain or remove.",
       "thesis": "Choose realizations and their timing through informed comparison of full value rather than runtime price or a presumed maturity progression.",
       "principles": [
@@ -526,17 +533,32 @@
           "version": "2.0",
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
+        },
+        {
+          "id": "economics-of-execution-v3",
+          "version": "3.0",
+          "status": "publication-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
         }
       ],
       "conceptual_source_document": {
-        "source_id": "S32",
-        "edition": "2.0",
-        "edition_date": "2026-11-27"
+        "source_id": "S41",
+        "edition": "3.0",
+        "edition_date": "2026-11-27",
+        "prior_source_id": "S32"
       },
       "origin_date": null,
-      "publication_date": "2026-11-27",
+      "publication_date": null,
       "modified": "2026-11-27",
-      "status": "research-draft",
+      "status": "publication-candidate",
+      "previous_version": "0.1.0",
+      "previous_publication_date": "2026-11-27",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S41",
+        "edition": "3.0",
+        "edition_date": "2026-11-27"
+      },
       "url": "https://valto.github.io/liquid/concepts/capability-economics/",
       "conceptual_source": "Valto Loikkanen"
     }

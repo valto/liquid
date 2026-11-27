@@ -1,0 +1,1821 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Economics of Execution v3 — Complete Text Transcription | Liquid Software</title><meta name="description" content="Page-separated text of all 33 supplied pages, preserving original wording, AI attribution and nine references; figures remain in the PDF."><link rel="canonical" href="https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/text/"><link rel="alternate" type="text/markdown" href="/liquid/content/whitepapers/economics-of-execution/v3/original-transcript.txt"><meta property="og:title" content="Economics of Execution v3 — Complete Text Transcription | Liquid Software"><meta property="og:description" content="Page-separated text of all 33 supplied pages, preserving original wording, AI attribution and nine references; figures remain in the PDF."><meta property="og:type" content="article"><meta property="og:url" content="https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/text/"><meta property="og:image" content="https://valto.github.io/liquid/assets/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://valto.github.io/liquid/assets/og.png"><link rel="stylesheet" href="/liquid/assets/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "headline": "Economics of Execution v3 — Complete Text Transcription", "description": "Page-separated text of all 33 supplied pages, preserving original wording, AI attribution and nine references; figures remain in the PDF.", "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/text/", "inLanguage": "en", "dateModified": "2026-11-27", "creator": {"@type": "Person", "name": "Valto Loikkanen"}, "version": "3.0", "creativeWorkStatus": "publication-candidate"}</script></head><body><a class="skip" href="#main">Skip to content</a><div class="topbar"><a class="brand" href="/liquid/"><span class="brand-mark" aria-hidden="true">L</span>Liquid Software</a><nav aria-label="Primary"><a href="/liquid/concepts/">Concepts</a><a href="/liquid/architecture/">Architecture</a><a href="/liquid/whitepapers/">Whitepapers</a><a href="/liquid/principles/">Principles</a><a href="/liquid/glossary/">Glossary</a><a href="/liquid/research/">Research</a><a href="/liquid/about/">About</a></nav></div><main id="main" class="shell"><header class="article-header"><p class="kicker">publication candidate · VERSION 3.0</p><h1>Economics of Execution v3 — Complete Text Transcription</h1><p class="dek">Page-separated text of all 33 supplied pages, preserving original wording, AI attribution and nine references; figures remain in the PDF.</p><p class="byline">Conceptual source: Valto Loikkanen · AI-assisted source; text extracted from the supplied PDF</p><div class="hero-actions"><a class="button" href="/liquid/whitepapers/economics-of-execution/v3.0.pdf">Download PDF</a><a class="text-link" href="/liquid/content/whitepapers/economics-of-execution/v3/original-transcript.txt">Read source text ↗</a></div></header><article class="prose"><section class="transcript"><h2>Original PDF page 1</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                          V3.0 · NOVEMBER 2026
+
+
+
+
+ RESEARCH WHITEPAPER / VERSION 3.0
+
+
+
+
+ Liquid Software
+ The Economics of Execution
+
+ A framework for choosing, materializing, adapting and
+ dissolving implementations in an intelligence-native
+ world.
+
+
+   Intelligence is the default capability. Software is an optimization.
+
+
+
+
+ Conceptual source: Valto Loikkanen
+ AI-assisted synthesis and research • November 27, 2026
+
+ valto.github.io/liquid/
+
+
+
+ Expanded research edition. Independent companion to Beyond the Constraints of Software. Includes
+ conceptual figures, illustrative quantitative models, research evidence and a practical selection
+ protocol.
+ Status: proposed conceptual framework; not independently validated.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                            1
+</pre></section><section class="transcript"><h2>Original PDF page 2</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                           V3.0 · NOVEMBER 2026
+
+
+
+
+ READING MAP
+
+
+
+ Contents
+ Read sequentially for the full argument, or use the chapters independently. The public Liquid Software
+ collection supplies the wider architectural context.
+
+ 01 Executive thesis · 3                                      17 Modularity · 19
+
+ 02 Introduction and scope · 4                                18 Capability contracts · 20
+
+ 03 General-purpose intelligence · 5                          19 A worked modular composition · 21
+
+ 04 Generality and specialization · 6                         20 Economics of information processing · 22
+
+ 05 The economic boundary · 7                                 21 On-demand versus precomputed · 23
+
+ 06 The execution continuum · 8                               22 The operating lifecycle · 24
+
+ 07 Lifecycle economics · 9                                   23 A formal decision objective · 25
+
+ 08 Break-even model · 10                                     24 AI maturity and informed selection · 26
+
+ 09 Investment uncertainty · 11                               25 Practical selection protocol · 27
+
+ 10 Evidence-driven investment · 12                           26 Worked portfolio example · 28
+
+ 11 Transition economics · 13                                 27 Governance and operational safeguards · 29
+
+ 12 Time and opportunity · 14                                 28 Research agenda · 30
+
+ 13 Cumulative business value · 15                            29 Conceptual lineage · 31
+
+ 14 Flexibility economics · 16                                30 Glossary and conclusion · 32
+
+ 15 Dynamic execution economics · 17                          31 References · 33
+
+ 16 Local intelligence · 18
+
+
+ All diagrams and numerical scenarios are conceptual or illustrative unless a source is explicitly cited. References are
+ linked on the final page.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                  2
+</pre></section><section class="transcript"><h2>Original PDF page 3</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                   V3.0 · NOVEMBER 2026
+
+
+
+
+ 01 | EXECUTIVE THESIS
+
+
+
+ The economics of execution
+ AI changes two things at once: the cost of making software and the need for software to exist. The first
+ is widely understood. The second requires a different view of how individuals and organizations
+ operate. If intelligence can interpret a need, exercise delegated authority, use available tools and deliver
+ a result, a dedicated implementation is no longer an automatic prerequisite for accomplishing work.
+ Liquid Software is an architectural and economic framework for deciding which parts of an activity
+ should be performed by general-purpose intelligence, which should be realized in reusable
+ deterministic functions, and which warrant durable software. It extends the public Liquid Software
+ body of work by developing the economics of those choices over time.
+
+ The central optimization objective is not to maximize AI use, minimize software, or minimize cost per
+ transaction. It is to maximize expected cumulative net value over time, subject to quality, safety,
+ authority, privacy, reliability and other non-negotiable requirements. The relevant unit is the
+ meaningful capability, not necessarily an application or agent.
+
+
+   Intelligence is the default capability. Software is an optimization.
+
+ The framework brings together nine dimensions: execution cost, total lifecycle economics, uncertain
+ adoption, transition costs, delayed value, the value of flexibility, changing model economics, modular
+ reuse and information processing. Their interaction changes the investment sequence: fulfill needs
+ where feasible, learn from actual execution, then specialize selectively. Software can remain stable for
+ years when justified, or evolve and dissolve when it ceases to be the best realization.
+
+
+
+
+             Information                    Human decisions                 Intelligence                     Software
+              continuity                       authority                     fulfillment                    optimization
+
+
+
+
+                                      Durable foundations → replaceable realizations
+
+
+ Figure 1. The four enduring layers of the public Liquid Software framework. The optimization concerns realizations, not the
+ withdrawal of human authority or information ownership.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                      3
+</pre></section><section class="transcript"><h2>Original PDF page 4</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                               V3.0 · NOVEMBER 2026
+
+
+
+
+ 02 | INTRODUCTION AND SCOPE
+
+
+
+ Why the question has changed
+ In conventional computing, a business need is commonly translated into requirements, an application or
+ integration is built, users adopt it, and benefits are expected to follow. This was often rational.
+ General-purpose software did not independently interpret a novel request and carry it through to
+ completion. The organization needed a predetermined mechanism to translate intent into reliable
+ operations.
+ AI-assisted coding improves the production side of this arrangement. An agent can generate a user
+ interface, write the backend and test the resulting software in a fraction of the time previously
+ required. Yet the resulting operating model can remain identical: people must use the software and
+ conform to its supported behavior. Faster construction is not in itself a change in the reason for
+ constructing the application.
+
+ The deeper shift arises when an agent can fulfill the underlying need, with appropriate access, tools and
+ authority. Instead of asking how to implement a requested application, the agent or decision-maker can
+ ask which aspects of the need require an implementation at all. The answer may be a fully deterministic
+ service, direct reasoning, existing software, or a changing composition of all three.
+
+
+      SOFTWARE-FIRST
+
+                     Business                                Human
+                                                                                                   Software + AI
+                     outcome                                workflow
+
+      AGENT-FIRST
+
+                     Business                               Agentic                               Tools, functions
+                     outcome                              coordination                            or direct action
+
+
+ Figure 2. Two operating models can use the same technology. The difference is which actor determines the means of execution.
+
+ This paper concerns the economics of that shift for individuals and entities. It is not a forecast of the
+ disappearance of software, a proposal to replace all human work, or an instruction to grant unrestricted
+ permissions to agents. An organization can deliberately maintain existing tools or specialized systems
+ because their safety, predictability or value justifies them. The framework is neutral about the eventual
+ implementation, but not blind to emerging alternatives.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                       4
+</pre></section><section class="transcript"><h2>Original PDF page 5</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                    V3.0 · NOVEMBER 2026
+
+
+
+
+ 03 | GENERAL-PURPOSE INTELLIGENCE
+
+
+
+ The self-driving car and the humanoid
+ A self-driving car is an excellent example of an intelligence-empowered tool. It may integrate sensors,
+ perception, mapping, decision-making and vehicle control into a highly advanced system. The
+ intelligence is directed toward making the vehicle drive. Its sophistication does not necessarily give it a
+ useful role in a kitchen, on a bicycle or in an office.
+
+ Now imagine a sufficiently capable general-purpose humanoid. It can drive a compatible car made
+ decades before autonomous driving, operate a truck, ride a bicycle, prepare food and, where attention
+ and safety permit, delegate or execute digital chores concurrently. The old car does not need to be
+ rebuilt as a self-driving car. It becomes autonomously operated from the perspective of its owner by
+ introducing an independent intelligent actor. This is a conceptual analogy, not a claim about current
+ robotics performance.
+
+
+
+                 Self-driving car                                                    One purpose
+             Intelligence inside tool                                         Drive the integrated vehicle
+
+                                                                                          Digital work
+
+               General intelligence                                                     Bicycle / kitchen
+                Independent actor
+                                                                                         Old car / truck
+
+
+ Figure 3. Tool-specific intelligence versus intelligence reusable across tools and purposes.
+
+ The organizational parallel is direct. Instead of upgrading every existing application with its own AI
+ layer, general-purpose agents can use available applications, interfaces and data under appropriate
+ permissions. An enterprise with old tools and highly capable, well-governed agents could consequently
+ operate more agentically than an enterprise whose applications all have embedded AI but whose
+ workflows remain software-defined.
+
+ This does not make the specialized car obsolete. For a fleet that performs the same transport activity at
+ high utilization, the integrated autonomous vehicle may offer better safety, reliability or lifetime
+ economics. The humanoid may be preferable for varied, irregular work. The choice becomes contextual
+ rather than a universal ranking of technologies.
+
+
+   Instead of making every tool intelligent, give intelligence access to every
+   appropriate tool. Specialize where the requirements and economics justify it.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                     5
+</pre></section><section class="transcript"><h2>Original PDF page 6</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                   V3.0 · NOVEMBER 2026
+
+
+
+
+ 04 | GENERALITY AND SPECIALIZATION
+
+
+
+ Industrial robots, roads and houses
+ An industrial robot is engineered for a defined class of work. A production line may invest in tooling,
+ fixtures, calibration and a tightly controlled environment because millions of repeated operations justify
+ the investment. A general-purpose humanoid can instead perform an occasional assembly task, use a
+ specialized tool for one step, or work on a different activity entirely.
+
+ The most instructive factory is one where capable intelligent actors can do the work, use specialized
+ machines, and identify opportunities to create new machinery when repetition and performance justify
+ it. They can also change the composition of the production line or retire a machine. In the digital
+ counterpart, agents do not need an entire application for a single deterministic calculation; they may
+ only need a function. They can use the same function in multiple otherwise unrelated activities.
+
+
+   “You don’t build a house for one night visit or road to walk by once.”
+   Valto Loikkanen, November 2026
+
+
+                  Existing exit                                                    New destination
+
+
+
+
+                                                             Missing exit
+
+
+                                    A road optimizes movement only along supported routes.
+
+
+ Figure 4. Infrastructure increases efficiency on a chosen route. Its value depends on how often the route is useful and whether
+ alternative destinations remain reachable.
+
+ A road is a further illustration of specialization. Repeated journeys can justify improving a path, building
+ a road and eventually adding more capacity. But a road without appropriate exits can constrain travel.
+ A new destination may require leaving the road or taking a long detour. The cost of the road includes
+ the cost of the options it removes, not merely its construction and upkeep.
+
+ The analogies are not absolute: specialized robots can use adaptive AI, general-purpose actors can
+ follow deterministic routines, and shared roads or accommodation may already exist. That is precisely
+ the point. The relevant economic choice is between available realizations, including reuse of
+ infrastructure built by others. One visit can justify renting a room; it rarely justifies constructing a house
+ for that visit alone.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                          6
+</pre></section><section class="transcript"><h2>Original PDF page 7</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                  V3.0 · NOVEMBER 2026
+
+
+
+
+ 05 | THE ECONOMIC BOUNDARY
+
+
+
+ From SaaS economics to entity economics
+ Historically, the economics of SaaS made many narrow applications viable. A vendor could invest in
+ product design, implementation, integrations, testing, sales, support and ongoing maintenance, then
+ spread fixed costs over thousands of paying customers. Each individual customer could obtain
+ functionality for a price well below the cost of building and maintaining an equivalent private
+ implementation.
+ When an individual or organization can fulfill needs directly through intelligence and generate
+ dedicated software on demand, the comparison changes. The relevant demand for a privately built
+ capability is its actual and expected use inside that entity, including reuse across distinct internal
+ activities. A million potential users elsewhere do not amortize a private implementation unless there is a
+ credible external distribution model.
+
+
+
+
+              Shared SaaS product                                                                  Private capability
+
+
+
+
+       Org 1      Org 2       Org 3         Org 4                                        Need A        Need B        Need C
+
+                                                    Different amortization boundaries
+
+ Figure 5. Traditional shared-product amortization and entity-level amortization are different investment boundaries. Existing
+ shared SaaS remains an eligible option.
+
+ Consider an organization that needs a particular report twice a year. A commercial report tool may
+ make economic sense because it is already built and subscribed to. A private reporting application
+ might not. Direct execution by an agent using the existing sources could deliver the report without
+ designing an interface, defining an entire data model or maintaining a new application for the
+ intervening months. If demand expands into weekly reporting across multiple functions, a reusable
+ query or report-generation module may then justify itself.
+
+ This is not an argument against commercial software. Buying, renting, consuming an API, using a local
+ function and executing with a model are all realizations. A vendor&#x27;s economies of scale may still make
+ SaaS the superior choice. A reusable private component can similarly gain scale through repeated use
+ within one entity. The framework moves the unit of analysis from the assumed application market to
+ the actual need and the available cost-sharing arrangements.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                        7
+</pre></section><section class="transcript"><h2>Original PDF page 8</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                  V3.0 · NOVEMBER 2026
+
+
+
+
+ 06 | THE EXECUTION CONTINUUM
+
+
+
+ Neither agents nor software are the
+ endpoint
+ The phrase “agents determine whether software is needed at all” should not be read as a binary
+ contest. A single activity can combine open-ended reasoning, reusable instructions, small models,
+ deterministic functions, existing APIs and dedicated software. Each constituent capability can occupy a
+ different position on a continuum of execution freedom and predefined behavior.
+
+
+
+
+             Direct                    Reusable              Deterministic             Software                 Dedicated
+             agentic                     skills               functions                modules                  software
+
+
+
+
+                                            Greater specialization is optional and reversible
+
+
+ Figure 6. The continuum is reversible. Reusable skills may themselves combine reasoning and deterministic logic; the categories
+ are illustrative rather than rigid stages.
+
+ A novel task may start with direct agentic execution. Repeated success may make the method worth
+ preserving as a reusable skill. The agent can continue to interpret the situation but call a validated
+ calculation function for a stable subtask. More stable and frequently composed functions may become
+ a module. An entire software service may be justified when the full activity is sufficiently predictable or
+ requires stronger guarantees.
+ The direction is not necessarily toward software. Requirements can change, usage can decline, a
+ cheaper model can become available, or a fixed workflow can become a barrier. A module can be
+ removed from the active path and replaced with intelligent execution while preserving the original
+ information and accepted commitments. Some implementations should remain deterministic
+ indefinitely, particularly where predictability is essential.
+
+ As an example, a procurement request might require contextual interpretation of a new business need,
+ extraction of fields with a local model, exact calculation of totals, evaluation of declared purchasing
+ rules and submission through an existing procurement service. The application as a whole need not be
+ rebuilt, and the same agent need not use the same model for every part of the task. This becomes
+ practical only when the necessary interfaces and governance allow those parts to be composed
+ independently.
+
+ The measure of maturity is the ability to make that composition deliberately, not the proportion of
+ execution assigned to one end of the continuum.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                          8
+</pre></section><section class="transcript"><h2>Original PDF page 9</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                            V3.0 · NOVEMBER 2026
+
+
+
+
+ 07 | LIFECYCLE ECONOMICS
+
+
+
+ The cost of existence
+ Runtime cost is only one part of the comparison. Dedicated software can be extremely cheap per
+ invocation while being expensive to design, test, deploy, maintain and eventually remove. Agentic
+ execution also incurs costs: configuration, permissions, model and tool access, assurance, exception
+ handling and maintenance of context and runtime. A valid comparison includes all incremental costs
+ needed to deliver the same capability.
+
+    Lifecycle stage                    Agentic realization                       Dedicated realization
+
+    Design                             Goals, context, constraints, acceptance   Requirements, architecture, interaction
+                                                                                 design
+
+    Build and deploy                   Configure skills, tools, authority and    Implement, integrate, test, migrate and
+                                       runtime                                   release
+
+    Execute                            Inference, retries, tool calls and        Compute, hosting and operational
+                                       supervision                               support
+
+    Assure                             Evaluate results, verify evidence,        Tests, monitoring, security and controls
+                                       manage errors
+
+    Adapt and maintain                 Refresh context, models, skills and       Update dependencies, code, interfaces
+                                       access                                    and rules
+
+    Retire                             Withdraw realization; preserve evidence   Decommission, reconcile and migrate as
+                                                                                 required
+
+ The distinction between fixed and variable costs is important. A rarely used integration may need
+ security patches and compatibility upgrades even in months when it is not called. A dedicated user
+ interface may require maintenance as browsers or organizational roles change. Some of these costs
+ arise from the continued existence of the implementation, rather than its use. A shared module can
+ spread these obligations across several needs, but it can also create a larger dependency surface.
+ An intelligent path is not automatically free of fixed costs. An existing organizational agent runtime may
+ already have absorbed some setup cost; a new one may need substantial investment. Only attributable
+ incremental costs should be compared for the decision in question, while shared infrastructure costs
+ must be allocated consistently at the portfolio level.
+
+
+   Software can be inexpensive to execute while remaining expensive to own.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                   9
+</pre></section><section class="transcript"><h2>Original PDF page 10</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                  V3.0 · NOVEMBER 2026
+
+
+
+
+ 08 | BREAK-EVEN MODEL
+
+
+
+ When does software pay for itself?
+ A simple model makes the tradeoff tangible. Let F be the incremental fixed lifetime cost of materializing
+ a function, including design, build, deployment and predictable maintenance over the chosen horizon.
+ Let a be the agentic cost per successful execution and s the corresponding software cost. For equal
+ outcomes and a constant demand of N executions, direct execution costs aN and software costs F +
+ sN. When a exceeds s, the simplified break-even is N* = F / (a - s). If a is less than or equal to s, this
+ cost-only model supplies no positive usage threshold at which dedicated software wins.
+
+    EUR               Agentic: €2.50/use                                   Software: €1,200 + €0.10/use
+
+
+
+
+           2k
+
+                                                                    500
+
+           1k
+
+
+
+
+            0
+                0                           250                      500                         750                         1000
+                                                                                                          Successful executions
+
+ Figure 7. Illustrative inputs: F = €1,200, a = €2.50 and s = €0.10. Break-even occurs at 500 successful executions. No external
+ empirical cost estimate is implied.
+
+ For example, at 100 executions the intelligent path costs €250, compared with €1,210 for the
+ dedicated implementation. At 1,000 executions those costs are €2,500 and €1,300 respectively. A
+ rational organization may therefore use an existing agent for early needs, observe demand and
+ materialize when the remaining expected benefit exceeds the incremental future cost.
+
+ The threshold is not a trigger to count historical usage and automatically build at execution 500. Past
+ expenditures are sunk; the decision at any date concerns future demand, remaining lifetime, migration
+ cost and future alternatives. Quality, latency, failures, maintenance changes and risk must be
+ normalized. If a capability is legally or operationally required to be deterministic, the intelligent path
+ may not be eligible at all. Conversely, if deterministic software cannot handle important exceptions, an
+ apparently attractive cost crossover may never produce comparable value.
+
+ This deliberately simple model isolates execution economics. The remaining chapters explain why it is
+ necessary but insufficient for a real investment decision.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                          10
+</pre></section><section class="transcript"><h2>Original PDF page 11</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                              V3.0 · NOVEMBER 2026
+
+
+
+
+ 09 | INVESTMENT UNCERTAINTY
+
+
+
+ Software that never creates expected
+ value
+ There is a material difference between a function that is used often, one that is used rarely, a project
+ that never reaches production and an implementation that is adopted but fails to deliver its business
+ case. All can be technically well designed. Their economics depend on what actually happens after
+ investment, not what the project plan predicted.
+
+    Category                                What is lost
+
+    Never deployed                          Build expenditure and business time; possible salvage value of code or learning
+
+    Deployed but underused                  Build and upkeep with insufficient realized demand; adoption effort
+
+    Used but underdelivering                Expected improvement fails to materialize; opportunity and operating losses
+
+    Introduced then reversed                Forward and reverse transition costs, possible data and customer consequences
+
+ Evidence from public-sector audits and commercial product usage research documents these
+ categories, although the available statistics measure different populations and cannot be combined into
+ a worldwide failure rate. Pendo&#x27;s 2019 Feature Adoption Report found that 80% of features in the
+ average product in its dataset were rarely or never used; its extrapolation associated up to $29.5 billion
+ in public-cloud R&amp;D investment with underutilized features [1]. This is vendor research about features,
+ not a percentage of projects that failed.
+ The US Government Accountability Office (GAO) reported that four of six completed projects assessed
+ for savings under the Technology Modernization Fund missed or were off track for expected savings as
+ of June 2025; seven of 68 reviewed projects had been cancelled and no longer expected savings [2]. In
+ a separate case, the US Air Force cancelled its Expeditionary Combat Support System after
+ approximately $1 billion had been expended [3]. These are government findings about specific
+ programs, not representative estimates for all software.
+ The economic lesson is that the probability of non-use or underdelivery belongs in the decision before
+ construction begins. A usage forecast should be treated as a scenario, not an entitlement to future
+ value. Where direct execution is feasible, the organization can learn about real demand before making a
+ permanent commitment.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                 11
+</pre></section><section class="transcript"><h2>Original PDF page 12</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                      V3.0 · NOVEMBER 2026
+
+
+
+
+ 10 | EVIDENCE-DRIVEN INVESTMENT
+
+
+
+ The value of not building
+ An agent-first approach changes the sequence of learning and spending. Instead of predicting demand,
+ building a complete system, then discovering whether users adopt it, an organization can first serve a
+ need through an existing capability or intelligent execution. Actual usage produces information about
+ frequency, variations, exceptions, cost and the value of the result. Those observations can justify only
+ the portions that benefit from specialization.
+
+
+     COMMIT FIRST
+
+                     Predict                                  Design and                                  Deploy and
+                     demand                                     build                                    seek adoption
+
+     EVIDENCE FIRST
+
+                       Serve                                   Observe                                     Specialize
+                     the need                               actual demand                                  selectively
+
+
+ Figure 8. The evidence-first sequence is conditional on a safe and useful initial execution path. It does not prohibit upfront
+ infrastructure investment.
+
+ This is economically related to the idea of real options: retaining the option to defer, expand, change or
+ abandon an investment can have value under uncertainty. The intelligence-enabled path makes that
+ option practical for a wider set of needs. The cost of waiting is not always zero, and postponement is
+ not always optimal. There may be urgent capacity, regulatory or performance requirements that justify
+ construction in advance. But the default assumption that a new need warrants its own application
+ becomes less defensible.
+
+ Consider an annual request for an unusual financial analysis. The organization could commission a
+ dashboard because a future audience might use it. Alternatively, an authorized agent could produce the
+ analysis, retain its evidence and record the request. If the analysis is never requested again, the
+ dedicated dashboard was unnecessary. If it becomes a weekly decision input, a validated query or a
+ report module can be developed with a much clearer specification. Learning was obtained while
+ delivering value, not through an isolated software discovery phase.
+ This also changes how success is measured. A software delivery team may be rewarded for completed
+ implementations, while the entity benefits from the elimination of unnecessary projects. The optimizer
+ must be evaluated on business outcomes and avoided waste, not on how many applications or agents it
+ produces.
+
+
+   The greatest economic benefit of Liquid Software may not be cheaper software,
+   but all the software that never needs to be created.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                         12
+</pre></section><section class="transcript"><h2>Original PDF page 13</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                               V3.0 · NOVEMBER 2026
+
+
+
+
+ 11 | TRANSITION ECONOMICS
+
+
+
+ Double transition cost
+ A human-facing software implementation is often also an organizational transition. Users must learn a
+ new interface, adopt new terminology, change procedures, migrate information and coordinate with
+ others who are making the same shift. Even a successful transition may temporarily depress
+ productivity. If the implementation fails and the organization returns to its former way of working, a
+ second transition follows.
+
+
+
+                     Original                                 New                                    Restored
+                    operations                              software                                operations
+
+
+
+
+                         Forward disruption                                         Reverse disruption
+                     Migration, training, downtime                               Restoration, reconciliation
+
+
+
+ Figure 9. Both movements create costs. The second may require restoring operations that cannot be reconstructed by simply
+ reinstalling the previous application.
+
+ Forward costs can include training, management attention, parallel operation, data conversion, revised
+ permissions, changed roles and disruption to customers. Reverse costs can include retraining,
+ reconciliation of transactions, restoration of integrations, re-establishing procedures and repairing
+ confidence in the organization&#x27;s ability to change. Some of these costs may persist long after the
+ technical rollback.
+
+ UK government qualitative research in 2023 reported instances of businesses abandoning supply-chain
+ software after replacement systems proved unsuitable or worse than previous arrangements [4]. A
+ historical Washington Post report described Washington, D.C. spending more than $34 million in its
+ unsuccessful payroll modernization and return to its original system [5]. The latter is a reported case,
+ not an official audit estimate; neither source supports a general transition-cost multiplier.
+
+ In an agent-first organization the transition may be less visible to human users when a stable capability
+ contract and interaction remain unchanged while its underlying realization changes. An agent may
+ switch from direct calculation to a validated function without requiring a department to learn another
+ application. This is a potential advantage, not a guarantee: data migrations, authority changes, training
+ and operational safeguards may still be necessary. Design for reversibility, and measure the actual
+ disruption rather than assuming it disappears.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                    13
+</pre></section><section class="transcript"><h2>Original PDF page 14</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                     V3.0 · NOVEMBER 2026
+
+
+
+
+ 12 | TIME AND OPPORTUNITY
+
+
+
+ Business value before software
+ Time spent waiting for a system is not merely an expense in the software budget. The business may
+ lose revenue, defer a service, miss a market window or fail to make an important decision while the
+ implementation is being built. Staff, management attention and capital may be diverted from other
+ productive uses. When the original business need can be met directly, software development need not
+ be on the critical path to value creation.
+
+
+     SOFTWARE-FIRST
+
+                 Design                          Build                          Deploy                           Value
+
+
+     AGENT-FIRST (WHERE FEASIBLE)
+
+                  Setup                          Value                           Value                           Value
+
+
+                              Function A                        Module B                           Function C
+
+
+ Figure 10. Software-first and agent-first sequences can reach the same final realization at different times in their value journeys.
+ Agent setup and assurance are not necessarily instantaneous.
+
+ Imagine a customer opportunity that requires an unusual analysis and proposal. A traditional approach
+ may involve requesting changes to a reporting or CRM system, waiting for prioritization and
+ development, and completing the work when the new functionality is available. If an authorized agent
+ can retrieve the existing information, perform the analysis and prepare the proposal today, it may
+ capture the opportunity without waiting. The relevant software component can be considered
+ afterward if the activity recurs.
+ The value of an earlier result varies by domain. A delayed internal report may have little impact; a lost
+ customer or an expired procurement deadline may be irreversible. A model that compares only
+ implementation expenditure and operating costs overlooks these consequences.
+
+ The same logic applies to failed projects. Even if the original investment is refunded or some code is
+ salvaged, the time lost cannot necessarily be recovered. An organization may have spent months
+ optimizing an unsuccessful implementation rather than responding to customers or developing a
+ different capability. Opportunity cost is the value of the best feasible alternative forgone, not the sum
+ of all imaginable opportunities.
+
+
+   Software development time is not merely a development cost. It is also
+   potentially lost business time.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                           14
+</pre></section><section class="transcript"><h2>Original PDF page 15</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                  V3.0 · NOVEMBER 2026
+
+
+
+
+ 13 | CUMULATIVE BUSINESS VALUE
+
+
+
+ Identical software, different economic
+ outcomes
+ A worked example illustrates why the decision objective cannot be limited to lifecycle cost
+ minimization. Assume two approaches ultimately use the same €12,000 deterministic module. The
+ module generates €5,000 per month in gross business contribution and costs €500 per month to run.
+ The conventional build takes three months. The alternative can serve the need during those three
+ months with an existing agentic environment, delivering €4,000 in monthly contribution at €1,500 in
+ monthly operating and assurance costs. Assume the build expense is incurred at the start in both cases;
+ ignore discounting and other costs for illustration.
+
+    First six months                   Software-first                                    Agent-first then same module
+
+    Build investment                   €12,000                                           €12,000
+
+    Months 1-3 net                     €0                                                €7,500
+    operations
+
+    Months 4-6 net                     €13,500                                           €13,500
+    operations
+
+    Six-month cumulative net           €1,500                                            €9,000
+    value
+
+
+    EUR               Software-first                                       Agent-first
+
+
+
+           6k
+
+
+            0
+
+
+           -6k
+
+
+          -12k
+                 0                 1                2                 3                    4                5                  6
+                                                                                                                         Months
+
+ Figure 11. Illustrative cumulative net value. Both paths use the same module from month four. Earlier operations create a lasting
+ €7,500 difference in this scenario.
+
+ The agent-first path has additional operating costs during the build, yet it creates more cumulative
+ value because it serves real needs while the other approach is waiting. The example deliberately
+ assumes the same software is eventually built; it does not rely on avoiding development altogether. In
+ practice, observation could also reduce scope, change the design or eliminate the need for the module.
+ Conversely, early agentic execution could be too costly, risky or inaccurate to justify.
+
+ Discounting can increase the value of early benefits, and time-sensitive opportunities may amplify it
+ further. Decision-makers should measure actual contribution, not simply the number of tasks
+ completed or hours saved. Released employee capacity is not automatically cash; the entity must be
+ able to convert it into avoided hiring, profitable throughput or another defined benefit. This distinction
+ prevents a faster activity from being mistaken for a better business outcome.
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                          15
+</pre></section><section class="transcript"><h2>Original PDF page 16</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                  V3.0 · NOVEMBER 2026
+
+
+
+
+ 14 | FLEXIBILITY ECONOMICS
+
+
+
+ Software can be a constraint
+ Software encodes assumptions about what work is, what information matters, who performs it and
+ which sequence of operations is valid. Those assumptions are valuable where predictability is needed.
+ They can also prevent an intelligent actor from discovering a better route to the same outcome. A fixed
+ workflow can require a customer request to fit a prescribed process even when another route would be
+ more suitable.
+ This is the economic significance of the road analogy. A highway improves efficiency between
+ supported destinations. If there are too few exits, the traveller must take a detour or cannot reach a
+ new destination. A large application can behave similarly: a single interface and tightly coupled backend
+ may expose only a subset of the actions the organization could legitimately perform.
+
+
+     FIXED WORKFLOW
+
+
+                 Input                         Step A                          Step B                        Outcome
+
+
+     COMPOSABLE CAPABILITIES
+
+                                            Function A
+               Need                                                         Agent judgment                      Outcome
+                                            Function B
+
+ Figure 12. A monolithic prescribed path limits alternatives; independently accessible functions enable approved alternative
+ compositions. Guardrails still govern which routes are permitted.
+
+ Premature determinism is the act of fixing an implementation before the relevant variation, exceptions
+ and potential evolution are sufficiently understood. It creates a hidden liability: changing a business
+ decision can become conditional on changing software. A novel customer segment, new data source or
+ policy exception may be impossible to support without a development project.
+
+ Flexibility therefore has economic value even when there is no immediate plan to exercise it. A
+ frequently used, low-cost implementation can still be inferior if it blocks valuable opportunities. The
+ value of preserving alternatives depends on the likelihood and consequence of future change, not on
+ architectural elegance alone.
+ The aim is not unlimited discretion. Some boundaries must be enforced deterministically, particularly
+ security, financial authority and safety. Distinguish intentional constraints (what must remain true) from
+ incidental constraints (what an implementation happens to support). The former are durable; the latter
+ should be open to reconsideration.
+
+
+   Materialize determinism only where its benefits exceed its lifecycle costs and
+   the value of the flexibility it removes.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                      16
+</pre></section><section class="transcript"><h2>Original PDF page 17</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                  V3.0 · NOVEMBER 2026
+
+
+
+
+ 15 | DYNAMIC EXECUTION ECONOMICS
+
+
+
+ The moving economic threshold
+ The relative cost of agentic and deterministic execution is not fixed. Model capabilities, inference
+ efficiency, hardware performance, quantization, runtime tooling and software-generation methods are
+ evolving. A decision justified at one point in time can cease to be justified without any change in the
+ underlying business need.
+
+ Stanford&#x27;s 2025 AI Index reports that the inference price for a model at approximately GPT-3.5-level
+ performance on MMLU fell from $20 to $0.07 per million tokens between November 2022 and
+ October 2024, a decline of more than 280-fold [6]. This is a historical comparison for a specific
+ benchmark level. It does not establish a uniform trend for complex agents, nor does it guarantee future
+ cost reductions. A task may require more tokens, tool calls, retries, advanced capabilities or supervision
+ than a benchmark suggests.
+
+    EUR               Agentic €2.50             Agentic €1.30               Agentic €0.50               Software
+
+
+
+           4k
+
+
+
+
+           2k                                                                                               3,000
+                              500           1,000
+
+
+
+            0
+                0              500          1000                            2000                            3000
+                                                                                                         Successful executions
+
+ Figure 13. Illustrative comparison holding fixed software cost and variable software cost constant: F = €1,200 and s = €0.10.
+ Agentic costs of €2.50, €1.30 and €0.50 imply thresholds of 500, 1,000 and 3,000 executions respectively.
+
+ The implications are considerable. If a capability is likely to be used 700 times in its useful life, the first
+ price environment may justify software; the later price environments may not. A decision based on
+ current retail model prices alone can therefore overestimate the long-term economic benefit of
+ specialization.
+
+ However, development cost is also falling. If AI-assisted creation cuts the fixed cost of the same
+ validated function from €1,200 to €240, software becomes viable at fewer executions, all else being
+ equal. Both curves can move. Quality improvements, changing risk, integration costs and reuse may
+ shift the comparison further. The point is not to predict which side will win but to avoid freezing today&#x27;s
+ economics into a permanent architecture.
+ An adaptive organization should periodically reassess its expensive or highly constrained realizations,
+ including those created when inference was more costly. No useful commitment should be withdrawn
+ merely because a new model is cheaper; a candidate must demonstrate comparable outcomes within
+ its required constraints.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                        17
+</pre></section><section class="transcript"><h2>Original PDF page 18</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                            V3.0 · NOVEMBER 2026
+
+
+
+
+ 16 | LOCAL INTELLIGENCE
+
+
+
+ Retail API pricing is not the whole market
+ Many evaluations of agentic execution use the price of tokens purchased from a hosted provider. That
+ is one realization of intelligence, not the intrinsic cost of intelligence. A capable model running on
+ owned or otherwise available hardware can change the cost structure from a predominantly variable
+ retail charge to a combination of fixed capacity and relatively low marginal electricity and operating
+ costs.
+ Consider an entity that already maintains suitable hardware. An infrequent local classification task may
+ incur little incremental cash expenditure. A heavily used model might instead justify purchasing
+ additional hardware. For an entity with low utilization, limited operations expertise or demanding
+ performance needs, a hosted service may still be cheaper overall. Local inference does not mean zero
+ cost, zero risk or equivalent model quality.
+
+    Cost dimension                     Hosted inference                           Local or owned infrastructure
+
+    Capacity                           Provider supplies compute; usage or        Hardware purchase or rental,
+                                       subscription fees                          amortization, idle capacity
+
+    Marginal cost                      Tokens, requests, tools, network or        Energy, wear, scheduling and
+                                       service tiers                              incremental operations
+
+    Assurance                          Provider controls plus entity evaluation   Entity manages model validation,
+                                       and access                                 updates and security
+
+    Performance                        Network and provider latency; elastic      Hardware limits, concurrency and
+                                       scale                                      available memory
+
+ A useful measure is cost per successful capability execution, including retries, verification and human
+ review. A low-cost local model that cannot reliably extract the required facts may cost more than a
+ higher-priced model that succeeds on the first attempt. Equally, a premium model used for a routine
+ classification can be an unnecessary expenditure.
+
+ For modular systems, it is possible to route only the hardest portion of a task to a large hosted model
+ and use small local models or deterministic components for other portions. This can change the
+ economics of an entire workflow without changing its external commitments. Data residency and
+ privacy can also influence the choice, but must be evaluated against the actual deployment and
+ controls rather than inferred from the word “local.”
+
+ The economic claim is a conditional one: access to capable, lower-cost intelligence extends the space in
+ which direct execution is viable. Whether that advantage materializes must be measured for the
+ entity&#x27;s workloads.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                            18
+</pre></section><section class="transcript"><h2>Original PDF page 19</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                 V3.0 · NOVEMBER 2026
+
+
+
+
+ 17 | MODULARITY
+
+
+
+ Optimize every layer independently
+ The execution continuum is only useful at scale if the organization can change one part of a realization
+ without replacing everything around it. Modularity is therefore not a secondary engineering
+ preference. It is the central economic enabler of Liquid Software.
+
+    Level                                   Independent economic question
+
+    Entity                                  Which capabilities are needed, and for whose benefit?
+
+    Activity                                Which capabilities should be composed for this outcome?
+
+    Agent                                   Which responsibilities need an intelligent actor, for how long?
+
+    Capability                              Which implementation best satisfies the CRD?
+
+    Model                                   What level of intelligence is sufficient for this subtask?
+
+    Software                                What should be fixed in a reusable function or module?
+
+    Information                             What should be preserved, processed or derived, and when?
+
+    Infrastructure                          Where and on what resources should execution occur?
+
+ Traditional applications bundle a wide range of capabilities into one product. The bundle can be
+ economically advantageous when its users share the same workflows. It can also make the entity buy,
+ build or maintain many components that are not useful to a specific activity. An agent may only need a
+ precise calculation, a reliable identity check or a way to submit a transaction. These are smaller units of
+ investment than an application.
+ The reuse boundary matters. A function for extracting invoice totals might also support budgeting and
+ procurement, and a validated calculation may be reused across hundreds of different reports. Scale
+ arises from use across needs, not only use across customers. The fixed cost of testing and maintaining
+ the component can be shared, provided its semantics are genuinely common.
+
+ Modularity itself has a cost. Interfaces, discovery, dependency management, validation and versioning
+ can create overhead. Excessive fragmentation may be harder to operate than a coherent module. A
+ useful unit is the smallest one with a meaningful independent purpose and a sufficiently stable contract,
+ not simply the smallest unit of code. The CRD and Minimum Logical Element (MLE) concepts provide
+ scope disciplines for identifying such units [7, 9].
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                 19
+</pre></section><section class="transcript"><h2>Original PDF page 20</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                V3.0 · NOVEMBER 2026
+
+
+
+
+ 18 | CAPABILITY CONTRACTS
+
+
+
+ The CRD separates what from how
+ The Capability Requirements Document (CRD) is a stable description of what must be accomplished,
+ independent of a particular model, application, endpoint or interface. It helps preserve meaning while
+ the implementation changes. The canonical framework is available at valto.github.io/crd/ [7]; this paper
+ uses it as a basis for economic comparison rather than redefining its specification.
+
+
+                                                              CRD
+                                                       Required capability
+
+
+                                                    Quality, cost, authority
+
+
+
+
+        Large model            Local model           Skill          Rules / MDIL           Software           Existing API
+
+
+ Figure 14. A durable capability description can have multiple candidate realizations. A selection mechanism compares them
+ against requirements and authority, not only cost.
+
+ A CRD can specify the intended outcome, inputs and outputs, relevant terminology, constraints,
+ acceptance criteria and failure behavior. An associated governance layer determines the authority of
+ the actor performing the task. Documentation of a capability does not itself grant permission to
+ exercise it.
+
+ An implementation can be an advanced reasoning model, a smaller local model, a reusable agent skill, a
+ deterministic software function, a declarative decision component, an existing API or a composition of
+ these. These are not mutually exclusive categories. A capability may use intelligence to interpret an
+ input and deterministic mechanisms to enforce a boundary.
+
+ MDIL/Kide-type components are relevant examples of possible decision-logic mechanisms in this
+ spectrum. The vendor describes separation of declared deterministic logic from language-model
+ interpretation [8]. Such a mechanism may be evaluated for well-specified decisions where traceability
+ and predictability matter, rather than assuming a general-purpose model or a bespoke application is
+ required. This paper does not establish the performance, cost or completeness of a particular vendor
+ implementation. Equivalent mechanisms, including ordinary rule engines and tested code, remain
+ alternatives.
+ The CRD enables a replacement to be tested against a stable meaning. It does not guarantee that all
+ realizations are interchangeable: differences in supported inputs, evidence, uncertainty, authority and
+ performance must be surfaced and evaluated. The investment decision follows the capability
+ requirements, not the other way around.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                    20
+</pre></section><section class="transcript"><h2>Original PDF page 21</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                               V3.0 · NOVEMBER 2026
+
+
+
+
+ 19 | A WORKED MODULAR COMPOSITION
+
+
+
+ One activity, multiple realizations
+ Consider an entity receiving a request to purchase equipment. Its purpose is to fulfill a legitimate
+ business need while remaining within financial authority and procurement policy. A conventional
+ software project might attempt to encode the entire request-to-purchase flow into a new application.
+ The agent-first alternative starts with the underlying capabilities and composes suitable existing or
+ newly materialized realizations.
+
+
+
+                  Clarify need                             Extract fields                         Check policy
+                Reasoning model                             Local model                           Rules / MDIL
+
+
+
+
+                      Record                                  Commit                             Compute total
+                  Evidence store                            Existing API                         Exact function
+
+                                            Authority and acceptance apply to every step.
+
+ Figure 15. Example decomposition. The model or technology choice can change per capability while the approved activity and
+ records remain coherent.
+
+ The initial need may be ambiguous. A general-purpose model can clarify the request and propose
+ options. A smaller local model can extract structured fields from quotations when evaluation
+ demonstrates adequate accuracy. A declared rule or deterministic decision component can check policy
+ conditions against validated facts. An exact function computes totals. The approved purchase is
+ submitted through an existing procurement service, and an authoritative record of the decision is
+ retained. A human with the required authority resolves exceptions or approves commitments where
+ necessary.
+
+ Suppose classification volume grows but procurement policy changes frequently. It may make sense to
+ stabilize field extraction or use a cheaper validated model while keeping interpretation of unusual
+ needs agentic. A deterministic control that enforces a spending limit should not be weakened because
+ another part of the task becomes cheaper. Rules and permissions are versioned separately from the
+ execution path.
+ If the entity later changes its procurement system, it may replace only the transaction adapter. If a new
+ local model satisfies the classification CRD at lower total cost, it can replace the prior model without
+ rebuilding the workflow. If a policy change renders a module obsolete, the optimizer can propose
+ retirement. Each replacement requires testing, a controlled rollout and an acceptable recovery path.
+
+ This example illustrates why the decision unit matters: the economics of an entire application or an
+ entire agent conceal the economically distinct sub-capabilities that comprise the work.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                     21
+</pre></section><section class="transcript"><h2>Original PDF page 22</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                 V3.0 · NOVEMBER 2026
+
+
+
+
+ 20 | ECONOMICS OF INFORMATION PROCESSING
+
+
+
+ Preserve first, derive for a purpose
+ The same logic that questions software formation also questions the automatic preprocessing of
+ information. An entity may have vast amounts of source material: emails, documents, conversations,
+ sensor records and other evidence. Traditional data architectures often encourage transformation into
+ predefined structures, summaries, taxonomies and indexes before specific retrieval needs arise. This
+ can be valuable, but processing everything because it is available can produce expensive derived
+ artifacts that nobody ever uses.
+ Liquid Software distinguishes durable information from the mechanisms that make particular questions
+ easy to answer. The principle of Capture for Unknown Future Value emphasizes preserving appropriate
+ source richness within authorized boundaries [9]. A summary produced for today&#x27;s purpose should not
+ silently replace the source evidence needed for tomorrow&#x27;s different question. Yet preserving
+ information does not require deriving every possible representation in advance.
+
+
+
+
+            Original                 On-demand                  Cached                Selective                Extensive
+            sources                  processing                 results             preprocessing            preprocessing
+
+
+
+
+                                            Greater specialization is optional and reversible
+
+
+ Figure 16. A spectrum from original information to extensive preprocessing. Derived structures can evolve independently of
+ preserved evidence.
+
+ The default economic question is whether a particular transformation is justified by a known purpose
+ or by credible expected retrieval needs. If no such need exists, defer discretionary processing, while still
+ performing necessary ingestion, basic discoverability, protective controls and retention management.
+ When a question arises, intelligence can interpret the request and select an appropriate retrieval
+ method. Repetition may then justify caching, indexing, extraction or a stable structured representation.
+ There are important exceptions. Some preprocessing is essential for searchability, accessibility, security,
+ response time, legal compliance or a predictable operational commitment. A high-volume service with
+ strict latency requirements may need precomputed representations even before all queries have been
+ observed. The framework calls for a justification, not an absolute prohibition.
+
+ The cost of processing includes more than initial computation: derived information must be stored, kept
+ fresh, reconciled, access-controlled, deleted when appropriate and understood in relation to its source.
+ Its continued existence can impose obligations just as software does.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                     22
+</pre></section><section class="transcript"><h2>Original PDF page 23</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                  V3.0 · NOVEMBER 2026
+
+
+
+
+ 21 | ON-DEMAND VERSUS PRECOMPUTED
+
+
+
+ A retrieval investment example
+ Suppose an entity has 10,000 archived documents and may occasionally need to extract a specific class
+ of contractual terms. It can preprocess the full archive or discover relevant source material first and
+ extract the terms at retrieval time. Assume basic indexing and access controls are already present and
+ equally available to both approaches. The following numbers are illustrative incremental costs, not
+ market estimates.
+
+    Assumption                              Illustrative value
+
+    Full extraction of archive              €1,000 upfront
+
+    Refresh, storage and                    €300
+    validation over horizon
+
+    Preprocessed retrieval per              €0.01
+    relevant document
+
+    On-demand extraction per                €0.20
+    relevant document
+
+    Expected relevant document              1,000 (or 10,000 in high-demand scenario)
+    retrievals
+
+ For 1,000 relevant retrievals, on-demand extraction costs €200 while full preprocessing costs €1,310.
+ For 10,000 retrievals, the respective costs are €2,000 and €1,400. Under these simplified equal-quality
+ assumptions, the crossover occurs at approximately 6,842 retrievals (€1,300 / €0.19). Demand can be
+ observed before committing to the full extraction. Repeated access to a subset of records might instead
+ justify caching those results, reducing both the need for repeated inference and unnecessary
+ archive-wide processing.
+
+
+
+
+              Preserved                       Find relevant                  Derive on                        Return
+               sources                          evidence                      demand                          result
+
+
+
+
+                                                          Observe demand
+                                                       Cache / index selectively
+
+
+
+ Figure 17. Retrieval observations drive targeted optimizations. Source revisions or changed requirements can invalidate derived
+ structures.
+
+ This is not a prescription to scan all raw information on every request. Retrieval efficiency depends on
+ having a reasonable discovery path. The entity must account for source volume, access permissions,
+ accuracy, the cost of finding candidate records, freshness, latency and the likelihood of future requests.
+ A result derived from several sources should retain provenance and make uncertainty visible. An
+ obsolete derived representation must not masquerade as authoritative evidence.
+
+ The parallel to software is exact at the level of investment logic: define the required result, choose the
+ least burdensome adequate realization, and allow observed demand to justify increasingly specialized
+ retrieval structures. Preprocessing becomes an optimization, not a universal obligation.
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                          23
+</pre></section><section class="transcript"><h2>Original PDF page 24</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                   V3.0 · NOVEMBER 2026
+
+
+
+
+ 22 | THE OPERATING LIFECYCLE
+
+
+
+ Materialize, stabilize, adapt, dissolve
+ Liquid Software describes a reversible lifecycle rather than continuous regeneration for its own sake.
+ The entity starts with a need and selects an authorized realization. Actual execution supplies evidence
+ about demand, success, cost, latency and exceptions. An optimization mechanism identifies candidates
+ for specialization, adaptation, consolidation or retirement. Humans or delegated actors evaluate and
+ approve changes according to their authority.
+
+
+
+
+                Fulfill need                              Observe results                               Evaluate options
+
+
+                                                 Economics + authority + evidence
+
+
+              Retire or retain                           Validate / operate                            Materialize / adapt
+
+
+
+ Figure 18. The lifecycle loops back to execution and observation. Retiring a realization is not permission to abandon a promised
+ capability.
+
+ Materialization may involve producing a tested deterministic function, extracting a reusable skill,
+ constructing a dedicated module or caching derived information. Stabilization is equally legitimate. If a
+ realization continues to fulfill its purpose efficiently and reliably, unnecessary change can destroy value
+ through review overhead and new failures. Liquidity is the ability to change when useful, not the
+ requirement to change often.
+
+ Dissolution means retiring an implementation that is no longer economically or operationally justified. It
+ does not mean deleting source evidence, accepted commitments, audit records or the semantic
+ definition of the capability. Some components can be retained inactive for reuse; others require secure
+ decommissioning. When a dependency is removed, affected callers must have an acceptable fallback or
+ an explicitly revised commitment.
+
+ The optimization process itself has costs. It must not spend more generating and assessing new
+ realizations than those changes can reasonably return. Review triggers can include high repeated
+ inference costs, a new model, lower demand, persistent exceptions, source changes or a significant
+ change in business strategy. Scheduled review is one possible organization of the process; it is not a
+ mandatory nightly rebuild.
+
+ The enduring architecture is information, human decisions, agreed meaning and capabilities. The
+ software, agents, models and retrieval mechanisms serving them remain replaceable within those
+ boundaries.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                           24
+</pre></section><section class="transcript"><h2>Original PDF page 25</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                              V3.0 · NOVEMBER 2026
+
+
+
+
+ 23 | A FORMAL DECISION OBJECTIVE
+
+
+
+ Maximize risk-adjusted cumulative net
+ value
+ A practical economic model compares candidate realizations of the same capability or outcome over a
+ relevant time horizon. It considers alternative demand and technology scenarios, rather than one
+ forecast. Non-negotiable quality, authority, legal and safety constraints determine which alternatives
+ are feasible before economic ranking begins.
+ For a feasible alternative j, define expected net value as the probability-weighted discounted benefits
+ minus the attributable costs and losses over time. One possible accounting convention is:
+
+
+   V(j) = sum over scenarios p(s) × sum over periods [B(j,s,t) - C(j,s,t) - L(j,s,t)] / (1 +
+   r)^t
+
+ Here B is the attributable business contribution, C is the full incremental lifecycle and transition
+ expenditure, L is other attributable loss from failure or restricted opportunities not already represented
+ in B or C, and r is a discount rate consistent with the chosen period. If benefit is already modeled
+ relative to the best alternative, do not subtract the same forgone benefit again. Use explicit scenarios
+ to represent risk and test whether the ranking changes with assumptions.
+
+    Economic dimension                      How to represent it
+
+    Lifecycle                               Design, build, operation, assurance, adaptation, retirement
+
+    Uncertain adoption                      Scenario-specific demand, outcomes and salvage value
+
+    Transitions                             Forward and reverse expenditures and operational disruption
+
+    Business time                           Actual timing of contributions, lost windows and resources
+
+    Flexibility                             Value of feasible alternatives foregone, future change cost
+
+    Dynamic economics                       Expected ranges of model, hardware and development costs
+
+    Modularity and information              Shared costs, reuse, derivation and refresh costs
+
+ The objective is to choose a feasible alternative with the best expected value, subject to risk appetite,
+ commitments and resource constraints. Where rare severe losses are unacceptable, expected value
+ alone is not sufficient. Stress tests, exposure limits and mandatory controls are needed. Quantifying
+ flexibility or opportunity cost precisely may not be possible; use ranges, documented judgments and
+ qualitative constraints instead of fabricated precision.
+
+ The value of deferring a commitment can be assessed by comparing staged strategies, not only static
+ implementations. A strategy may serve demand now and reserve the right to specialize later. That
+ option is valuable only if the initial execution is adequate and the later transition remains feasible.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                              25
+</pre></section><section class="transcript"><h2>Original PDF page 26</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                              V3.0 · NOVEMBER 2026
+
+
+
+
+ 24 | AI MATURITY AND INFORMED SELECTION
+
+
+
+ The decision-maker&#x27;s blind spots
+ Economic selection can only be as broad as the alternatives the decision-maker recognizes. A
+ transformation consultant may apply rigorous methods, identify bottlenecks and build a credible
+ business case while overlooking the possibility of agent-first operations. The conclusion can be logically
+ consistent within a software-centric frame, yet not economically optimal across the wider solution
+ space.
+
+    Level                                    Primary operating paradigm
+
+    1. Traditional software                  Humans use software to perform work
+
+    2. AI-enabled software                   AI improves the software humans use
+
+    3. Agentic software                      Agents act within software-defined structures
+
+    4. Agent-first operations                Agents perform work and use tools as needed
+
+    5. AI-native operations                  Agents can select, compose, create or retire implementations under authority
+
+    N. Further levels                        Unknown or not yet internalized operating paradigms
+
+
+
+      Expanded visibility ≠ required implementation
+
+
+
+
+                                                                                                                  ?
+
+
+                 L1                     L2                  L3                L4                 L5               N
+
+ Figure 19. Conceptual maturity spectrum. Broader understanding can reveal more alternatives without making the most
+ advanced implementation the default choice.
+
+ Maturity bias is the systematic limitation of one&#x27;s perceived solution space by current understanding
+ and experience. Distinguish understanding maturity, experiential maturity and implementation
+ maturity. A decision-maker can understand and have experienced agent-first operations while
+ deliberately selecting a conventional deterministic service because it is safer, cheaper or more reliable.
+ The same service chosen by someone unaware of alternatives may look identical but reflects a different
+ quality of decision.
+
+ Agents building applications for humans does not itself establish a higher operating paradigm. Nor does
+ engineering an agent as a permanent, narrowly scoped application necessarily exploit the ability to
+ instantiate and discard workers dynamically while retaining durable knowledge, skills and records.
+
+ This is a conceptual classification, not a validated assessment scale. There may be further levels that the
+ most experienced practitioners cannot yet envision. Expertise in a discipline does not protect its
+ practitioners from obsolete premises. Seek experiential evidence, test unfamiliar alternatives and
+ remain prepared to revise the frame itself.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                   26
+</pre></section><section class="transcript"><h2>Original PDF page 27</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                 V3.0 · NOVEMBER 2026
+
+
+
+
+ 25 | PRACTICAL SELECTION PROTOCOL
+
+
+
+ From requirement to a governed decision
+ The following protocol translates Liquid Software into a repeatable operating discipline for a capability
+ owner, agent coordinator or architect. It deliberately allows a no-agent or no-new-software conclusion.
+ Apply it at a meaningful level of scope and within the entity&#x27;s authority model.
+
+    Step                                    Decision and evidence
+
+    1. Define need                          Specify the outcome, CRD, quality, latency, authority, evidence and acceptance
+                                            conditions.
+
+    2. Check alternatives                   Find existing functions, skills, services, models, human routes and the option of
+                                            doing nothing.
+
+    3. Fulfill and observe                  Where safe, meet the need now; record usage, costs, exceptions, delays and
+                                            actual value.
+
+    4. Compare                              Estimate lifecycle costs, demand scenarios, time to value, transitions, flexibility
+                                            and reuse.
+
+    5. Select granularity                   Specialize only the parts that warrant it; compare local, hosted and deterministic
+                                            mechanisms.
+
+    6. Validate and authorize               Test equivalent outcomes, controls, dependencies, failure modes, permissions
+                                            and rollback.
+
+    7. Operate and revisit                  Observe actual results; trigger review when economics, requirements or
+                                            technology change.
+
+    8. Adapt or retire                      Preserve source information, commitments, accepted meaning, and necessary
+                                            fallback.
+
+ An example of a lightweight decision record includes the capability identifier and version, owner,
+ required outcome, baseline path, alternatives considered, assumptions about demand and quality, fixed
+ and marginal costs, evidence, selected realization, authority, review triggers and rollback plan. This is a
+ record of a decision, not a permanent constraint on future decisions. Its assumptions remain visible and
+ revisable.
+ A recurring review might identify high inference expenditure for an already well-understood
+ calculation, a high-maintenance application used rarely, or a cache no longer delivering savings.
+ Prioritize candidates by potential net benefit and risk rather than by number of invocations alone. The
+ optimizer may propose changes; the authorization to deploy them is a separate matter.
+
+ A critical test is whether the process can honestly choose existing software, no new software, a
+ deterministic function, a cheaper model or direct intelligent execution. If its incentives always lead to
+ building, its economic neutrality has already been compromised.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                     27
+</pre></section><section class="transcript"><h2>Original PDF page 28</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                           V3.0 · NOVEMBER 2026
+
+
+
+
+ 26 | WORKED PORTFOLIO EXAMPLE
+
+
+
+ Reuse, uncertainty and specialization
+ An organization has three recurring needs: an irregular custom customer analysis, a monthly financial
+ reconciliation, and a high-volume calculation embedded in several activities. Instead of commissioning
+ three applications, it identifies the component capabilities and compares their economics. Assume
+ suitable source access and existing agent infrastructure; all numbers are illustrative, not empirical
+ estimates.
+
+    Capability                         Illustrative conditions                  Candidate selection
+
+    Custom analysis                    20 expected cases/year; substantial      Direct agentic execution with evidence
+                                       variation; €25 direct/case               and review
+
+    Reconciliation                     12 cycles/year; stable arithmetic, but   Reusable validated rules and
+                                       exceptions need interpretation           calculations plus agent review
+
+    Shared calculation                 6,000 calls/year across multiple         Materialize shared tested function if
+                                       activities; €0.40 agentic vs €0.02       fixed lifecycle cost is €900
+                                       deterministic
+
+ For the shared calculation, direct execution costs €2,400 over a year; the deterministic realization costs
+ €1,020. The simplified saving is €1,380, assuming equal acceptable outcomes, costs and demand.
+ Reuse across three activities is what makes this function viable. If the expected usage falls to 1,000
+ calls, the comparison changes to €400 versus €920, and a new investment may no longer be justified.
+ An already-built function must instead be assessed against future incremental costs, not sunk
+ construction costs.
+
+ For the custom analysis, the €500 expected direct execution cost may be modest relative to the cost of
+ building and maintaining a new application, especially when each request differs. But if it becomes a
+ regular customer service with strict turnaround commitments, a reusable extraction or presentation
+ component could become justified. For reconciliation, deterministic arithmetic is required even if
+ repeated volume is low; the agent&#x27;s value is in interpreting exceptions and gathering evidence.
+ This portfolio illustrates why the decision cannot be reduced to a universal usage threshold. Modularity,
+ mandatory determinism, shared costs and quality constraints matter. It also shows how an organization
+ may deliberately operate with direct agents, hybrid skills and durable software at the same time. The
+ optimal combination changes as its needs and resources change.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                               28
+</pre></section><section class="transcript"><h2>Original PDF page 29</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                               V3.0 · NOVEMBER 2026
+
+
+
+
+ 27 | GOVERNANCE AND OPERATIONAL SAFEGUARDS
+
+
+
+ What should not become liquid
+ Information ownership, legal responsibilities and accepted commitments cannot be treated as
+ disposable implementation details. An organization must preserve the evidence and semantic
+ continuity required to understand past actions and govern future ones. Human decisions define the
+ scope of delegated freedom; a cheaper execution route cannot grant itself new authority.
+
+ For any candidate change, evaluate whether it preserves required inputs and outputs, privacy and
+ access restrictions, quality criteria, decision rights, traceability, availability, error handling and
+ escalation. For critical functions, use representative and adversarial tests, independent validation where
+ appropriate, controlled release, monitoring and a reliable recovery path. A new component should not
+ be promoted merely because it was easy to generate or passed a few examples.
+
+ The principle of degrees of decision freedom in the broader Liquid Software work distinguishes
+ higher-level constraints from decisions that actors may legitimately make within them [9]. Deterministic
+ guardrails can support flexibility by clearly defining what must remain true while leaving other
+ execution choices open. This also applies to an optimization agent: its permission to propose changes is
+ not automatically permission to deploy code, transfer data, make purchases or withdraw services.
+ There are cases where dedicated implementations are appropriate before actual demand is observed:
+ safety-critical controls, contractual service commitments, regulatory reporting, hard real-time
+ requirements, privacy-preserving infrastructure or predictable high-volume workloads. A viable
+ implementation may also require stable human-facing interfaces where accessibility, training and
+ organizational coordination matter. These are not counterexamples to Liquid Software; they are
+ instances where full requirements justify specialization.
+
+ Measure actual change costs and maintain stability when change brings no material benefit. The
+ architecture must support both reversible experimentation and durable, predictable operations. The
+ objective is controlled economic adaptability, not unrestricted mutation.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                 29
+</pre></section><section class="transcript"><h2>Original PDF page 30</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                V3.0 · NOVEMBER 2026
+
+
+
+
+ 28 | RESEARCH AGENDA
+
+
+
+ What remains to be demonstrated
+ This paper proposes an economic and architectural framework, not an empirically validated claim that
+ Liquid Software improves every organization. The evidence on failed projects, feature adoption and
+ inference pricing demonstrates problems and changes in the available technology. It does not measure
+ the causal effect of adopting the complete proposed approach.
+
+ A meaningful evaluation would compare matched capabilities across direct agentic, hybrid and
+ conventional software paths. It would measure successful completion against shared acceptance
+ criteria, full lifecycle costs, setup and transition burden, realized business value, flexibility in response to
+ change, and the cost of errors. Tracking the same capabilities over time would show when the initially
+ preferred realization ceases to be optimal.
+
+    Research question                       Potential measurement
+
+    Does delayed commitment                 Avoided builds, abandoned candidates, realized adoption and salvage
+    reduce waste?
+
+    Does earlier execution create           Time to first outcome, cumulative contribution, missed opportunities
+    value?
+
+    How much does modularity                Cross-activity reuse, change effort, interface overhead and dependency risk
+    help?
+
+    Where do local models win?              Cost per successful execution, utilization, reliability and operational burden
+
+    How should data be derived?             Retrieval demand, latency, refresh cost, correctness and unused artifacts
+
+    What is the value of                    Response to novel needs, workaround costs, time and value of policy changes
+    flexibility?
+
+ A further research question concerns the maturity of decision-makers: how can we distinguish
+ deliberate specialization from a limited conception of available alternatives? Comparative design
+ exercises could examine which solution classes practitioners recognize before and after hands-on
+ agent-first experience. The proposed maturity spectrum should be refined through evidence rather
+ than treated as a definitive ranking of individuals.
+
+ The numerical examples and charts in this paper are explanatory models. They are deliberately simple
+ and should be replaced with actual entity-level data in any business case. Further work should examine
+ boundary conditions, measurement methods, security and governance in real operational
+ environments, and the impact of rapidly evolving model and software costs.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                    30
+</pre></section><section class="transcript"><h2>Original PDF page 31</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                              V3.0 · NOVEMBER 2026
+
+
+
+
+ 29 | CONCEPTUAL LINEAGE
+
+
+
+ A connected body of work
+ This whitepaper expands the economic dimension of the Liquid Software paradigm originated by Valto
+ Loikkanen. It builds on the original umbrella paper, Beyond the Constraints of Software, and the
+ research drafts available at the public Liquid Software site [9]. It is designed to be independently
+ readable while preserving the relationships between those concepts.
+
+    Related research draft                  Relationship to the economics of execution
+
+    01. The Software Bottleneck             Lost value from constraints and slow adaptation
+
+    02. Intelligence First,                 Serving needs before committing to dedicated implementations
+    Software Second
+
+    03. Degrees of Decision                 Flexibility within human-defined boundaries
+    Freedom
+
+    04. Liquid Software                     The reversible realization of capabilities
+
+    06. Capture for Unknown                 Preserving source information beyond current questions
+    Future Value
+
+    07. Adaptive Information                Economic choices about retrieval and derived structures
+    Retrieval
+
+    08. The Self-Optimizing                 Observing actual fulfillment and proposing improvements
+    Information System
+
+    10. Documentation as                    Durable meaning, CRDs and MLE scope
+    Executable Foundations
+
+    12. The Lifecycle of Liquid             Governing materialization, stability and retirement
+    Software
+
+    14-15. Information-centric              Persistent information and authority across replaceable implementations
+    computing and
+    intelligence-native
+    architecture
+
+ The companion paper AI Maturity, Maturity Bias and Informed Selection (Loikkanen, November 2026)
+ develops the separate question of decision-maker maturity. The CRD framework [7] supports the
+ stable definition of capability requirements. Together, these establish a separation between the
+ maturity needed to recognize possibilities, the requirements that define acceptable results, and the
+ economic process that chooses realizations.
+
+ The public research drafts are independently versioned. This version 3.0 of The Economics of
+ Execution is a proposed companion publication, not an assigned new number in the repository. It does
+ not revise or replace the original umbrella paper or its established terminology. The canonical public
+ entry point and library are linked below.
+ Explore Liquid Software
+
+ Whitepaper library and research drafts
+
+ Capability Requirements Document framework
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                              31
+</pre></section><section class="transcript"><h2>Original PDF page 32</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                                  V3.0 · NOVEMBER 2026
+
+
+
+
+ 30 | GLOSSARY AND CONCLUSION
+
+
+
+ Principles that endure
+    Term                                    Meaning in this whitepaper
+
+    Liquid Software                         Implementations emerge, adapt, stabilize and retire around actual needs within
+                                            durable semantics and human-defined boundaries.
+
+    Materialization                         Creating or stabilizing a more specialized realization of a capability.
+
+    Dissolution                             Retiring or replacing a realization while preserving necessary commitments and
+                                            evidence.
+
+    Double transition cost                  The costs of changing operations and subsequently reversing an unsuccessful
+                                            change.
+
+    Premature determinism                   Fixing behavior before its variability and potential evolution are sufficiently
+                                            understood.
+
+    Maturity bias                           Limits to perceived alternatives arising from current understanding and
+                                            experience.
+
+    Total lifecycle economics               The full attributable costs and value over the useful life of an execution
+                                            approach.
+
+    Capability-level optimization           Selecting and revisiting realizations at independently meaningful units of
+                                            purpose.
+
+    Evidence-driven                         Using demonstrated or credibly anticipated need to justify specialization.
+    materialization
+
+ The fundamental change is not merely cheaper software. It is the ability to separate the fulfillment of a
+ need from the creation of dedicated infrastructure. General-purpose intelligence can use existing tools,
+ learn from actual execution and specialize selectively. Modularity makes that specialization
+ independently replaceable. Durable information and human decisions preserve continuity while
+ realizations change.
+
+ The economic objective includes the software never built, the time not lost waiting, the failed
+ transitions avoided, the options left open and the ability to benefit from changing execution
+ technologies. It equally includes the benefits of predictable, efficient and stable software where those
+ benefits justify its existence.
+
+
+   Information provides continuity. Human decisions define the boundaries.
+   Intelligence fulfills needs. Software emerges as an optimization.
+
+ The highest maturity is not the greatest use of agents or the least use of software. It is the ability to
+ make informed, continuously revisable decisions about the most appropriate form of execution, while
+ acknowledging the limits of one&#x27;s understanding.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                                     32
+</pre></section><section class="transcript"><h2>Original PDF page 33</h2><pre>LIQUID SOFTWARE / ECONOMICS OF EXECUTION                                                        V3.0 · NOVEMBER 2026
+
+
+
+
+ 31 | REFERENCES
+
+
+
+ Evidence and related frameworks
+ Conceptual source: Valto Loikkanen. AI-assisted synthesis and research. Version 3.0, November 27, 2026. This
+ revision expands versions 1 and 2 and the subsequent discussion. References [1]-[8] are retained from v2; [9]
+ connects the paper to the public Liquid Software research collection. The figures, numerical scenarios and formal
+ decision objective are illustrative developments of the conceptual framework, not reported empirical measurements.
+ [1] Pendo (2019). The 2019 Feature Adoption Report.
+ Vendor usage analytics and an extrapolated R&amp;D estimate. Does not measure worldwide software project failure.
+ [2] US Government Accountability Office (July 2026). Technology Modernization Fund: Small Savings Achieved So
+ Far, but Substantial Future Savings Expected. GAO-26-107737.
+ Official audit of a particular public-sector modernization portfolio.
+ [3] US Government Accountability Office (2010, subsequent status updates). DOD Business Transformation:
+ Improved Management Oversight of Business System Modernization Efforts Needed. GAO-11-53.
+ ECSS cancellation described in the recommendation status material.
+ [4] UK Government (2023). Use of IT systems by UK businesses for managing supply chains.
+ Qualitative evidence on adoption, replacement and reversal of systems.
+ [5] Yolanda Woodlee, The Washington Post (October 14, 2002). $34 Million Fails to Fix D.C. Payroll Computers.
+ Historical reporting, not a government audit estimate.
+ [6] Stanford Institute for Human-Centered AI (2025). AI Index Report 2025: Research and Development.
+ Benchmark-specific historical inference price comparison.
+ [7] Valto Loikkanen (2026). Capability Requirements Document (CRD) Framework.
+ [8] MDIL Labs (2026). MDIL / Kide / REMAP.
+ Vendor technical descriptions; no independent performance benchmark is claimed here.
+ [9] Valto Loikkanen (2026). Liquid Software: Beyond the Constraints of Software and the related research drafts.
+ Public conceptual lineage and independently versioned research collection.
+
+
+
+
+Valto Loikkanen | valto.github.io/liquid/                                                                           33
+</pre></section></article></main><footer class="shell"><div><strong>Liquid Software</strong><p>Information provides continuity.<br>Human decisions define the boundaries.</p></div><div><a href="/liquid/about/">Attribution & citation</a><a href="/liquid/concepts.json">Concept registry</a><a href="/liquid/llms.txt">Machine reading guide</a><a href="https://github.com/valto/liquid">GitHub source</a><p>© 2026 Valto Loikkanen · publication candidate</p></div></footer></body></html>
