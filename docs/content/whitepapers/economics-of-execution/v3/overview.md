@@ -4,7 +4,7 @@
 
 Conceptual source: **Valto Loikkanen**. The supplied research whitepaper is **version 3.0, dated 27 November 2026**: 33 pages, 31 chapters and 19 figures. Its cover and references explicitly identify AI-assisted synthesis and research. This overview and its calculation notes are additional AI-assisted editorial work.
 
-This edition expands the [nine-page version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/). It is a proposed companion to *Beyond the Constraints of Software*. Its printed edition date is established; conceptual origin and website publication dates are separate matters. The framework, numerical scenarios and maturity spectrum remain proposals without empirical validation of the complete approach.
+This edition expands the [nine-page version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/). It is a companion to *Beyond the Constraints of Software*. Its printed edition date is established; conceptual origin and website publication dates are separate matters. The framework, numerical scenarios and maturity spectrum remain proposals without empirical validation of the complete approach.
 
 ## What should exist?
 
@@ -89,4 +89,4 @@ The [Capability Economics explanation](https://valto.github.io/liquid/concepts/c
 
 ## Publication status
 
-This v3 page, original and transcription are a local publication candidate. The printed date does not establish a website release date. Publication and proposed CC BY 4.0 terms await applicable owner approval; published v2 retains its recorded grant.
+Valto approved publication of this v3 original, transcription and related update under [CC BY 4.0](https://valto.github.io/liquid/license/content.txt) on 27 November 2026. The grant is recorded separately from the preserved PDF. Website publication dates remain distinct from paper edition and conceptual-origin dates. Published v2 retains its recorded grant and existing addresses.

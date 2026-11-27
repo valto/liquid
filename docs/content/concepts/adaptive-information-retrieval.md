@@ -33,4 +33,4 @@ Compare correctness, total cost, latency and recovery across existing, intellige
 
 [Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) and page 7 of the [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) develop demand-driven processing investment.
 
-The proposed [33-page version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/), pages 22–23, expands that reasoning and supplies the worked example above.
+The [33-page version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/), pages 22–23, expands that reasoning and supplies the worked example above.

@@ -58,4 +58,4 @@
 
 **Dissolution:** retiring or replacing a realization while preserving necessary evidence and accepted commitments, or explicitly revising those commitments through proper authority.
 
-These economic terms are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) and its proposed [version 3.0 expansion](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). V3's maturity spectrum is a conceptual classification; the separate named maturity companion was not supplied.
+These economic terms are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) and its [version 3.0 expansion](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). V3's maturity spectrum is a conceptual classification; the separate named maturity companion was not supplied.

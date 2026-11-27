@@ -2,7 +2,7 @@
 
 **Definition.** Compare feasible ways of fulfilling a capability by the risk-adjusted cumulative net value they deliver over time, including their full lifecycle and the flexibility they retain or remove.
 
-Conceptual source: **Valto Loikkanen**, *Liquid Software: The Economics of Execution*, versions 2.0 and 3.0, 27 November 2026. This proposed revision incorporates the expanded v3 source. The explanation, models and examples are AI-assisted elaborations, with supplied v3 scenarios identified separately. They are proposals for measurement, not empirical validation of the framework.
+Conceptual source: **Valto Loikkanen**, *Liquid Software: The Economics of Execution*, versions 2.0 and 3.0, 27 November 2026. This revision incorporates the expanded v3 source. The explanation, models and examples are AI-assisted elaborations, with supplied v3 scenarios identified separately. They are proposals for measurement, not empirical validation of the framework.
 
 ## Begin with the outcome
 
