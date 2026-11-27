@@ -23,3 +23,13 @@ Create, retain or retire software using observed need and measured benefit. Stab
 ## Keep proposals testable and attributable
 
 Distinguish established technology, related prior work, the conceptual synthesis and experiments. Preserve corrections and source versions. Agreement between AI-assisted summaries is not independent empirical corroboration.
+
+## Compare cumulative value over time
+
+Choose feasible realizations by accepted outcomes and cumulative net value, including time to value, full lifecycle costs, risk, transitions and retained flexibility. Cost minimization assumes comparable benefits and timing. Avoid counting the same opportunity or failure loss twice.
+
+## Invest selectively in processing
+
+Preserve appropriate sources and choose processing, caching and preprocessing around demand, freshness and commitments. Include necessary discovery and security work. Retiring a derived structure does not change source authority or authorize source deletion.
+
+These two additions are review candidates developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).

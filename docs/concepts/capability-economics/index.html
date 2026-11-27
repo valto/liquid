@@ -1,0 +1,84 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Capability Economics | Liquid Software</title><meta name="description" content="Compare feasible realizations by risk-adjusted cumulative net value over time, including full lifecycle costs and retained flexibility."><link rel="canonical" href="https://valto.github.io/liquid/concepts/capability-economics/"><link rel="alternate" type="text/markdown" href="/liquid/content/concepts/capability-economics.md"><meta property="og:title" content="Capability Economics | Liquid Software"><meta property="og:description" content="Compare feasible realizations by risk-adjusted cumulative net value over time, including full lifecycle costs and retained flexibility."><meta property="og:type" content="article"><meta property="og:url" content="https://valto.github.io/liquid/concepts/capability-economics/"><meta property="og:image" content="https://valto.github.io/liquid/assets/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://valto.github.io/liquid/assets/og.png"><link rel="stylesheet" href="/liquid/assets/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Capability Economics", "description": "Compare feasible realizations by risk-adjusted cumulative net value over time, including full lifecycle costs and retained flexibility.", "url": "https://valto.github.io/liquid/concepts/capability-economics/", "inLanguage": "en", "dateModified": "2026-11-27", "creator": {"@type": "Person", "name": "Valto Loikkanen"}, "version": "0.1.0-rc1", "creativeWorkStatus": "review-candidate"}</script></head><body><a class="skip" href="#main">Skip to content</a><div class="topbar"><a class="brand" href="/liquid/"><span class="brand-mark" aria-hidden="true">L</span>Liquid Software</a><nav aria-label="Primary"><a href="/liquid/concepts/">Concepts</a><a href="/liquid/architecture/">Architecture</a><a href="/liquid/whitepapers/">Whitepapers</a><a href="/liquid/principles/">Principles</a><a href="/liquid/glossary/">Glossary</a><a href="/liquid/research/">Research</a><a href="/liquid/about/">About</a></nav></div><main id="main" class="shell"><header class="article-header"><p class="kicker">review candidate · VERSION 0.1.0-rc1</p><h1>Capability Economics</h1><p class="dek">Compare feasible realizations by risk-adjusted cumulative net value over time, including full lifecycle costs and retained flexibility.</p><p class="byline">Conceptual source: Valto Loikkanen · AI-assisted synthesis and research</p><div class="hero-actions"><a class="text-link" href="/liquid/content/concepts/capability-economics.md">Read source text ↗</a></div></header><article class="prose"><p><strong>Definition.</strong> Compare feasible ways of fulfilling a capability by the risk-adjusted cumulative net value they deliver over time, including their full lifecycle and the flexibility they retain or remove.</p>
+<p>Conceptual source: <strong>Valto Loikkanen</strong>, <em>Liquid Software: The Economics of Execution</em>, version 2.0, 27 November 2026. This independently readable explanation, model and example are AI-assisted elaborations. They are proposals for measurement, not empirical validation of the framework.</p>
+<h2 id="begin-with-the-outcome">Begin with the outcome</h2>
+<p>Specify the need, its beneficiary, accepted results, quality, latency, reliability, safety and authority. A path outside these boundaries is infeasible even if its runtime price is attractive. Some capabilities require a deterministic control or a validated process before first use. Others can be fulfilled using existing tools and intelligent execution while the need is still being understood.</p>
+<p>Compare direct agents, existing software or SaaS, reusable skills, deterministic functions, modules, dedicated applications and hybrids. Include a feasible manual path or doing nothing when either is a real alternative. Intelligence itself has enabling costs: permissions, context, tools, evaluation, runtime setup and human supervision.</p>
+<p>The useful unit is the capability or meaningful contract. Internal operations can use different realizations without becoming independent promises. CRD's capability/realization separation supplies a documentation approach; it does not prove the economics of any particular implementation.</p>
+<h2 id="compare-value-over-the-relevant-horizon">Compare value over the relevant horizon</h2>
+<p>A simple accounting model makes the comparison explicit:</p>
+<pre><code class="language-text">NetValue(r, scenario) =
+    discounted value actually delivered over the horizon
+  − enabling, building, operating, assuring and maintaining costs
+  − adaptation, transition, restoration and retirement costs
+  − attributable failure and rigidity losses not already counted
+</code></pre>
+<p>Here <code>r</code> is a candidate realization or sequence of realizations. Select among feasible candidates using plausible demand and failure scenarios, the principal's risk tolerance and required commitments. An expected value alone may conceal an unacceptable downside; explicit constraints remain part of selection.</p>
+<p>Time matters because a benefit received later may be worth less, arrive after a market window, or never occur. A delayed benefit already absent from the value term must not be subtracted again as opportunity cost. Likewise, avoid counting failure losses both through an unsuccessful scenario and a second blanket risk deduction. Account consistently for scarce people, capital and existing resources; sunk expenditure is distinct from avoidable future cost.</p>
+<p>Minimum cost is an adequate objective only when outcomes, timing and relevant risks are comparable. Where benefits differ, choose on net value. The page 6 least-cost wording in the source therefore needs the outcome comparability established on page 3.</p>
+<h2 id="a-hypothetical-example-value-during-development">A hypothetical example: value during development</h2>
+<p>Assume a service produces $100 of value per active day. An agent path needs $100 of setup and costs $20 per active day, starting on day 1. A dedicated implementation costs $3,000 to build, becomes available after 40 days and costs $2 per active day. Both deliver equal accepted quality. Demand lasts 90 days.</p>
+<p>For this illustration only, ignore discounting and uncertainty. Treat the stated costs as complete for the horizon, with no separate retirement expenditure or residual value. In the hybrid, development can run in parallel with the agent service without extra shared-resource costs. These assumptions are deliberately simple and are not measured performance or market prices.</p>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th style="text-align: right;">Value delivered</th>
+<th style="text-align: right;">Total cost</th>
+<th style="text-align: right;">Net value over 90 days</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Agent throughout</td>
+<td style="text-align: right;">$9,000</td>
+<td style="text-align: right;">$100 + 90 × $20 = $1,900</td>
+<td style="text-align: right;">$7,100</td>
+</tr>
+<tr>
+<td>Wait for software, then operate for 50 days</td>
+<td style="text-align: right;">$5,000</td>
+<td style="text-align: right;">$3,000 + 50 × $2 = $3,100</td>
+<td style="text-align: right;">$1,900</td>
+</tr>
+<tr>
+<td>Agent for 40 days, then software for 50</td>
+<td style="text-align: right;">$9,000</td>
+<td style="text-align: right;">$100 + 40 × $20 + $3,000 + 50 × $2 = $4,000</td>
+<td style="text-align: right;">$5,000</td>
+</tr>
+</tbody>
+</table>
+<p>In these assumptions, the agent path has the greatest net value. The hybrid delivers the same benefit sooner than waiting for software, but its 50 days of runtime savings do not recover the build cost. For a longer unchanged horizon <code>H</code>, the hybrid gains <code>$18 × (H − 40) − $3,000</code> relative to the agent path. It becomes preferable after roughly 207 days if all other assumptions remain true. Different demand, quality, build costs or delivery dates can reverse the result.</p>
+<p>This example shows why lower per-execution cost does not settle the decision. It also shows that early intelligent execution does not automatically justify subsequent materialization.</p>
+<h2 id="use-break-even-as-a-limited-check">Use break-even as a limited check</h2>
+<p>If incremental fixed software cost is <code>F</code>, the agent cost per successful execution is <code>a</code>, and software cost is <code>s</code>, the elementary cost threshold is:</p>
+<pre><code class="language-text">N = F / (a − s), when a &gt; s
+</code></pre>
+<p>If <code>a ≤ s</code> and <code>F</code> is positive, this particular runtime-saving argument gives no finite break-even point. Other benefits can still justify the software.</p>
+<p>The formula assumes comparable outcomes and ignores timing, variable demand, changing prices, failures, maintenance, transition and residual value. Count successful accepted executions and their actual retries and supervision, rather than treating token price as the whole cost. Replace the elementary threshold with a fuller scenario comparison when those omitted factors matter.</p>
+<h2 id="keep-the-continuum-reversible">Keep the continuum reversible</h2>
+<p>Direct execution, skills, deterministic functions, modules and applications can coexist in one capability. Movement toward dedicated software is not a required maturity progression. A small validated function may be the best long-term realization; a changing activity may remain agentic; a high-utilization service may justify a dedicated application from the outset.</p>
+<p>Materialization fixes assumptions about workflow, information, interaction and rules. It can improve speed and assurance while closing alternatives. Compare that flexibility loss with the benefit gained. Expose functions where useful, retain a permitted fallback when a commitment requires one, and preserve accepted meaning when implementations change.</p>
+<p><strong>Maturity bias</strong> here means treating the implementation level as evidence of decision quality. Informed selection instead depends on understanding feasible alternatives and their limitations. It does not imply that every imaginable alternative is known or that a published maturity taxonomy has been validated.</p>
+<h2 id="include-adoption-and-reversal">Include adoption and reversal</h2>
+<p>An implementation can consume resources without delivering its promised value. Introducing it can require training, migration, testing and process changes. Returning to the earlier system can require a second transition, reconciliation and restoration. This is <strong>double transition cost</strong>, a possible exposure to examine rather than a standard multiplier to add to every budget.</p>
+<p>The source's Pendo, GAO and UK examples concern distinct measures and populations. Underused features are not necessarily unnecessary: infrequent critical or seasonal functions may be valuable. Projects missing a cash-savings target may still provide security or other benefits. Qualitative reversal reports establish possible mechanisms, not their prevalence. None establishes a universal failure rate or proves that an agentic replacement would have succeeded.</p>
+<h2 id="apply-the-same-reasoning-to-information-processing">Apply the same reasoning to information processing</h2>
+<p>Preserving a source and preprocessing every possible interpretation are separate investments. Appropriate capture can retain future options without immediately generating every summary, index, graph or embedding.</p>
+<p>Select among processing on retrieval, caching a useful result, preprocessing a recurring category and broader preprocessing. Include the cost of discovery, permissions, minimum metadata, freshness checks, invalidation and rebuilding. Some of this work is necessary before retrieval can be safe or practical. Demand-driven processing requires enough source discoverability to learn what is being requested.</p>
+<p>A disposable derived structure does not change canonical source authority. Retiring it does not authorize deleting the original or pending work. Storage, privacy, retention and access commitments remain part of the feasible boundary.</p>
+<p>Modularity can extend the comparison to models, processing and infrastructure. Count interface, integration, coordination, testing and observability overhead. Owned hardware can reduce one marginal price while adding utilization and lifecycle costs. A vendor's architectural claim needs a comparable measured workload before it supports a cost advantage.</p>
+<h2 id="a-measurable-operating-loop">A measurable operating loop</h2>
+<ol>
+<li>Define the capability, commitments, beneficiaries and relevant horizon.</li>
+<li>Identify existing resources and feasible agentic, software, manual and hybrid paths.</li>
+<li>Execute where feasible and record accepted outcomes, time, actual cost and exceptions.</li>
+<li>Compare full net value and plausible demand, failure and transition scenarios.</li>
+<li>Materialize selectively when the evidence justifies the investment.</li>
+<li>Reassess changed needs, prices and constraints; retain, evolve or retire the realization within authority.</li>
+</ol>
+<p>Evaluation should test the claim that one sequence improves fulfillment. Measure elapsed time to first accepted value, quality, successful-execution cost, cumulative benefit, implementation and restoration expenditure, and meaningful exceptions. Compare with existing tools as well as new agent paths. Keep measurement periods and demand assumptions explicit.</p>
+<p>A useful experiment can fail: no feasible direct path may exist, demand may not repay specialization, or coordination overhead may exceed savings. Reporting such results improves selection rather than invalidating stable software as a legitimate choice.</p>
+<h2 id="read-further">Read further</h2>
+<p>Read the <a href="/liquid/whitepapers/economics-of-execution/">complete economics paper and reference audit</a>. Related research drafts develop <a href="/liquid/whitepapers/drafts/02-intelligence-first-software-second/">intelligence-first sequencing</a>, <a href="/liquid/whitepapers/drafts/04-liquid-software/">Liquid Software</a>, <a href="/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/">self-optimization</a> and <a href="/liquid/whitepapers/drafts/12-the-lifecycle-of-liquid-software/">implementation lifecycles</a>.</p>
+<p>This concept version is an unpublished review candidate. The supplied economics v2 paper is its conceptual source; the earlier economics version and named AI-maturity companion were not read.</p></article></main><footer class="shell"><div><strong>Liquid Software</strong><p>Information provides continuity.<br>Human decisions define the boundaries.</p></div><div><a href="/liquid/about/">Attribution & citation</a><a href="/liquid/concepts.json">Concept registry</a><a href="/liquid/llms.txt">Machine reading guide</a><a href="https://github.com/valto/liquid">GitHub source</a><p>© 2026 Valto Loikkanen · review candidate</p></div></footer></body></html>

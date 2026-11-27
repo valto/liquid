@@ -19,3 +19,7 @@ The supplied paper reports no independent literature review or empirical validat
 Contributions can clarify definitions, improve examples, verify sources and report meaningful contradictions. Valto retains final authority over conceptual claims, positioning, licensing and publication. Original project content is available under [CC BY 4.0](https://valto.github.io/liquid/license/content.txt). Newly written publishing code uses [MIT](https://valto.github.io/liquid/license/code.txt). Independent third-party materials retain their own terms. The initial public release and these license choices were approved by Valto on 26 November 2026.
 
 Machine-readable [concept records](https://valto.github.io/liquid/concepts.json), [source text](https://valto.github.io/liquid/llms-full.txt) and a [reading guide](https://valto.github.io/liquid/llms.txt) support access across human and machine contexts.
+
+## Economics review candidate
+
+The newly supplied *Liquid Software: The Economics of Execution*, version 2.0, bears an edition date of 27 November 2026 and credits Loikkanen as conceptual source. The original PDF does not identify a model or print a reuse license. Its overview and associated concept elaboration are AI-assisted. The economics source and proposed revisions are prepared for owner review; their publication date and source-content license remain unset. The existing v0.1.0 license grant and actual publication date remain part of that release's provenance.

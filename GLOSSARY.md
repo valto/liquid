@@ -35,3 +35,15 @@
 **PIOS / EIOS:** related proposals for personal and entity information, knowledge and continuity.
 
 **PAIX:** Private AI Exchange, a related body of work on interaction across participants.
+
+**Capability economics:** comparing feasible realizations through risk-adjusted cumulative net value over a relevant horizon, including full lifecycle costs and retained flexibility.
+
+**Time to value:** elapsed time before a capability delivers an accepted useful outcome; its economic effect depends on the timing and value of those outcomes.
+
+**Execution continuum:** reversible choices among direct intelligent execution, skills, functions, modules, applications and hybrids; not a required maturity sequence.
+
+**Double transition cost:** the possible combined cost of adopting an unsuitable implementation and restoring or moving to another one; a scenario to assess, not a universal multiplier.
+
+**Maturity bias:** in this conceptual framing, judging selection quality by an implementation's position on a presumed progression rather than by informed comparison of feasible alternatives.
+
+These five additions are review candidates developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).
