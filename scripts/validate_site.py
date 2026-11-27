@@ -63,7 +63,7 @@ def main():
             if not p.meta.get(key):errors.append(file+': missing '+key)
         if len(p.ld)!=1:errors.append(file+': structured metadata missing')
         elif p.ld[0].get('datePublished')!=page.get('publication_date'):errors.append(file+': inferred publication date')
-        if any(data.get('license')!=SITE.get('content_license') for data in p.ld):errors.append(file+': license metadata mismatch')
+        if any(data.get('license')!=page.get('content_license',SITE.get('content_license')) for data in p.ld):errors.append(file+': license metadata mismatch')
     for path,p in parsed.items():
         for link in p.links:
             try:resolved=target(path,link)

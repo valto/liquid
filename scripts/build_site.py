@@ -52,15 +52,16 @@ def document(page, body):
     data = {'@context': 'https://schema.org', '@type': 'TechArticle' if page['kind'] in ['concept', 'paper', 'draft'] else 'WebPage', 'headline': page['title'], 'description': page['description'], 'url': url(page['path']), 'inLanguage': 'en', 'dateModified': page['modified'], 'creator': {'@type': 'Person', 'name': SITE['author']}, 'version': page['version'], 'creativeWorkStatus': page['status']}
     if page.get('publication_date'):
         data['datePublished'] = page['publication_date']
-    if SITE.get('content_license'):
-        data['license'] = SITE['content_license']
+    content_license = page.get('content_license', SITE.get('content_license'))
+    if content_license:
+        data['license'] = content_license
     metadata = html.escape(page['description'], quote=True)
     nav = ''.join(f'<a href="{href(path)}"'+(' aria-current="page"' if page['path'] == path else '')+f'>{name}</a>' for name, path in [('Concepts','concepts/'),('Architecture','architecture/'),('Whitepapers','whitepapers/'),('Principles','principles/'),('Glossary','glossary/'),('Research','research/'),('About','about/')])
     downloads = ''
     if page.get('pdf'):
         downloads = f'<a class="button" href="{href(page["pdf"])}">Download PDF</a>'
     downloads += f'<a class="text-link" href="{href(page["markdown"])}">Read source text ↗</a>'
-    attribution = 'Conceptual source: Valto Loikkanen · AI-assisted synthesis and research'
+    attribution = html.escape(page.get('attribution', 'Conceptual source: Valto Loikkanen · AI-assisted synthesis and research'))
     if page['kind'] == 'draft':
         attribution += ' · Research draft; not independently peer reviewed'
     if page['path'] == '':

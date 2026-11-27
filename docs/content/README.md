@@ -16,6 +16,8 @@ The conceptual framing is supplied by **Valto Loikkanen**. The writing and resea
 
 Start with [Beyond the Constraints of Software](https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/), the supplied umbrella paper. The [whitepaper library](https://valto.github.io/liquid/whitepapers/) also contains all sixteen complete research drafts, numbered 00–15.
 
+The [expanded economics paper](https://valto.github.io/liquid/whitepapers/economics-of-execution/) and [Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) examine cumulative net value, time to value, lifecycle costs and reversible implementation choices.
+
 ## Explore and maintain
 
 This repository is the public source for the project. Definitions, examples and related research remain attributable and independently versioned. See [principles](https://valto.github.io/liquid/principles/), the [glossary](https://valto.github.io/liquid/glossary/) and [attribution](https://valto.github.io/liquid/about/).
