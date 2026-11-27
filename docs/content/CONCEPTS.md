@@ -5,3 +5,5 @@ These concepts describe different parts of the transition. Liquid Software conce
 Each definition is a research draft with its own scope, version, relationships and associated papers. The concepts are proposals for examination and testing, rather than normative requirements for every system.
 
 Release v0.2.0 adds a ninth concept, Capability Economics, and revises five related concepts using the expanded economics source. Their earlier public versions remain attributable to v0.1.0.
+
+Release v0.3.0 incorporates the 33-page Economics of Execution v3 source, expands Capability Economics and Adaptive Information Retrieval, clarifies the source-attributed maturity terms and adds an optional capability decision record. Earlier paper editions and concept versions remain retained in the publication history.

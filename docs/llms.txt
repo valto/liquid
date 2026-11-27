@@ -3,7 +3,7 @@
 Conceptual source: Valto Loikkanen. AI-assisted conceptual research.
 
 - [Liquid Software](https://valto.github.io/liquid/): Information provides continuity. Human decisions define the boundaries. Intelligence fulfills needs, with software adapting to actual usage. [published]
-- [Core concepts](https://valto.github.io/liquid/concepts/): Eight independently useful concepts connect information continuity, adaptive interaction, evolving execution and human decision freedom. [published]
+- [Core concepts](https://valto.github.io/liquid/concepts/): Nine independently useful concepts connect information continuity, adaptive interaction, evolving execution, capability economics and human decision freedom. [published]
 - [Liquid Software](https://valto.github.io/liquid/concepts/liquid-software/): Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries. [research-draft]
 - [The Adaptive Interface](https://valto.github.io/liquid/concepts/adaptive-interface/): Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result. [research-draft]
 - [Capture for Unknown Future Value](https://valto.github.io/liquid/concepts/capture-for-unknown-future-value/): Preserve appropriate source richness before anticipated questions determine the full extent of what remains. [research-draft]
@@ -39,5 +39,8 @@ Conceptual source: Valto Loikkanen. AI-assisted conceptual research.
 - [The Internet Beyond Applications — Research Draft 13](https://valto.github.io/liquid/whitepapers/drafts/13-the-internet-beyond-applications/): Research draft 13: Valto Loikkanen's Internet on One Page model describes activities, actors, information flows and revenue arrangements without making a particular. [research-draft]
 - [From Software-Centric to Information-Centric Computing — Research Draft 14](https://valto.github.io/liquid/whitepapers/drafts/14-from-software-centric-to-information-centric-computing/): Research draft 14: Information-centric computing makes information identity, provenance, capability meaning and human authority more durable than a particular application.. [research-draft]
 - [The Architecture of an Intelligence-Native World — Research Draft 15](https://valto.github.io/liquid/whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/): Research draft 15: This paper synthesizes Valto Loikkanen's complementary concepts into a reference architecture. Individuals and entities provide persistent principals;. [research-draft]
+- [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/): The complete 33-page expanded research edition: 31 chapters, 19 figures, scenario economics, worked examples and informed selection. [published]
+- [Economics of Execution v3 — Complete Text Transcription](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/text/): Page-separated text of all 33 supplied pages, preserving original wording, AI attribution and nine references; figures remain in the PDF. [source-transcription]
+- [Capability Decision Record](https://valto.github.io/liquid/concepts/capability-economics/decision-record/): An optional editable record for capability outcomes, alternatives, evidence, costs, authority, review triggers and recovery. [published]
 
 Full public text: https://valto.github.io/liquid/llms-full.txt

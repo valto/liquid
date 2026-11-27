@@ -6,7 +6,7 @@
     "base_path": "/liquid/",
     "repository": "https://github.com/valto/liquid",
     "status": "published",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publication_date": "2026-11-27",
     "content_license": "https://creativecommons.org/licenses/by/4.0/",
     "code_license": "MIT",
@@ -22,29 +22,29 @@
       "markdown": "content/README.md",
       "kind": "guide",
       "status": "published",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "origin_date": null,
       "publication_date": "2026-11-27",
       "modified": "2026-11-27",
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26"
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27"
     },
     {
       "id": "CONCEPTS",
       "path": "concepts/",
       "title": "Core concepts",
-      "description": "Eight independently useful concepts connect information continuity, adaptive interaction, evolving execution and human decision freedom.",
+      "description": "Nine independently useful concepts connect information continuity, adaptive interaction, evolving execution, capability economics and human decision freedom.",
       "source": "CONCEPTS.md",
       "markdown": "content/CONCEPTS.md",
       "kind": "guide",
       "status": "published",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "origin_date": null,
       "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "collection": "concept",
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26"
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27"
     },
     {
       "id": "liquid-software",
@@ -231,7 +231,7 @@
       "markdown": "content/concepts/adaptive-information-retrieval.md",
       "kind": "concept",
       "status": "research-draft",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "origin_date": null,
       "publication_date": "2026-11-27",
       "modified": "2026-11-27",
@@ -275,15 +275,23 @@
           "version": "2.0",
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
+        },
+        {
+          "id": "economics-of-execution-v3",
+          "version": "3.0",
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/",
+          "publication_date": "2026-11-27"
         }
       ],
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27",
       "revision_source": {
-        "source_id": "S32",
-        "edition": "2.0",
+        "source_id": "S41",
+        "edition": "3.0",
         "edition_date": "2026-11-27"
-      }
+      },
+      "content_license": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "intelligence-first",
@@ -531,7 +539,7 @@
       "source": "concepts/capability-economics.md",
       "markdown": "content/concepts/capability-economics.md",
       "kind": "concept",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "definition": "Compare feasible ways of fulfilling a capability by the risk-adjusted cumulative net value they deliver over time, including their full lifecycle and the flexibility they retain or remove.",
       "thesis": "Choose realizations and their timing through informed comparison of full value rather than runtime price or a presumed maturity progression.",
       "principles": [
@@ -573,17 +581,33 @@
           "version": "2.0",
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
+        },
+        {
+          "id": "economics-of-execution-v3",
+          "version": "3.0",
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/",
+          "publication_date": "2026-11-27"
         }
       ],
       "conceptual_source_document": {
-        "source_id": "S32",
-        "edition": "2.0",
-        "edition_date": "2026-11-27"
+        "source_id": "S41",
+        "edition": "3.0",
+        "edition_date": "2026-11-27",
+        "prior_source_id": "S32"
       },
       "origin_date": null,
       "publication_date": "2026-11-27",
       "modified": "2026-11-27",
-      "status": "research-draft"
+      "status": "research-draft",
+      "previous_version": "0.1.0",
+      "previous_publication_date": "2026-11-27",
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
+      "revision_source": {
+        "source_id": "S41",
+        "edition": "3.0",
+        "edition_date": "2026-11-27"
+      }
     },
     {
       "id": "architecture-overview",
@@ -624,12 +648,13 @@
       "markdown": "content/GLOSSARY.md",
       "kind": "guide",
       "status": "published",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "origin_date": null,
       "publication_date": "2026-11-27",
       "modified": "2026-11-27",
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26"
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27",
+      "content_license": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "research-related-work",
@@ -654,12 +679,12 @@
       "markdown": "content/about.md",
       "kind": "guide",
       "status": "published",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "origin_date": null,
       "publication_date": "2026-11-27",
       "modified": "2026-11-27",
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26"
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27"
     },
     {
       "id": "original-paper-00",
@@ -738,13 +763,14 @@
       "markdown": "content/whitepapers/index.md",
       "kind": "guide",
       "status": "published",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "origin_date": null,
       "publication_date": "2026-11-27",
       "modified": "2026-11-27",
       "collection": "draft",
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26"
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27",
+      "content_license": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "draft-00",
@@ -1015,6 +1041,64 @@
       "origin_date": null,
       "publication_date": "2026-11-26",
       "modified": "2026-11-26"
+    },
+    {
+      "origin_date": null,
+      "publication_date": "2026-11-27",
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": "2026-11-27",
+      "status": "published",
+      "id": "economics-of-execution-v3",
+      "path": "whitepapers/economics-of-execution/v3/",
+      "title": "Liquid Software: The Economics of Execution — Version 3.0",
+      "description": "The complete 33-page expanded research edition: 31 chapters, 19 figures, scenario economics, worked examples and informed selection.",
+      "source": "whitepapers/economics-of-execution/v3/overview.md",
+      "markdown": "content/whitepapers/economics-of-execution/v3/overview.md",
+      "kind": "paper",
+      "version": "3.0",
+      "edition_date": "2026-11-27",
+      "pdf": "whitepapers/economics-of-execution/v3.0.pdf",
+      "citation": "Loikkanen, Valto (conceptual source). (2026). Liquid Software: The Economics of Execution. Research whitepaper, version 3.0, 27 November 2026. AI-assisted synthesis and research.",
+      "attribution": "Conceptual source: Valto Loikkanen · AI-assisted source, overview and calculation notes",
+      "source_id": "S41",
+      "expands_edition": "2.0"
+    },
+    {
+      "origin_date": null,
+      "publication_date": "2026-11-27",
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": "2026-11-27",
+      "status": "source-transcription",
+      "id": "economics-of-execution-v3-transcript",
+      "path": "whitepapers/economics-of-execution/v3/text/",
+      "title": "Economics of Execution v3 — Complete Text Transcription",
+      "description": "Page-separated text of all 33 supplied pages, preserving original wording, AI attribution and nine references; figures remain in the PDF.",
+      "source": "whitepapers/economics-of-execution/v3/original-transcript.txt",
+      "markdown": "content/whitepapers/economics-of-execution/v3/original-transcript.txt",
+      "kind": "transcript",
+      "mode": "transcript",
+      "version": "3.0",
+      "edition_date": "2026-11-27",
+      "pdf": "whitepapers/economics-of-execution/v3.0.pdf",
+      "attribution": "Conceptual source: Valto Loikkanen · AI-assisted source; text extracted from the supplied PDF",
+      "source_id": "S41"
+    },
+    {
+      "origin_date": null,
+      "publication_date": "2026-11-27",
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
+      "modified": "2026-11-27",
+      "status": "published",
+      "id": "capability-decision-record",
+      "path": "concepts/capability-economics/decision-record/",
+      "title": "Capability Decision Record",
+      "description": "An optional editable record for capability outcomes, alternatives, evidence, costs, authority, review triggers and recovery.",
+      "source": "concepts/capability-decision-record.md",
+      "markdown": "content/concepts/capability-decision-record.md",
+      "kind": "guide",
+      "version": "0.1.0",
+      "attribution": "Conceptual source: Valto Loikkanen · AI-assisted template from Economics of Execution v3, page 27",
+      "source_id": "S41"
     }
   ],
   "files": [
@@ -1137,6 +1221,11 @@
       "source": "whitepapers/economics-of-execution/v2.0.pdf",
       "destination": "whitepapers/economics-of-execution/v2.0.pdf",
       "sha256": "859bbb65f99b2ad05a951c383116bc33b745ae0faafb7bf8e75083f7a8f0e4a7"
+    },
+    {
+      "source": "whitepapers/economics-of-execution/v3.0.pdf",
+      "destination": "whitepapers/economics-of-execution/v3.0.pdf",
+      "sha256": "40bbea7abfccfc07f37a7857e278dfa54cebb1621f7dc238576bf6c917c54a94"
     }
   ]
 }

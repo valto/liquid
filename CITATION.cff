@@ -5,8 +5,8 @@ type: software
 authors:
   - family-names: Loikkanen
     given-names: Valto
-version: 0.1.0
-date-released: 2026-11-26
+version: 0.3.0
+date-released: 2026-11-27
 license: MIT
 url: https://valto.github.io/liquid/
 repository-code: https://github.com/valto/liquid
