@@ -36,6 +36,24 @@ Valto Loikkanen supplies the conceptual direction. The conversation, supplied um
 
 - **Solid Protocol** — Solid Community Group. Draft Community Group Report, 12 May 2024. [Original source](https://solidproject.org/TR/protocol).
 
+## Sources for continuous intelligence and evolution
+
+The supplied [Continuous Intelligence companion](https://valto.github.io/liquid/whitepapers/continuous-intelligence/) is a same-origin conceptual source, dated 28 November 2026. Its PDF, Markdown and diagrams are retained separately from the additional concept papers. The following primary references were assessed during this intake:
+
+- **Pulse CXM** — Digiole. Complete rendered public overview read on 28 November 2026; describes customer signals, coordinated action and verification. No demo registration or independent product test. [Original](https://www.pulsecxm.com/).
+- **Talking Products and Venues** and **PIOS & Personal Core Infrastructure** — Valto Loikkanen. Complete project pages read; same-origin project descriptions with their own scope, rather than independent deployment evidence. [Talking Products and Venues](https://valto.github.io/projects/talking-products-venues.html); [PIOS project](https://valto.github.io/projects/pios-personal-core-infrastructure.html).
+- **MDIL Kide, declared reasoning and connection resources** — MDIL Labs. Complete public homepage, review summary and rendered connection overview read. Vendor-described methods and task results; the full system card and controlled evaluation materials were not read or independently replicated. The connection page's late-2026 alpha wording differs from November beta-launch wording elsewhere. [Overview](https://mdil.ai/); [review summary](https://review.mdil.ai/); [connection page](https://code.mdil.ai/connect).
+- **The hidden cost of connecting AI straight to your sales stack** — Roope Heinilä, Optivian, 16 June 2026. Complete article read. Representative customer-run figures are vendor-reported; they do not establish independently matched whole-lifecycle outcomes. [Original](https://optivian.ai/insights/hidden-cost-ai-sales-stack/).
+- **The 2019 Feature Adoption Report** — Pendo. Earlier complete main report and methodology assessment retained. Three-month, 615-subscription aggregate usage findings do not prescribe individual feature removal or measure every feature's value. [Original](https://www.pendo.io/resources/the-2019-feature-adoption-report/).
+- **Progressive Disclosure** — Jakob Nielsen, 3 December 2006. Complete main article read; related guidance on managing visible complexity. [Original](https://www.nngroup.com/articles/progressive-disclosure/).
+- **Customization Features Done Correctly for the Right Reasons** — Nielsen Norman Group. Public overview and described method read; the full 93-page report was not. Its scope is user customization rather than inferred personalization. [Overview](https://www.nngroup.com/reports/customization-features/).
+- **Parallel Change** — Danilo Sato, 13 May 2014, hosted by Martin Fowler. Complete article read; expand, migrate and contract is a concrete interface-evolution precedent. [Original](https://martinfowler.com/bliki/ParallelChange.html).
+- **Feature Toggles (aka Feature Flags)** — Pete Hodgson, 9 October 2017, hosted by Martin Fowler. Relevant categorization, validation and carrying-cost sections read; not the entire article. [Original](https://martinfowler.com/articles/feature-toggles.html).
+- **Use a canary deployment strategy** — Google Cloud, page updated 10 November 2026. Complete main guide read; documents staged software rollout, rather than validating parallel business-model evolution. [Original](https://docs.cloud.google.com/deploy/docs/deployment-strategies/canary).
+- **8 Design Guidelines for Complex Applications** — Kate Kaplan, 8 November 2020. Complete main article read; relevant guidance on complex workflows and usable capability. [Original](https://www.nngroup.com/articles/complex-application-design/).
+
+The exact source bytes, read scopes and unresolved claims are recorded in the private source register. Extending established UX and delivery patterns into the whole proposed architecture remains a research question. Economic examples and vendor task results should retain their populations, baselines and accounting limits.
+
 ## Evidence and further work
 
 The papers identify actual source editions and research limits. Some long works were consulted in relevant sections; cited implementation comparisons are not independent tests of the complete vision. Controlled experiments should compare quality, total effort, latency, cost, permission compliance, recovery and switching between realizations.

@@ -33,3 +33,21 @@ Choose feasible realizations by accepted outcomes and cumulative net value, incl
 Preserve appropriate sources and choose processing, caching and preprocessing around demand, freshness and commitments. Include necessary discovery and security work. Retiring a derived structure does not change source authority or authorize source deletion.
 
 These economic and processing principles are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/).
+
+## Separate learning from forced change
+
+Sensing, understanding, reviewing, releasing and adopting can proceed at different rates. Define review purpose, depth, cadence and triggers. Evaluate the learning process itself, including missed signals and unnecessary disruption.
+
+## Give stable experience value
+
+Compare future outcomes together with transitions, familiarity, switching and support costs. Retain an accepted realization or offer a parallel alternative when justified. Contextual modes and personal compositions need not converge on one expert interface.
+
+## Compile only checkable portions
+
+Validate formally expressible logic independently, retain its assumptions and define invalidation. Deterministic execution is insufficient evidence of truth, completeness or freshness.
+
+## Verify the original need
+
+Connect signals, decisions and execution to beneficiary outcomes. Consider internal throughput and external fitness. Completed tasks, feature adoption and token savings measure parts of the system; they do not alone establish sustained improvement.
+
+These additional principles are developed from the [Continuous Intelligence companion](https://valto.github.io/liquid/whitepapers/continuous-intelligence/), a conceptual source with explicit research and vendor-evidence limits.

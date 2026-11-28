@@ -17,8 +17,30 @@ Edit source Markdown rather than generated HTML. Add a concept by creating its M
 
 For a new paper, retain the prior edition, add the new canonical source and PDF, and register the landing page and version-specific asset hash. A corrected version receives a new version path. Never overwrite the supplied umbrella PDF or describe a research draft as an approved final paper.
 
+An original Markdown paper with Pandoc metadata and images can use `mode: source-markdown`. Its HTML presentation presents the metadata and abstract without YAML syntax, demotes headings and resolves the selected relative figure paths; the downloadable source remains unchanged. Register every original figure and source ZIP by hash. Keep supplied source attribution and license metadata separate from additional editorial synthesis. PDF transcription remains page-separated and does not claim to reproduce figure geometry.
+
 Run both checks after a build and commit canonical inputs together with generated output. Validation runs on pushes and pull requests. The Pages workflow validates the exact generated files on main and deploys only when the owner-approved `LIQUID_PUBLICATION_APPROVED` repository variable is true. Use reviewed pull requests for substantive changes; permission to edit does not itself approve publication.
 
 The initial release was authorized by Valto on 26 November 2026 with CC BY 4.0 content and MIT code terms. For subsequent releases, obtain the applicable approval for substantive public changes, retain actual publication dates, update release status and rebuild. Verify the workflow and live HTTPS pages before issuing the selected release tag. The Pages approval variable is scoped to reviewed release content; it is not blanket approval to change canonical definitions.
 
+Valto approved the combined continuous-intelligence and reader-guide release v0.4.0 under CC BY 4.0 on 28 November 2026. Its recorded scope covers the complete supplied originals, six additional concept papers, targeted revisions and seven reader handoffs. Preserve both prior review candidates and published source bytes. Research-draft status remains distinct from public release; publishing does not establish empirical validation or deploy the described systems.
+
 Rollback uses the preceding accepted commit and deployment; preserve versioned paper assets and source history. GitHub Pages deployment does not transfer authority over PIOS, EIOS, CRD or PAIX definitions.
+
+## Reader guides and agent prompts
+
+Reader guides use `kind: reader` and a `reader` record containing the stable slug, label, perspective, main question, focus and an ordered reading list. Reading items reference existing page IDs and explain why each source matters. Edit the guide's Markdown for its substantive explanation; use `@@READING@@` to include the registry's reading list. `@@READERS@@` produces guide cards on HTML pages and a linked list in their Markdown source copies.
+
+The build generates `readers.json`, `readers/{slug}/agent-prompt.txt` and its Markdown equivalent from the same records. The dedicated `/agents/` page uses the general prompt. Keep profiles editorial and self-selected, and preserve shared definitions, attribution and evidence status. New guides retain null publication dates until their actual approved publication.
+
+Copy and print controls use one local asset, `assets/reader-tools.js`. The validator permits only that deferred script alongside structured JSON metadata; it rejects inline handlers and other executable scripts. Reading and prompt downloads remain available without JavaScript. Copy failure opens and selects the full prompt for manual copying. Print output includes the complete prompt on the agent page and the substantive summary on reader pages.
+
+For changes to these controls, run the focused browser checks as well as the build and content validator:
+
+```sh
+node scripts/check_reader_tools.mjs
+```
+
+After a change confined to print styling, use `node scripts/check_reader_tools.mjs --print-only` to check and render the affected print outputs without repeating unchanged interaction checks.
+
+The check requires the existing Playwright Core and Chrome installation. Override `PLAYWRIGHT_CORE_PATH`, `CHROME_PATH` or `LIQUID_PREVIEW_PORT` when needed; it starts and stops its own loopback preview server.

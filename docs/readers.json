@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0",
+  "conceptual_source": "Valto Loikkanen",
+  "selection_basis": "Editorial perspectives based on the resource; not measured reader profiles.",
+  "readers": [
+    {
+      "slug": "general",
+      "label": "General understanding",
+      "perspective": "a reader seeking a general introduction",
+      "question": "What should remain dependable when software can change more easily?",
+      "focus": [
+        "Information continuity, shared meaning, authority and adaptable implementations.",
+        "Independent concepts, including learning at a different rate from operational change.",
+        "Stable experiences, parallel choices and one bounded everyday example."
+      ],
+      "reading": [
+        {
+          "id": "original-paper-00",
+          "why": "Begin with the supplied overall argument.",
+          "url": "https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/"
+        },
+        {
+          "id": "liquid-software",
+          "why": "Understand the paradigm and reversible lifecycle.",
+          "url": "https://valto.github.io/liquid/concepts/liquid-software/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "why": "Read the executive synthesis and stable-experience discussion.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        },
+        {
+          "id": "architecture-overview",
+          "why": "See which concerns persist and which adapt.",
+          "url": "https://valto.github.io/liquid/architecture/"
+        }
+      ],
+      "id": "reader-general",
+      "title": "Liquid Software: a general introduction",
+      "description": "Understand the foundations, how the ideas fit together and what remains to be tested.",
+      "url": "https://valto.github.io/liquid/readers/general/",
+      "markdown_url": "https://valto.github.io/liquid/content/readers/general.md",
+      "prompt_url": "https://valto.github.io/liquid/readers/general/agent-prompt.txt",
+      "version": "0.2.0",
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
+    },
+    {
+      "slug": "business-leaders",
+      "label": "Business leaders",
+      "perspective": "a business leader or team owner",
+      "question": "How can we deliver value sooner while retaining the ability to change direction?",
+      "focus": [
+        "Capability ownership, earlier value and retained organizational knowledge.",
+        "Review purpose and depth, market triggers and learning about the review process.",
+        "Internal throughput, external fitness, stable operations and verified customer outcomes."
+      ],
+      "reading": [
+        {
+          "id": "capability-economics",
+          "why": "Frame feasible strategies and their full value.",
+          "url": "https://valto.github.io/liquid/concepts/capability-economics/"
+        },
+        {
+          "id": "degrees-of-decision-freedom",
+          "why": "Define delegated and reserved decisions.",
+          "url": "https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/"
+        },
+        {
+          "id": "layered-intelligence-cycles",
+          "why": "Choose useful review purposes, depth and timing.",
+          "url": "https://valto.github.io/liquid/concepts/layered-intelligence-cycles/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "why": "Read change choices and the customer-verification loop.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "id": "reader-business-leaders",
+      "title": "Liquid Software for business leaders",
+      "description": "Examine earlier accepted value, durable organizational knowledge, delegation and the ability to change direction.",
+      "url": "https://valto.github.io/liquid/readers/business-leaders/",
+      "markdown_url": "https://valto.github.io/liquid/content/readers/business-leaders.md",
+      "prompt_url": "https://valto.github.io/liquid/readers/business-leaders/agent-prompt.txt",
+      "version": "0.2.0",
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
+    },
+    {
+      "slug": "finance-investment",
+      "label": "Finance and investment",
+      "perspective": "a finance leader, procurement analyst or investor assessing capability implementation",
+      "question": "Which feasible strategy delivers the best cumulative net value over the relevant horizon?",
+      "focus": [
+        "Future demand, timing, incremental costs, uncertainty and full lifecycle value.",
+        "Stability, disruption, parallel upkeep and separate release/adoption decisions.",
+        "Explicit assumptions, avoiding double-counting, and evidence that changes an investment choice."
+      ],
+      "reading": [
+        {
+          "id": "capability-economics",
+          "why": "Begin with the horizon-based comparison.",
+          "url": "https://valto.github.io/liquid/concepts/capability-economics/"
+        },
+        {
+          "id": "capability-decision-record",
+          "why": "Use the optional structure for an inspectable assessment.",
+          "url": "https://valto.github.io/liquid/concepts/capability-economics/decision-record/"
+        },
+        {
+          "id": "economics-of-execution-v3",
+          "why": "Read the worked costs and value scenarios.",
+          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
+        },
+        {
+          "id": "stability-aware-evolution",
+          "why": "Account for the path to improvement and continuing support.",
+          "url": "https://valto.github.io/liquid/concepts/stability-aware-evolution/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "why": "Read chapter 4 and the measurement limits.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "id": "reader-finance-investment",
+      "title": "Liquid Software for finance and investment",
+      "description": "Compare feasible strategies using future demand, timing, full lifecycle costs, uncertainty and reversibility.",
+      "url": "https://valto.github.io/liquid/readers/finance-investment/",
+      "markdown_url": "https://valto.github.io/liquid/content/readers/finance-investment.md",
+      "prompt_url": "https://valto.github.io/liquid/readers/finance-investment/agent-prompt.txt",
+      "version": "0.2.0",
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
+    },
+    {
+      "slug": "product-engineering",
+      "label": "Product and engineering",
+      "perspective": "a product designer, architect or developer",
+      "question": "What must remain stable so implementation can change without changing the promise?",
+      "focus": [
+        "Capability meaning, accepted outcomes and realization-specific contracts.",
+        "Languages, formats and dynamically prepared schemas under applicable protocol guarantees.",
+        "Validated reasoning compilation, invalidation, compatible parallel versions and stable contextual experiences."
+      ],
+      "reading": [
+        {
+          "id": "documentation-as-foundations",
+          "why": "Start with purpose, terminology and meaningful scope.",
+          "url": "https://valto.github.io/liquid/concepts/documentation-as-foundations/"
+        },
+        {
+          "id": "draft-09",
+          "why": "Examine languages, schemas and agreements.",
+          "url": "https://valto.github.io/liquid/whitepapers/drafts/09-beyond-predefined-apis/"
+        },
+        {
+          "id": "reasoning-compilation",
+          "why": "Read validation, assumptions and revalidation of exact portions.",
+          "url": "https://valto.github.io/liquid/concepts/reasoning-compilation/"
+        },
+        {
+          "id": "parallel-realizations",
+          "why": "Separate candidate testing, release, adoption and retirement.",
+          "url": "https://valto.github.io/liquid/concepts/parallel-realizations/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "why": "Read chapters 5–7 and scenario B with the diagrams.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "id": "reader-product-engineering",
+      "title": "Liquid Software for product and engineering",
+      "description": "Understand stable meaning, evolving contracts, contextual interfaces and selective agent, software and hybrid realizations.",
+      "url": "https://valto.github.io/liquid/readers/product-engineering/",
+      "markdown_url": "https://valto.github.io/liquid/content/readers/product-engineering.md",
+      "prompt_url": "https://valto.github.io/liquid/readers/product-engineering/agent-prompt.txt",
+      "version": "0.2.0",
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
+    },
+    {
+      "slug": "data-knowledge",
+      "label": "Data and knowledge",
+      "perspective": "a data steward, knowledge worker or person managing their own information",
+      "question": "What should we preserve, and which processing should we invest in as needs emerge?",
+      "focus": [
+        "Appropriate originals, accepted assertions, inferred assessments and derived structures.",
+        "Persisted understanding with provenance, confidence, dependencies and invalidation.",
+        "Purpose, rights, freshness and selective preparation compared with repeated reconstruction."
+      ],
+      "reading": [
+        {
+          "id": "capture-for-unknown-future-value",
+          "why": "Separate appropriate source preservation from predicted questions.",
+          "url": "https://valto.github.io/liquid/concepts/capture-for-unknown-future-value/"
+        },
+        {
+          "id": "adaptive-information-retrieval",
+          "why": "Compare retrieval strategies and retained understanding.",
+          "url": "https://valto.github.io/liquid/concepts/adaptive-information-retrieval/"
+        },
+        {
+          "id": "layered-intelligence-cycles",
+          "why": "See how different reviews reuse evidence and assessments.",
+          "url": "https://valto.github.io/liquid/concepts/layered-intelligence-cycles/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "why": "Read sections 2.2 and 7.3 and their vendor-evidence limits.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "id": "reader-data-knowledge",
+      "title": "Liquid Software for data and knowledge",
+      "description": "Separate appropriate source preservation from processing investment, then assess discovery, freshness and retrieval demand.",
+      "url": "https://valto.github.io/liquid/readers/data-knowledge/",
+      "markdown_url": "https://valto.github.io/liquid/content/readers/data-knowledge.md",
+      "prompt_url": "https://valto.github.io/liquid/readers/data-knowledge/agent-prompt.txt",
+      "version": "0.2.0",
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
+    },
+    {
+      "slug": "governance-policy",
+      "label": "Governance and policy",
+      "perspective": "a governance, policy or risk reader",
+      "question": "How can adaptation preserve accountability and meaningful control?",
+      "focus": [
+        "Requester, principal, beneficiary and actual information authority.",
+        "Review, decision, release, adoption and retirement as separate consequences.",
+        "User control, enforceable obligations and personal/organizational context boundaries."
+      ],
+      "reading": [
+        {
+          "id": "degrees-of-decision-freedom",
+          "why": "Understand delegation and retained human decisions.",
+          "url": "https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/"
+        },
+        {
+          "id": "architecture-overview",
+          "why": "Identify principal, evidence and governance boundaries.",
+          "url": "https://valto.github.io/liquid/architecture/"
+        },
+        {
+          "id": "parallel-realizations",
+          "why": "Examine compatibility, adoption and retirement obligations.",
+          "url": "https://valto.github.io/liquid/concepts/parallel-realizations/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "why": "Read sections 4.3, 6.3, 9.2 and scenario D.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "id": "reader-governance-policy",
+      "title": "Liquid Software for governance and policy",
+      "description": "Examine represented principals, delegated freedom, accountability and obligations that must survive adaptation.",
+      "url": "https://valto.github.io/liquid/readers/governance-policy/",
+      "markdown_url": "https://valto.github.io/liquid/content/readers/governance-policy.md",
+      "prompt_url": "https://valto.github.io/liquid/readers/governance-policy/agent-prompt.txt",
+      "version": "0.2.0",
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
+    },
+    {
+      "slug": "research-education",
+      "label": "Research and education",
+      "perspective": "a researcher, educator or student",
+      "question": "Which learning, stability and outcome claims can be tested, and how do their sources differ?",
+      "focus": [
+        "Same-origin supplied sources versus independently established prior work.",
+        "Matched feasible baselines, cohort differences, learning quality, transition costs and negative results.",
+        "Testable stability and outcome claims with vendor and illustrative evidence kept distinct."
+      ],
+      "reading": [
+        {
+          "id": "original-paper-00",
+          "why": "Read the overall claim before testing its parts.",
+          "url": "https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/"
+        },
+        {
+          "id": "research-related-work",
+          "why": "Trace the independent originals and read-scope limits.",
+          "url": "https://valto.github.io/liquid/research/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "why": "Read chapter 11 and the source evidence note.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        },
+        {
+          "id": "meta-learning",
+          "why": "Examine how review policy can be evaluated.",
+          "url": "https://valto.github.io/liquid/concepts/meta-learning/"
+        },
+        {
+          "id": "economics-of-execution-v3",
+          "why": "Distinguish conceptual maturity, worked assumptions and research questions.",
+          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
+        }
+      ],
+      "id": "reader-research-education",
+      "title": "Liquid Software for research and education",
+      "description": "Separate conceptual proposals, source lineage and illustrative examples, and frame comparisons that can test the claims.",
+      "url": "https://valto.github.io/liquid/readers/research-education/",
+      "markdown_url": "https://valto.github.io/liquid/content/readers/research-education.md",
+      "prompt_url": "https://valto.github.io/liquid/readers/research-education/agent-prompt.txt",
+      "version": "0.2.0",
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
+    }
+  ]
+}

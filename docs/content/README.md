@@ -2,6 +2,20 @@
 
 Information provides continuity. Human decisions define the boundaries.
 
+## Start with your perspective
+
+Read a general introduction or explore what the resource means for your role. Each guide includes a focused summary, a reading path and a prompt to give your agent.
+
+- [General understanding](https://valto.github.io/liquid/readers/general/): Understand the foundations, how the ideas fit together and what remains to be tested.
+- [Business leaders](https://valto.github.io/liquid/readers/business-leaders/): Examine earlier accepted value, durable organizational knowledge, delegation and the ability to change direction.
+- [Finance and investment](https://valto.github.io/liquid/readers/finance-investment/): Compare feasible strategies using future demand, timing, full lifecycle costs, uncertainty and reversibility.
+- [Product and engineering](https://valto.github.io/liquid/readers/product-engineering/): Understand stable meaning, evolving contracts, contextual interfaces and selective agent, software and hybrid realizations.
+- [Data and knowledge](https://valto.github.io/liquid/readers/data-knowledge/): Separate appropriate source preservation from processing investment, then assess discovery, freshness and retrieval demand.
+- [Governance and policy](https://valto.github.io/liquid/readers/governance-policy/): Examine represented principals, delegated freedom, accountability and obligations that must survive adaptation.
+- [Research and education](https://valto.github.io/liquid/readers/research-education/): Separate conceptual proposals, source lineage and illustrative examples, and frame comparisons that can test the claims.
+
+You can also open the [general agent prompt](https://valto.github.io/liquid/agents/) or [compare the reading paths](https://valto.github.io/liquid/start/).
+
 ## Reverse the dependency
 
 The digital world has often organized information and activity around what existing software can support. Liquid Software explores the reverse relationship: preserve attributable information, establish meaningful authority and shared semantics, then let interfaces and implementations take shape around actual needs.
@@ -17,6 +31,8 @@ The conceptual framing is supplied by **Valto Loikkanen**. The writing and resea
 Start with [Beyond the Constraints of Software](https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/), the supplied umbrella paper. The [whitepaper library](https://valto.github.io/liquid/whitepapers/) also contains all sixteen complete research drafts, numbered 00–15.
 
 The [33-page expanded economics paper, version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/) and [Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) examine cumulative net value, time to value, lifecycle costs and reversible implementation choices.
+
+The [Continuous Intelligence companion](https://valto.github.io/liquid/whitepapers/continuous-intelligence/) adds review cycles, learning about the learning process, parallel versions, selective reasoning compilation and customer outcome verification. Its principle is **continuous intelligence, adaptive evolution, stable operation and experience**. Read the complete supplied PDF or Markdown with diagrams, then explore six related concept papers independently.
 
 ## Explore and maintain
 

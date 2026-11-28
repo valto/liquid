@@ -19,16 +19,22 @@ class Page(HTMLParser):
         super().__init__();self.ids=[];self.links=[];self.meta={};self.canonical=[];self.h1=0;self.ld=[];self.in_ld=False;self.parts=[]
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
+        if tag == 'iframe' or any(key.lower().startswith('on') for key in a):
+            raise ValueError('Unexpected executable content')
         if a.get('id'):self.ids.append(a['id'])
         if tag=='h1':self.h1+=1
         if tag=='meta':self.meta[a.get('name') or a.get('property')]=a.get('content')
         if tag=='link' and a.get('rel')=='canonical':self.canonical.append(a['href'])
-        if tag in ['a','img','link']:
+        if tag in ['a','img','link','script']:
             target=a.get('src') or a.get('href')
             if target:self.links.append(target)
         if tag=='script':
-            if a.get('type')!='application/ld+json':raise ValueError('Unexpected executable script')
-            self.in_ld=True;self.parts=[]
+            if a.get('type') == 'application/ld+json' and set(a) == {'type'}:
+                self.in_ld=True;self.parts=[]
+            elif a.get('src') == SITE['base_path']+'assets/reader-tools.js' and set(a) == {'src','defer'}:
+                pass
+            else:
+                raise ValueError('Unexpected executable script')
     def handle_endtag(self,tag):
         if tag=='script' and self.in_ld:self.in_ld=False;self.ld.append(json.loads(''.join(self.parts)))
     def handle_data(self,data):
@@ -82,7 +88,7 @@ def main():
         if any(x in name for x in forbidden):errors.append('Private/reference-only input included: '+name)
     for p in DOCS.rglob('*'):
         if p.is_symlink():errors.append('Symlink in deployment: '+str(p))
-        if p.suffix in ['.html','.md','.json','.txt','.xml','.css'] and p.is_file():
+        if p.suffix in ['.html','.md','.json','.txt','.xml','.css','.js'] and p.is_file():
             text=p.read_text()
             if re.search(r'/(?:home|Users)/[^/\s]+|/Volumes/[^/\s]+|BEGIN (?:RSA|OPENSSH) PRIVATE KEY',text):errors.append('Internal path or credential material: '+str(p.relative_to(DOCS)))
     for item in CONFIG['files']:
@@ -91,6 +97,21 @@ def main():
     if len(ids)!=len(concepts):errors.append('Duplicate concept IDs')
     for c in concepts:
         if set(c.get('related_concepts',[]))-ids:errors.append('Unknown concept relationship')
+    pages_by_id={p['id']:p for p in CONFIG['pages']}
+    if len(pages_by_id)!=len(CONFIG['pages']):errors.append('Duplicate page IDs')
+    reader_pages=[p for p in CONFIG['pages'] if p['kind']=='reader']
+    reader_index=json.loads((DOCS/'readers.json').read_text())['readers']
+    if [r['id'] for r in reader_index]!=[p['id'] for p in reader_pages]:errors.append('Reader index differs from registry')
+    for page,index in zip(reader_pages,reader_index):
+        if index['url']!=SITE['url']+page['path']:errors.append('Reader URL differs from registry')
+        if index.get('publication_date')!=page.get('publication_date'):errors.append('Inferred reader publication date')
+        for item in page['reader']['reading']:
+            if item['id'] not in pages_by_id:errors.append('Unknown reading reference: '+item['id'])
+        prompt=DOCS/(page['path']+'agent-prompt.txt')
+        if prompt.read_bytes()!=(DOCS/(page['path']+'agent-prompt.md')).read_bytes():errors.append('Prompt formats differ')
+    for p in DOCS.rglob('*'):
+        if p.suffix in ['.html','.md','.txt'] and p.is_file() and re.search(r'@@[A-Z_]+@@',p.read_text()):
+            errors.append('Unexpanded content placeholder: '+str(p.relative_to(DOCS)))
     if errors:
         print('\n'.join(errors),file=sys.stderr);return 1
     print(f'Validated {len(parsed)} pages, {len(actual)} public files, {len(concepts)} concepts and immutable PDF hashes.')

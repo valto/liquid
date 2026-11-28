@@ -163,6 +163,12 @@ A compact [decision-record template](https://valto.github.io/liquid/concepts/cap
 
 The optimizer itself has lifecycle costs. Revisit a decision when demand, quality, prices, exceptions, commitments or source evidence change materially. Retain a stable realization when new generation and assessment would cost more than the likely improvement. Permission to propose a change is distinct from permission to deploy, transfer data, purchase or withdraw a service. Measure accepted value and avoided waste rather than rewarding application or agent production.
 
+## Compare improvement with the path to it
+
+[Stability-Aware Evolution](https://valto.github.io/liquid/concepts/stability-aware-evolution/) adds explicit attention to familiar workflows, disruption, absorption of change and parallel upkeep. Include these effects once within the lifecycle comparison; its qualitative change heuristic is not an additional universal financial formula.
+
+Compare internal throughput and external fitness as well as costs. A more efficient process can serve a declining need. [Parallel Realizations](https://valto.github.io/liquid/concepts/parallel-realizations/) can preserve an accepted path while an alternative is tested or selectively adopted, but duplicated assurance, compatibility and maintenance consume resources too.
+
 ## Read further
 
 Read the [complete economics paper and reference audit](https://valto.github.io/liquid/whitepapers/economics-of-execution/). Related research drafts develop [intelligence-first sequencing](https://valto.github.io/liquid/whitepapers/drafts/02-intelligence-first-software-second/), [Liquid Software](https://valto.github.io/liquid/whitepapers/drafts/04-liquid-software/), [self-optimization](https://valto.github.io/liquid/whitepapers/drafts/08-the-self-optimizing-information-system/) and [implementation lifecycles](https://valto.github.io/liquid/whitepapers/drafts/12-the-lifecycle-of-liquid-software/).
