@@ -32,6 +32,8 @@ Start with [Beyond the Constraints of Software](https://valto.github.io/liquid/w
 
 The [33-page expanded economics paper, version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/) and [Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/) examine cumulative net value, time to value, lifecycle costs and reversible implementation choices.
 
+The [Continuous Intelligence companion](https://valto.github.io/liquid/whitepapers/continuous-intelligence/) adds review cycles, learning about the learning process, parallel versions, selective reasoning compilation and customer outcome verification. Its principle is **continuous intelligence, adaptive evolution, stable operation and experience**. Read the complete supplied PDF or Markdown with diagrams, then explore six related concept papers independently.
+
 ## Explore and maintain
 
 This repository is the public source for the project. Definitions, examples and related research remain attributable and independently versioned. See [principles](https://valto.github.io/liquid/principles/), the [glossary](https://valto.github.io/liquid/glossary/) and [attribution](https://valto.github.io/liquid/about/).

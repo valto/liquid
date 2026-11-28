@@ -7,3 +7,8 @@ whitepapers/economics-of-execution/original-transcript.txt -whitespace
 docs/content/whitepapers/economics-of-execution/original-transcript.txt -whitespace
 whitepapers/economics-of-execution/v3/original-transcript.txt -whitespace
 docs/content/whitepapers/economics-of-execution/v3/original-transcript.txt -whitespace
+whitepapers/continuous-intelligence/original-transcript.txt -whitespace
+docs/content/whitepapers/continuous-intelligence/original-transcript.txt -whitespace
+# The supplied Markdown retains intentional two-space line breaks verbatim.
+whitepapers/continuous-intelligence/source/paper.md -whitespace
+docs/whitepapers/continuous-intelligence/source/paper.md -whitespace

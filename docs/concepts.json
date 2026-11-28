@@ -7,11 +7,11 @@
       "title": "Liquid Software",
       "description": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.2.0",
+      "status": "review-candidate",
+      "version": "0.3.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
       "thesis": "Separate useful capabilities from the lifetime of any particular implementation.",
       "principles": [
@@ -26,7 +26,8 @@
         "intelligence-first",
         "adaptive-interface",
         "self-optimizing-system",
-        "capability-economics"
+        "capability-economics",
+        "parallel-realizations"
       ],
       "related_papers": [
         "04"
@@ -54,15 +55,22 @@
           "version": "2.0",
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27",
       "revision_source": {
-        "source_id": "S32",
-        "edition": "2.0",
-        "edition_date": "2026-11-27"
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       },
+      "content_license": null,
       "url": "https://valto.github.io/liquid/concepts/liquid-software/",
       "conceptual_source": "Valto Loikkanen"
     },
@@ -72,11 +80,11 @@
       "title": "The Adaptive Interface",
       "description": "Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result.",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.1.0",
+      "status": "review-candidate",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": "2026-11-26",
-      "modified": "2026-11-26",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result.",
       "thesis": "Derive the form of interaction from the task and participant while preserving recognizable meaning and control.",
       "principles": [
@@ -87,7 +95,9 @@
       "scope": "Human and agent interaction, presentation and accessibility; does not imply permission to change data or policy.",
       "related_concepts": [
         "liquid-software",
-        "documentation-as-foundations"
+        "documentation-as-foundations",
+        "stability-aware-evolution",
+        "parallel-realizations"
       ],
       "related_papers": [
         "05"
@@ -109,8 +119,22 @@
           "paper_number": "05",
           "status": "research-draft",
           "url": "https://valto.github.io/liquid/whitepapers/drafts/05-the-adaptive-interface/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
+      "previous_version": "0.1.0",
+      "previous_publication_date": "2026-11-26",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
       "url": "https://valto.github.io/liquid/concepts/adaptive-interface/",
       "conceptual_source": "Valto Loikkanen"
     },
@@ -183,11 +207,11 @@
       "title": "Adaptive Information Retrieval",
       "description": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.3.0",
+      "status": "review-candidate",
+      "version": "0.4.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
       "thesis": "Retrieval structures can change with emerging questions without turning their answers into authoritative source information.",
       "principles": [
@@ -200,7 +224,8 @@
       "related_concepts": [
         "capture-for-unknown-future-value",
         "self-optimizing-system",
-        "capability-economics"
+        "capability-economics",
+        "layered-intelligence-cycles"
       ],
       "related_papers": [
         "07"
@@ -235,16 +260,22 @@
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/",
           "publication_date": "2026-11-27"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
-      "previous_version": "0.2.0",
+      "previous_version": "0.3.0",
       "previous_publication_date": "2026-11-27",
       "revision_source": {
-        "source_id": "S41",
-        "edition": "3.0",
-        "edition_date": "2026-11-27"
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       },
-      "content_license": "https://creativecommons.org/licenses/by/4.0/",
+      "content_license": null,
       "url": "https://valto.github.io/liquid/concepts/adaptive-information-retrieval/",
       "conceptual_source": "Valto Loikkanen"
     },
@@ -370,11 +401,11 @@
       "title": "The Self-Optimizing Information System",
       "description": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.2.0",
+      "status": "review-candidate",
+      "version": "0.3.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
       "thesis": "Optimize risk-adjusted cumulative net value across feasible realizations while preserving accepted meaning and authority.",
       "principles": [
@@ -387,7 +418,8 @@
         "liquid-software",
         "adaptive-information-retrieval",
         "degrees-of-decision-freedom",
-        "capability-economics"
+        "capability-economics",
+        "meta-learning"
       ],
       "related_papers": [
         "08"
@@ -420,15 +452,22 @@
           "version": "2.0",
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27",
       "revision_source": {
-        "source_id": "S32",
-        "edition": "2.0",
-        "edition_date": "2026-11-27"
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       },
+      "content_license": null,
       "url": "https://valto.github.io/liquid/concepts/self-optimizing-system/",
       "conceptual_source": "Valto Loikkanen"
     },
@@ -438,11 +477,11 @@
       "title": "Documentation as Executable Foundations",
       "description": "Shared terminology, capability requirements and guidance preserve meaning while implementations and operational choices evolve.",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.1.0",
+      "status": "review-candidate",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": "2026-11-26",
-      "modified": "2026-11-26",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Shared terminology, capability requirements and guidance preserve meaning while implementations and operational choices evolve.",
       "thesis": "Shared documentation can preserve stable meaning while interfaces, contracts and implementations are generated for a particular need.",
       "principles": [
@@ -454,7 +493,8 @@
       "related_concepts": [
         "liquid-software",
         "adaptive-interface",
-        "degrees-of-decision-freedom"
+        "degrees-of-decision-freedom",
+        "reasoning-compilation"
       ],
       "related_papers": [
         "10"
@@ -481,8 +521,22 @@
           "paper_number": "10",
           "status": "research-draft",
           "url": "https://valto.github.io/liquid/whitepapers/drafts/10-documentation-as-executable-foundations/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
+      "previous_version": "0.1.0",
+      "previous_publication_date": "2026-11-26",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
       "url": "https://valto.github.io/liquid/concepts/documentation-as-foundations/",
       "conceptual_source": "Valto Loikkanen"
     },
@@ -492,7 +546,7 @@
       "title": "Capability Economics",
       "description": "Compare feasible realizations by risk-adjusted cumulative net value over time, including full lifecycle costs and retained flexibility.",
       "kind": "concept",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "definition": "Compare feasible ways of fulfilling a capability by the risk-adjusted cumulative net value they deliver over time, including their full lifecycle and the flexibility they retain or remove.",
       "thesis": "Choose realizations and their timing through informed comparison of full value rather than runtime price or a presumed maturity progression.",
       "principles": [
@@ -508,7 +562,9 @@
         "intelligence-first",
         "self-optimizing-system",
         "adaptive-information-retrieval",
-        "capture-for-unknown-future-value"
+        "capture-for-unknown-future-value",
+        "stability-aware-evolution",
+        "reasoning-compilation"
       ],
       "related_papers": [
         "02",
@@ -541,6 +597,12 @@
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/",
           "publication_date": "2026-11-27"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
       "conceptual_source_document": {
@@ -550,18 +612,302 @@
         "prior_source_id": "S32"
       },
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
-      "status": "research-draft",
-      "previous_version": "0.1.0",
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "status": "review-candidate",
+      "previous_version": "0.2.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": "https://creativecommons.org/licenses/by/4.0/",
+      "content_license": null,
       "revision_source": {
-        "source_id": "S41",
-        "edition": "3.0",
-        "edition_date": "2026-11-27"
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       },
       "url": "https://valto.github.io/liquid/concepts/capability-economics/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "layered-intelligence-cycles",
+      "path": "concepts/layered-intelligence-cycles/",
+      "title": "Layered Intelligence Cycles",
+      "description": "Reviews need distinct purposes and depths as well as suitable cadence and triggers.",
+      "pdf": "concepts/layered-intelligence-cycles/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Organize reviews around distinct purposes and depths, using suitable recurring cadences and evidence-triggered exceptions while preserving their decision boundaries.",
+      "thesis": "Review purpose, depth and authority precede the choice of calendar.",
+      "principles": [
+        "Define a purposeful review charter",
+        "Keep cadence and depth independent",
+        "Persist understanding with dependencies",
+        "Use event triggers alongside recurring reviews"
+      ],
+      "scope": "Review organization and reusable understanding; not a universal schedule or mandatory hierarchy.",
+      "related_concepts": [
+        "adaptive-information-retrieval",
+        "meta-learning",
+        "degrees-of-decision-freedom"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Layered Intelligence Cycles. AI-assisted concept research paper, version 0.1.0, 28 November 2026.",
+      "url": "https://valto.github.io/liquid/concepts/layered-intelligence-cycles/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "meta-learning",
+      "path": "concepts/meta-learning/",
+      "title": "Meta-Learning: Review the Learning Process",
+      "description": "Evaluate how the system notices, reviews and learns, including false triggers, missed signals and unnecessary change.",
+      "pdf": "concepts/meta-learning/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Evaluate and improve the system's reviews, evidence use and change triggers under explicit authority, using outcomes and errors to assess how it learns.",
+      "thesis": "Evaluate the learning process separately from the operations it examines.",
+      "principles": [
+        "Review missed signals and false triggers",
+        "Preserve errors and negative evidence",
+        "Separate learning from production change",
+        "Keep a bounded accountable meta-loop"
+      ],
+      "scope": "Organizational review and learning policy; not a survey of all technical meta-learning methods.",
+      "related_concepts": [
+        "layered-intelligence-cycles",
+        "self-optimizing-system",
+        "outcome-verification"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Meta-Learning: Review the Learning Process. AI-assisted concept research paper, version 0.1.0, 28 November 2026.",
+      "url": "https://valto.github.io/liquid/concepts/meta-learning/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "stability-aware-evolution",
+      "path": "concepts/stability-aware-evolution/",
+      "title": "Stability-Aware Evolution",
+      "description": "Compare improvements with transition effects, giving stable operation and familiar experience explicit value.",
+      "pdf": "concepts/stability-aware-evolution/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Compare feasible improvements together with transition effects, disruption, risk and continuing support costs, giving dependable operation and familiar experience explicit value.",
+      "thesis": "A valuable destination can be reached through a harmful transition.",
+      "principles": [
+        "Compare paths as well as endpoints",
+        "Include positive stability value",
+        "Assess throughput and external fitness",
+        "Account for transition and support once"
+      ],
+      "scope": "Feasible evolution and transition accounting; not a universal numeric valuation or unconditional refusal of change.",
+      "related_concepts": [
+        "capability-economics",
+        "adaptive-interface",
+        "parallel-realizations",
+        "outcome-verification"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Stability-Aware Evolution. AI-assisted concept research paper, version 0.1.0, 28 November 2026.",
+      "url": "https://valto.github.io/liquid/concepts/stability-aware-evolution/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "parallel-realizations",
+      "path": "concepts/parallel-realizations/",
+      "title": "Parallel Realizations",
+      "description": "Release, adoption and retirement can be separate decisions for compatible realizations of a capability.",
+      "pdf": "concepts/parallel-realizations/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Maintain and evaluate compatible realizations of a capability separately from decisions about their release, adoption and retirement.",
+      "thesis": "A new version need not replace every existing realization.",
+      "principles": [
+        "Preserve capability meaning and contracts",
+        "Distinguish construction release and adoption",
+        "Avoid duplicate shadow side effects",
+        "Account for support and deliberate retirement"
+      ],
+      "scope": "Compatible candidate and active realizations; not indefinite support for every version or guaranteed optional security changes.",
+      "related_concepts": [
+        "liquid-software",
+        "adaptive-interface",
+        "reasoning-compilation",
+        "stability-aware-evolution"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Parallel Realizations. AI-assisted concept research paper, version 0.1.0, 28 November 2026.",
+      "url": "https://valto.github.io/liquid/concepts/parallel-realizations/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "reasoning-compilation",
+      "path": "concepts/reasoning-compilation/",
+      "title": "Reasoning Compilation",
+      "description": "Materialize formally checkable portions with validation, assumptions, provenance and invalidation conditions.",
+      "pdf": "concepts/reasoning-compilation/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Convert formally checkable portions of repeated reasoning into validated executable structures while retaining assumptions, provenance, limits and conditions for revalidation.",
+      "thesis": "Repeated formalizable reasoning can become reusable executable structure without freezing arbitrary judgment.",
+      "principles": [
+        "Compile only checkable portions",
+        "Validate independently",
+        "Preserve assumptions and invalidation",
+        "Compare full lifecycle outcomes"
+      ],
+      "scope": "Proposed compilation capability and its validation; not an installed Skill or a guarantee that determinism establishes truth.",
+      "related_concepts": [
+        "documentation-as-foundations",
+        "parallel-realizations",
+        "capability-economics"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Reasoning Compilation. AI-assisted concept research paper, version 0.1.0, 28 November 2026.",
+      "url": "https://valto.github.io/liquid/concepts/reasoning-compilation/",
+      "conceptual_source": "Valto Loikkanen"
+    },
+    {
+      "id": "outcome-verification",
+      "path": "concepts/outcome-verification/",
+      "title": "Outcome Verification",
+      "description": "Connect signals, decisions and execution to whether the beneficiary’s original need improved.",
+      "pdf": "concepts/outcome-verification/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Examine whether the beneficiary's original need improved after action, preserving the connection between signals, decisions, execution and lived results.",
+      "thesis": "Completed work is partial evidence; verify the original need.",
+      "principles": [
+        "Retain the original problem and context",
+        "Connect action to beneficiary outcomes",
+        "Assess internal throughput and external fitness",
+        "Preserve consent and source boundaries"
+      ],
+      "scope": "Beneficiary outcome evidence and customer-side feedback; not unrestricted collection or independently verified vendor performance.",
+      "related_concepts": [
+        "layered-intelligence-cycles",
+        "meta-learning",
+        "stability-aware-evolution"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Outcome Verification. AI-assisted concept research paper, version 0.1.0, 28 November 2026.",
+      "url": "https://valto.github.io/liquid/concepts/outcome-verification/",
       "conceptual_source": "Valto Loikkanen"
     }
   ]

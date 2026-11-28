@@ -16,17 +16,17 @@ Degrees of Decision Freedom describes how prior decisions establish room for sub
 
 This means leaders can define purpose, limits and escalation points without specifying every operational step. The organization still needs usable guidance, traceable evidence and a way to intervene when a reserved decision arises.
 
-## Consider a supplier briefing
+## Review at the depth the question needs
 
-In an illustrative workflow, an agent gathers authorized supplier information and drafts a comparison. Exact functions calculate totals; declared rules check policy; an authorized person handles exceptions and commitments. Recurring pieces may justify specialization while changing questions remain flexible.
+Daily delivery checks, weekly bottleneck reviews and strategic assessments have different purposes. Cadence and depth are independent: a market signal can justify an immediate strategic review while stable operations continue. A meta-review asks whether the organization notices the right signals and reviews them usefully.
 
-The proposal is to evaluate this composition against the current accepted process. Quality and authority must be feasible from first use. A purchasing commitment should not be treated as authorized merely because the system prepared a recommendation.
+In an illustrative supplier workflow, better calculations could improve beneath a familiar interface while a new process is evaluated in parallel. Reviewing or releasing that alternative does not itself adopt it or authorize a purchasing commitment.
 
 ## Evaluate the transition as well as the running cost
 
 Capability Economics compares cumulative net value over a relevant horizon. Include setup, assurance, supervision, time to accepted value, maintenance, adoption and restoration if the change is reversed. A lower price per execution can coexist with a worse overall investment.
 
-The expanded economics paper's six-month example illustrates how earlier accepted benefits can change a comparison between staged strategies. Its figures are assumptions, not savings a business should expect. Released staff capacity also needs an identified use before it becomes a cash-saving claim.
+Track internal throughput and external fitness together. Efficient delivery of an unwanted offering creates little value. Verify whether the customer's original problem improved; completed tasks and new-interface adoption are partial measures. Account for the support burden of parallel versions and the value of familiar work.
 
 ## A useful management discussion
 
@@ -43,6 +43,6 @@ The framework does not establish that every business should become agent-first. 
 - Which outcome is delayed by waiting for a new application, and is earlier fulfillment feasible?
 - What organizational knowledge and commitments must survive a provider change?
 - Which decisions can be delegated, and which remain reserved?
-- What evidence would justify the next investment or a reversal?
+- Which customer outcomes would justify retaining, selectively adopting or retiring an alternative?
 
 For a more detailed cost comparison, continue with the [finance and investment guide](https://valto.github.io/liquid/readers/finance-investment/).

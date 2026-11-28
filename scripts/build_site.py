@@ -77,10 +77,14 @@ Resource foundations:
 - Begin with languages, formats and shared meaning. A schema may be generated, inferred or negotiated where useful. Accurately distinguish a proposed interaction from the guarantees of a specific claimed protocol implementation.
 - Compare feasible strategies by cumulative net value, timing, full lifecycle costs and retained flexibility. Some quality, safety, authority and reliability requirements must be satisfied before first use.
 - Source preservation and processing investment are distinct. Derived structures retain their provenance and do not acquire source authority through convenience or location.
+- Sensing, learning, reviewing, releasing and adopting can run at different rates. Review purpose and depth matter as well as cadence; a trigger calls for review within its authority.
+- Stable operations and familiar experiences have value. Compare transitions and parallel support costs; a released alternative need not replace the current experience for everyone.
+- Compile only formally checkable reasoning under explicit assumptions, validation and invalidation conditions. Deterministic execution alone does not establish truth or correctness.
+- Verify the beneficiary's outcome. Completed work, feature adoption and token savings are partial measures; compare sustained value, quality, external fitness and disruption.
 
 Attribution and evidence:
 - Valto Loikkanen is the conceptual source. The writing and research are AI-assisted.
-- Distinguish the supplied umbrella paper and Economics of Execution v3 from the sixteen labeled companion research drafts and these reader guides.
+- Distinguish the supplied umbrella paper, Economics of Execution v3 and Continuous Intelligence companion from the labeled companion research drafts and these reader guides. The new companion's supplied PDF and Markdown have the same conceptual origin.
 - Worked numbers and scenarios are illustrative. This body of work does not establish deployment or independent validation of the whole framework. Related original sources have their own claims, methods and limits.
 - Report which pages and source sections you actually read. State any access limitation rather than implying you read unavailable material. Keep source facts, interpretations, proposals, examples and unknowns distinguishable.
 
@@ -105,9 +109,33 @@ def agent_panel(page):
 
 def render_body(page):
     text = page_text(page, card_markup=True)
+    source_metadata = ''
     if page.get('mode') == 'transcript':
         pages = text.split('\f')
         return ''.join(f'<section class="transcript"><h2>Original PDF page {i}</h2><pre>{html.escape(p)}</pre></section>' for i, p in enumerate(pages, 1) if p.strip())
+    if page.get('mode') == 'source-markdown':
+        # Preserve original downloadable bytes; adapt only the HTML presentation.
+        frontmatter = re.match(r'\A---\n(.*?)\n---\n', text, flags=re.S)
+        if not frontmatter:
+            raise ValueError('Original source Markdown metadata missing')
+        metadata_lines = frontmatter.group(1).splitlines()
+        fields = []
+        abstract = []
+        in_abstract = False
+        for line in metadata_lines:
+            if line == 'abstract: |':
+                in_abstract = True
+            elif in_abstract and line.startswith('  '):
+                abstract.append(line.strip())
+            elif ':' in line:
+                in_abstract = False
+                key, value = line.split(':', 1)
+                fields.append(f'<tr><th scope="row">{html.escape(key)}</th><td>{html.escape(value.strip().strip(chr(34)))}</td></tr>')
+        source_metadata = '<section class="source-metadata"><h2>Original source metadata</h2><table>' + ''.join(fields) + '</table><h2>Original abstract</h2><p>' + html.escape(' '.join(abstract)) + '</p></section>'
+        text = re.sub(r'\A---\n.*?\n---\n', '', text, count=1, flags=re.S)
+        text = re.sub(r'^(#{1,5}) ', r'\1# ', text, flags=re.M)
+        text = re.sub(r'(!\[[^\]]*\]\(figures/[^)]+\))\{width=\d+%\}', r'\1', text)
+        text = text.replace('](figures/', '](' + href(page['path'] + 'figures/'))
     text = re.sub(r'\A# [^\n]+\n', '', text)
     text = text.replace('@@BASE@@', SITE['base_path']).replace(SITE['url'], SITE['base_path'])
     if '<script' in text.lower() or '<iframe' in text.lower():
@@ -116,7 +144,7 @@ def render_body(page):
     if '@@AGENT_PANEL@@' in body:
         general = next(p for p in readers() if p['reader']['slug'] == 'general')
         body = body.replace('<p>@@AGENT_PANEL@@</p>', agent_panel(general))
-    return body
+    return source_metadata + body
 
 
 def cards(items, label):
@@ -177,7 +205,8 @@ def generate():
             prompt = agent_prompt(page).encode()
             output[page['path']+'agent-prompt.txt'] = prompt
             output[page['path']+'agent-prompt.md'] = prompt
-        full_text.append(f"# {page['title']}\nURL: {url(page['path'])}\nStatus: {page['status']}\nConceptual source: {SITE['author']}\n\n{text}")
+        reading_text = '\n'.join(line.rstrip(' \t') for line in text.split('\n')) if page.get('mode') == 'source-markdown' else text
+        full_text.append(f"# {page['title']}\nURL: {url(page['path'])}\nStatus: {page['status']}\nConceptual source: {SITE['author']}\n\n{reading_text}")
     for item in CONFIG['files']:
         data = source(item['source']).read_bytes()
         if item.get('sha256') and hashlib.sha256(data).hexdigest() != item['sha256']:

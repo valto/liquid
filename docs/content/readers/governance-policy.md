@@ -16,11 +16,11 @@ Degrees of Decision Freedom concerns the space created by prior decisions. A pri
 
 Meaningful control therefore involves scope, usable guidance, revision, escalation, intervention and revocation. It need not mean separate approval for every already-authorized step. Equally, permission to analyze or propose does not automatically include committing funds, deploying a change or withdrawing an accepted service.
 
-## Consider the supplier workflow
+## Distinguish review, release and adoption
 
-In the source's illustrative procurement composition, interpretation, extraction, policy checks and calculations contribute to a recommendation. An authorized API or person handles the commitment, and an evidence record supports accountability. Replacing a component should preserve the governing contract and permission boundary.
+The Continuous Intelligence companion separates sensing, reviewing, deciding, releasing, adopting and retiring. A trigger can initiate an examination without granting production authority. A released alternative may remain optional or serve a bounded cohort; adoption and withdrawal have their own consequences.
 
-This raises concrete evaluation questions: can a denied action stay denied after a model change? Can a reviewer determine which evidence supported the recommendation? Does a fallback preserve the same accepted obligations? The framework proposes these boundaries; it does not prove their enforcement in a live system.
+Parallel realizations must preserve obligations and enforceable access boundaries. User control over a familiar experience is valuable where the context permits it; urgent security or other binding obligations can require change. Inferred preferences do not authorize forced rearrangement or disclosure. Organizational capabilities do not automatically gain access to personal Core information.
 
 ## Keep flexibility and obligations separate
 
@@ -36,16 +36,16 @@ This guide identifies architectural questions. It does not interpret a jurisdict
 
 ## A short reading path
 
-1. [Degrees of Decision Freedom](https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/). Understand contextual delegation and retained human decisions.
-2. [An Intelligence-Native Reference Architecture](https://valto.github.io/liquid/architecture/). Distinguish the roles and authority concerns in a bounded request.
-3. [Capture for Unknown Future Value](https://valto.github.io/liquid/concepts/capture-for-unknown-future-value/). Examine purpose, rights and retention alongside evidence continuity.
-4. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Read pages 25 and 29 for feasibility, downside and the governance boundary.
+1. [Degrees of Decision Freedom](https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/). Understand delegation and retained human decisions.
+2. [An Intelligence-Native Reference Architecture](https://valto.github.io/liquid/architecture/). Identify principal, evidence and governance boundaries.
+3. [Parallel Realizations](https://valto.github.io/liquid/concepts/parallel-realizations/). Examine compatibility, adoption and retirement obligations.
+4. [Continuous Intelligence, Adaptive Evolution, and Stable Experience](https://valto.github.io/liquid/whitepapers/continuous-intelligence/). Read sections 4.3, 6.3, 9.2 and scenario D.
 
 ## Questions to explore
 
 - Who can define the purpose, delegate actions, accept results and revise commitments?
 - Which choices are already authorized, and which require a reserved decision?
-- What evidence makes an adaptation attributable and reversible?
+- Who may review a signal, release an alternative, adopt it or retire an accepted version?
 - Which controls must remain enforceable across every permitted realization?
 
 The [research and education guide](https://valto.github.io/liquid/readers/research-education/) develops how such claims can be evaluated rather than assumed.

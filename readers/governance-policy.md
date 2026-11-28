@@ -16,11 +16,11 @@ Degrees of Decision Freedom concerns the space created by prior decisions. A pri
 
 Meaningful control therefore involves scope, usable guidance, revision, escalation, intervention and revocation. It need not mean separate approval for every already-authorized step. Equally, permission to analyze or propose does not automatically include committing funds, deploying a change or withdrawing an accepted service.
 
-## Consider the supplier workflow
+## Distinguish review, release and adoption
 
-In the source's illustrative procurement composition, interpretation, extraction, policy checks and calculations contribute to a recommendation. An authorized API or person handles the commitment, and an evidence record supports accountability. Replacing a component should preserve the governing contract and permission boundary.
+The Continuous Intelligence companion separates sensing, reviewing, deciding, releasing, adopting and retiring. A trigger can initiate an examination without granting production authority. A released alternative may remain optional or serve a bounded cohort; adoption and withdrawal have their own consequences.
 
-This raises concrete evaluation questions: can a denied action stay denied after a model change? Can a reviewer determine which evidence supported the recommendation? Does a fallback preserve the same accepted obligations? The framework proposes these boundaries; it does not prove their enforcement in a live system.
+Parallel realizations must preserve obligations and enforceable access boundaries. User control over a familiar experience is valuable where the context permits it; urgent security or other binding obligations can require change. Inferred preferences do not authorize forced rearrangement or disclosure. Organizational capabilities do not automatically gain access to personal Core information.
 
 ## Keep flexibility and obligations separate
 
@@ -42,7 +42,7 @@ This guide identifies architectural questions. It does not interpret a jurisdict
 
 - Who can define the purpose, delegate actions, accept results and revise commitments?
 - Which choices are already authorized, and which require a reserved decision?
-- What evidence makes an adaptation attributable and reversible?
+- Who may review a signal, release an alternative, adopt it or retire an accepted version?
 - Which controls must remain enforceable across every permitted realization?
 
 The [research and education guide](https://valto.github.io/liquid/readers/research-education/) develops how such claims can be evaluated rather than assumed.

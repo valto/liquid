@@ -35,18 +35,24 @@
       "id": "CONCEPTS",
       "path": "concepts/",
       "title": "Core concepts",
-      "description": "Nine independently useful concepts connect information continuity, adaptive interaction, evolving execution, capability economics and human decision freedom.",
+      "description": "Fifteen independently useful concepts connect information continuity, adaptive experiences, capability economics, purposeful learning, parallel evolution and outcome verification.",
       "source": "CONCEPTS.md",
       "markdown": "content/CONCEPTS.md",
       "kind": "guide",
-      "status": "published",
-      "version": "0.3.0",
+      "status": "review-candidate",
+      "version": "0.4.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "collection": "concept",
-      "previous_version": "0.2.0",
-      "previous_publication_date": "2026-11-27"
+      "previous_version": "0.3.0",
+      "previous_publication_date": "2026-11-27",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "liquid-software",
@@ -56,11 +62,11 @@
       "source": "concepts/liquid-software.md",
       "markdown": "content/concepts/liquid-software.md",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.2.0",
+      "status": "review-candidate",
+      "version": "0.3.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
       "thesis": "Separate useful capabilities from the lifetime of any particular implementation.",
       "principles": [
@@ -75,7 +81,8 @@
         "intelligence-first",
         "adaptive-interface",
         "self-optimizing-system",
-        "capability-economics"
+        "capability-economics",
+        "parallel-realizations"
       ],
       "related_papers": [
         "04"
@@ -103,15 +110,22 @@
           "version": "2.0",
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27",
       "revision_source": {
-        "source_id": "S32",
-        "edition": "2.0",
-        "edition_date": "2026-11-27"
-      }
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "content_license": null
     },
     {
       "id": "adaptive-interface",
@@ -121,11 +135,11 @@
       "source": "concepts/adaptive-interface.md",
       "markdown": "content/concepts/adaptive-interface.md",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.1.0",
+      "status": "review-candidate",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": "2026-11-26",
-      "modified": "2026-11-26",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result.",
       "thesis": "Derive the form of interaction from the task and participant while preserving recognizable meaning and control.",
       "principles": [
@@ -136,7 +150,9 @@
       "scope": "Human and agent interaction, presentation and accessibility; does not imply permission to change data or policy.",
       "related_concepts": [
         "liquid-software",
-        "documentation-as-foundations"
+        "documentation-as-foundations",
+        "stability-aware-evolution",
+        "parallel-realizations"
       ],
       "related_papers": [
         "05"
@@ -158,8 +174,22 @@
           "paper_number": "05",
           "status": "research-draft",
           "url": "https://valto.github.io/liquid/whitepapers/drafts/05-the-adaptive-interface/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
-      ]
+      ],
+      "previous_version": "0.1.0",
+      "previous_publication_date": "2026-11-26",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "capture-for-unknown-future-value",
@@ -232,11 +262,11 @@
       "source": "concepts/adaptive-information-retrieval.md",
       "markdown": "content/concepts/adaptive-information-retrieval.md",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.3.0",
+      "status": "review-candidate",
+      "version": "0.4.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
       "thesis": "Retrieval structures can change with emerging questions without turning their answers into authoritative source information.",
       "principles": [
@@ -249,7 +279,8 @@
       "related_concepts": [
         "capture-for-unknown-future-value",
         "self-optimizing-system",
-        "capability-economics"
+        "capability-economics",
+        "layered-intelligence-cycles"
       ],
       "related_papers": [
         "07"
@@ -284,16 +315,22 @@
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/",
           "publication_date": "2026-11-27"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
-      "previous_version": "0.2.0",
+      "previous_version": "0.3.0",
       "previous_publication_date": "2026-11-27",
       "revision_source": {
-        "source_id": "S41",
-        "edition": "3.0",
-        "edition_date": "2026-11-27"
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       },
-      "content_license": "https://creativecommons.org/licenses/by/4.0/"
+      "content_license": null
     },
     {
       "id": "intelligence-first",
@@ -419,11 +456,11 @@
       "source": "concepts/self-optimizing-system.md",
       "markdown": "content/concepts/self-optimizing-system.md",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.2.0",
+      "status": "review-candidate",
+      "version": "0.3.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
       "thesis": "Optimize risk-adjusted cumulative net value across feasible realizations while preserving accepted meaning and authority.",
       "principles": [
@@ -436,7 +473,8 @@
         "liquid-software",
         "adaptive-information-retrieval",
         "degrees-of-decision-freedom",
-        "capability-economics"
+        "capability-economics",
+        "meta-learning"
       ],
       "related_papers": [
         "08"
@@ -469,15 +507,22 @@
           "version": "2.0",
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26",
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27",
       "revision_source": {
-        "source_id": "S32",
-        "edition": "2.0",
-        "edition_date": "2026-11-27"
-      }
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "content_license": null
     },
     {
       "id": "documentation-as-foundations",
@@ -487,11 +532,11 @@
       "source": "concepts/documentation-as-foundations.md",
       "markdown": "content/concepts/documentation-as-foundations.md",
       "kind": "concept",
-      "status": "research-draft",
-      "version": "0.1.0",
+      "status": "review-candidate",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": "2026-11-26",
-      "modified": "2026-11-26",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "definition": "Shared terminology, capability requirements and guidance preserve meaning while implementations and operational choices evolve.",
       "thesis": "Shared documentation can preserve stable meaning while interfaces, contracts and implementations are generated for a particular need.",
       "principles": [
@@ -503,7 +548,8 @@
       "related_concepts": [
         "liquid-software",
         "adaptive-interface",
-        "degrees-of-decision-freedom"
+        "degrees-of-decision-freedom",
+        "reasoning-compilation"
       ],
       "related_papers": [
         "10"
@@ -530,8 +576,22 @@
           "paper_number": "10",
           "status": "research-draft",
           "url": "https://valto.github.io/liquid/whitepapers/drafts/10-documentation-as-executable-foundations/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
-      ]
+      ],
+      "previous_version": "0.1.0",
+      "previous_publication_date": "2026-11-26",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "capability-economics",
@@ -541,7 +601,7 @@
       "source": "concepts/capability-economics.md",
       "markdown": "content/concepts/capability-economics.md",
       "kind": "concept",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "definition": "Compare feasible ways of fulfilling a capability by the risk-adjusted cumulative net value they deliver over time, including their full lifecycle and the flexibility they retain or remove.",
       "thesis": "Choose realizations and their timing through informed comparison of full value rather than runtime price or a presumed maturity progression.",
       "principles": [
@@ -557,7 +617,9 @@
         "intelligence-first",
         "self-optimizing-system",
         "adaptive-information-retrieval",
-        "capture-for-unknown-future-value"
+        "capture-for-unknown-future-value",
+        "stability-aware-evolution",
+        "reasoning-compilation"
       ],
       "related_papers": [
         "02",
@@ -590,6 +652,12 @@
           "status": "published",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/",
           "publication_date": "2026-11-27"
+        },
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
       "conceptual_source_document": {
@@ -599,16 +667,16 @@
         "prior_source_id": "S32"
       },
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
-      "status": "research-draft",
-      "previous_version": "0.1.0",
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "status": "review-candidate",
+      "previous_version": "0.2.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": "https://creativecommons.org/licenses/by/4.0/",
+      "content_license": null,
       "revision_source": {
-        "source_id": "S41",
-        "edition": "3.0",
-        "edition_date": "2026-11-27"
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       }
     },
     {
@@ -619,11 +687,19 @@
       "source": "architecture/overview.md",
       "markdown": "content/architecture/overview.md",
       "kind": "guide",
-      "status": "published",
-      "version": "0.1.0",
+      "status": "review-candidate",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": "2026-11-26",
-      "modified": "2026-11-26"
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "previous_version": "0.1.0",
+      "previous_publication_date": "2026-11-26",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "PRINCIPLES",
@@ -633,13 +709,19 @@
       "source": "PRINCIPLES.md",
       "markdown": "content/PRINCIPLES.md",
       "kind": "guide",
-      "status": "published",
-      "version": "0.2.0",
+      "status": "review-candidate",
+      "version": "0.3.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
-      "previous_version": "0.1.0",
-      "previous_publication_date": "2026-11-26"
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "previous_version": "0.2.0",
+      "previous_publication_date": "2026-11-27",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "GLOSSARY",
@@ -649,14 +731,19 @@
       "source": "GLOSSARY.md",
       "markdown": "content/GLOSSARY.md",
       "kind": "guide",
-      "status": "published",
-      "version": "0.3.0",
+      "status": "review-candidate",
+      "version": "0.4.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
-      "previous_version": "0.2.0",
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "previous_version": "0.3.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": "https://creativecommons.org/licenses/by/4.0/"
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "research-related-work",
@@ -666,11 +753,19 @@
       "source": "research/related-work.md",
       "markdown": "content/research/related-work.md",
       "kind": "guide",
-      "status": "published",
-      "version": "0.1.0",
+      "status": "review-candidate",
+      "version": "0.2.0",
       "origin_date": null,
-      "publication_date": "2026-11-26",
-      "modified": "2026-11-26"
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "previous_version": "0.1.0",
+      "previous_publication_date": "2026-11-26",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "about",
@@ -680,13 +775,19 @@
       "source": "about.md",
       "markdown": "content/about.md",
       "kind": "guide",
-      "status": "published",
-      "version": "0.3.0",
+      "status": "review-candidate",
+      "version": "0.4.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
-      "previous_version": "0.2.0",
-      "previous_publication_date": "2026-11-27"
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "previous_version": "0.3.0",
+      "previous_publication_date": "2026-11-27",
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "original-paper-00",
@@ -764,15 +865,20 @@
       "source": "whitepapers/index.md",
       "markdown": "content/whitepapers/index.md",
       "kind": "guide",
-      "status": "published",
-      "version": "0.3.0",
+      "status": "review-candidate",
+      "version": "0.4.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
+      "publication_date": null,
+      "modified": "2026-11-28",
       "collection": "draft",
-      "previous_version": "0.2.0",
+      "previous_version": "0.3.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": "https://creativecommons.org/licenses/by/4.0/"
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "draft-00",
@@ -1111,7 +1217,7 @@
       "markdown": "content/readers/general.md",
       "kind": "reader",
       "status": "reader-guide-review-candidate",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "origin_date": null,
       "publication_date": null,
       "modified": "2026-11-28",
@@ -1122,8 +1228,8 @@
         "question": "What should remain dependable when software can change more easily?",
         "focus": [
           "Information continuity, shared meaning, authority and adaptable implementations.",
-          "The independent value of adaptive interfaces, preservation and retrieval.",
-          "One everyday example and the limits of what the resource establishes."
+          "Independent concepts, including learning at a different rate from operational change.",
+          "Stable experiences, parallel choices and one bounded everyday example."
         ],
         "reading": [
           {
@@ -1132,17 +1238,24 @@
           },
           {
             "id": "liquid-software",
-            "why": "Understand the paradigm and its reversible lifecycle."
+            "why": "Understand the paradigm and reversible lifecycle."
+          },
+          {
+            "id": "continuous-intelligence",
+            "why": "Read the executive synthesis and stable-experience discussion."
           },
           {
             "id": "architecture-overview",
-            "why": "See which concerns persist and which can adapt."
-          },
-          {
-            "id": "CONCEPTS",
-            "why": "Choose an independent concept for deeper reading."
+            "why": "See which concerns persist and which adapt."
           }
         ]
+      },
+      "content_license": null,
+      "previous_version": "0.1.0",
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       }
     },
     {
@@ -1154,7 +1267,7 @@
       "markdown": "content/readers/business-leaders.md",
       "kind": "reader",
       "status": "reader-guide-review-candidate",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "origin_date": null,
       "publication_date": null,
       "modified": "2026-11-28",
@@ -1164,28 +1277,35 @@
         "perspective": "a business leader or team owner",
         "question": "How can we deliver value sooner while retaining the ability to change direction?",
         "focus": [
-          "Meaningful business outcomes, accountable ownership and retained organizational knowledge.",
-          "Delegated operational choices versus reserved commitments.",
-          "Time to accepted value, adoption, transition and a bounded comparison with the current process."
+          "Capability ownership, earlier value and retained organizational knowledge.",
+          "Review purpose and depth, market triggers and learning about the review process.",
+          "Internal throughput, external fitness, stable operations and verified customer outcomes."
         ],
         "reading": [
           {
             "id": "capability-economics",
-            "why": "Connect capability decisions to cumulative net value."
+            "why": "Frame feasible strategies and their full value."
           },
           {
             "id": "degrees-of-decision-freedom",
-            "why": "Separate delegated choices from reserved decisions."
+            "why": "Define delegated and reserved decisions."
           },
           {
-            "id": "economics-of-execution-v3",
-            "why": "Read pages 12–16 and 21 for staged value, transitions and procurement composition."
+            "id": "layered-intelligence-cycles",
+            "why": "Choose useful review purposes, depth and timing."
           },
           {
-            "id": "documentation-as-foundations",
-            "why": "Keep business meaning and guidance durable across tools."
+            "id": "continuous-intelligence",
+            "why": "Read change choices and the customer-verification loop."
           }
         ]
+      },
+      "content_license": null,
+      "previous_version": "0.1.0",
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       }
     },
     {
@@ -1197,7 +1317,7 @@
       "markdown": "content/readers/finance-investment.md",
       "kind": "reader",
       "status": "reader-guide-review-candidate",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "origin_date": null,
       "publication_date": null,
       "modified": "2026-11-28",
@@ -1207,28 +1327,39 @@
         "perspective": "a finance leader, procurement analyst or investor assessing capability implementation",
         "question": "Which feasible strategy delivers the best cumulative net value over the relevant horizon?",
         "focus": [
-          "Comparable accepted outcomes, incremental costs and remaining future demand.",
-          "Timing, adoption, transition, reversibility and consistent opportunity-cost accounting.",
-          "Observed inputs versus estimates, scenario ranges and the limits of elementary break-even."
+          "Future demand, timing, incremental costs, uncertainty and full lifecycle value.",
+          "Stability, disruption, parallel upkeep and separate release/adoption decisions.",
+          "Explicit assumptions, avoiding double-counting, and evidence that changes an investment choice."
         ],
         "reading": [
           {
             "id": "capability-economics",
-            "why": "Start with the full comparison and feasibility conditions."
-          },
-          {
-            "id": "economics-of-execution-v3",
-            "why": "Read pages 10, 13–17, 25 and 28 for thresholds, timing, the value model and portfolio examples."
+            "why": "Begin with the horizon-based comparison."
           },
           {
             "id": "capability-decision-record",
-            "why": "Organize the baseline, alternatives, evidence and review triggers."
+            "why": "Use the optional structure for an inspectable assessment."
           },
           {
-            "id": "intelligence-first",
-            "why": "Understand staged fulfillment without assuming agents are always preferable."
+            "id": "economics-of-execution-v3",
+            "why": "Read the worked costs and value scenarios."
+          },
+          {
+            "id": "stability-aware-evolution",
+            "why": "Account for the path to improvement and continuing support."
+          },
+          {
+            "id": "continuous-intelligence",
+            "why": "Read chapter 4 and the measurement limits."
           }
         ]
+      },
+      "content_license": null,
+      "previous_version": "0.1.0",
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       }
     },
     {
@@ -1240,7 +1371,7 @@
       "markdown": "content/readers/product-engineering.md",
       "kind": "reader",
       "status": "reader-guide-review-candidate",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "origin_date": null,
       "publication_date": null,
       "modified": "2026-11-28",
@@ -1250,32 +1381,39 @@
         "perspective": "a product designer, architect or developer",
         "question": "What must remain stable so implementation can change without changing the promise?",
         "focus": [
-          "Capability meaning, acceptance criteria and realization-specific contracts.",
-          "Languages, formats and shared semantics; dynamic schema preparation versus claimed protocol guarantees.",
-          "Selective composition, interface costs, compatible replacement and recovery."
+          "Capability meaning, accepted outcomes and realization-specific contracts.",
+          "Languages, formats and dynamically prepared schemas under applicable protocol guarantees.",
+          "Validated reasoning compilation, invalidation, compatible parallel versions and stable contextual experiences."
         ],
         "reading": [
           {
             "id": "documentation-as-foundations",
-            "why": "Start with purpose, shared terminology and meaningful scope."
-          },
-          {
-            "id": "architecture-overview",
-            "why": "Separate principal, information, capability, interaction and governance concerns."
+            "why": "Start with purpose, terminology and meaningful scope."
           },
           {
             "id": "draft-09",
-            "why": "Examine expression, schemas, agreements and implementation boundaries."
+            "why": "Examine languages, schemas and agreements."
           },
           {
-            "id": "liquid-software",
-            "why": "Understand the reversible lifecycle, including deliberate stability."
+            "id": "reasoning-compilation",
+            "why": "Read validation, assumptions and revalidation of exact portions."
           },
           {
-            "id": "economics-of-execution-v3",
-            "why": "Read pages 19–21 for meaningful modularity and the procurement composition."
+            "id": "parallel-realizations",
+            "why": "Separate candidate testing, release, adoption and retirement."
+          },
+          {
+            "id": "continuous-intelligence",
+            "why": "Read chapters 5–7 and scenario B with the diagrams."
           }
         ]
+      },
+      "content_license": null,
+      "previous_version": "0.1.0",
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       }
     },
     {
@@ -1287,7 +1425,7 @@
       "markdown": "content/readers/data-knowledge.md",
       "kind": "reader",
       "status": "reader-guide-review-candidate",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "origin_date": null,
       "publication_date": null,
       "modified": "2026-11-28",
@@ -1297,28 +1435,35 @@
         "perspective": "a data steward, knowledge worker or person managing their own information",
         "question": "What should we preserve, and which processing should we invest in as needs emerge?",
         "focus": [
-          "Appropriate originals, accepted assertions, inferred interpretations and derived structures.",
-          "Purpose, rights, retention, discoverability, freshness and accessibility.",
-          "On-demand processing, selective caching and preprocessing under explicit demand assumptions."
+          "Appropriate originals, accepted assertions, inferred assessments and derived structures.",
+          "Persisted understanding with provenance, confidence, dependencies and invalidation.",
+          "Purpose, rights, freshness and selective preparation compared with repeated reconstruction."
         ],
         "reading": [
           {
             "id": "capture-for-unknown-future-value",
-            "why": "Separate preserving evidence from anticipating every future question."
+            "why": "Separate appropriate source preservation from predicted questions."
           },
           {
             "id": "adaptive-information-retrieval",
-            "why": "Compare evolving retrieval methods and their evidence boundaries."
+            "why": "Compare retrieval strategies and retained understanding."
           },
           {
-            "id": "adaptive-interface",
-            "why": "Preserve meaning when representations change for different recipients."
+            "id": "layered-intelligence-cycles",
+            "why": "See how different reviews reuse evidence and assessments."
           },
           {
-            "id": "economics-of-execution-v3",
-            "why": "Read pages 22–23 for purposeful processing and the illustrative retrieval comparison."
+            "id": "continuous-intelligence",
+            "why": "Read sections 2.2 and 7.3 and their vendor-evidence limits."
           }
         ]
+      },
+      "content_license": null,
+      "previous_version": "0.1.0",
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       }
     },
     {
@@ -1330,7 +1475,7 @@
       "markdown": "content/readers/governance-policy.md",
       "kind": "reader",
       "status": "reader-guide-review-candidate",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "origin_date": null,
       "publication_date": null,
       "modified": "2026-11-28",
@@ -1340,28 +1485,35 @@
         "perspective": "a governance, policy or risk reader",
         "question": "How can adaptation preserve accountability and meaningful control?",
         "focus": [
-          "The requester, represented principal, beneficiary and information authority.",
-          "Delegated choices, reserved decisions, revision, intervention and revocation.",
-          "Enforceable obligations, source rights and the feasible boundary before economic optimization."
+          "Requester, principal, beneficiary and actual information authority.",
+          "Review, decision, release, adoption and retirement as separate consequences.",
+          "User control, enforceable obligations and personal/organizational context boundaries."
         ],
         "reading": [
           {
             "id": "degrees-of-decision-freedom",
-            "why": "Understand contextual delegation and retained human decisions."
+            "why": "Understand delegation and retained human decisions."
           },
           {
             "id": "architecture-overview",
-            "why": "Distinguish the roles and authority concerns in a bounded request."
+            "why": "Identify principal, evidence and governance boundaries."
           },
           {
-            "id": "capture-for-unknown-future-value",
-            "why": "Examine purpose, rights and retention alongside evidence continuity."
+            "id": "parallel-realizations",
+            "why": "Examine compatibility, adoption and retirement obligations."
           },
           {
-            "id": "economics-of-execution-v3",
-            "why": "Read pages 25 and 29 for feasibility, downside and the governance boundary."
+            "id": "continuous-intelligence",
+            "why": "Read sections 4.3, 6.3, 9.2 and scenario D."
           }
         ]
+      },
+      "content_license": null,
+      "previous_version": "0.1.0",
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       }
     },
     {
@@ -1373,7 +1525,7 @@
       "markdown": "content/readers/research-education.md",
       "kind": "reader",
       "status": "reader-guide-review-candidate",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "origin_date": null,
       "publication_date": null,
       "modified": "2026-11-28",
@@ -1381,30 +1533,41 @@
         "slug": "research-education",
         "label": "Research and education",
         "perspective": "a researcher, educator or student",
-        "question": "Which claims can be tested, and how do their concepts, examples and related work differ?",
+        "question": "Which learning, stability and outcome claims can be tested, and how do their sources differ?",
         "focus": [
-          "Independent concepts versus the integrated architectural claim.",
-          "Supplied papers, companion drafts, related original sources and version lineage.",
-          "Falsifiable comparisons, matched acceptance criteria, evidence limits and negative results."
+          "Same-origin supplied sources versus independently established prior work.",
+          "Matched feasible baselines, cohort differences, learning quality, transition costs and negative results.",
+          "Testable stability and outcome claims with vendor and illustrative evidence kept distinct."
         ],
         "reading": [
           {
             "id": "original-paper-00",
-            "why": "Read the supplied argument before evaluating its parts."
+            "why": "Read the overall claim before testing its parts."
           },
           {
             "id": "research-related-work",
-            "why": "Trace related original works and their separate claims."
+            "why": "Trace the independent originals and read-scope limits."
           },
           {
-            "id": "draft-15",
-            "why": "Examine the integrated proposal and its research questions."
+            "id": "continuous-intelligence",
+            "why": "Read chapter 11 and the source evidence note."
+          },
+          {
+            "id": "meta-learning",
+            "why": "Examine how review policy can be evaluated."
           },
           {
             "id": "economics-of-execution-v3",
-            "why": "Read pages 26 and 30–33 for maturity distinctions, empirical questions, lineage and references."
+            "why": "Distinguish conceptual maturity, worked assumptions and research questions."
           }
         ]
+      },
+      "content_license": null,
+      "previous_version": "0.1.0",
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
       }
     },
     {
@@ -1416,10 +1579,18 @@
       "markdown": "content/readers/index.md",
       "kind": "guide",
       "status": "review-candidate",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "origin_date": null,
       "publication_date": null,
-      "modified": "2026-11-28"
+      "modified": "2026-11-28",
+      "previous_version": "0.1.0",
+      "previous_publication_date": null,
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
     },
     {
       "id": "agent-handoff",
@@ -1430,10 +1601,361 @@
       "markdown": "content/agents/index.md",
       "kind": "agent",
       "status": "review-candidate",
+      "version": "0.2.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "previous_version": "0.1.0",
+      "previous_publication_date": null,
+      "content_license": null,
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      }
+    },
+    {
+      "id": "layered-intelligence-cycles",
+      "path": "concepts/layered-intelligence-cycles/",
+      "title": "Layered Intelligence Cycles",
+      "description": "Reviews need distinct purposes and depths as well as suitable cadence and triggers.",
+      "source": "concepts/layered-intelligence-cycles.md",
+      "markdown": "content/concepts/layered-intelligence-cycles.md",
+      "pdf": "concepts/layered-intelligence-cycles/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
       "version": "0.1.0",
       "origin_date": null,
       "publication_date": null,
-      "modified": "2026-11-28"
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Organize reviews around distinct purposes and depths, using suitable recurring cadences and evidence-triggered exceptions while preserving their decision boundaries.",
+      "thesis": "Review purpose, depth and authority precede the choice of calendar.",
+      "principles": [
+        "Define a purposeful review charter",
+        "Keep cadence and depth independent",
+        "Persist understanding with dependencies",
+        "Use event triggers alongside recurring reviews"
+      ],
+      "scope": "Review organization and reusable understanding; not a universal schedule or mandatory hierarchy.",
+      "related_concepts": [
+        "adaptive-information-retrieval",
+        "meta-learning",
+        "degrees-of-decision-freedom"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Layered Intelligence Cycles. AI-assisted concept research paper, version 0.1.0, 28 November 2026."
+    },
+    {
+      "id": "meta-learning",
+      "path": "concepts/meta-learning/",
+      "title": "Meta-Learning: Review the Learning Process",
+      "description": "Evaluate how the system notices, reviews and learns, including false triggers, missed signals and unnecessary change.",
+      "source": "concepts/meta-learning.md",
+      "markdown": "content/concepts/meta-learning.md",
+      "pdf": "concepts/meta-learning/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Evaluate and improve the system's reviews, evidence use and change triggers under explicit authority, using outcomes and errors to assess how it learns.",
+      "thesis": "Evaluate the learning process separately from the operations it examines.",
+      "principles": [
+        "Review missed signals and false triggers",
+        "Preserve errors and negative evidence",
+        "Separate learning from production change",
+        "Keep a bounded accountable meta-loop"
+      ],
+      "scope": "Organizational review and learning policy; not a survey of all technical meta-learning methods.",
+      "related_concepts": [
+        "layered-intelligence-cycles",
+        "self-optimizing-system",
+        "outcome-verification"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Meta-Learning: Review the Learning Process. AI-assisted concept research paper, version 0.1.0, 28 November 2026."
+    },
+    {
+      "id": "stability-aware-evolution",
+      "path": "concepts/stability-aware-evolution/",
+      "title": "Stability-Aware Evolution",
+      "description": "Compare improvements with transition effects, giving stable operation and familiar experience explicit value.",
+      "source": "concepts/stability-aware-evolution.md",
+      "markdown": "content/concepts/stability-aware-evolution.md",
+      "pdf": "concepts/stability-aware-evolution/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Compare feasible improvements together with transition effects, disruption, risk and continuing support costs, giving dependable operation and familiar experience explicit value.",
+      "thesis": "A valuable destination can be reached through a harmful transition.",
+      "principles": [
+        "Compare paths as well as endpoints",
+        "Include positive stability value",
+        "Assess throughput and external fitness",
+        "Account for transition and support once"
+      ],
+      "scope": "Feasible evolution and transition accounting; not a universal numeric valuation or unconditional refusal of change.",
+      "related_concepts": [
+        "capability-economics",
+        "adaptive-interface",
+        "parallel-realizations",
+        "outcome-verification"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Stability-Aware Evolution. AI-assisted concept research paper, version 0.1.0, 28 November 2026."
+    },
+    {
+      "id": "parallel-realizations",
+      "path": "concepts/parallel-realizations/",
+      "title": "Parallel Realizations",
+      "description": "Release, adoption and retirement can be separate decisions for compatible realizations of a capability.",
+      "source": "concepts/parallel-realizations.md",
+      "markdown": "content/concepts/parallel-realizations.md",
+      "pdf": "concepts/parallel-realizations/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Maintain and evaluate compatible realizations of a capability separately from decisions about their release, adoption and retirement.",
+      "thesis": "A new version need not replace every existing realization.",
+      "principles": [
+        "Preserve capability meaning and contracts",
+        "Distinguish construction release and adoption",
+        "Avoid duplicate shadow side effects",
+        "Account for support and deliberate retirement"
+      ],
+      "scope": "Compatible candidate and active realizations; not indefinite support for every version or guaranteed optional security changes.",
+      "related_concepts": [
+        "liquid-software",
+        "adaptive-interface",
+        "reasoning-compilation",
+        "stability-aware-evolution"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Parallel Realizations. AI-assisted concept research paper, version 0.1.0, 28 November 2026."
+    },
+    {
+      "id": "reasoning-compilation",
+      "path": "concepts/reasoning-compilation/",
+      "title": "Reasoning Compilation",
+      "description": "Materialize formally checkable portions with validation, assumptions, provenance and invalidation conditions.",
+      "source": "concepts/reasoning-compilation.md",
+      "markdown": "content/concepts/reasoning-compilation.md",
+      "pdf": "concepts/reasoning-compilation/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Convert formally checkable portions of repeated reasoning into validated executable structures while retaining assumptions, provenance, limits and conditions for revalidation.",
+      "thesis": "Repeated formalizable reasoning can become reusable executable structure without freezing arbitrary judgment.",
+      "principles": [
+        "Compile only checkable portions",
+        "Validate independently",
+        "Preserve assumptions and invalidation",
+        "Compare full lifecycle outcomes"
+      ],
+      "scope": "Proposed compilation capability and its validation; not an installed Skill or a guarantee that determinism establishes truth.",
+      "related_concepts": [
+        "documentation-as-foundations",
+        "parallel-realizations",
+        "capability-economics"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Reasoning Compilation. AI-assisted concept research paper, version 0.1.0, 28 November 2026."
+    },
+    {
+      "id": "outcome-verification",
+      "path": "concepts/outcome-verification/",
+      "title": "Outcome Verification",
+      "description": "Connect signals, decisions and execution to whether the beneficiary’s original need improved.",
+      "source": "concepts/outcome-verification.md",
+      "markdown": "content/concepts/outcome-verification.md",
+      "pdf": "concepts/outcome-verification/v0.1.0.pdf",
+      "kind": "concept",
+      "status": "research-draft",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "definition": "Examine whether the beneficiary's original need improved after action, preserving the connection between signals, decisions, execution and lived results.",
+      "thesis": "Completed work is partial evidence; verify the original need.",
+      "principles": [
+        "Retain the original problem and context",
+        "Connect action to beneficiary outcomes",
+        "Assess internal throughput and external fitness",
+        "Preserve consent and source boundaries"
+      ],
+      "scope": "Beneficiary outcome evidence and customer-side feedback; not unrestricted collection or independently verified vendor performance.",
+      "related_concepts": [
+        "layered-intelligence-cycles",
+        "meta-learning",
+        "stability-aware-evolution"
+      ],
+      "related_papers": [],
+      "related_external_work": [],
+      "publications": [
+        {
+          "id": "continuous-intelligence",
+          "version": "1.0",
+          "status": "review-candidate",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        }
+      ],
+      "revision_source": {
+        "source_id": "S42",
+        "edition": "1.0",
+        "edition_date": "2026-11-28"
+      },
+      "citation": "Loikkanen, Valto (conceptual source). Outcome Verification. AI-assisted concept research paper, version 0.1.0, 28 November 2026."
+    },
+    {
+      "id": "continuous-intelligence",
+      "path": "whitepapers/continuous-intelligence/",
+      "title": "Continuous Intelligence, Adaptive Evolution, and Stable Experience",
+      "description": "The supplied 18-page companion, with the original PDF, full Markdown, three diagrams, review cycles, stable experiences and evidence limits.",
+      "source": "whitepapers/continuous-intelligence/overview.md",
+      "markdown": "content/whitepapers/continuous-intelligence/overview.md",
+      "pdf": "whitepapers/continuous-intelligence/v1.0.pdf",
+      "kind": "paper",
+      "status": "review-candidate",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "attribution": "Conceptual source: Valto Loikkanen · AI-assisted editorial overview",
+      "citation": "Loikkanen, Valto (conceptual source). Liquid Software: Continuous Intelligence, Adaptive Evolution, and Stable Experience. Companion whitepaper, version 1.0, 28 November 2026."
+    },
+    {
+      "id": "continuous-intelligence-transcript",
+      "path": "whitepapers/continuous-intelligence/text/",
+      "title": "Continuous Intelligence — complete PDF transcription",
+      "description": "All 18 physical pages of the supplied original, with extracted wording preserved and diagrams available in the PDF.",
+      "source": "whitepapers/continuous-intelligence/original-transcript.txt",
+      "markdown": "content/whitepapers/continuous-intelligence/original-transcript.txt",
+      "pdf": "whitepapers/continuous-intelligence/v1.0.pdf",
+      "kind": "transcript",
+      "status": "review-candidate",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "attribution": "Conceptual source: Valto Loikkanen · Supplied original source",
+      "citation": "Loikkanen, Valto (conceptual source). Liquid Software: Continuous Intelligence, Adaptive Evolution, and Stable Experience. Companion whitepaper, version 1.0, 28 November 2026.",
+      "mode": "transcript"
+    },
+    {
+      "id": "continuous-intelligence-source",
+      "path": "whitepapers/continuous-intelligence/source/",
+      "title": "Continuous Intelligence — complete original Markdown",
+      "description": "The complete supplied Markdown with three original diagrams and fourteen references; downloadable source bytes unchanged.",
+      "source": "whitepapers/continuous-intelligence/source/paper.md",
+      "markdown": "whitepapers/continuous-intelligence/source/paper.md",
+      "pdf": "whitepapers/continuous-intelligence/v1.0.pdf",
+      "kind": "paper",
+      "status": "review-candidate",
+      "version": "1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "source_edition_date": "2026-11-28",
+      "content_license": null,
+      "attribution": "Conceptual source: Valto Loikkanen · Supplied original source",
+      "citation": "Loikkanen, Valto (conceptual source). Liquid Software: Continuous Intelligence, Adaptive Evolution, and Stable Experience. Companion whitepaper, version 1.0, 28 November 2026.",
+      "mode": "source-markdown"
     }
   ],
   "files": [
@@ -1530,7 +2052,7 @@
     {
       "source": "site/assets/style.css",
       "destination": "assets/style.css",
-      "sha256": "88f67a2cc8b26aabddfa0c9483421436c286196eabd8ff30c55d74064776d51c"
+      "sha256": "b98b52d84a85792bd0c5ed1b0ee45ead5ac2cf7a6d1fd75d05b35a986d68db1f"
     },
     {
       "source": "site/assets/og.svg",
@@ -1566,6 +2088,66 @@
       "source": "site/assets/reader-tools.js",
       "destination": "assets/reader-tools.js",
       "sha256": "a1e0098d746b29bb182ed7597c2038704416dc0f780d0ea26d35bb80217a2d30"
+    },
+    {
+      "source": "whitepapers/continuous-intelligence/v1.0.pdf",
+      "destination": "whitepapers/continuous-intelligence/v1.0.pdf",
+      "sha256": "bc7c5a95d4e7810e3f4c7fbd31adf359566b3df2d4f59aa043a61165d8bb3909"
+    },
+    {
+      "source": "whitepapers/continuous-intelligence/source-package-v1.0.zip",
+      "destination": "whitepapers/continuous-intelligence/source-package-v1.0.zip",
+      "sha256": "cdf88d85910acb77528dd977b702ae846e82160f5d3ab7feb21d841f4fd040af"
+    },
+    {
+      "source": "whitepapers/continuous-intelligence/source/README.md",
+      "destination": "whitepapers/continuous-intelligence/source/README.md",
+      "sha256": "5ce37a9bea92ac09d16bf80180d49763f317dfc3585614d490e97bc7b9d40af2"
+    },
+    {
+      "source": "whitepapers/continuous-intelligence/source/figures/architecture.svg",
+      "destination": "whitepapers/continuous-intelligence/source/figures/architecture.svg",
+      "sha256": "8800d77072603d2f81055507844a66c1227594a9ee634aa6d2fdf2e3df84a4fb"
+    },
+    {
+      "source": "whitepapers/continuous-intelligence/source/figures/stack.svg",
+      "destination": "whitepapers/continuous-intelligence/source/figures/stack.svg",
+      "sha256": "606259c07262cd32e43632a68a7fbd55961377ac51958a6f62867345b5c233e5"
+    },
+    {
+      "source": "whitepapers/continuous-intelligence/source/figures/versions.svg",
+      "destination": "whitepapers/continuous-intelligence/source/figures/versions.svg",
+      "sha256": "9be0ac07ef78dd3e52046327e9d2db87eb1f2ab62771beb11e6f80db947f88a9"
+    },
+    {
+      "source": "concepts/papers/layered-intelligence-cycles-v0.1.0.pdf",
+      "destination": "concepts/layered-intelligence-cycles/v0.1.0.pdf",
+      "sha256": "8e61b9a959c715eed1f3dca11b0143c14ba97f2e82bbd398ced3081abe214bfe"
+    },
+    {
+      "source": "concepts/papers/meta-learning-v0.1.0.pdf",
+      "destination": "concepts/meta-learning/v0.1.0.pdf",
+      "sha256": "ad32dbb2642ac0e5777d8d89f0662e5f902bba3893ddede1716556bc3e985b6f"
+    },
+    {
+      "source": "concepts/papers/stability-aware-evolution-v0.1.0.pdf",
+      "destination": "concepts/stability-aware-evolution/v0.1.0.pdf",
+      "sha256": "f5aaf20a7ca4648e6fe76746e738b68da503b5530d43409c57f6de90d57db223"
+    },
+    {
+      "source": "concepts/papers/parallel-realizations-v0.1.0.pdf",
+      "destination": "concepts/parallel-realizations/v0.1.0.pdf",
+      "sha256": "bf55fa1658328887926f41093eb00301da71d06fe0dfa9f8c3ee1e20808e0eb2"
+    },
+    {
+      "source": "concepts/papers/reasoning-compilation-v0.1.0.pdf",
+      "destination": "concepts/reasoning-compilation/v0.1.0.pdf",
+      "sha256": "f3990b3e5fd3bd9cfafb89c35d690b90374e3cf085b84ff650cb866446659b01"
+    },
+    {
+      "source": "concepts/papers/outcome-verification-v0.1.0.pdf",
+      "destination": "concepts/outcome-verification/v0.1.0.pdf",
+      "sha256": "6e473c738ef7486acb7b0fdcb0af0cf4679f9f671855d28ef870641a05f37ca1"
     }
   ]
 }

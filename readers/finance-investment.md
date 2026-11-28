@@ -22,11 +22,11 @@ A staged approach may deliver feasible value while uncertainty is resolved, then
 
 An implementation can be deployed yet underused or fail to deliver a promised outcome. Reversing it may require a second transition and reconciliation. The paper distinguishes these mechanisms and source populations; it does not provide a universal software failure rate or a standard reversal multiplier.
 
-## Consider one shared calculation
+## Value the transition and continuing support
 
-V3's illustrative portfolio assumes 6,000 executions at €0.40 each for an agent, or €900 fixed plus €0.02 each for a new function. Those totals are €2,400 and €1,020. At 1,000 executions, the comparison becomes €400 against €920. The same new function has a different justification at different future utilization.
+The Continuous Intelligence companion gives familiar workflows and stable operations explicit value. A new final state can be attractive while its transition destroys part of the expected benefit. Include retraining, disruption, switching and absorption capacity in the comparison.
 
-The example also shows why reuse across activities matters. Count attributable integration, testing and maintenance before treating reuse as a saving. Private internal use and a vendor selling to many customers can have different amortization opportunities.
+Parallel versions may preserve value for different cohorts, but add compatibility, security, assurance and upkeep. Compare release, adoption and retirement separately. The companion's change heuristic is qualitative; its categories belong once in the existing lifecycle model. Reduced tokens or feature adoption alone do not establish net value.
 
 ## Make uncertainty inspectable
 
@@ -43,6 +43,6 @@ The optional decision record can structure this assessment. The framework's calc
 - Which alternatives meet the same acceptance criteria, and over what horizon?
 - How much demand remains, and which costs are incremental?
 - Where does earlier accepted value matter, and where is upfront assurance required?
-- What does reversal cost, and what new evidence would change the choice?
+- What do stability, transition and parallel support contribute, and what evidence changes the choice?
 
 The [business leadership guide](https://valto.github.io/liquid/readers/business-leaders/) connects this comparison to ownership, delegation and organizational knowledge.

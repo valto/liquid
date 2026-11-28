@@ -4,7 +4,7 @@ Liquid Software explores a digital world in which your information and intention
 
 The central question is **what should remain dependable when software can change more easily?** The answer in this resource is attributable information, understandable meaning, accepted commitments and human authority. Interfaces and execution methods can adapt around those foundations.
 
-## Four ideas to carry into the papers
+## Five ideas to carry into the papers
 
 **Information provides continuity.** An appropriate original document can support a later question that its first summary did not anticipate. Preserve the distinction between evidence, an interpretation and a useful index. Ownership, consent and retention still govern what may be kept.
 
@@ -14,11 +14,13 @@ The central question is **what should remain dependable when software can change
 
 **Software is a choice to evaluate.** Repeated work can justify a validated function, cache or service. A changing task may remain intelligent. A critical control may need stable software from its first use. The proposed continuum allows all of these choices and allows them to be revisited.
 
+**Learning need not disturb what works.** A system can notice changes and review them while keeping operations and your familiar workspace stable. A new version can be offered alongside the current one. Whether to adopt it depends on useful outcomes, transition costs and your applicable choices.
+
 ## Imagine preparing tomorrow's briefing
 
 You ask, “Which commitments need my attention tomorrow?” A bounded system identifies you, applies the agreed meaning of commitment, checks authorized source records and returns a suitable explanation with references and uncertainty. It might combine an exact date query with intelligent interpretation of notes.
 
-If you ask the same question often, a maintained query or cache could become worthwhile. If your needs change, that optimization could change too. The original records and accepted commitments still matter. This is an illustrative situation, not a description of a deployed Liquid Software service.
+If you ask often, a validated query or cache could become worthwhile. It might improve beneath the same familiar interface. A different presentation could remain an optional alternative. The records, commitments and actual outcome still matter. This is illustrative, rather than a deployed service description.
 
 ## What changes for the reader
 
@@ -38,6 +40,6 @@ The resource is conceptual and AI-assisted. Its economic figures are illustrativ
 
 - Which parts of one activity should survive a change of app or model?
 - What evidence and prior decisions would let an agent understand the need?
-- Where would exact software help, and where is adaptation useful?
+- What should the system learn, and what would justify changing my current experience?
 
 [Choose another perspective](https://valto.github.io/liquid/start/) when you want to examine the business, technical or governance implications.

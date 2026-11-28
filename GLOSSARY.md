@@ -59,3 +59,33 @@
 **Dissolution:** retiring or replacing a realization while preserving necessary evidence and accepted commitments, or explicitly revising those commitments through proper authority.
 
 These economic terms are developed from [The Economics of Execution, version 2.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/) and its [version 3.0 expansion](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). V3's maturity spectrum is a conceptual classification; the separate named maturity companion was not supplied.
+
+**Layered intelligence cycles:** reviews with distinct purposes and depths, suitable recurring cadences and evidence-triggered exceptions. No universal daily-to-annual schedule is prescribed.
+
+**Review charter:** the proposed description of a review's purpose, scope, evidence, depth, authority, outputs, cadence, triggers and revisit conditions.
+
+**Persistent understanding:** retained evidence, propositions, assessments and decisions with their support and dependencies, enabling reuse and correction rather than unquestioned truth.
+
+**Meta-learning:** in this companion, evaluating and improving the organizational learning process itself, including reviews, triggers and errors; distinct from claiming coverage of the full machine-learning literature on meta-learning.
+
+**Stability-aware evolution:** assessing improvements together with transitions, disruption, switching, risk and continuing support, recognizing the positive value of dependable operation and familiar experience.
+
+**Internal throughput:** valuable outputs per unit of time or resource at acceptable quality; activity counts alone do not establish it.
+
+**External fitness:** how well outcomes continue to suit relevant customers, markets and conditions.
+
+**Parallel realizations:** compatible alternatives serving one capability, with separate decisions about candidate validation, release, adoption and retirement.
+
+**Release versus adoption:** making an approved version available within scope versus actually selecting and using it. Availability does not determine every user's transition.
+
+**Experience composition:** a contextual arrangement of capabilities and presentation, potentially combining multiple providers. Focused, expert, hybrid and agent-used modes are choices rather than maturity stages.
+
+**Reasoning compilation / crystallization:** materializing formally checkable portions of reasoning into validated structures while retaining assumptions, provenance, limits and invalidation conditions.
+
+**Reasoning Compilation Skill:** a proposed capability that examines formalizable operations, creates and checks candidates, supports bounded comparison and monitors revalidation. Describing it does not mean it has been installed.
+
+**Outcome verification:** examining whether the beneficiary's original need improved, connecting signals, decisions, execution and lived results. Task completion is partial evidence.
+
+**Pulse CXM:** the named customer-side application context for signals, coordinated actions, execution and verified improvement; complementary to broader EIOS organizational continuity and PIOS personal context.
+
+These additional terms are developed from [Continuous Intelligence, Adaptive Evolution, and Stable Experience](https://valto.github.io/liquid/whitepapers/continuous-intelligence/), version 1.0, 28 November 2026. They are source-attributed proposals rather than a new mandatory protocol or evidence of the complete architecture's deployment.

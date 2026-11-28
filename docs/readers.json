@@ -10,8 +10,8 @@
       "question": "What should remain dependable when software can change more easily?",
       "focus": [
         "Information continuity, shared meaning, authority and adaptable implementations.",
-        "The independent value of adaptive interfaces, preservation and retrieval.",
-        "One everyday example and the limits of what the resource establishes."
+        "Independent concepts, including learning at a different rate from operational change.",
+        "Stable experiences, parallel choices and one bounded everyday example."
       ],
       "reading": [
         {
@@ -21,18 +21,18 @@
         },
         {
           "id": "liquid-software",
-          "why": "Understand the paradigm and its reversible lifecycle.",
+          "why": "Understand the paradigm and reversible lifecycle.",
           "url": "https://valto.github.io/liquid/concepts/liquid-software/"
         },
         {
-          "id": "architecture-overview",
-          "why": "See which concerns persist and which can adapt.",
-          "url": "https://valto.github.io/liquid/architecture/"
+          "id": "continuous-intelligence",
+          "why": "Read the executive synthesis and stable-experience discussion.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         },
         {
-          "id": "CONCEPTS",
-          "why": "Choose an independent concept for deeper reading.",
-          "url": "https://valto.github.io/liquid/concepts/"
+          "id": "architecture-overview",
+          "why": "See which concerns persist and which adapt.",
+          "url": "https://valto.github.io/liquid/architecture/"
         }
       ],
       "id": "reader-general",
@@ -41,7 +41,7 @@
       "url": "https://valto.github.io/liquid/readers/general/",
       "markdown_url": "https://valto.github.io/liquid/content/readers/general.md",
       "prompt_url": "https://valto.github.io/liquid/readers/general/agent-prompt.txt",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "status": "reader-guide-review-candidate",
       "publication_date": null
     },
@@ -51,30 +51,30 @@
       "perspective": "a business leader or team owner",
       "question": "How can we deliver value sooner while retaining the ability to change direction?",
       "focus": [
-        "Meaningful business outcomes, accountable ownership and retained organizational knowledge.",
-        "Delegated operational choices versus reserved commitments.",
-        "Time to accepted value, adoption, transition and a bounded comparison with the current process."
+        "Capability ownership, earlier value and retained organizational knowledge.",
+        "Review purpose and depth, market triggers and learning about the review process.",
+        "Internal throughput, external fitness, stable operations and verified customer outcomes."
       ],
       "reading": [
         {
           "id": "capability-economics",
-          "why": "Connect capability decisions to cumulative net value.",
+          "why": "Frame feasible strategies and their full value.",
           "url": "https://valto.github.io/liquid/concepts/capability-economics/"
         },
         {
           "id": "degrees-of-decision-freedom",
-          "why": "Separate delegated choices from reserved decisions.",
+          "why": "Define delegated and reserved decisions.",
           "url": "https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/"
         },
         {
-          "id": "economics-of-execution-v3",
-          "why": "Read pages 12–16 and 21 for staged value, transitions and procurement composition.",
-          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
+          "id": "layered-intelligence-cycles",
+          "why": "Choose useful review purposes, depth and timing.",
+          "url": "https://valto.github.io/liquid/concepts/layered-intelligence-cycles/"
         },
         {
-          "id": "documentation-as-foundations",
-          "why": "Keep business meaning and guidance durable across tools.",
-          "url": "https://valto.github.io/liquid/concepts/documentation-as-foundations/"
+          "id": "continuous-intelligence",
+          "why": "Read change choices and the customer-verification loop.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
       "id": "reader-business-leaders",
@@ -83,7 +83,7 @@
       "url": "https://valto.github.io/liquid/readers/business-leaders/",
       "markdown_url": "https://valto.github.io/liquid/content/readers/business-leaders.md",
       "prompt_url": "https://valto.github.io/liquid/readers/business-leaders/agent-prompt.txt",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "status": "reader-guide-review-candidate",
       "publication_date": null
     },
@@ -93,30 +93,35 @@
       "perspective": "a finance leader, procurement analyst or investor assessing capability implementation",
       "question": "Which feasible strategy delivers the best cumulative net value over the relevant horizon?",
       "focus": [
-        "Comparable accepted outcomes, incremental costs and remaining future demand.",
-        "Timing, adoption, transition, reversibility and consistent opportunity-cost accounting.",
-        "Observed inputs versus estimates, scenario ranges and the limits of elementary break-even."
+        "Future demand, timing, incremental costs, uncertainty and full lifecycle value.",
+        "Stability, disruption, parallel upkeep and separate release/adoption decisions.",
+        "Explicit assumptions, avoiding double-counting, and evidence that changes an investment choice."
       ],
       "reading": [
         {
           "id": "capability-economics",
-          "why": "Start with the full comparison and feasibility conditions.",
+          "why": "Begin with the horizon-based comparison.",
           "url": "https://valto.github.io/liquid/concepts/capability-economics/"
         },
         {
-          "id": "economics-of-execution-v3",
-          "why": "Read pages 10, 13–17, 25 and 28 for thresholds, timing, the value model and portfolio examples.",
-          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
-        },
-        {
           "id": "capability-decision-record",
-          "why": "Organize the baseline, alternatives, evidence and review triggers.",
+          "why": "Use the optional structure for an inspectable assessment.",
           "url": "https://valto.github.io/liquid/concepts/capability-economics/decision-record/"
         },
         {
-          "id": "intelligence-first",
-          "why": "Understand staged fulfillment without assuming agents are always preferable.",
-          "url": "https://valto.github.io/liquid/concepts/intelligence-first/"
+          "id": "economics-of-execution-v3",
+          "why": "Read the worked costs and value scenarios.",
+          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
+        },
+        {
+          "id": "stability-aware-evolution",
+          "why": "Account for the path to improvement and continuing support.",
+          "url": "https://valto.github.io/liquid/concepts/stability-aware-evolution/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "why": "Read chapter 4 and the measurement limits.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
       "id": "reader-finance-investment",
@@ -125,7 +130,7 @@
       "url": "https://valto.github.io/liquid/readers/finance-investment/",
       "markdown_url": "https://valto.github.io/liquid/content/readers/finance-investment.md",
       "prompt_url": "https://valto.github.io/liquid/readers/finance-investment/agent-prompt.txt",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "status": "reader-guide-review-candidate",
       "publication_date": null
     },
@@ -135,35 +140,35 @@
       "perspective": "a product designer, architect or developer",
       "question": "What must remain stable so implementation can change without changing the promise?",
       "focus": [
-        "Capability meaning, acceptance criteria and realization-specific contracts.",
-        "Languages, formats and shared semantics; dynamic schema preparation versus claimed protocol guarantees.",
-        "Selective composition, interface costs, compatible replacement and recovery."
+        "Capability meaning, accepted outcomes and realization-specific contracts.",
+        "Languages, formats and dynamically prepared schemas under applicable protocol guarantees.",
+        "Validated reasoning compilation, invalidation, compatible parallel versions and stable contextual experiences."
       ],
       "reading": [
         {
           "id": "documentation-as-foundations",
-          "why": "Start with purpose, shared terminology and meaningful scope.",
+          "why": "Start with purpose, terminology and meaningful scope.",
           "url": "https://valto.github.io/liquid/concepts/documentation-as-foundations/"
         },
         {
-          "id": "architecture-overview",
-          "why": "Separate principal, information, capability, interaction and governance concerns.",
-          "url": "https://valto.github.io/liquid/architecture/"
-        },
-        {
           "id": "draft-09",
-          "why": "Examine expression, schemas, agreements and implementation boundaries.",
+          "why": "Examine languages, schemas and agreements.",
           "url": "https://valto.github.io/liquid/whitepapers/drafts/09-beyond-predefined-apis/"
         },
         {
-          "id": "liquid-software",
-          "why": "Understand the reversible lifecycle, including deliberate stability.",
-          "url": "https://valto.github.io/liquid/concepts/liquid-software/"
+          "id": "reasoning-compilation",
+          "why": "Read validation, assumptions and revalidation of exact portions.",
+          "url": "https://valto.github.io/liquid/concepts/reasoning-compilation/"
         },
         {
-          "id": "economics-of-execution-v3",
-          "why": "Read pages 19–21 for meaningful modularity and the procurement composition.",
-          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
+          "id": "parallel-realizations",
+          "why": "Separate candidate testing, release, adoption and retirement.",
+          "url": "https://valto.github.io/liquid/concepts/parallel-realizations/"
+        },
+        {
+          "id": "continuous-intelligence",
+          "why": "Read chapters 5–7 and scenario B with the diagrams.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
       "id": "reader-product-engineering",
@@ -172,7 +177,7 @@
       "url": "https://valto.github.io/liquid/readers/product-engineering/",
       "markdown_url": "https://valto.github.io/liquid/content/readers/product-engineering.md",
       "prompt_url": "https://valto.github.io/liquid/readers/product-engineering/agent-prompt.txt",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "status": "reader-guide-review-candidate",
       "publication_date": null
     },
@@ -182,30 +187,30 @@
       "perspective": "a data steward, knowledge worker or person managing their own information",
       "question": "What should we preserve, and which processing should we invest in as needs emerge?",
       "focus": [
-        "Appropriate originals, accepted assertions, inferred interpretations and derived structures.",
-        "Purpose, rights, retention, discoverability, freshness and accessibility.",
-        "On-demand processing, selective caching and preprocessing under explicit demand assumptions."
+        "Appropriate originals, accepted assertions, inferred assessments and derived structures.",
+        "Persisted understanding with provenance, confidence, dependencies and invalidation.",
+        "Purpose, rights, freshness and selective preparation compared with repeated reconstruction."
       ],
       "reading": [
         {
           "id": "capture-for-unknown-future-value",
-          "why": "Separate preserving evidence from anticipating every future question.",
+          "why": "Separate appropriate source preservation from predicted questions.",
           "url": "https://valto.github.io/liquid/concepts/capture-for-unknown-future-value/"
         },
         {
           "id": "adaptive-information-retrieval",
-          "why": "Compare evolving retrieval methods and their evidence boundaries.",
+          "why": "Compare retrieval strategies and retained understanding.",
           "url": "https://valto.github.io/liquid/concepts/adaptive-information-retrieval/"
         },
         {
-          "id": "adaptive-interface",
-          "why": "Preserve meaning when representations change for different recipients.",
-          "url": "https://valto.github.io/liquid/concepts/adaptive-interface/"
+          "id": "layered-intelligence-cycles",
+          "why": "See how different reviews reuse evidence and assessments.",
+          "url": "https://valto.github.io/liquid/concepts/layered-intelligence-cycles/"
         },
         {
-          "id": "economics-of-execution-v3",
-          "why": "Read pages 22–23 for purposeful processing and the illustrative retrieval comparison.",
-          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
+          "id": "continuous-intelligence",
+          "why": "Read sections 2.2 and 7.3 and their vendor-evidence limits.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
       "id": "reader-data-knowledge",
@@ -214,7 +219,7 @@
       "url": "https://valto.github.io/liquid/readers/data-knowledge/",
       "markdown_url": "https://valto.github.io/liquid/content/readers/data-knowledge.md",
       "prompt_url": "https://valto.github.io/liquid/readers/data-knowledge/agent-prompt.txt",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "status": "reader-guide-review-candidate",
       "publication_date": null
     },
@@ -224,30 +229,30 @@
       "perspective": "a governance, policy or risk reader",
       "question": "How can adaptation preserve accountability and meaningful control?",
       "focus": [
-        "The requester, represented principal, beneficiary and information authority.",
-        "Delegated choices, reserved decisions, revision, intervention and revocation.",
-        "Enforceable obligations, source rights and the feasible boundary before economic optimization."
+        "Requester, principal, beneficiary and actual information authority.",
+        "Review, decision, release, adoption and retirement as separate consequences.",
+        "User control, enforceable obligations and personal/organizational context boundaries."
       ],
       "reading": [
         {
           "id": "degrees-of-decision-freedom",
-          "why": "Understand contextual delegation and retained human decisions.",
+          "why": "Understand delegation and retained human decisions.",
           "url": "https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/"
         },
         {
           "id": "architecture-overview",
-          "why": "Distinguish the roles and authority concerns in a bounded request.",
+          "why": "Identify principal, evidence and governance boundaries.",
           "url": "https://valto.github.io/liquid/architecture/"
         },
         {
-          "id": "capture-for-unknown-future-value",
-          "why": "Examine purpose, rights and retention alongside evidence continuity.",
-          "url": "https://valto.github.io/liquid/concepts/capture-for-unknown-future-value/"
+          "id": "parallel-realizations",
+          "why": "Examine compatibility, adoption and retirement obligations.",
+          "url": "https://valto.github.io/liquid/concepts/parallel-realizations/"
         },
         {
-          "id": "economics-of-execution-v3",
-          "why": "Read pages 25 and 29 for feasibility, downside and the governance boundary.",
-          "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
+          "id": "continuous-intelligence",
+          "why": "Read sections 4.3, 6.3, 9.2 and scenario D.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
         }
       ],
       "id": "reader-governance-policy",
@@ -256,7 +261,7 @@
       "url": "https://valto.github.io/liquid/readers/governance-policy/",
       "markdown_url": "https://valto.github.io/liquid/content/readers/governance-policy.md",
       "prompt_url": "https://valto.github.io/liquid/readers/governance-policy/agent-prompt.txt",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "status": "reader-guide-review-candidate",
       "publication_date": null
     },
@@ -264,31 +269,36 @@
       "slug": "research-education",
       "label": "Research and education",
       "perspective": "a researcher, educator or student",
-      "question": "Which claims can be tested, and how do their concepts, examples and related work differ?",
+      "question": "Which learning, stability and outcome claims can be tested, and how do their sources differ?",
       "focus": [
-        "Independent concepts versus the integrated architectural claim.",
-        "Supplied papers, companion drafts, related original sources and version lineage.",
-        "Falsifiable comparisons, matched acceptance criteria, evidence limits and negative results."
+        "Same-origin supplied sources versus independently established prior work.",
+        "Matched feasible baselines, cohort differences, learning quality, transition costs and negative results.",
+        "Testable stability and outcome claims with vendor and illustrative evidence kept distinct."
       ],
       "reading": [
         {
           "id": "original-paper-00",
-          "why": "Read the supplied argument before evaluating its parts.",
+          "why": "Read the overall claim before testing its parts.",
           "url": "https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/"
         },
         {
           "id": "research-related-work",
-          "why": "Trace related original works and their separate claims.",
+          "why": "Trace the independent originals and read-scope limits.",
           "url": "https://valto.github.io/liquid/research/"
         },
         {
-          "id": "draft-15",
-          "why": "Examine the integrated proposal and its research questions.",
-          "url": "https://valto.github.io/liquid/whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/"
+          "id": "continuous-intelligence",
+          "why": "Read chapter 11 and the source evidence note.",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+        },
+        {
+          "id": "meta-learning",
+          "why": "Examine how review policy can be evaluated.",
+          "url": "https://valto.github.io/liquid/concepts/meta-learning/"
         },
         {
           "id": "economics-of-execution-v3",
-          "why": "Read pages 26 and 30–33 for maturity distinctions, empirical questions, lineage and references.",
+          "why": "Distinguish conceptual maturity, worked assumptions and research questions.",
           "url": "https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/"
         }
       ],
@@ -298,7 +308,7 @@
       "url": "https://valto.github.io/liquid/readers/research-education/",
       "markdown_url": "https://valto.github.io/liquid/content/readers/research-education.md",
       "prompt_url": "https://valto.github.io/liquid/readers/research-education/agent-prompt.txt",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "status": "reader-guide-review-candidate",
       "publication_date": null
     }

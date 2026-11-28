@@ -20,9 +20,9 @@ For personal information, the same question applies across notes, files and conv
 
 Processing on retrieval, selective caching and broader preprocessing are alternative strategies. Compare complete costs and the outcome they support. Adequate discovery, metadata, access control and accessibility may be needed before observed demand can be learned. Freshness and response-time commitments can justify upfront preparation.
 
-In v3's illustrative example, equivalent basic indexing and access are already available. Full extraction and horizon upkeep cost €1,300, followed by €0.01 per retrieval; on-demand extraction costs €0.20 per retrieval. At 1,000 retrievals the totals are €1,310 and €200; at 10,000 they are €1,400 and €2,000. Preprocessing first costs less at 6,843 whole retrievals.
+The Continuous Intelligence companion adds persistent understanding: retain evidence, propositions, assessments and decisions with their support, assumptions, confidence, dependencies, scope and last review. Reuse can avoid reconstructing the same context for each question. A retained assessment still needs correction when its basis changes.
 
-These are explanatory assumptions. Retrieval events are different from the archive's document count. Repeated access to a few documents may justify selective caching rather than extracting the entire archive.
+The Optivian example describes maintained deal context and selective access to originals. Its token reduction is vendor-reported, not an independently validated universal advantage. Preparation, updates, coverage and answer quality remain part of the comparison. Repetition may justify selective caching rather than complete extraction.
 
 ## Examine a changing question
 
@@ -39,6 +39,6 @@ Retiring a derived optimization does not authorize source deletion. Preservation
 - Which evidence would be lost if only today's summary or fields survived?
 - Which sources are appropriate to retain, for whom and for how long?
 - What preparation is necessary before safe and useful retrieval?
-- What demand, freshness or latency evidence justifies another derived structure?
+- What changes invalidate an assessment, and which reviews need direct access to its supporting evidence?
 
 The [product and engineering guide](https://valto.github.io/liquid/readers/product-engineering/) examines implementation contracts, while [governance and policy](https://valto.github.io/liquid/readers/governance-policy/) examines authority and obligations.

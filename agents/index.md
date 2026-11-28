@@ -4,6 +4,8 @@ Use this prompt when you want your agent to learn the resource and explain it in
 
 The general prompt supplies the resource's foundations, source order and evidence limits. For a role-specific explanation, open the relevant reader guide and use its tailored prompt. Each includes that guide's main question and prioritized sources.
 
+The handoff includes the Continuous Intelligence companion's distinction between learning and change, the value of stable experience, selective reasoning compilation and verification of the beneficiary's outcome. Each perspective has its own reading order and emphasis.
+
 @@AGENT@@
 
 ## Choose a reader-specific prompt

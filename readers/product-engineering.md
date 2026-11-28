@@ -24,9 +24,9 @@ A replacement model must still meet its extraction contract. A generated UI must
 
 ## Specialize where evidence supports it
 
-A validated function or cache can help repeated work. A changing request may be better served through interpretation and existing tools. Some guarantees require deterministic controls before first use. Choose using outcome quality, latency, complete cost and recovery evidence.
+The proposed Reasoning Compilation Skill identifies formally checkable portions, creates a candidate and validates it with independent tests, invariants and adverse cases. Preserve assumptions and invalidation conditions. Determinism does not establish truth or freshness. This is a proposed capability, not an installed compiler.
 
-Modularity supports selective replacement when interface, versioning, discovery, coordination and assurance costs are justified. More fragments do not automatically create more flexibility. Likewise, generation availability does not establish correctness or a reason to regenerate a working service.
+A candidate can be evaluated beside the active realization without duplicate side effects. Release, adoption and retirement are distinct. Focused, expert, hybrid and agent-used experiences can share a capability; their modes are contextual choices. Preserve compatibility and account for parallel support, coordination and assurance costs.
 
 ## A bounded engineering evaluation
 
@@ -43,6 +43,6 @@ The reference architecture describes concerns and boundaries to test. It is not 
 - Which semantics and commitments belong to the capability, and which details belong to this realization?
 - What needs a fixed contract, and what can be resolved contextually?
 - Which parts deserve exact code, and which require interpretation?
-- How will a replacement prove compatibility and preserve recovery?
+- What invalidates compiled logic, and how will parallel versions preserve compatibility and recovery?
 
 Continue with [data and knowledge](https://valto.github.io/liquid/readers/data-knowledge/) for source continuity and retrieval, or [governance and policy](https://valto.github.io/liquid/readers/governance-policy/) for delegated authority.

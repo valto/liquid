@@ -24,9 +24,9 @@ A replacement model must still meet its extraction contract. A generated UI must
 
 ## Specialize where evidence supports it
 
-A validated function or cache can help repeated work. A changing request may be better served through interpretation and existing tools. Some guarantees require deterministic controls before first use. Choose using outcome quality, latency, complete cost and recovery evidence.
+The proposed Reasoning Compilation Skill identifies formally checkable portions, creates a candidate and validates it with independent tests, invariants and adverse cases. Preserve assumptions and invalidation conditions. Determinism does not establish truth or freshness. This is a proposed capability, not an installed compiler.
 
-Modularity supports selective replacement when interface, versioning, discovery, coordination and assurance costs are justified. More fragments do not automatically create more flexibility. Likewise, generation availability does not establish correctness or a reason to regenerate a working service.
+A candidate can be evaluated beside the active realization without duplicate side effects. Release, adoption and retirement are distinct. Focused, expert, hybrid and agent-used experiences can share a capability; their modes are contextual choices. Preserve compatibility and account for parallel support, coordination and assurance costs.
 
 ## A bounded engineering evaluation
 
@@ -36,17 +36,17 @@ The reference architecture describes concerns and boundaries to test. It is not 
 
 ## A short reading path
 
-1. [Documentation as Executable Foundations](https://valto.github.io/liquid/concepts/documentation-as-foundations/). Start with purpose, shared terminology and meaningful scope.
-2. [An Intelligence-Native Reference Architecture](https://valto.github.io/liquid/architecture/). Separate principal, information, capability, interaction and governance concerns.
-3. [Beyond Predefined APIs — Research Draft 09](https://valto.github.io/liquid/whitepapers/drafts/09-beyond-predefined-apis/). Examine expression, schemas, agreements and implementation boundaries.
-4. [Liquid Software](https://valto.github.io/liquid/concepts/liquid-software/). Understand the reversible lifecycle, including deliberate stability.
-5. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Read pages 19–21 for meaningful modularity and the procurement composition.
+1. [Documentation as Executable Foundations](https://valto.github.io/liquid/concepts/documentation-as-foundations/). Start with purpose, terminology and meaningful scope.
+2. [Beyond Predefined APIs — Research Draft 09](https://valto.github.io/liquid/whitepapers/drafts/09-beyond-predefined-apis/). Examine languages, schemas and agreements.
+3. [Reasoning Compilation](https://valto.github.io/liquid/concepts/reasoning-compilation/). Read validation, assumptions and revalidation of exact portions.
+4. [Parallel Realizations](https://valto.github.io/liquid/concepts/parallel-realizations/). Separate candidate testing, release, adoption and retirement.
+5. [Continuous Intelligence, Adaptive Evolution, and Stable Experience](https://valto.github.io/liquid/whitepapers/continuous-intelligence/). Read chapters 5–7 and scenario B with the diagrams.
 
 ## Questions to explore
 
 - Which semantics and commitments belong to the capability, and which details belong to this realization?
 - What needs a fixed contract, and what can be resolved contextually?
 - Which parts deserve exact code, and which require interpretation?
-- How will a replacement prove compatibility and preserve recovery?
+- What invalidates compiled logic, and how will parallel versions preserve compatibility and recovery?
 
 Continue with [data and knowledge](https://valto.github.io/liquid/readers/data-knowledge/) for source continuity and retrieval, or [governance and policy](https://valto.github.io/liquid/readers/governance-policy/) for delegated authority.

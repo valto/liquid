@@ -11,16 +11,16 @@ https://valto.github.io/liquid/readers/business-leaders/
 Then read the relevant source material in this order:
 1. Capability Economics
    https://valto.github.io/liquid/concepts/capability-economics/
-   Purpose: Connect capability decisions to cumulative net value.
+   Purpose: Frame feasible strategies and their full value.
 2. Degrees of Decision Freedom
    https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/
-   Purpose: Separate delegated choices from reserved decisions.
-3. Liquid Software: The Economics of Execution — Version 3.0
-   https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/
-   Purpose: Read pages 12–16 and 21 for staged value, transitions and procurement composition.
-4. Documentation as Executable Foundations
-   https://valto.github.io/liquid/concepts/documentation-as-foundations/
-   Purpose: Keep business meaning and guidance durable across tools.
+   Purpose: Define delegated and reserved decisions.
+3. Layered Intelligence Cycles
+   https://valto.github.io/liquid/concepts/layered-intelligence-cycles/
+   Purpose: Choose useful review purposes, depth and timing.
+4. Continuous Intelligence, Adaptive Evolution, and Stable Experience
+   https://valto.github.io/liquid/whitepapers/continuous-intelligence/
+   Purpose: Read change choices and the customer-verification loop.
 
 Resource foundations:
 - Attributable information, accepted meaning and human decisions provide continuity while interfaces and implementations adapt.
@@ -29,18 +29,22 @@ Resource foundations:
 - Begin with languages, formats and shared meaning. A schema may be generated, inferred or negotiated where useful. Accurately distinguish a proposed interaction from the guarantees of a specific claimed protocol implementation.
 - Compare feasible strategies by cumulative net value, timing, full lifecycle costs and retained flexibility. Some quality, safety, authority and reliability requirements must be satisfied before first use.
 - Source preservation and processing investment are distinct. Derived structures retain their provenance and do not acquire source authority through convenience or location.
+- Sensing, learning, reviewing, releasing and adopting can run at different rates. Review purpose and depth matter as well as cadence; a trigger calls for review within its authority.
+- Stable operations and familiar experiences have value. Compare transitions and parallel support costs; a released alternative need not replace the current experience for everyone.
+- Compile only formally checkable reasoning under explicit assumptions, validation and invalidation conditions. Deterministic execution alone does not establish truth or correctness.
+- Verify the beneficiary's outcome. Completed work, feature adoption and token savings are partial measures; compare sustained value, quality, external fitness and disruption.
 
 Attribution and evidence:
 - Valto Loikkanen is the conceptual source. The writing and research are AI-assisted.
-- Distinguish the supplied umbrella paper and Economics of Execution v3 from the sixteen labeled companion research drafts and these reader guides.
+- Distinguish the supplied umbrella paper, Economics of Execution v3 and Continuous Intelligence companion from the labeled companion research drafts and these reader guides. The new companion's supplied PDF and Markdown have the same conceptual origin.
 - Worked numbers and scenarios are illustrative. This body of work does not establish deployment or independent validation of the whole framework. Related original sources have their own claims, methods and limits.
 - Report which pages and source sections you actually read. State any access limitation rather than implying you read unavailable material. Keep source facts, interpretations, proposals, examples and unknowns distinguishable.
 
 Focus for this reader:
 Main question: How can we deliver value sooner while retaining the ability to change direction?
-- Meaningful business outcomes, accountable ownership and retained organizational knowledge.
-- Delegated operational choices versus reserved commitments.
-- Time to accepted value, adoption, transition and a bounded comparison with the current process.
+- Capability ownership, earlier value and retained organizational knowledge.
+- Review purpose and depth, market triggers and learning about the review process.
+- Internal throughput, external fitness, stable operations and verified customer outcomes.
 
 Give me a clear explanation of the resource through this perspective, connect it to my situation, and show one bounded example labeled as illustrative. Explain the assumptions, evidence limits and tradeoffs. Identify the next most useful source to read and questions that would improve the analysis. If my context is missing, begin with the role-specific explanation and ask a focused follow-up. This request is to understand and assess the resource; it does not request changes to a system.
 

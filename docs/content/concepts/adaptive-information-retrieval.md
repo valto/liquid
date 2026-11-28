@@ -26,6 +26,12 @@ Basic indexing and access controls are already available equally to both paths. 
 
 Compare correctness, total cost, latency and recovery across existing, intelligent and hybrid paths. Include exact readback, missing evidence, changed source revisions and retirement of derived optimizations.
 
+## Reuse understanding with its basis
+
+Persisting evidence, propositions, assessments and decisions can reduce repeated reconstruction. Keep their assumptions, dependencies, confidence, scope and last review so a changed source or condition can invalidate the affected interpretation. Retained understanding remains revisable; a summary does not become an unquestionable fact.
+
+The [Continuous Intelligence companion](https://valto.github.io/liquid/whitepapers/continuous-intelligence/) cites Optivian's maintained deal-context example. Its reported token reduction illustrates a possible preprocessing benefit, rather than independently establishing universal superiority. Preparation, updates, coverage, raw-source access and accepted answer quality belong in the comparison alongside query costs.
+
 
 ## Read further
 

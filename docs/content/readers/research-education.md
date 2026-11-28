@@ -22,11 +22,11 @@ For one defined capability, establish acceptance criteria, the source evidence a
 
 For source preservation, introduce a later question and examine what retained evidence can actually support. For interfaces, test comprehension and accessibility across representations. For governance, test permitted and denied operations, conflicts and intervention. A study can support one dimension while exposing failure in another.
 
-## Treat economic examples as assumptions to vary
+## Test learning, change and stability separately
 
-The v3 figures are worked illustrations. Vary demand, initial assurance, utilization, changing costs and transition conditions. A cost threshold over comparable outcomes is different from a forecast of adoption or a measured advantage. Repetition does not by itself establish that specialization will repay its remaining investment.
+The Continuous Intelligence companion links sensing, reviews, meta-learning, parallel versions and outcome verification. Test missed signals, false triggers and review cost alongside sustained outcomes and disruption. A retained interface may be beneficial even when learning accelerates; implementation category and interface mode are not maturity scores.
 
-The paper's external examples also use different measures: feature use, project outcomes and qualitative transition reports. Keep their populations and limitations separate. They do not establish a pooled failure rate or a counterfactual agentic success rate.
+Compare the best feasible baseline with alternatives, accounting for task differences, cohort self-selection, transitions and parallel upkeep. Pendo measures historical aggregate feature usage; Optivian and MDIL report their own examples. These measures neither independently validate the whole architecture nor establish success solely from token reduction or adoption.
 
 ## Use the resource as a discussion framework
 
@@ -36,14 +36,15 @@ Report unknowns and negative results. Separate observed findings, interpretation
 
 ## A short reading path
 
-1. [Beyond the Constraints of Software](https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/). Read the supplied argument before evaluating its parts.
-2. [Research and Related Work](https://valto.github.io/liquid/research/). Trace related original works and their separate claims.
-3. [The Architecture of an Intelligence-Native World — Research Draft 15](https://valto.github.io/liquid/whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/). Examine the integrated proposal and its research questions.
-4. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Read pages 26 and 30–33 for maturity distinctions, empirical questions, lineage and references.
+1. [Beyond the Constraints of Software](https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/). Read the overall claim before testing its parts.
+2. [Research and Related Work](https://valto.github.io/liquid/research/). Trace the independent originals and read-scope limits.
+3. [Continuous Intelligence, Adaptive Evolution, and Stable Experience](https://valto.github.io/liquid/whitepapers/continuous-intelligence/). Read chapter 11 and the source evidence note.
+4. [Meta-Learning: Review the Learning Process](https://valto.github.io/liquid/concepts/meta-learning/). Examine how review policy can be evaluated.
+5. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Distinguish conceptual maturity, worked assumptions and research questions.
 
 ## Questions to explore
 
-- Which specific claim is being tested, and what would count against it?
+- Which learning, stability or outcome claim is being tested, and what would count against it?
 - Are the compared paths feasible and judged by the same accepted outcome?
 - Which cited sources are independent, and what did each actually measure?
 - Which parts of an explanation are definitions, examples, hypotheses or observations?
