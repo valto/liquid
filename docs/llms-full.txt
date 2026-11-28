@@ -1,11 +1,25 @@
 # Liquid Software
 URL: https://valto.github.io/liquid/
-Status: published
+Status: review-candidate
 Conceptual source: Valto Loikkanen
 
 # Liquid Software
 
 Information provides continuity. Human decisions define the boundaries.
+
+## Start with your perspective
+
+Read a general introduction or explore what the resource means for your role. Each guide includes a focused summary, a reading path and a prompt to give your agent.
+
+- [General understanding](https://valto.github.io/liquid/readers/general/): Understand the foundations, how the ideas fit together and what remains to be tested.
+- [Business leaders](https://valto.github.io/liquid/readers/business-leaders/): Examine earlier accepted value, durable organizational knowledge, delegation and the ability to change direction.
+- [Finance and investment](https://valto.github.io/liquid/readers/finance-investment/): Compare feasible strategies using future demand, timing, full lifecycle costs, uncertainty and reversibility.
+- [Product and engineering](https://valto.github.io/liquid/readers/product-engineering/): Understand stable meaning, evolving contracts, contextual interfaces and selective agent, software and hybrid realizations.
+- [Data and knowledge](https://valto.github.io/liquid/readers/data-knowledge/): Separate appropriate source preservation from processing investment, then assess discovery, freshness and retrieval demand.
+- [Governance and policy](https://valto.github.io/liquid/readers/governance-policy/): Examine represented principals, delegated freedom, accountability and obligations that must survive adaptation.
+- [Research and education](https://valto.github.io/liquid/readers/research-education/): Separate conceptual proposals, source lineage and illustrative examples, and frame comparisons that can test the claims.
+
+You can also open the [general agent prompt](https://valto.github.io/liquid/agents/) or [compare the reading paths](https://valto.github.io/liquid/start/).
 
 ## Reverse the dependency
 
@@ -5800,3 +5814,531 @@ Optional working template derived from Valto Loikkanen's *Economics of Execution
 | Decision and date | Actual approval, dissent or open decision; no inferred authorization. |
 
 Use consistent units, periods and accounting boundaries. Unknown probabilities may be better represented by ranges and scenarios. Retaining an existing implementation is an eligible decision. An attractive expected value does not override a hard safety or authority constraint.
+
+
+---
+
+# Liquid Software: a general introduction
+URL: https://valto.github.io/liquid/readers/general/
+Status: reader-guide-review-candidate
+Conceptual source: Valto Loikkanen
+
+# Liquid Software: a general introduction
+
+Liquid Software explores a digital world in which your information and intentions outlast the tools that happen to serve them. Instead of making every useful activity wait for a dedicated application, an intelligent system can interpret a need and use an appropriate existing, agentic, deterministic or hybrid way to fulfill it.
+
+The central question is **what should remain dependable when software can change more easily?** The answer in this resource is attributable information, understandable meaning, accepted commitments and human authority. Interfaces and execution methods can adapt around those foundations.
+
+## Four ideas to carry into the papers
+
+**Information provides continuity.** An appropriate original document can support a later question that its first summary did not anticipate. Preserve the distinction between evidence, an interpretation and a useful index. Ownership, consent and retention still govern what may be kept.
+
+**A capability has meaning beyond its implementation.** Preparing a reliable commitments briefing is a meaningful ability. A screen, query or model call can help realize it. Replacing the screen should preserve what counts as an accepted commitment and whose information may be used.
+
+**Interaction can suit the recipient.** A person might need a spoken explanation; an analyst a table; an agent structured text. Shared meaning can guide these presentations. A new format alone supplies neither agreement nor permission.
+
+**Software is a choice to evaluate.** Repeated work can justify a validated function, cache or service. A changing task may remain intelligent. A critical control may need stable software from its first use. The proposed continuum allows all of these choices and allows them to be revisited.
+
+## Imagine preparing tomorrow's briefing
+
+You ask, “Which commitments need my attention tomorrow?” A bounded system identifies you, applies the agreed meaning of commitment, checks authorized source records and returns a suitable explanation with references and uncertainty. It might combine an exact date query with intelligent interpretation of notes.
+
+If you ask the same question often, a maintained query or cache could become worthwhile. If your needs change, that optimization could change too. The original records and accepted commitments still matter. This is an illustrative situation, not a description of a deployed Liquid Software service.
+
+## What changes for the reader
+
+Ask first what outcome you want, what evidence it needs and what authority is available. Then ask which tool or combination can fulfill it acceptably. This helps separate a durable need from the features of whichever app currently handles it.
+
+The related ideas can help separately: source preservation without generated interfaces, adaptive presentation with conventional software, or capability economics inside an existing organization. Understanding the resource does not require adopting every related framework.
+
+## What remains to be established
+
+The resource is conceptual and AI-assisted. Its economic figures are illustrative. A fluent answer is not proof of correctness, and software generation does not establish reliability. Useful evaluation must compare accepted outcomes, cost, latency, permission compliance and recovery against real alternatives.
+
+## A short reading path
+
+1. [Beyond the Constraints of Software](https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/). Begin with the supplied overall argument.
+2. [Liquid Software](https://valto.github.io/liquid/concepts/liquid-software/). Understand the paradigm and its reversible lifecycle.
+3. [An Intelligence-Native Reference Architecture](https://valto.github.io/liquid/architecture/). See which concerns persist and which can adapt.
+4. [Core concepts](https://valto.github.io/liquid/concepts/). Choose an independent concept for deeper reading.
+
+## Questions to explore
+
+- Which parts of one activity should survive a change of app or model?
+- What evidence and prior decisions would let an agent understand the need?
+- Where would exact software help, and where is adaptation useful?
+
+[Choose another perspective](https://valto.github.io/liquid/start/) when you want to examine the business, technical or governance implications.
+
+
+---
+
+# Liquid Software for business leaders
+URL: https://valto.github.io/liquid/readers/business-leaders/
+Status: reader-guide-review-candidate
+Conceptual source: Valto Loikkanen
+
+# Liquid Software for business leaders
+
+Liquid Software changes the starting point for technology decisions: define the business capability and its required outcome, then select a feasible way to deliver it. An application, an agent and a hybrid workflow are possible realizations of that capability. Their usefulness depends on accepted results and the organization they serve.
+
+For a business leader, the main question is **how can we deliver value sooner while retaining the ability to change direction?** This resource connects that question to durable knowledge, delegation and the full cost of implementation.
+
+## Manage the outcome and the retained knowledge
+
+A capability such as preparing a compliant supplier comparison should have an accountable owner, accepted results and explicit commitments. The organization's supplier records, terminology and prior decisions should remain understandable even if the current application or agent is replaced.
+
+That separation can reveal useful options: use an existing service, fulfill a changing request with available tools, specialize a recurring calculation, or retain a conventional process. Counting new applications or agents does not show whether the outcome improved.
+
+## Delegate with a clear decision boundary
+
+Degrees of Decision Freedom describes how prior decisions establish room for subsequent choices. A team or agent can have broad freedom to find evidence and compare offers while a person retains authority to approve the purchase. A new interface or faster execution path should preserve that distinction.
+
+This means leaders can define purpose, limits and escalation points without specifying every operational step. The organization still needs usable guidance, traceable evidence and a way to intervene when a reserved decision arises.
+
+## Consider a supplier briefing
+
+In an illustrative workflow, an agent gathers authorized supplier information and drafts a comparison. Exact functions calculate totals; declared rules check policy; an authorized person handles exceptions and commitments. Recurring pieces may justify specialization while changing questions remain flexible.
+
+The proposal is to evaluate this composition against the current accepted process. Quality and authority must be feasible from first use. A purchasing commitment should not be treated as authorized merely because the system prepared a recommendation.
+
+## Evaluate the transition as well as the running cost
+
+Capability Economics compares cumulative net value over a relevant horizon. Include setup, assurance, supervision, time to accepted value, maintenance, adoption and restoration if the change is reversed. A lower price per execution can coexist with a worse overall investment.
+
+The expanded economics paper's six-month example illustrates how earlier accepted benefits can change a comparison between staged strategies. Its figures are assumptions, not savings a business should expect. Released staff capacity also needs an identified use before it becomes a cash-saving claim.
+
+## A useful management discussion
+
+Choose one capability with a real beneficiary and measurable acceptance criteria. Identify the current baseline, feasible alternatives, sources, accountable owner and decision boundary. Ask what would justify continuing, specializing, changing or stopping the new realization, and what must be preserved if it is withdrawn.
+
+The framework does not establish that every business should become agent-first. Existing tools, stable controls and upfront development remain legitimate choices where their outcomes and constraints justify them.
+
+## A short reading path
+
+1. [Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/). Connect capability decisions to cumulative net value.
+2. [Degrees of Decision Freedom](https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/). Separate delegated choices from reserved decisions.
+3. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Read pages 12–16 and 21 for staged value, transitions and procurement composition.
+4. [Documentation as Executable Foundations](https://valto.github.io/liquid/concepts/documentation-as-foundations/). Keep business meaning and guidance durable across tools.
+
+## Questions to explore
+
+- Which outcome is delayed by waiting for a new application, and is earlier fulfillment feasible?
+- What organizational knowledge and commitments must survive a provider change?
+- Which decisions can be delegated, and which remain reserved?
+- What evidence would justify the next investment or a reversal?
+
+For a more detailed cost comparison, continue with the [finance and investment guide](https://valto.github.io/liquid/readers/finance-investment/).
+
+
+---
+
+# Liquid Software for finance and investment
+URL: https://valto.github.io/liquid/readers/finance-investment/
+Status: reader-guide-review-candidate
+Conceptual source: Valto Loikkanen
+
+# Liquid Software for finance and investment
+
+Liquid Software treats software specialization as an investment in fulfilling a meaningful capability. The financial question is **which feasible strategy delivers the best cumulative net value, given demand, timing, uncertainty and the cost of changing course?** A low runtime price is one input to that comparison.
+
+This perspective serves finance leaders, procurement teams and investors assessing implementation choices. It is a decision framework, rather than a valuation model or an investment recommendation.
+
+## Compare strategies over the same horizon
+
+Identify the accepted outcome and alternatives before estimating costs. An existing service, a manual process, direct intelligent execution, a reusable function and staged combinations may all be relevant. Quality, authority and required reliability constrain which choices are feasible.
+
+Count benefits and costs consistently: initial enablement, development, assurance, recurring execution, supervision, adoption, upkeep and transitions. Compare the timing of accepted benefits as well as their size. If delays already reduce benefits in the model, do not deduct the same loss again as opportunity cost.
+
+## Use break-even for the question it actually answers
+
+The elementary threshold `N = F / (a − s)` compares fixed incremental software cost with a per-execution saving when `a > s`. With the supplied v3 assumptions of €1,200 fixed cost, €2.50 agent execution and €0.10 software execution, the threshold is 500 comparable executions.
+
+This is an illustrative cost check. The investment depends on **remaining future demand**, not whether a historical counter has reached 500. Already-paid construction is sunk when assessing future operation. Different outcomes, timing, failure, maintenance or transition costs require a fuller comparison.
+
+## Examine reversibility and adoption
+
+A staged approach may deliver feasible value while uncertainty is resolved, then specialize selected work. Waiting can also cost value, and some controls must exist upfront. Flexibility is valuable when a plausible future change makes it useful; architectural elegance alone is not a benefit estimate.
+
+An implementation can be deployed yet underused or fail to deliver a promised outcome. Reversing it may require a second transition and reconciliation. The paper distinguishes these mechanisms and source populations; it does not provide a universal software failure rate or a standard reversal multiplier.
+
+## Consider one shared calculation
+
+V3's illustrative portfolio assumes 6,000 executions at €0.40 each for an agent, or €900 fixed plus €0.02 each for a new function. Those totals are €2,400 and €1,020. At 1,000 executions, the comparison becomes €400 against €920. The same new function has a different justification at different future utilization.
+
+The example also shows why reuse across activities matters. Count attributable integration, testing and maintenance before treating reuse as a saving. Private internal use and a vendor selling to many customers can have different amortization opportunities.
+
+## Make uncertainty inspectable
+
+Use observed costs, explicit estimates and scenario ranges. Record what would change the decision. Where probabilities are unsupported, ranges and stated unknowns are more informative than invented precision. Expected value does not make a path acceptable if it violates a hard constraint or creates unacceptable downside.
+
+The optional decision record can structure this assessment. The framework's calculations illustrate reasoning; matched real capability comparisons are still needed to test its claims.
+
+## A short reading path
+
+1. [Capability Economics](https://valto.github.io/liquid/concepts/capability-economics/). Start with the full comparison and feasibility conditions.
+2. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Read pages 10, 13–17, 25 and 28 for thresholds, timing, the value model and portfolio examples.
+3. [Capability Decision Record](https://valto.github.io/liquid/concepts/capability-economics/decision-record/). Organize the baseline, alternatives, evidence and review triggers.
+4. [Intelligence First, Software Second](https://valto.github.io/liquid/concepts/intelligence-first/). Understand staged fulfillment without assuming agents are always preferable.
+
+## Questions to explore
+
+- Which alternatives meet the same acceptance criteria, and over what horizon?
+- How much demand remains, and which costs are incremental?
+- Where does earlier accepted value matter, and where is upfront assurance required?
+- What does reversal cost, and what new evidence would change the choice?
+
+The [business leadership guide](https://valto.github.io/liquid/readers/business-leaders/) connects this comparison to ownership, delegation and organizational knowledge.
+
+
+---
+
+# Liquid Software for product and engineering
+URL: https://valto.github.io/liquid/readers/product-engineering/
+Status: reader-guide-review-candidate
+Conceptual source: Valto Loikkanen
+
+# Liquid Software for product and engineering
+
+Liquid Software separates what a capability means from the code, interface or agent that currently realizes it. For product people, architects and developers, the main question is **what must remain stable so implementation can change without changing the promise?**
+
+The resource proposes durable semantics and evidence, with interfaces and execution paths selected around actual needs. Stable software remains a valid result of that selection.
+
+## Define a meaningful capability before choosing a component
+
+A complete commitments briefing has a beneficiary, purpose, acceptance criteria and boundaries. A database table, screen or function may support it without being an independent capability. Capability documentation can retain this meaning across realizations; it does not make each code fragment a meaningful unit.
+
+Minimum Logical Element is the related scope discipline, and CRD offers a capability-centered documentation approach. These are related frameworks with their own definitions. A technical description and the actor's actual permission remain separate inputs to execution.
+
+## Start with languages, formats and shared meaning
+
+A human question and a structured request can express the same need while requiring different response representations. The user contributes purpose and desired view; the receiver contributes supported meaning and available evidence; the information principal governs use and disclosure.
+
+Schemas can be inferred, generated or negotiated when they supply needed precision. The proposal does not require permanently handwritten schemas for every future question. Equally, familiar syntax alone does not establish a contract. The API research draft distinguishes dynamic schema preparation from validation and execution under the selected GraphQL specification; a claimed conforming implementation still needs its applicable structure and rules.
+
+## Compose an implementation around its contracts
+
+The expanded economics paper's illustrative procurement capability combines reasoning, field extraction, policy rules, exact calculation, an authorized existing API and an attributable evidence record. Different operations can use different realizations while serving one accepted outcome.
+
+A replacement model must still meet its extraction contract. A generated UI must still communicate uncertainty and support its intended user. Replacing an implementation should preserve identities, accepted facts, authority and recovery requirements where those are commitments of the capability.
+
+## Specialize where evidence supports it
+
+A validated function or cache can help repeated work. A changing request may be better served through interpretation and existing tools. Some guarantees require deterministic controls before first use. Choose using outcome quality, latency, complete cost and recovery evidence.
+
+Modularity supports selective replacement when interface, versioning, discovery, coordination and assurance costs are justified. More fragments do not automatically create more flexibility. Likewise, generation availability does not establish correctness or a reason to regenerate a working service.
+
+## A bounded engineering evaluation
+
+Choose one capability and keep its current accepted baseline. Specify representations, permissions, unresolved meanings and failure responses. Compare candidate realizations on the same source evidence and acceptance criteria, including exceptions, permission denial and restoration after a failed change.
+
+The reference architecture describes concerns and boundaries to test. It is not a deployed platform, a universal protocol, or evidence that every proposed interaction can already be fulfilled.
+
+## A short reading path
+
+1. [Documentation as Executable Foundations](https://valto.github.io/liquid/concepts/documentation-as-foundations/). Start with purpose, shared terminology and meaningful scope.
+2. [An Intelligence-Native Reference Architecture](https://valto.github.io/liquid/architecture/). Separate principal, information, capability, interaction and governance concerns.
+3. [Beyond Predefined APIs — Research Draft 09](https://valto.github.io/liquid/whitepapers/drafts/09-beyond-predefined-apis/). Examine expression, schemas, agreements and implementation boundaries.
+4. [Liquid Software](https://valto.github.io/liquid/concepts/liquid-software/). Understand the reversible lifecycle, including deliberate stability.
+5. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Read pages 19–21 for meaningful modularity and the procurement composition.
+
+## Questions to explore
+
+- Which semantics and commitments belong to the capability, and which details belong to this realization?
+- What needs a fixed contract, and what can be resolved contextually?
+- Which parts deserve exact code, and which require interpretation?
+- How will a replacement prove compatibility and preserve recovery?
+
+Continue with [data and knowledge](https://valto.github.io/liquid/readers/data-knowledge/) for source continuity and retrieval, or [governance and policy](https://valto.github.io/liquid/readers/governance-policy/) for delegated authority.
+
+
+---
+
+# Liquid Software for data and knowledge
+URL: https://valto.github.io/liquid/readers/data-knowledge/
+Status: reader-guide-review-candidate
+Conceptual source: Valto Loikkanen
+
+# Liquid Software for data and knowledge
+
+Liquid Software gives source information a life beyond the application or first interpretation that uses it. For data stewards, knowledge workers and people managing their own information, the main question is **what should we preserve, and which processing should we invest in as needs emerge?**
+
+The resource separates appropriate source retention from summaries, extraction, indexing and presentation. Each has value, cost and governing obligations.
+
+## Preserve evidence for questions you cannot yet name
+
+A summary of a meeting may answer today's question while omitting evidence needed later. An appropriate original can preserve possibilities for reinterpretation. Structured records can themselves be authoritative; the issue is losing relevant evidence by keeping only anticipated fields.
+
+Preservation remains bounded by purpose, consent, ownership, retention and resources. Capture for Unknown Future Value is not an instruction to collect everything. No source captures all reality, and richer evidence still has interpretive limits.
+
+## Keep originals, assertions and indexes distinguishable
+
+An observation, an accepted assertion, an inferred interpretation and a derived retrieval structure serve different purposes. A faster index should not silently become the authority for facts it was built to serve. Changing a model or retrieval method should preserve source references, freshness and uncertainty.
+
+For personal information, the same question applies across notes, files and conversations: what stays understandable if the current tool disappears? The architecture's principal and information concerns help frame this question without making every related information framework a required dependency.
+
+## Invest in retrieval around demand and commitments
+
+Processing on retrieval, selective caching and broader preprocessing are alternative strategies. Compare complete costs and the outcome they support. Adequate discovery, metadata, access control and accessibility may be needed before observed demand can be learned. Freshness and response-time commitments can justify upfront preparation.
+
+In v3's illustrative example, equivalent basic indexing and access are already available. Full extraction and horizon upkeep cost €1,300, followed by €0.01 per retrieval; on-demand extraction costs €0.20 per retrieval. At 1,000 retrievals the totals are €1,310 and €200; at 10,000 they are €1,400 and €2,000. Preprocessing first costs less at 6,843 whole retrievals.
+
+These are explanatory assumptions. Retrieval events are different from the archive's document count. Repeated access to a few documents may justify selective caching rather than extracting the entire archive.
+
+## Examine a changing question
+
+Imagine a team initially asking for dates from a document collection, then asking which decisions changed and why. Preserved originals can support the second inquiry; a date-only index cannot reconstruct discarded reasoning. New interpretations should remain attributable to their sources and expose gaps instead of inventing certainty.
+
+Retiring a derived optimization does not authorize source deletion. Preservation, revision history and recovery deserve their own decision, including any obligations that require eventual deletion. Adaptive presentation also needs to preserve evidence when a table becomes a narrative or a spoken answer.
+
+## A short reading path
+
+1. [Capture for Unknown Future Value](https://valto.github.io/liquid/concepts/capture-for-unknown-future-value/). Separate preserving evidence from anticipating every future question.
+2. [Adaptive Information Retrieval](https://valto.github.io/liquid/concepts/adaptive-information-retrieval/). Compare evolving retrieval methods and their evidence boundaries.
+3. [The Adaptive Interface](https://valto.github.io/liquid/concepts/adaptive-interface/). Preserve meaning when representations change for different recipients.
+4. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Read pages 22–23 for purposeful processing and the illustrative retrieval comparison.
+
+## Questions to explore
+
+- Which evidence would be lost if only today's summary or fields survived?
+- Which sources are appropriate to retain, for whom and for how long?
+- What preparation is necessary before safe and useful retrieval?
+- What demand, freshness or latency evidence justifies another derived structure?
+
+The [product and engineering guide](https://valto.github.io/liquid/readers/product-engineering/) examines implementation contracts, while [governance and policy](https://valto.github.io/liquid/readers/governance-policy/) examines authority and obligations.
+
+
+---
+
+# Liquid Software for governance and policy
+URL: https://valto.github.io/liquid/readers/governance-policy/
+Status: reader-guide-review-candidate
+Conceptual source: Valto Loikkanen
+
+# Liquid Software for governance and policy
+
+Liquid Software proposes that implementations can adapt while human decisions, rights and accepted commitments remain intelligible. For governance, policy and risk readers, the main question is **how can adaptation preserve accountability and meaningful control?**
+
+The resource's human-sovereignty framing depends on actual authority, traceable evidence and enforceable boundaries. A useful description of those boundaries is only part of the work.
+
+## Separate the people and roles in an interaction
+
+The immediate requester, represented principal, beneficiary and information owner can differ. An agent preparing a briefing may act for an organization while handling records governed by other people or agreements. Choosing an interface or execution path does not resolve those relationships by itself.
+
+The reference architecture keeps principal, information, capability, interaction and governance concerns visible. A capability describes an accepted ability; authority establishes what a particular actor may do in a particular context.
+
+## Make delegated freedom understandable
+
+Degrees of Decision Freedom concerns the space created by prior decisions. A principal can delegate choice of retrieval method while reserving spending or disclosure decisions. The same actor may have different freedoms for different operations.
+
+Meaningful control therefore involves scope, usable guidance, revision, escalation, intervention and revocation. It need not mean separate approval for every already-authorized step. Equally, permission to analyze or propose does not automatically include committing funds, deploying a change or withdrawing an accepted service.
+
+## Consider the supplier workflow
+
+In the source's illustrative procurement composition, interpretation, extraction, policy checks and calculations contribute to a recommendation. An authorized API or person handles the commitment, and an evidence record supports accountability. Replacing a component should preserve the governing contract and permission boundary.
+
+This raises concrete evaluation questions: can a denied action stay denied after a model change? Can a reviewer determine which evidence supported the recommendation? Does a fallback preserve the same accepted obligations? The framework proposes these boundaries; it does not prove their enforcement in a live system.
+
+## Keep flexibility and obligations separate
+
+Incidental workflow restrictions may become unnecessary as better implementations emerge. Intentional controls for security, rights or accepted commitments have a different basis. Assess an adaptation against those obligations before evaluating its economic benefit.
+
+Likewise, retaining evidence for future questions remains subject to consent, appropriate purpose and retention. Retiring an index does not authorize deleting its source; preserving an original does not confer a right to disclose it. Storage location alone does not establish authority or privacy.
+
+## Read economic claims through the feasible boundary
+
+Capability Economics first excludes paths that fail required quality, authority, safety or reliability. Its expected-value model does not replace hard constraints or make unacceptable downside acceptable. The paper's examples illustrate choices, rather than establishing a universal benefit from agents or a regulatory compliance result.
+
+This guide identifies architectural questions. It does not interpret a jurisdiction's law. Applying the framework in a regulated setting requires the actual obligations and evidence relevant to that setting.
+
+## A short reading path
+
+1. [Degrees of Decision Freedom](https://valto.github.io/liquid/concepts/degrees-of-decision-freedom/). Understand contextual delegation and retained human decisions.
+2. [An Intelligence-Native Reference Architecture](https://valto.github.io/liquid/architecture/). Distinguish the roles and authority concerns in a bounded request.
+3. [Capture for Unknown Future Value](https://valto.github.io/liquid/concepts/capture-for-unknown-future-value/). Examine purpose, rights and retention alongside evidence continuity.
+4. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Read pages 25 and 29 for feasibility, downside and the governance boundary.
+
+## Questions to explore
+
+- Who can define the purpose, delegate actions, accept results and revise commitments?
+- Which choices are already authorized, and which require a reserved decision?
+- What evidence makes an adaptation attributable and reversible?
+- Which controls must remain enforceable across every permitted realization?
+
+The [research and education guide](https://valto.github.io/liquid/readers/research-education/) develops how such claims can be evaluated rather than assumed.
+
+
+---
+
+# Liquid Software for research and education
+URL: https://valto.github.io/liquid/readers/research-education/
+Status: reader-guide-review-candidate
+Conceptual source: Valto Loikkanen
+
+# Liquid Software for research and education
+
+Liquid Software is a connected conceptual proposal about information continuity, human authority, adaptive interaction and implementation choice. For researchers, educators and students, the main question is **which claims can be tested, and how should the concepts be distinguished from their examples and related work?**
+
+The conceptual source is Valto Loikkanen. The supplied papers, AI-assisted companion drafts and these reader guides belong to the same body of work; they are not independent corroboration of one another.
+
+## Distinguish the units of the argument
+
+The paradigm concerns adaptable realizations around durable meaning and decisions. Adaptive interfaces concern recipient and context. Source preservation concerns future evidential usefulness. Adaptive retrieval concerns evolving access and processing. Capability Economics concerns feasible strategies and cumulative net value.
+
+These concepts can be evaluated independently. An experiment showing a useful retrieval cache would not establish the full architecture. A generated interface that users understand would not prove permission enforcement or economic superiority.
+
+## Follow the source and version lineage
+
+Begin with the supplied umbrella paper, then a selected concept and its companion research draft. Economics of Execution v3 is a 33-page expansion retained alongside v2. Its broader formulation of maturity bias concerns limitations in the alternatives a decision-maker perceives. Its understanding, experience and implementation dimensions are conceptual, not a validated assessment scale.
+
+The public research index identifies related original works and selected editions. Consult those originals for their own claims and methods. Other uses of the phrase “Liquid Software,” local-first work and malleable software are related material; their results should not be silently attributed to this framework.
+
+## Design a comparison that could change the conclusion
+
+For one defined capability, establish acceptance criteria, the source evidence and the feasible baseline. Compare existing software, agentic and hybrid paths where relevant. Include elapsed time to accepted value, outcome quality, total cost, supervision, failure, latency and recovery.
+
+For source preservation, introduce a later question and examine what retained evidence can actually support. For interfaces, test comprehension and accessibility across representations. For governance, test permitted and denied operations, conflicts and intervention. A study can support one dimension while exposing failure in another.
+
+## Treat economic examples as assumptions to vary
+
+The v3 figures are worked illustrations. Vary demand, initial assurance, utilization, changing costs and transition conditions. A cost threshold over comparable outcomes is different from a forecast of adoption or a measured advantage. Repetition does not by itself establish that specialization will repay its remaining investment.
+
+The paper's external examples also use different measures: feature use, project outcomes and qualitative transition reports. Keep their populations and limitations separate. They do not establish a pooled failure rate or a counterfactual agentic success rate.
+
+## Use the resource as a discussion framework
+
+A seminar can ask different readers to examine the same capability through business value, technical contracts, information continuity and authority. Their summaries should differ in emphasis while preserving definitions and evidence status. This is also a useful test of the framework's claim that shared meaning can support different representations.
+
+Report unknowns and negative results. Separate observed findings, interpretations, proposed mechanisms and illustrative scenarios. Practical evidence can broaden the alternatives a decision-maker recognizes without making any implementation category a measure of maturity or quality.
+
+## A short reading path
+
+1. [Beyond the Constraints of Software](https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/). Read the supplied argument before evaluating its parts.
+2. [Research and Related Work](https://valto.github.io/liquid/research/). Trace related original works and their separate claims.
+3. [The Architecture of an Intelligence-Native World — Research Draft 15](https://valto.github.io/liquid/whitepapers/drafts/15-the-architecture-of-an-intelligence-native-world/). Examine the integrated proposal and its research questions.
+4. [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/). Read pages 26 and 30–33 for maturity distinctions, empirical questions, lineage and references.
+
+## Questions to explore
+
+- Which specific claim is being tested, and what would count against it?
+- Are the compared paths feasible and judged by the same accepted outcome?
+- Which cited sources are independent, and what did each actually measure?
+- Which parts of an explanation are definitions, examples, hypotheses or observations?
+
+[Choose another perspective](https://valto.github.io/liquid/start/) to examine how the same foundations answer a different reader's question.
+
+
+---
+
+# Start with your perspective
+URL: https://valto.github.io/liquid/start/
+Status: review-candidate
+Conceptual source: Valto Loikkanen
+
+# Start with your perspective
+
+Liquid Software asks how information, human decisions and meaningful capabilities can remain useful while interfaces and implementations change. Choose a guide that starts with the questions you bring to that idea.
+
+Each guide explains the implications for its reader, a concrete situation, the limits of the proposal and a short reading path. You can read it yourself, print it, or give its tailored prompt to your agent. The guides share the same concepts and source papers; a different perspective changes the explanation, not the underlying definitions.
+
+- [General understanding](https://valto.github.io/liquid/readers/general/): Understand the foundations, how the ideas fit together and what remains to be tested.
+- [Business leaders](https://valto.github.io/liquid/readers/business-leaders/): Examine earlier accepted value, durable organizational knowledge, delegation and the ability to change direction.
+- [Finance and investment](https://valto.github.io/liquid/readers/finance-investment/): Compare feasible strategies using future demand, timing, full lifecycle costs, uncertainty and reversibility.
+- [Product and engineering](https://valto.github.io/liquid/readers/product-engineering/): Understand stable meaning, evolving contracts, contextual interfaces and selective agent, software and hybrid realizations.
+- [Data and knowledge](https://valto.github.io/liquid/readers/data-knowledge/): Separate appropriate source preservation from processing investment, then assess discovery, freshness and retrieval demand.
+- [Governance and policy](https://valto.github.io/liquid/readers/governance-policy/): Examine represented principals, delegated freedom, accountability and obligations that must survive adaptation.
+- [Research and education](https://valto.github.io/liquid/readers/research-education/): Separate conceptual proposals, source lineage and illustrative examples, and frame comparisons that can test the claims.
+
+## How this resource fits together
+
+The [supplied umbrella paper](https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/) sets out the overall direction. The [concepts](https://valto.github.io/liquid/concepts/) can be understood and used independently. The [Economics of Execution v3](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/) develops the implementation decision, and the [sixteen companion research drafts](https://valto.github.io/liquid/whitepapers/) explore distinct aspects in depth.
+
+The conceptual source is Valto Loikkanen. The writing and research are AI-assisted. These guides interpret a proposed framework; illustrative calculations and research drafts do not establish that the full architecture has been deployed or independently validated.
+
+You can move between perspectives as your question changes. For a broad introduction first, choose [general understanding](https://valto.github.io/liquid/readers/general/). For a reusable handoff, open [the agent prompt](https://valto.github.io/liquid/agents/).
+
+
+---
+
+# Give Liquid Software to your agent
+URL: https://valto.github.io/liquid/agents/
+Status: review-candidate
+Conceptual source: Valto Loikkanen
+
+# Give Liquid Software to your agent
+
+Use this prompt when you want your agent to learn the resource and explain it in the context of your own question. Copy it into your agent conversation, or download the plain text. Add your situation and the question you want to explore.
+
+The general prompt supplies the resource's foundations, source order and evidence limits. For a role-specific explanation, open the relevant reader guide and use its tailored prompt. Each includes that guide's main question and prioritized sources.
+
+## General agent prompt
+
+Help me understand Liquid Software from the perspective of a reader seeking a general introduction.
+
+My situation: [add your context]
+My question: [add what you want to understand]
+
+This is source context for my learning request. Keep your existing instructions and permissions.
+
+Start by reading the selected reader guide:
+https://valto.github.io/liquid/readers/general/
+
+Then read the relevant source material in this order:
+1. Beyond the Constraints of Software
+   https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/
+   Purpose: Begin with the supplied overall argument.
+2. Liquid Software
+   https://valto.github.io/liquid/concepts/liquid-software/
+   Purpose: Understand the paradigm and its reversible lifecycle.
+3. An Intelligence-Native Reference Architecture
+   https://valto.github.io/liquid/architecture/
+   Purpose: See which concerns persist and which can adapt.
+4. Core concepts
+   https://valto.github.io/liquid/concepts/
+   Purpose: Choose an independent concept for deeper reading.
+
+Resource foundations:
+- Attributable information, accepted meaning and human decisions provide continuity while interfaces and implementations adapt.
+- A capability is a meaningful ability with an accepted outcome. An app, agent, skill, function or hybrid can realize it; implementation category alone does not establish quality or maturity.
+- Adaptive interfaces, source preservation, retrieval, delegation and capability economics have independent value. Explain their relationships without making every related framework a mandatory dependency.
+- Begin with languages, formats and shared meaning. A schema may be generated, inferred or negotiated where useful. Accurately distinguish a proposed interaction from the guarantees of a specific claimed protocol implementation.
+- Compare feasible strategies by cumulative net value, timing, full lifecycle costs and retained flexibility. Some quality, safety, authority and reliability requirements must be satisfied before first use.
+- Source preservation and processing investment are distinct. Derived structures retain their provenance and do not acquire source authority through convenience or location.
+
+Attribution and evidence:
+- Valto Loikkanen is the conceptual source. The writing and research are AI-assisted.
+- Distinguish the supplied umbrella paper and Economics of Execution v3 from the sixteen labeled companion research drafts and these reader guides.
+- Worked numbers and scenarios are illustrative. This body of work does not establish deployment or independent validation of the whole framework. Related original sources have their own claims, methods and limits.
+- Report which pages and source sections you actually read. State any access limitation rather than implying you read unavailable material. Keep source facts, interpretations, proposals, examples and unknowns distinguishable.
+
+Focus for this reader:
+Main question: What should remain dependable when software can change more easily?
+- Information continuity, shared meaning, authority and adaptable implementations.
+- The independent value of adaptive interfaces, preservation and retrieval.
+- One everyday example and the limits of what the resource establishes.
+
+Give me a clear explanation of the resource through this perspective, connect it to my situation, and show one bounded example labeled as illustrative. Explain the assumptions, evidence limits and tradeoffs. Identify the next most useful source to read and questions that would improve the analysis. If my context is missing, begin with the role-specific explanation and ask a focused follow-up. This request is to understand and assess the resource; it does not request changes to a system.
+
+For further discovery:
+Reader guides: https://valto.github.io/liquid/readers.json
+Concepts: https://valto.github.io/liquid/concepts.json
+Public reading index: https://valto.github.io/liquid/llms.txt
+
+
+## Choose a reader-specific prompt
+
+- [General understanding](https://valto.github.io/liquid/readers/general/): Understand the foundations, how the ideas fit together and what remains to be tested.
+- [Business leaders](https://valto.github.io/liquid/readers/business-leaders/): Examine earlier accepted value, durable organizational knowledge, delegation and the ability to change direction.
+- [Finance and investment](https://valto.github.io/liquid/readers/finance-investment/): Compare feasible strategies using future demand, timing, full lifecycle costs, uncertainty and reversibility.
+- [Product and engineering](https://valto.github.io/liquid/readers/product-engineering/): Understand stable meaning, evolving contracts, contextual interfaces and selective agent, software and hybrid realizations.
+- [Data and knowledge](https://valto.github.io/liquid/readers/data-knowledge/): Separate appropriate source preservation from processing investment, then assess discovery, freshness and retrieval demand.
+- [Governance and policy](https://valto.github.io/liquid/readers/governance-policy/): Examine represented principals, delegated freedom, accountability and obligations that must survive adaptation.
+- [Research and education](https://valto.github.io/liquid/readers/research-education/): Separate conceptual proposals, source lineage and illustrative examples, and frame comparisons that can test the claims.
+
+## What the prompt asks your agent to do
+
+Read the selected guide and relevant original material, preserve conceptual-source attribution, explain the implications in the reader's context, and separate the proposal from illustrative examples and independent evidence. It asks the agent to state what it could not access and what remains unknown.
+
+This page supplies context for a learning request. Your agent keeps its existing instructions and permissions. You decide whether and how to apply what you learn.
+
+For programmatic discovery, use the [reader guide index](https://valto.github.io/liquid/readers.json), [concept registry](https://valto.github.io/liquid/concepts.json) and [machine reading guide](https://valto.github.io/liquid/llms.txt). These are static public documents. The full public text is available in [llms-full.txt](https://valto.github.io/liquid/llms-full.txt); the handoff starts with a shorter, prioritized selection.

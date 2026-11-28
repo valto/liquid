@@ -2,7 +2,7 @@
 
 Conceptual source: Valto Loikkanen. AI-assisted conceptual research.
 
-- [Liquid Software](https://valto.github.io/liquid/): Information provides continuity. Human decisions define the boundaries. Intelligence fulfills needs, with software adapting to actual usage. [published]
+- [Liquid Software](https://valto.github.io/liquid/): Information provides continuity. Human decisions define the boundaries. Intelligence fulfills needs, with software adapting to actual usage. [review-candidate]
 - [Core concepts](https://valto.github.io/liquid/concepts/): Nine independently useful concepts connect information continuity, adaptive interaction, evolving execution, capability economics and human decision freedom. [published]
 - [Liquid Software](https://valto.github.io/liquid/concepts/liquid-software/): Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries. [research-draft]
 - [The Adaptive Interface](https://valto.github.io/liquid/concepts/adaptive-interface/): Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result. [research-draft]
@@ -42,5 +42,14 @@ Conceptual source: Valto Loikkanen. AI-assisted conceptual research.
 - [Liquid Software: The Economics of Execution — Version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/): The complete 33-page expanded research edition: 31 chapters, 19 figures, scenario economics, worked examples and informed selection. [published]
 - [Economics of Execution v3 — Complete Text Transcription](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/text/): Page-separated text of all 33 supplied pages, preserving original wording, AI attribution and nine references; figures remain in the PDF. [source-transcription]
 - [Capability Decision Record](https://valto.github.io/liquid/concepts/capability-economics/decision-record/): An optional editable record for capability outcomes, alternatives, evidence, costs, authority, review triggers and recovery. [published]
+- [Liquid Software: a general introduction](https://valto.github.io/liquid/readers/general/): Understand the foundations, how the ideas fit together and what remains to be tested. [reader-guide-review-candidate]
+- [Liquid Software for business leaders](https://valto.github.io/liquid/readers/business-leaders/): Examine earlier accepted value, durable organizational knowledge, delegation and the ability to change direction. [reader-guide-review-candidate]
+- [Liquid Software for finance and investment](https://valto.github.io/liquid/readers/finance-investment/): Compare feasible strategies using future demand, timing, full lifecycle costs, uncertainty and reversibility. [reader-guide-review-candidate]
+- [Liquid Software for product and engineering](https://valto.github.io/liquid/readers/product-engineering/): Understand stable meaning, evolving contracts, contextual interfaces and selective agent, software and hybrid realizations. [reader-guide-review-candidate]
+- [Liquid Software for data and knowledge](https://valto.github.io/liquid/readers/data-knowledge/): Separate appropriate source preservation from processing investment, then assess discovery, freshness and retrieval demand. [reader-guide-review-candidate]
+- [Liquid Software for governance and policy](https://valto.github.io/liquid/readers/governance-policy/): Examine represented principals, delegated freedom, accountability and obligations that must survive adaptation. [reader-guide-review-candidate]
+- [Liquid Software for research and education](https://valto.github.io/liquid/readers/research-education/): Separate conceptual proposals, source lineage and illustrative examples, and frame comparisons that can test the claims. [reader-guide-review-candidate]
+- [Start with your perspective](https://valto.github.io/liquid/start/): Choose a general or role-specific introduction, reading path and agent prompt for Liquid Software. [review-candidate]
+- [Give Liquid Software to your agent](https://valto.github.io/liquid/agents/): Copy a grounded prompt or choose a reader-specific handoff to understand the resource with your own agent. [review-candidate]
 
 Full public text: https://valto.github.io/liquid/llms-full.txt

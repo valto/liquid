@@ -2,6 +2,14 @@
 
 Information provides continuity. Human decisions define the boundaries.
 
+## Start with your perspective
+
+Read a general introduction or explore what the resource means for your role. Each guide includes a focused summary, a reading path and a prompt to give your agent.
+
+@@READERS@@
+
+You can also open the [general agent prompt](https://valto.github.io/liquid/agents/) or [compare the reading paths](https://valto.github.io/liquid/start/).
+
 ## Reverse the dependency
 
 The digital world has often organized information and activity around what existing software can support. Liquid Software explores the reverse relationship: preserve attributable information, establish meaningful authority and shared semantics, then let interfaces and implementations take shape around actual needs.

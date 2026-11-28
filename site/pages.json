@@ -5,12 +5,14 @@
     "url": "https://valto.github.io/liquid/",
     "base_path": "/liquid/",
     "repository": "https://github.com/valto/liquid",
-    "status": "published",
-    "version": "0.3.0",
-    "publication_date": "2026-11-27",
+    "status": "review-candidate",
+    "version": "0.4.0",
+    "publication_date": null,
     "content_license": "https://creativecommons.org/licenses/by/4.0/",
     "code_license": "MIT",
-    "first_publication_date": "2026-11-26"
+    "first_publication_date": "2026-11-26",
+    "previous_version": "0.3.0",
+    "previous_publication_date": "2026-11-27"
   },
   "pages": [
     {
@@ -21,12 +23,12 @@
       "source": "README.md",
       "markdown": "content/README.md",
       "kind": "guide",
-      "status": "published",
-      "version": "0.3.0",
+      "status": "review-candidate",
+      "version": "0.4.0",
       "origin_date": null,
-      "publication_date": "2026-11-27",
-      "modified": "2026-11-27",
-      "previous_version": "0.2.0",
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "previous_version": "0.3.0",
       "previous_publication_date": "2026-11-27"
     },
     {
@@ -1099,6 +1101,339 @@
       "version": "0.1.0",
       "attribution": "Conceptual source: Valto Loikkanen · AI-assisted template from Economics of Execution v3, page 27",
       "source_id": "S41"
+    },
+    {
+      "id": "reader-general",
+      "path": "readers/general/",
+      "title": "Liquid Software: a general introduction",
+      "description": "Understand the foundations, how the ideas fit together and what remains to be tested.",
+      "source": "readers/general.md",
+      "markdown": "content/readers/general.md",
+      "kind": "reader",
+      "status": "reader-guide-review-candidate",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "reader": {
+        "slug": "general",
+        "label": "General understanding",
+        "perspective": "a reader seeking a general introduction",
+        "question": "What should remain dependable when software can change more easily?",
+        "focus": [
+          "Information continuity, shared meaning, authority and adaptable implementations.",
+          "The independent value of adaptive interfaces, preservation and retrieval.",
+          "One everyday example and the limits of what the resource establishes."
+        ],
+        "reading": [
+          {
+            "id": "original-paper-00",
+            "why": "Begin with the supplied overall argument."
+          },
+          {
+            "id": "liquid-software",
+            "why": "Understand the paradigm and its reversible lifecycle."
+          },
+          {
+            "id": "architecture-overview",
+            "why": "See which concerns persist and which can adapt."
+          },
+          {
+            "id": "CONCEPTS",
+            "why": "Choose an independent concept for deeper reading."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reader-business-leaders",
+      "path": "readers/business-leaders/",
+      "title": "Liquid Software for business leaders",
+      "description": "Examine earlier accepted value, durable organizational knowledge, delegation and the ability to change direction.",
+      "source": "readers/business-leaders.md",
+      "markdown": "content/readers/business-leaders.md",
+      "kind": "reader",
+      "status": "reader-guide-review-candidate",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "reader": {
+        "slug": "business-leaders",
+        "label": "Business leaders",
+        "perspective": "a business leader or team owner",
+        "question": "How can we deliver value sooner while retaining the ability to change direction?",
+        "focus": [
+          "Meaningful business outcomes, accountable ownership and retained organizational knowledge.",
+          "Delegated operational choices versus reserved commitments.",
+          "Time to accepted value, adoption, transition and a bounded comparison with the current process."
+        ],
+        "reading": [
+          {
+            "id": "capability-economics",
+            "why": "Connect capability decisions to cumulative net value."
+          },
+          {
+            "id": "degrees-of-decision-freedom",
+            "why": "Separate delegated choices from reserved decisions."
+          },
+          {
+            "id": "economics-of-execution-v3",
+            "why": "Read pages 12–16 and 21 for staged value, transitions and procurement composition."
+          },
+          {
+            "id": "documentation-as-foundations",
+            "why": "Keep business meaning and guidance durable across tools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reader-finance-investment",
+      "path": "readers/finance-investment/",
+      "title": "Liquid Software for finance and investment",
+      "description": "Compare feasible strategies using future demand, timing, full lifecycle costs, uncertainty and reversibility.",
+      "source": "readers/finance-investment.md",
+      "markdown": "content/readers/finance-investment.md",
+      "kind": "reader",
+      "status": "reader-guide-review-candidate",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "reader": {
+        "slug": "finance-investment",
+        "label": "Finance and investment",
+        "perspective": "a finance leader, procurement analyst or investor assessing capability implementation",
+        "question": "Which feasible strategy delivers the best cumulative net value over the relevant horizon?",
+        "focus": [
+          "Comparable accepted outcomes, incremental costs and remaining future demand.",
+          "Timing, adoption, transition, reversibility and consistent opportunity-cost accounting.",
+          "Observed inputs versus estimates, scenario ranges and the limits of elementary break-even."
+        ],
+        "reading": [
+          {
+            "id": "capability-economics",
+            "why": "Start with the full comparison and feasibility conditions."
+          },
+          {
+            "id": "economics-of-execution-v3",
+            "why": "Read pages 10, 13–17, 25 and 28 for thresholds, timing, the value model and portfolio examples."
+          },
+          {
+            "id": "capability-decision-record",
+            "why": "Organize the baseline, alternatives, evidence and review triggers."
+          },
+          {
+            "id": "intelligence-first",
+            "why": "Understand staged fulfillment without assuming agents are always preferable."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reader-product-engineering",
+      "path": "readers/product-engineering/",
+      "title": "Liquid Software for product and engineering",
+      "description": "Understand stable meaning, evolving contracts, contextual interfaces and selective agent, software and hybrid realizations.",
+      "source": "readers/product-engineering.md",
+      "markdown": "content/readers/product-engineering.md",
+      "kind": "reader",
+      "status": "reader-guide-review-candidate",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "reader": {
+        "slug": "product-engineering",
+        "label": "Product and engineering",
+        "perspective": "a product designer, architect or developer",
+        "question": "What must remain stable so implementation can change without changing the promise?",
+        "focus": [
+          "Capability meaning, acceptance criteria and realization-specific contracts.",
+          "Languages, formats and shared semantics; dynamic schema preparation versus claimed protocol guarantees.",
+          "Selective composition, interface costs, compatible replacement and recovery."
+        ],
+        "reading": [
+          {
+            "id": "documentation-as-foundations",
+            "why": "Start with purpose, shared terminology and meaningful scope."
+          },
+          {
+            "id": "architecture-overview",
+            "why": "Separate principal, information, capability, interaction and governance concerns."
+          },
+          {
+            "id": "draft-09",
+            "why": "Examine expression, schemas, agreements and implementation boundaries."
+          },
+          {
+            "id": "liquid-software",
+            "why": "Understand the reversible lifecycle, including deliberate stability."
+          },
+          {
+            "id": "economics-of-execution-v3",
+            "why": "Read pages 19–21 for meaningful modularity and the procurement composition."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reader-data-knowledge",
+      "path": "readers/data-knowledge/",
+      "title": "Liquid Software for data and knowledge",
+      "description": "Separate appropriate source preservation from processing investment, then assess discovery, freshness and retrieval demand.",
+      "source": "readers/data-knowledge.md",
+      "markdown": "content/readers/data-knowledge.md",
+      "kind": "reader",
+      "status": "reader-guide-review-candidate",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "reader": {
+        "slug": "data-knowledge",
+        "label": "Data and knowledge",
+        "perspective": "a data steward, knowledge worker or person managing their own information",
+        "question": "What should we preserve, and which processing should we invest in as needs emerge?",
+        "focus": [
+          "Appropriate originals, accepted assertions, inferred interpretations and derived structures.",
+          "Purpose, rights, retention, discoverability, freshness and accessibility.",
+          "On-demand processing, selective caching and preprocessing under explicit demand assumptions."
+        ],
+        "reading": [
+          {
+            "id": "capture-for-unknown-future-value",
+            "why": "Separate preserving evidence from anticipating every future question."
+          },
+          {
+            "id": "adaptive-information-retrieval",
+            "why": "Compare evolving retrieval methods and their evidence boundaries."
+          },
+          {
+            "id": "adaptive-interface",
+            "why": "Preserve meaning when representations change for different recipients."
+          },
+          {
+            "id": "economics-of-execution-v3",
+            "why": "Read pages 22–23 for purposeful processing and the illustrative retrieval comparison."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reader-governance-policy",
+      "path": "readers/governance-policy/",
+      "title": "Liquid Software for governance and policy",
+      "description": "Examine represented principals, delegated freedom, accountability and obligations that must survive adaptation.",
+      "source": "readers/governance-policy.md",
+      "markdown": "content/readers/governance-policy.md",
+      "kind": "reader",
+      "status": "reader-guide-review-candidate",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "reader": {
+        "slug": "governance-policy",
+        "label": "Governance and policy",
+        "perspective": "a governance, policy or risk reader",
+        "question": "How can adaptation preserve accountability and meaningful control?",
+        "focus": [
+          "The requester, represented principal, beneficiary and information authority.",
+          "Delegated choices, reserved decisions, revision, intervention and revocation.",
+          "Enforceable obligations, source rights and the feasible boundary before economic optimization."
+        ],
+        "reading": [
+          {
+            "id": "degrees-of-decision-freedom",
+            "why": "Understand contextual delegation and retained human decisions."
+          },
+          {
+            "id": "architecture-overview",
+            "why": "Distinguish the roles and authority concerns in a bounded request."
+          },
+          {
+            "id": "capture-for-unknown-future-value",
+            "why": "Examine purpose, rights and retention alongside evidence continuity."
+          },
+          {
+            "id": "economics-of-execution-v3",
+            "why": "Read pages 25 and 29 for feasibility, downside and the governance boundary."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reader-research-education",
+      "path": "readers/research-education/",
+      "title": "Liquid Software for research and education",
+      "description": "Separate conceptual proposals, source lineage and illustrative examples, and frame comparisons that can test the claims.",
+      "source": "readers/research-education.md",
+      "markdown": "content/readers/research-education.md",
+      "kind": "reader",
+      "status": "reader-guide-review-candidate",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28",
+      "reader": {
+        "slug": "research-education",
+        "label": "Research and education",
+        "perspective": "a researcher, educator or student",
+        "question": "Which claims can be tested, and how do their concepts, examples and related work differ?",
+        "focus": [
+          "Independent concepts versus the integrated architectural claim.",
+          "Supplied papers, companion drafts, related original sources and version lineage.",
+          "Falsifiable comparisons, matched acceptance criteria, evidence limits and negative results."
+        ],
+        "reading": [
+          {
+            "id": "original-paper-00",
+            "why": "Read the supplied argument before evaluating its parts."
+          },
+          {
+            "id": "research-related-work",
+            "why": "Trace related original works and their separate claims."
+          },
+          {
+            "id": "draft-15",
+            "why": "Examine the integrated proposal and its research questions."
+          },
+          {
+            "id": "economics-of-execution-v3",
+            "why": "Read pages 26 and 30–33 for maturity distinctions, empirical questions, lineage and references."
+          }
+        ]
+      }
+    },
+    {
+      "id": "reader-start",
+      "path": "start/",
+      "title": "Start with your perspective",
+      "description": "Choose a general or role-specific introduction, reading path and agent prompt for Liquid Software.",
+      "source": "readers/index.md",
+      "markdown": "content/readers/index.md",
+      "kind": "guide",
+      "status": "review-candidate",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28"
+    },
+    {
+      "id": "agent-handoff",
+      "path": "agents/",
+      "title": "Give Liquid Software to your agent",
+      "description": "Copy a grounded prompt or choose a reader-specific handoff to understand the resource with your own agent.",
+      "source": "agents/index.md",
+      "markdown": "content/agents/index.md",
+      "kind": "agent",
+      "status": "review-candidate",
+      "version": "0.1.0",
+      "origin_date": null,
+      "publication_date": null,
+      "modified": "2026-11-28"
     }
   ],
   "files": [
@@ -1195,7 +1530,7 @@
     {
       "source": "site/assets/style.css",
       "destination": "assets/style.css",
-      "sha256": "9e4c9c797589d077c894fb95fd4c79eb665959e10b4cb07533e1e9e3a9ba477d"
+      "sha256": "88f67a2cc8b26aabddfa0c9483421436c286196eabd8ff30c55d74064776d51c"
     },
     {
       "source": "site/assets/og.svg",
@@ -1226,6 +1561,11 @@
       "source": "whitepapers/economics-of-execution/v3.0.pdf",
       "destination": "whitepapers/economics-of-execution/v3.0.pdf",
       "sha256": "40bbea7abfccfc07f37a7857e278dfa54cebb1621f7dc238576bf6c917c54a94"
+    },
+    {
+      "source": "site/assets/reader-tools.js",
+      "destination": "assets/reader-tools.js",
+      "sha256": "a1e0098d746b29bb182ed7597c2038704416dc0f780d0ea26d35bb80217a2d30"
     }
   ]
 }

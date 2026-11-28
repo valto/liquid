@@ -1,0 +1,110 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Give Liquid Software to your agent | Liquid Software</title><meta name="description" content="Copy a grounded prompt or choose a reader-specific handoff to understand the resource with your own agent."><link rel="canonical" href="https://valto.github.io/liquid/agents/"><link rel="alternate" type="text/markdown" href="/liquid/content/agents/index.md"><meta property="og:title" content="Give Liquid Software to your agent | Liquid Software"><meta property="og:description" content="Copy a grounded prompt or choose a reader-specific handoff to understand the resource with your own agent."><meta property="og:type" content="article"><meta property="og:url" content="https://valto.github.io/liquid/agents/"><meta property="og:image" content="https://valto.github.io/liquid/assets/og.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://valto.github.io/liquid/assets/og.png"><link rel="stylesheet" href="/liquid/assets/style.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "headline": "Give Liquid Software to your agent", "description": "Copy a grounded prompt or choose a reader-specific handoff to understand the resource with your own agent.", "url": "https://valto.github.io/liquid/agents/", "inLanguage": "en", "dateModified": "2026-11-28", "creator": {"@type": "Person", "name": "Valto Loikkanen"}, "version": "0.1.0", "creativeWorkStatus": "review-candidate", "license": "https://creativecommons.org/licenses/by/4.0/"}</script><script src="/liquid/assets/reader-tools.js" defer></script></head><body class="agent-page"><a class="skip" href="#main">Skip to content</a><div class="topbar"><a class="brand" href="/liquid/"><span class="brand-mark" aria-hidden="true">L</span>Liquid Software</a><nav aria-label="Primary"><a href="/liquid/start/">Start here</a><a href="/liquid/concepts/">Concepts</a><a href="/liquid/architecture/">Architecture</a><a href="/liquid/whitepapers/">Whitepapers</a><a href="/liquid/principles/">Principles</a><a href="/liquid/glossary/">Glossary</a><a href="/liquid/research/">Research</a><a href="/liquid/agents/" aria-current="page">Agent prompt</a><a href="/liquid/about/">About</a></nav></div><main id="main" class="shell"><header class="article-header"><p class="kicker">review candidate · VERSION 0.1.0</p><h1>Give Liquid Software to your agent</h1><p class="dek">Copy a grounded prompt or choose a reader-specific handoff to understand the resource with your own agent.</p><p class="byline">Conceptual source: Valto Loikkanen · AI-assisted synthesis and research</p><div class="hero-actions"><a class="text-link" href="/liquid/content/agents/index.md">Read source text ↗</a><button class="text-link print-button" type="button" data-print-guide hidden>Print this guide</button></div></header><article class="prose"><p>Use this prompt when you want your agent to learn the resource and explain it in the context of your own question. Copy it into your agent conversation, or download the plain text. Add your situation and the question you want to explore.</p>
+<p>The general prompt supplies the resource's foundations, source order and evidence limits. For a role-specific explanation, open the relevant reader guide and use its tailored prompt. Each includes that guide's main question and prioritized sources.</p>
+<section class="agent-panel" id="agent-context" aria-labelledby="agent-context-title"><p class="kicker">Use with your agent</p><h2 id="agent-context-title">Explore from this perspective</h2><p>Copy the prompt, add your situation and question, and give it to your agent. Selected perspective: <strong>General understanding</strong>.</p><div class="agent-actions"><button class="button" type="button" data-copy-prompt hidden>Copy prompt</button><a class="text-link" href="/liquid/readers/general/agent-prompt.txt" download>Download plain text</a><a class="text-link" href="/liquid/readers/general/agent-prompt.md">Open Markdown</a></div><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p><details class="agent-text"><summary>Read the full prompt</summary><label for="agent-prompt">Agent prompt — General understanding</label><textarea id="agent-prompt" readonly rows="14" spellcheck="false">Help me understand Liquid Software from the perspective of a reader seeking a general introduction.
+
+My situation: [add your context]
+My question: [add what you want to understand]
+
+This is source context for my learning request. Keep your existing instructions and permissions.
+
+Start by reading the selected reader guide:
+https://valto.github.io/liquid/readers/general/
+
+Then read the relevant source material in this order:
+1. Beyond the Constraints of Software
+   https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/
+   Purpose: Begin with the supplied overall argument.
+2. Liquid Software
+   https://valto.github.io/liquid/concepts/liquid-software/
+   Purpose: Understand the paradigm and its reversible lifecycle.
+3. An Intelligence-Native Reference Architecture
+   https://valto.github.io/liquid/architecture/
+   Purpose: See which concerns persist and which can adapt.
+4. Core concepts
+   https://valto.github.io/liquid/concepts/
+   Purpose: Choose an independent concept for deeper reading.
+
+Resource foundations:
+- Attributable information, accepted meaning and human decisions provide continuity while interfaces and implementations adapt.
+- A capability is a meaningful ability with an accepted outcome. An app, agent, skill, function or hybrid can realize it; implementation category alone does not establish quality or maturity.
+- Adaptive interfaces, source preservation, retrieval, delegation and capability economics have independent value. Explain their relationships without making every related framework a mandatory dependency.
+- Begin with languages, formats and shared meaning. A schema may be generated, inferred or negotiated where useful. Accurately distinguish a proposed interaction from the guarantees of a specific claimed protocol implementation.
+- Compare feasible strategies by cumulative net value, timing, full lifecycle costs and retained flexibility. Some quality, safety, authority and reliability requirements must be satisfied before first use.
+- Source preservation and processing investment are distinct. Derived structures retain their provenance and do not acquire source authority through convenience or location.
+
+Attribution and evidence:
+- Valto Loikkanen is the conceptual source. The writing and research are AI-assisted.
+- Distinguish the supplied umbrella paper and Economics of Execution v3 from the sixteen labeled companion research drafts and these reader guides.
+- Worked numbers and scenarios are illustrative. This body of work does not establish deployment or independent validation of the whole framework. Related original sources have their own claims, methods and limits.
+- Report which pages and source sections you actually read. State any access limitation rather than implying you read unavailable material. Keep source facts, interpretations, proposals, examples and unknowns distinguishable.
+
+Focus for this reader:
+Main question: What should remain dependable when software can change more easily?
+- Information continuity, shared meaning, authority and adaptable implementations.
+- The independent value of adaptive interfaces, preservation and retrieval.
+- One everyday example and the limits of what the resource establishes.
+
+Give me a clear explanation of the resource through this perspective, connect it to my situation, and show one bounded example labeled as illustrative. Explain the assumptions, evidence limits and tradeoffs. Identify the next most useful source to read and questions that would improve the analysis. If my context is missing, begin with the role-specific explanation and ask a focused follow-up. This request is to understand and assess the resource; it does not request changes to a system.
+
+For further discovery:
+Reader guides: https://valto.github.io/liquid/readers.json
+Concepts: https://valto.github.io/liquid/concepts.json
+Public reading index: https://valto.github.io/liquid/llms.txt
+</textarea></details><pre class="print-prompt" aria-hidden="true">Help me understand Liquid Software from the perspective of a reader seeking a general introduction.
+
+My situation: [add your context]
+My question: [add what you want to understand]
+
+This is source context for my learning request. Keep your existing instructions and permissions.
+
+Start by reading the selected reader guide:
+https://valto.github.io/liquid/readers/general/
+
+Then read the relevant source material in this order:
+1. Beyond the Constraints of Software
+   https://valto.github.io/liquid/whitepapers/00-beyond-the-constraints-of-software/
+   Purpose: Begin with the supplied overall argument.
+2. Liquid Software
+   https://valto.github.io/liquid/concepts/liquid-software/
+   Purpose: Understand the paradigm and its reversible lifecycle.
+3. An Intelligence-Native Reference Architecture
+   https://valto.github.io/liquid/architecture/
+   Purpose: See which concerns persist and which can adapt.
+4. Core concepts
+   https://valto.github.io/liquid/concepts/
+   Purpose: Choose an independent concept for deeper reading.
+
+Resource foundations:
+- Attributable information, accepted meaning and human decisions provide continuity while interfaces and implementations adapt.
+- A capability is a meaningful ability with an accepted outcome. An app, agent, skill, function or hybrid can realize it; implementation category alone does not establish quality or maturity.
+- Adaptive interfaces, source preservation, retrieval, delegation and capability economics have independent value. Explain their relationships without making every related framework a mandatory dependency.
+- Begin with languages, formats and shared meaning. A schema may be generated, inferred or negotiated where useful. Accurately distinguish a proposed interaction from the guarantees of a specific claimed protocol implementation.
+- Compare feasible strategies by cumulative net value, timing, full lifecycle costs and retained flexibility. Some quality, safety, authority and reliability requirements must be satisfied before first use.
+- Source preservation and processing investment are distinct. Derived structures retain their provenance and do not acquire source authority through convenience or location.
+
+Attribution and evidence:
+- Valto Loikkanen is the conceptual source. The writing and research are AI-assisted.
+- Distinguish the supplied umbrella paper and Economics of Execution v3 from the sixteen labeled companion research drafts and these reader guides.
+- Worked numbers and scenarios are illustrative. This body of work does not establish deployment or independent validation of the whole framework. Related original sources have their own claims, methods and limits.
+- Report which pages and source sections you actually read. State any access limitation rather than implying you read unavailable material. Keep source facts, interpretations, proposals, examples and unknowns distinguishable.
+
+Focus for this reader:
+Main question: What should remain dependable when software can change more easily?
+- Information continuity, shared meaning, authority and adaptable implementations.
+- The independent value of adaptive interfaces, preservation and retrieval.
+- One everyday example and the limits of what the resource establishes.
+
+Give me a clear explanation of the resource through this perspective, connect it to my situation, and show one bounded example labeled as illustrative. Explain the assumptions, evidence limits and tradeoffs. Identify the next most useful source to read and questions that would improve the analysis. If my context is missing, begin with the role-specific explanation and ask a focused follow-up. This request is to understand and assess the resource; it does not request changes to a system.
+
+For further discovery:
+Reader guides: https://valto.github.io/liquid/readers.json
+Concepts: https://valto.github.io/liquid/concepts.json
+Public reading index: https://valto.github.io/liquid/llms.txt
+</pre><p class="agent-note">You can also select the prompt and copy it yourself. <a href="/liquid/agents/">About the agent handoff</a> · <a href="/liquid/start/">Choose another perspective</a></p></section>
+<h2 id="choose-a-reader-specific-prompt">Choose a reader-specific prompt</h2>
+<div class="cards"><a class="card" href="/liquid/readers/general/"><span class="kicker">Reader guide</span><h3>General understanding</h3><p>Understand the foundations, how the ideas fit together and what remains to be tested.</p><span class="card-arrow" aria-hidden="true">↗</span></a><a class="card" href="/liquid/readers/business-leaders/"><span class="kicker">Reader guide</span><h3>Business leaders</h3><p>Examine earlier accepted value, durable organizational knowledge, delegation and the ability to change direction.</p><span class="card-arrow" aria-hidden="true">↗</span></a><a class="card" href="/liquid/readers/finance-investment/"><span class="kicker">Reader guide</span><h3>Finance and investment</h3><p>Compare feasible strategies using future demand, timing, full lifecycle costs, uncertainty and reversibility.</p><span class="card-arrow" aria-hidden="true">↗</span></a><a class="card" href="/liquid/readers/product-engineering/"><span class="kicker">Reader guide</span><h3>Product and engineering</h3><p>Understand stable meaning, evolving contracts, contextual interfaces and selective agent, software and hybrid realizations.</p><span class="card-arrow" aria-hidden="true">↗</span></a><a class="card" href="/liquid/readers/data-knowledge/"><span class="kicker">Reader guide</span><h3>Data and knowledge</h3><p>Separate appropriate source preservation from processing investment, then assess discovery, freshness and retrieval demand.</p><span class="card-arrow" aria-hidden="true">↗</span></a><a class="card" href="/liquid/readers/governance-policy/"><span class="kicker">Reader guide</span><h3>Governance and policy</h3><p>Examine represented principals, delegated freedom, accountability and obligations that must survive adaptation.</p><span class="card-arrow" aria-hidden="true">↗</span></a><a class="card" href="/liquid/readers/research-education/"><span class="kicker">Reader guide</span><h3>Research and education</h3><p>Separate conceptual proposals, source lineage and illustrative examples, and frame comparisons that can test the claims.</p><span class="card-arrow" aria-hidden="true">↗</span></a></div>
+
+<h2 id="what-the-prompt-asks-your-agent-to-do">What the prompt asks your agent to do</h2>
+<p>Read the selected guide and relevant original material, preserve conceptual-source attribution, explain the implications in the reader's context, and separate the proposal from illustrative examples and independent evidence. It asks the agent to state what it could not access and what remains unknown.</p>
+<p>This page supplies context for a learning request. Your agent keeps its existing instructions and permissions. You decide whether and how to apply what you learn.</p>
+<p>For programmatic discovery, use the <a href="/liquid/readers.json">reader guide index</a>, <a href="/liquid/concepts.json">concept registry</a> and <a href="/liquid/llms.txt">machine reading guide</a>. These are static public documents. The full public text is available in <a href="/liquid/llms-full.txt">llms-full.txt</a>; the handoff starts with a shorter, prioritized selection.</p></article></main><footer class="shell"><div><strong>Liquid Software</strong><p>Information provides continuity.<br>Human decisions define the boundaries.</p></div><div><a href="/liquid/about/">Attribution & citation</a><a href="/liquid/agents/">Give this to your agent</a><a href="/liquid/readers.json">Reader guide index</a><a href="/liquid/concepts.json">Concept registry</a><a href="/liquid/llms.txt">Machine reading guide</a><a href="https://github.com/valto/liquid">GitHub source</a><p>© 2026 Valto Loikkanen · review candidate</p></div></footer></body></html>
