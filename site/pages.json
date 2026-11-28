@@ -5,9 +5,9 @@
     "url": "https://valto.github.io/liquid/",
     "base_path": "/liquid/",
     "repository": "https://github.com/valto/liquid",
-    "status": "review-candidate",
+    "status": "published",
     "version": "0.4.0",
-    "publication_date": null,
+    "publication_date": "2026-11-28",
     "content_license": "https://creativecommons.org/licenses/by/4.0/",
     "code_license": "MIT",
     "first_publication_date": "2026-11-26",
@@ -23,13 +23,14 @@
       "source": "README.md",
       "markdown": "content/README.md",
       "kind": "guide",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.4.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "previous_version": "0.3.0",
-      "previous_publication_date": "2026-11-27"
+      "previous_publication_date": "2026-11-27",
+      "content_license": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "CONCEPTS",
@@ -39,15 +40,15 @@
       "source": "CONCEPTS.md",
       "markdown": "content/CONCEPTS.md",
       "kind": "guide",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.4.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "collection": "concept",
       "previous_version": "0.3.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -62,10 +63,10 @@
       "source": "concepts/liquid-software.md",
       "markdown": "content/concepts/liquid-software.md",
       "kind": "concept",
-      "status": "review-candidate",
+      "status": "research-draft",
       "version": "0.3.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "definition": "Implementations emerge, adapt, stabilize and retire around actual needs, within durable semantics and human-defined boundaries.",
       "thesis": "Separate useful capabilities from the lifetime of any particular implementation.",
@@ -114,8 +115,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "previous_version": "0.2.0",
@@ -125,7 +127,7 @@
         "edition": "1.0",
         "edition_date": "2026-11-28"
       },
-      "content_license": null
+      "content_license": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "adaptive-interface",
@@ -135,10 +137,10 @@
       "source": "concepts/adaptive-interface.md",
       "markdown": "content/concepts/adaptive-interface.md",
       "kind": "concept",
-      "status": "review-candidate",
+      "status": "research-draft",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "definition": "Presentation and interaction respond to what is needed, by whom, where and why; how is a contextual result.",
       "thesis": "Derive the form of interaction from the task and participant while preserving recognizable meaning and control.",
@@ -178,13 +180,14 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -262,10 +265,10 @@
       "source": "concepts/adaptive-information-retrieval.md",
       "markdown": "content/concepts/adaptive-information-retrieval.md",
       "kind": "concept",
-      "status": "review-candidate",
+      "status": "research-draft",
       "version": "0.4.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "definition": "Interpret emerging questions and evolve retrieval structures around observed needs while preserving source evidence and agreed meaning.",
       "thesis": "Retrieval structures can change with emerging questions without turning their answers into authoritative source information.",
@@ -319,8 +322,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "previous_version": "0.3.0",
@@ -330,7 +334,7 @@
         "edition": "1.0",
         "edition_date": "2026-11-28"
       },
-      "content_license": null
+      "content_license": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "intelligence-first",
@@ -456,10 +460,10 @@
       "source": "concepts/self-optimizing-system.md",
       "markdown": "content/concepts/self-optimizing-system.md",
       "kind": "concept",
-      "status": "review-candidate",
+      "status": "research-draft",
       "version": "0.3.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "definition": "Observe actual fulfillment and propose useful changes to implementations and retrieval structures under explicit authority.",
       "thesis": "Optimize risk-adjusted cumulative net value across feasible realizations while preserving accepted meaning and authority.",
@@ -511,8 +515,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "previous_version": "0.2.0",
@@ -522,7 +527,7 @@
         "edition": "1.0",
         "edition_date": "2026-11-28"
       },
-      "content_license": null
+      "content_license": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
       "id": "documentation-as-foundations",
@@ -532,10 +537,10 @@
       "source": "concepts/documentation-as-foundations.md",
       "markdown": "content/concepts/documentation-as-foundations.md",
       "kind": "concept",
-      "status": "review-candidate",
+      "status": "research-draft",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "definition": "Shared terminology, capability requirements and guidance preserve meaning while implementations and operational choices evolve.",
       "thesis": "Shared documentation can preserve stable meaning while interfaces, contracts and implementations are generated for a particular need.",
@@ -580,13 +585,14 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -656,8 +662,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "conceptual_source_document": {
@@ -667,12 +674,12 @@
         "prior_source_id": "S32"
       },
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
-      "status": "review-candidate",
+      "status": "research-draft",
       "previous_version": "0.2.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -687,14 +694,14 @@
       "source": "architecture/overview.md",
       "markdown": "content/architecture/overview.md",
       "kind": "guide",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -709,14 +716,14 @@
       "source": "PRINCIPLES.md",
       "markdown": "content/PRINCIPLES.md",
       "kind": "guide",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.3.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "previous_version": "0.2.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -731,14 +738,14 @@
       "source": "GLOSSARY.md",
       "markdown": "content/GLOSSARY.md",
       "kind": "guide",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.4.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "previous_version": "0.3.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -753,14 +760,14 @@
       "source": "research/related-work.md",
       "markdown": "content/research/related-work.md",
       "kind": "guide",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "previous_version": "0.1.0",
       "previous_publication_date": "2026-11-26",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -775,14 +782,14 @@
       "source": "about.md",
       "markdown": "content/about.md",
       "kind": "guide",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.4.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "previous_version": "0.3.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -865,15 +872,15 @@
       "source": "whitepapers/index.md",
       "markdown": "content/whitepapers/index.md",
       "kind": "guide",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.4.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "collection": "draft",
       "previous_version": "0.3.0",
       "previous_publication_date": "2026-11-27",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -1216,10 +1223,10 @@
       "source": "readers/general.md",
       "markdown": "content/readers/general.md",
       "kind": "reader",
-      "status": "reader-guide-review-candidate",
+      "status": "reader-guide",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "reader": {
         "slug": "general",
@@ -1250,7 +1257,7 @@
           }
         ]
       },
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "previous_version": "0.1.0",
       "revision_source": {
         "source_id": "S42",
@@ -1266,10 +1273,10 @@
       "source": "readers/business-leaders.md",
       "markdown": "content/readers/business-leaders.md",
       "kind": "reader",
-      "status": "reader-guide-review-candidate",
+      "status": "reader-guide",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "reader": {
         "slug": "business-leaders",
@@ -1300,7 +1307,7 @@
           }
         ]
       },
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "previous_version": "0.1.0",
       "revision_source": {
         "source_id": "S42",
@@ -1316,10 +1323,10 @@
       "source": "readers/finance-investment.md",
       "markdown": "content/readers/finance-investment.md",
       "kind": "reader",
-      "status": "reader-guide-review-candidate",
+      "status": "reader-guide",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "reader": {
         "slug": "finance-investment",
@@ -1354,7 +1361,7 @@
           }
         ]
       },
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "previous_version": "0.1.0",
       "revision_source": {
         "source_id": "S42",
@@ -1370,10 +1377,10 @@
       "source": "readers/product-engineering.md",
       "markdown": "content/readers/product-engineering.md",
       "kind": "reader",
-      "status": "reader-guide-review-candidate",
+      "status": "reader-guide",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "reader": {
         "slug": "product-engineering",
@@ -1408,7 +1415,7 @@
           }
         ]
       },
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "previous_version": "0.1.0",
       "revision_source": {
         "source_id": "S42",
@@ -1424,10 +1431,10 @@
       "source": "readers/data-knowledge.md",
       "markdown": "content/readers/data-knowledge.md",
       "kind": "reader",
-      "status": "reader-guide-review-candidate",
+      "status": "reader-guide",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "reader": {
         "slug": "data-knowledge",
@@ -1458,7 +1465,7 @@
           }
         ]
       },
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "previous_version": "0.1.0",
       "revision_source": {
         "source_id": "S42",
@@ -1474,10 +1481,10 @@
       "source": "readers/governance-policy.md",
       "markdown": "content/readers/governance-policy.md",
       "kind": "reader",
-      "status": "reader-guide-review-candidate",
+      "status": "reader-guide",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "reader": {
         "slug": "governance-policy",
@@ -1508,7 +1515,7 @@
           }
         ]
       },
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "previous_version": "0.1.0",
       "revision_source": {
         "source_id": "S42",
@@ -1524,10 +1531,10 @@
       "source": "readers/research-education.md",
       "markdown": "content/readers/research-education.md",
       "kind": "reader",
-      "status": "reader-guide-review-candidate",
+      "status": "reader-guide",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "reader": {
         "slug": "research-education",
@@ -1562,7 +1569,7 @@
           }
         ]
       },
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "previous_version": "0.1.0",
       "revision_source": {
         "source_id": "S42",
@@ -1578,14 +1585,14 @@
       "source": "readers/index.md",
       "markdown": "content/readers/index.md",
       "kind": "guide",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "previous_version": "0.1.0",
       "previous_publication_date": null,
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -1600,14 +1607,14 @@
       "source": "agents/index.md",
       "markdown": "content/agents/index.md",
       "kind": "agent",
-      "status": "review-candidate",
+      "status": "published",
       "version": "0.2.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "previous_version": "0.1.0",
       "previous_publication_date": null,
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "revision_source": {
         "source_id": "S42",
         "edition": "1.0",
@@ -1626,10 +1633,10 @@
       "status": "research-draft",
       "version": "0.1.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "source_edition_date": "2026-11-28",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "definition": "Organize reviews around distinct purposes and depths, using suitable recurring cadences and evidence-triggered exceptions while preserving their decision boundaries.",
       "thesis": "Review purpose, depth and authority precede the choice of calendar.",
       "principles": [
@@ -1650,8 +1657,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "revision_source": {
@@ -1673,10 +1681,10 @@
       "status": "research-draft",
       "version": "0.1.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "source_edition_date": "2026-11-28",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "definition": "Evaluate and improve the system's reviews, evidence use and change triggers under explicit authority, using outcomes and errors to assess how it learns.",
       "thesis": "Evaluate the learning process separately from the operations it examines.",
       "principles": [
@@ -1697,8 +1705,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "revision_source": {
@@ -1720,10 +1729,10 @@
       "status": "research-draft",
       "version": "0.1.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "source_edition_date": "2026-11-28",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "definition": "Compare feasible improvements together with transition effects, disruption, risk and continuing support costs, giving dependable operation and familiar experience explicit value.",
       "thesis": "A valuable destination can be reached through a harmful transition.",
       "principles": [
@@ -1745,8 +1754,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "revision_source": {
@@ -1768,10 +1778,10 @@
       "status": "research-draft",
       "version": "0.1.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "source_edition_date": "2026-11-28",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "definition": "Maintain and evaluate compatible realizations of a capability separately from decisions about their release, adoption and retirement.",
       "thesis": "A new version need not replace every existing realization.",
       "principles": [
@@ -1793,8 +1803,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "revision_source": {
@@ -1816,10 +1827,10 @@
       "status": "research-draft",
       "version": "0.1.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "source_edition_date": "2026-11-28",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "definition": "Convert formally checkable portions of repeated reasoning into validated executable structures while retaining assumptions, provenance, limits and conditions for revalidation.",
       "thesis": "Repeated formalizable reasoning can become reusable executable structure without freezing arbitrary judgment.",
       "principles": [
@@ -1840,8 +1851,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "revision_source": {
@@ -1863,10 +1875,10 @@
       "status": "research-draft",
       "version": "0.1.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "source_edition_date": "2026-11-28",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "definition": "Examine whether the beneficiary's original need improved after action, preserving the connection between signals, decisions, execution and lived results.",
       "thesis": "Completed work is partial evidence; verify the original need.",
       "principles": [
@@ -1887,8 +1899,9 @@
         {
           "id": "continuous-intelligence",
           "version": "1.0",
-          "status": "review-candidate",
-          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/"
+          "status": "published",
+          "url": "https://valto.github.io/liquid/whitepapers/continuous-intelligence/",
+          "publication_date": "2026-11-28"
         }
       ],
       "revision_source": {
@@ -1907,13 +1920,13 @@
       "markdown": "content/whitepapers/continuous-intelligence/overview.md",
       "pdf": "whitepapers/continuous-intelligence/v1.0.pdf",
       "kind": "paper",
-      "status": "review-candidate",
+      "status": "published",
       "version": "1.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "source_edition_date": "2026-11-28",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "attribution": "Conceptual source: Valto Loikkanen · AI-assisted editorial overview",
       "citation": "Loikkanen, Valto (conceptual source). Liquid Software: Continuous Intelligence, Adaptive Evolution, and Stable Experience. Companion whitepaper, version 1.0, 28 November 2026."
     },
@@ -1926,13 +1939,13 @@
       "markdown": "content/whitepapers/continuous-intelligence/original-transcript.txt",
       "pdf": "whitepapers/continuous-intelligence/v1.0.pdf",
       "kind": "transcript",
-      "status": "review-candidate",
+      "status": "published",
       "version": "1.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "source_edition_date": "2026-11-28",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "attribution": "Conceptual source: Valto Loikkanen · Supplied original source",
       "citation": "Loikkanen, Valto (conceptual source). Liquid Software: Continuous Intelligence, Adaptive Evolution, and Stable Experience. Companion whitepaper, version 1.0, 28 November 2026.",
       "mode": "transcript"
@@ -1946,13 +1959,13 @@
       "markdown": "whitepapers/continuous-intelligence/source/paper.md",
       "pdf": "whitepapers/continuous-intelligence/v1.0.pdf",
       "kind": "paper",
-      "status": "review-candidate",
+      "status": "published",
       "version": "1.0",
       "origin_date": null,
-      "publication_date": null,
+      "publication_date": "2026-11-28",
       "modified": "2026-11-28",
       "source_edition_date": "2026-11-28",
-      "content_license": null,
+      "content_license": "https://creativecommons.org/licenses/by/4.0/",
       "attribution": "Conceptual source: Valto Loikkanen · Supplied original source",
       "citation": "Loikkanen, Valto (conceptual source). Liquid Software: Continuous Intelligence, Adaptive Evolution, and Stable Experience. Companion whitepaper, version 1.0, 28 November 2026.",
       "mode": "source-markdown"

@@ -42,8 +42,8 @@
       "markdown_url": "https://valto.github.io/liquid/content/readers/general.md",
       "prompt_url": "https://valto.github.io/liquid/readers/general/agent-prompt.txt",
       "version": "0.2.0",
-      "status": "reader-guide-review-candidate",
-      "publication_date": null
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
     },
     {
       "slug": "business-leaders",
@@ -84,8 +84,8 @@
       "markdown_url": "https://valto.github.io/liquid/content/readers/business-leaders.md",
       "prompt_url": "https://valto.github.io/liquid/readers/business-leaders/agent-prompt.txt",
       "version": "0.2.0",
-      "status": "reader-guide-review-candidate",
-      "publication_date": null
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
     },
     {
       "slug": "finance-investment",
@@ -131,8 +131,8 @@
       "markdown_url": "https://valto.github.io/liquid/content/readers/finance-investment.md",
       "prompt_url": "https://valto.github.io/liquid/readers/finance-investment/agent-prompt.txt",
       "version": "0.2.0",
-      "status": "reader-guide-review-candidate",
-      "publication_date": null
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
     },
     {
       "slug": "product-engineering",
@@ -178,8 +178,8 @@
       "markdown_url": "https://valto.github.io/liquid/content/readers/product-engineering.md",
       "prompt_url": "https://valto.github.io/liquid/readers/product-engineering/agent-prompt.txt",
       "version": "0.2.0",
-      "status": "reader-guide-review-candidate",
-      "publication_date": null
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
     },
     {
       "slug": "data-knowledge",
@@ -220,8 +220,8 @@
       "markdown_url": "https://valto.github.io/liquid/content/readers/data-knowledge.md",
       "prompt_url": "https://valto.github.io/liquid/readers/data-knowledge/agent-prompt.txt",
       "version": "0.2.0",
-      "status": "reader-guide-review-candidate",
-      "publication_date": null
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
     },
     {
       "slug": "governance-policy",
@@ -262,8 +262,8 @@
       "markdown_url": "https://valto.github.io/liquid/content/readers/governance-policy.md",
       "prompt_url": "https://valto.github.io/liquid/readers/governance-policy/agent-prompt.txt",
       "version": "0.2.0",
-      "status": "reader-guide-review-candidate",
-      "publication_date": null
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
     },
     {
       "slug": "research-education",
@@ -309,8 +309,8 @@
       "markdown_url": "https://valto.github.io/liquid/content/readers/research-education.md",
       "prompt_url": "https://valto.github.io/liquid/readers/research-education/agent-prompt.txt",
       "version": "0.2.0",
-      "status": "reader-guide-review-candidate",
-      "publication_date": null
+      "status": "reader-guide",
+      "publication_date": "2026-11-28"
     }
   ]
 }

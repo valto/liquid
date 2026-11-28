@@ -23,6 +23,8 @@ Run both checks after a build and commit canonical inputs together with generate
 
 The initial release was authorized by Valto on 26 November 2026 with CC BY 4.0 content and MIT code terms. For subsequent releases, obtain the applicable approval for substantive public changes, retain actual publication dates, update release status and rebuild. Verify the workflow and live HTTPS pages before issuing the selected release tag. The Pages approval variable is scoped to reviewed release content; it is not blanket approval to change canonical definitions.
 
+Valto approved the combined continuous-intelligence and reader-guide release v0.4.0 under CC BY 4.0 on 28 November 2026. Its recorded scope covers the complete supplied originals, six additional concept papers, targeted revisions and seven reader handoffs. Preserve both prior review candidates and published source bytes. Research-draft status remains distinct from public release; publishing does not establish empirical validation or deploy the described systems.
+
 Rollback uses the preceding accepted commit and deployment; preserve versioned paper assets and source history. GitHub Pages deployment does not transfer authority over PIOS, EIOS, CRD or PAIX definitions.
 
 ## Reader guides and agent prompts

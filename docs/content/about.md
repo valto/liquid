@@ -26,8 +26,8 @@ The supplied *Liquid Software: The Economics of Execution*, version 2.0, bears a
 
 The [33-page economics version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/), also dated 27 November 2026, explicitly credits AI-assisted synthesis and research. Valto approved this original, complete transcription and related update under CC BY 4.0 on 27 November 2026. The original bytes, v2 edition and earlier research drafts remain retained. Its figures, scenarios, formal objective and maturity spectrum are conceptual or illustrative, without empirical validation of the complete framework.
 
-## Continuous intelligence review candidate
+## Continuous intelligence and reader guides
 
 The [Continuous Intelligence companion](https://valto.github.io/liquid/whitepapers/continuous-intelligence/), version 1.0, is dated 28 November 2026 and credits Valto as concept source. Its original PDF, Markdown, three SVG diagrams and source ZIP are retained unchanged. The original bytes do not establish an additional writing model or license grant. The overview, six concept research papers and reader-guide revisions are additional AI-assisted work.
 
-This local candidate awaits the applicable publication and content-terms decision. Its new publication dates and content-license metadata remain unset. The existing approved releases and grants retain their own scope. Source edition, conceptual origin and actual website publication are separate matters; a proposal or vendor description is not independent deployment evidence.
+Valto approved publication of the combined v0.4.0 update under CC BY 4.0 on 28 November 2026, including the complete original and source package, six concept papers, related revisions and seven reader guides with tailored agent prompts. The grant is recorded separately from the unchanged original bytes. The existing approved releases and grants retain their own scope. Source edition, conceptual origin and actual website publication are separate matters; a proposal or vendor description is not independent deployment evidence.

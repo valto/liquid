@@ -1,6 +1,6 @@
 # Liquid Software
 URL: https://valto.github.io/liquid/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Liquid Software
@@ -50,7 +50,7 @@ Maintainers can find build, validation and release instructions in the [maintena
 
 # Core concepts
 URL: https://valto.github.io/liquid/concepts/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Core concepts
@@ -63,14 +63,14 @@ Release v0.2.0 adds a ninth concept, Capability Economics, and revises five rela
 
 Release v0.3.0 incorporates the 33-page Economics of Execution v3 source, expands Capability Economics and Adaptive Information Retrieval, clarifies the source-attributed maturity terms and adds an optional capability decision record. Earlier paper editions and concept versions remain retained in the publication history.
 
-The current review candidate adds six concepts developed from the supplied [Continuous Intelligence companion](https://valto.github.io/liquid/whitepapers/continuous-intelligence/): Layered Intelligence Cycles, Meta-Learning, Stability-Aware Evolution, Parallel Realizations, Reasoning Compilation and Outcome Verification. They complement the earlier nine concepts. Learning, release and adoption can happen at different rates; useful adaptation can preserve a familiar experience.
+Release v0.4.0 adds six concepts developed from the supplied [Continuous Intelligence companion](https://valto.github.io/liquid/whitepapers/continuous-intelligence/): Layered Intelligence Cycles, Meta-Learning, Stability-Aware Evolution, Parallel Realizations, Reasoning Compilation and Outcome Verification. They complement the earlier nine concepts. Learning, release and adoption can happen at different rates; useful adaptation can preserve a familiar experience.
 
 
 ---
 
 # Liquid Software
 URL: https://valto.github.io/liquid/concepts/liquid-software/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # Liquid Software
@@ -115,7 +115,7 @@ The [Continuous Intelligence companion](https://valto.github.io/liquid/whitepape
 
 # The Adaptive Interface
 URL: https://valto.github.io/liquid/concepts/adaptive-interface/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # The Adaptive Interface
@@ -191,7 +191,7 @@ Ask new questions against retained evidence, record what can and cannot be concl
 
 # Adaptive Information Retrieval
 URL: https://valto.github.io/liquid/concepts/adaptive-information-retrieval/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # Adaptive Information Retrieval
@@ -306,7 +306,7 @@ Measure whether outcomes remain aligned with the principal, whether boundaries a
 
 # The Self-Optimizing Information System
 URL: https://valto.github.io/liquid/concepts/self-optimizing-system/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # The Self-Optimizing Information System
@@ -351,7 +351,7 @@ The [Continuous Intelligence companion](https://valto.github.io/liquid/whitepape
 
 # Documentation as Executable Foundations
 URL: https://valto.github.io/liquid/concepts/documentation-as-foundations/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # Documentation as Executable Foundations
@@ -388,7 +388,7 @@ The [Continuous Intelligence source, chapters 2, 7 and 9](https://valto.github.i
 
 # Capability Economics
 URL: https://valto.github.io/liquid/concepts/capability-economics/
-Status: review-candidate
+Status: research-draft
 Conceptual source: Valto Loikkanen
 
 # Capability Economics
@@ -573,7 +573,7 @@ The supplied economics v2 and [complete v3 paper](https://valto.github.io/liquid
 
 # An Intelligence-Native Reference Architecture
 URL: https://valto.github.io/liquid/architecture/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # An Intelligence-Native Reference Architecture
@@ -628,7 +628,7 @@ This is a reference architecture for testing. It is not a deployed system or a n
 
 # Principles
 URL: https://valto.github.io/liquid/principles/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Principles
@@ -690,7 +690,7 @@ These additional principles are developed from the [Continuous Intelligence comp
 
 # Glossary
 URL: https://valto.github.io/liquid/glossary/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Glossary
@@ -790,7 +790,7 @@ These additional terms are developed from [Continuous Intelligence, Adaptive Evo
 
 # Research and Related Work
 URL: https://valto.github.io/liquid/research/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Research and related work
@@ -860,7 +860,7 @@ The [Internet beyond applications](https://valto.github.io/liquid/whitepapers/dr
 
 # About, Attribution and Citation
 URL: https://valto.github.io/liquid/about/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # About, Attribution and Citation
@@ -891,11 +891,11 @@ The supplied *Liquid Software: The Economics of Execution*, version 2.0, bears a
 
 The [33-page economics version 3.0](https://valto.github.io/liquid/whitepapers/economics-of-execution/v3/), also dated 27 November 2026, explicitly credits AI-assisted synthesis and research. Valto approved this original, complete transcription and related update under CC BY 4.0 on 27 November 2026. The original bytes, v2 edition and earlier research drafts remain retained. Its figures, scenarios, formal objective and maturity spectrum are conceptual or illustrative, without empirical validation of the complete framework.
 
-## Continuous intelligence review candidate
+## Continuous intelligence and reader guides
 
 The [Continuous Intelligence companion](https://valto.github.io/liquid/whitepapers/continuous-intelligence/), version 1.0, is dated 28 November 2026 and credits Valto as concept source. Its original PDF, Markdown, three SVG diagrams and source ZIP are retained unchanged. The original bytes do not establish an additional writing model or license grant. The overview, six concept research papers and reader-guide revisions are additional AI-assisted work.
 
-This local candidate awaits the applicable publication and content-terms decision. Its new publication dates and content-license metadata remain unset. The existing approved releases and grants retain their own scope. Source edition, conceptual origin and actual website publication are separate matters; a proposal or vendor description is not independent deployment evidence.
+Valto approved publication of the combined v0.4.0 update under CC BY 4.0 on 28 November 2026, including the complete original and source package, six concept papers, related revisions and seven reader guides with tailored agent prompts. The grant is recorded separately from the unchanged original bytes. The existing approved releases and grants retain their own scope. Source edition, conceptual origin and actual website publication are separate matters; a proposal or vendor description is not independent deployment evidence.
 
 
 ---
@@ -2103,7 +2103,7 @@ Valto Loikkanen | Conceptual whitepaper | November 2026                         
 
 # Whitepaper Library
 URL: https://valto.github.io/liquid/whitepapers/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Whitepaper Library
@@ -5975,7 +5975,7 @@ Use consistent units, periods and accounting boundaries. Unknown probabilities m
 
 # Liquid Software: a general introduction
 URL: https://valto.github.io/liquid/readers/general/
-Status: reader-guide-review-candidate
+Status: reader-guide
 Conceptual source: Valto Loikkanen
 
 # Liquid Software: a general introduction
@@ -6032,7 +6032,7 @@ The resource is conceptual and AI-assisted. Its economic figures are illustrativ
 
 # Liquid Software for business leaders
 URL: https://valto.github.io/liquid/readers/business-leaders/
-Status: reader-guide-review-candidate
+Status: reader-guide
 Conceptual source: Valto Loikkanen
 
 # Liquid Software for business leaders
@@ -6092,7 +6092,7 @@ For a more detailed cost comparison, continue with the [finance and investment g
 
 # Liquid Software for finance and investment
 URL: https://valto.github.io/liquid/readers/finance-investment/
-Status: reader-guide-review-candidate
+Status: reader-guide
 Conceptual source: Valto Loikkanen
 
 # Liquid Software for finance and investment
@@ -6153,7 +6153,7 @@ The [business leadership guide](https://valto.github.io/liquid/readers/business-
 
 # Liquid Software for product and engineering
 URL: https://valto.github.io/liquid/readers/product-engineering/
-Status: reader-guide-review-candidate
+Status: reader-guide
 Conceptual source: Valto Loikkanen
 
 # Liquid Software for product and engineering
@@ -6214,7 +6214,7 @@ Continue with [data and knowledge](https://valto.github.io/liquid/readers/data-k
 
 # Liquid Software for data and knowledge
 URL: https://valto.github.io/liquid/readers/data-knowledge/
-Status: reader-guide-review-candidate
+Status: reader-guide
 Conceptual source: Valto Loikkanen
 
 # Liquid Software for data and knowledge
@@ -6270,7 +6270,7 @@ The [product and engineering guide](https://valto.github.io/liquid/readers/produ
 
 # Liquid Software for governance and policy
 URL: https://valto.github.io/liquid/readers/governance-policy/
-Status: reader-guide-review-candidate
+Status: reader-guide
 Conceptual source: Valto Loikkanen
 
 # Liquid Software for governance and policy
@@ -6330,7 +6330,7 @@ The [research and education guide](https://valto.github.io/liquid/readers/resear
 
 # Liquid Software for research and education
 URL: https://valto.github.io/liquid/readers/research-education/
-Status: reader-guide-review-candidate
+Status: reader-guide
 Conceptual source: Valto Loikkanen
 
 # Liquid Software for research and education
@@ -6391,7 +6391,7 @@ Report unknowns and negative results. Separate observed findings, interpretation
 
 # Start with your perspective
 URL: https://valto.github.io/liquid/start/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Start with your perspective
@@ -6423,7 +6423,7 @@ You can move between perspectives as your question changes. For a broad introduc
 
 # Give Liquid Software to your agent
 URL: https://valto.github.io/liquid/agents/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Give Liquid Software to your agent
@@ -6861,7 +6861,7 @@ Conceptual source: Valto Loikkanen. AI-assisted concept paper, version 0.1.0; re
 
 # Continuous Intelligence, Adaptive Evolution, and Stable Experience
 URL: https://valto.github.io/liquid/whitepapers/continuous-intelligence/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 # Continuous Intelligence, Adaptive Evolution, and Stable Experience
@@ -6920,14 +6920,14 @@ The original bibliography attributes two articles to their host, Martin Fowler. 
 
 The source's note that the Liquid Software home could not be retrieved concerns its own preparation. The current canonical repository was available for this intake. Its reference to a 28 November discussion does not mean that separate discussion was supplied or archived here; the previously preserved discussion snapshot remains its own source.
 
-The printed edition date is known. Concept origins, publication dates and license grants are recorded separately. This candidate does not establish that the proposed compilation Skill, integrated architecture or every named product capability has been deployed.
+The printed edition date is known. Concept origins, publication dates and license grants are recorded separately. Valto approved this original, complete source package and related v0.4.0 update under CC BY 4.0 on 28 November 2026. This grant is separate from the unchanged source bytes. Publication does not establish that the proposed compilation Skill, integrated architecture or every named product capability has been deployed.
 
 
 ---
 
 # Continuous Intelligence — complete PDF transcription
 URL: https://valto.github.io/liquid/whitepapers/continuous-intelligence/text/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 LIQUID SOFTWARE / CONCEPTUAL WHITEPAPER
@@ -7869,7 +7869,7 @@ Continuous intelligence. Adaptive evolution. Stable experience.                 
 
 # Continuous Intelligence — complete original Markdown
 URL: https://valto.github.io/liquid/whitepapers/continuous-intelligence/source/
-Status: review-candidate
+Status: published
 Conceptual source: Valto Loikkanen
 
 ---

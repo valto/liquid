@@ -54,4 +54,4 @@ The original bibliography attributes two articles to their host, Martin Fowler. 
 
 The source's note that the Liquid Software home could not be retrieved concerns its own preparation. The current canonical repository was available for this intake. Its reference to a 28 November discussion does not mean that separate discussion was supplied or archived here; the previously preserved discussion snapshot remains its own source.
 
-The printed edition date is known. Concept origins, publication dates and license grants are recorded separately. This candidate does not establish that the proposed compilation Skill, integrated architecture or every named product capability has been deployed.
+The printed edition date is known. Concept origins, publication dates and license grants are recorded separately. Valto approved this original, complete source package and related v0.4.0 update under CC BY 4.0 on 28 November 2026. This grant is separate from the unchanged source bytes. Publication does not establish that the proposed compilation Skill, integrated architecture or every named product capability has been deployed.
